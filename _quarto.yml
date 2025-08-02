@@ -11,6 +11,7 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
+    - Lampiran-GITHUB-setting.md
 
 bibliography: references.bib
 

@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "1d8f438c98597d57",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8e2d5829a39689c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "082460023c3a153c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lampiran-GITHUB-setting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lampiran-GITHUB-setting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ee45cc897c9c5de",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c22938d39181aad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f306cd551a83588",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3ac5369b5a577346",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "907a2ef2bb247856",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c958c723be932b35",
+    "type": "split",
+    "children": [
+      {
+        "id": "426364f1b79d4ce0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "820d7a49a44696fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lampiran-GITHUB-setting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lampiran-GITHUB-setting"
+            }
+          },
+          {
+            "id": "86657b22c82693d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lampiran-GITHUB-setting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lampiran-GITHUB-setting"
+            }
+          },
+          {
+            "id": "f54676d246730e31",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7fc8dca463428829",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lampiran-GITHUB-setting.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lampiran-GITHUB-setting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "qmd-as-md-obsidian:Toggle Quarto Preview": false
+    }
+  },
+  "active": "082460023c3a153c",
+  "lastOpenFiles": [
+    "docs/search.json",
+    "docs/site_libs/quarto-search/quarto-search.js",
+    "docs/site_libs/quarto-search/fuse.min.js",
+    "docs/site_libs/quarto-search/autocomplete.umd.js",
+    "docs/site_libs/quarto-nav/quarto-nav.js",
+    "docs/site_libs/quarto-nav/headroom.min.js",
+    "docs/site_libs/quarto-html/tippy.umd.min.js",
+    "docs/site_libs/quarto-html/tippy.css",
+    "docs/site_libs/quarto-html/quarto.js",
+    "docs/site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css",
+    "docs/site_libs/quarto-html/popper.min.js",
+    "Lampiran-GITHUB-setting.md",
+    "Untitled.canvas"
+  ]
+}
