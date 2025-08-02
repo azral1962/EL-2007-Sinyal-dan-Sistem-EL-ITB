@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: Hunter_Journals"
+  author: "Nama [NIM: 01234]"
+  date: "8/2/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - journal_minggu_1.qmd
+
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
