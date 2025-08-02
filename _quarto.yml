@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "."
-  author: "Norah Jones"
+  title: "EL 2007 Sinyal dan Sistem"
+  author: "Tim Sinyal dan Sistem"
   date: "8/2/2025"
   chapters:
     - index.qmd
