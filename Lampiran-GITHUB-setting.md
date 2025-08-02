@@ -1,8 +1,8 @@
 
-### Panduan Penyiapan Repositori GitHub: "Sinyal Hunter Initiative"  
+# Panduan Penyiapan Repositori GitHub  
 
 Proses ini akan menciptakan ekosistem digital yang terpusat, transparan, dan kolaboratif untuk seluruh aktivitas perkuliahan.
-#### Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)
+## Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)
 
 Ini adalah langkah pertama untuk menciptakan "rumah" bagi seluruh materi dan aktivitas kuliah.
 
@@ -27,7 +27,7 @@ Ini adalah langkah pertama untuk menciptakan "rumah" bagi seluruh materi dan akt
 
   
 
-#### Langkah 2: Membangun Struktur Direktori Dasar
+## Langkah 2: Membangun Struktur Direktori Dasar
 
   
 
@@ -65,7 +65,7 @@ Struktur folder yang rapi adalah kunci untuk menjaga agar repositori tetap teror
 
   
 
-#### Langkah 3: Menyiapkan Konten Awal
+## Langkah 3: Menyiapkan Konten Awal
 
   
 
@@ -88,7 +88,7 @@ Sebelum semester dimulai, isi repositori dengan materi-materi esensial.
 
   
 
-#### Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa
+## Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa
 
   
 
@@ -114,7 +114,7 @@ Ini adalah bagian terpenting untuk memastikan mahasiswa memahami cara berinterak
 
   
 
-#### Langkah 5: Proses Penilaian dan Umpan Balik
+## Langkah 5: Proses Penilaian dan Umpan Balik
 
   
 
@@ -129,7 +129,7 @@ Pull Request (PR) menjadi pusat untuk interaksi dan penilaian.
 
   
 
-#### Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions
+## Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions
 
   
 
