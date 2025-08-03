@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - 03_Hunter_Journals.md
     - summary.qmd
     - references.qmd
     - Lampiran-GITHUB-setting.md

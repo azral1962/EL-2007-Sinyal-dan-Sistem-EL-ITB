@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: ../docs/03_Hunter_Journals/Nama_Lengkap_NIM
 
 book:
-  title: Hunter_Journals"
-  author: "Nama [NIM: 01234]"
+  title: "Hunter_Journals"
+  author: "Nama Lengkap  [NIM: 01234]"
   date: "8/2/2025"
   chapters:
     - index.qmd
