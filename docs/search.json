@@ -12,11 +12,11 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "1  Petunjuk Untuk Mahasiswa",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Ini adalah bagian terpenting untuk memastikan mahasiswa memahami cara berinteraksi dengan repositori. Alur kerja ini mengajarkan mereka praktik version control standar industri.1\n\nKomunikasikan Alur Kerja: Jelaskan alur kerja Fork -&gt; Clone -&gt; Branch -&gt; Commit -&gt; Push -&gt; Pull Request kepada mahasiswa di pertemuan pertama.\nLangkah-langkah untuk Mahasiswa:\n\n\nFork: Setiap mahasiswa harus melakukan Fork pada repositori utama Sinyal-Sistem-TE-ITB ke akun GitHub pribadi mereka. Ini menciptakan salinan repositori di bawah kendali mereka.\nClone: Mahasiswa melakukan Clone pada repositori hasil fork mereka (bukan repositori utama) ke komputer lokal.\nBranch: Untuk setiap tugas atau kontribusi, mereka wajib membuat branch baru dengan nama yang deskriptif (misalnya, tugas-minggu-2-NIM atau update-jurnal-minggu-2). Pekerjaan tidak boleh dilakukan langsung di branch main.\nBekerja & Commit: Mahasiswa mengerjakan tugas atau menulis jurnal di branch tersebut. Mereka melakukan commit secara berkala untuk menyimpan perubahan.\nPush: Setelah selesai, mereka melakukan Push branch tersebut ke repositori forked mereka di GitHub.\nPull Request (PR): Dari halaman GitHub mereka, mahasiswa membuka Pull Request (PR) dari branch kerja mereka ke branch main di repositori utama. PR ini berfungsi sebagai mekanisme pengumpulan tugas formal.\n\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Petunjuk Untuk Mahasiswa</span>"
     ]
   },
   {
@@ -44,7 +44,17 @@
     "href": "Lampiran-GITHUB-setting.html",
     "title": "3  Panduan Penyiapan Repositori GitHub",
     "section": "",
-    "text": "3.1 Langkah 2: Membangun Struktur Direktori Dasar\nProses ini akan menciptakan ekosistem digital yang terpusat, transparan, dan kolaboratif untuk seluruh aktivitas perkuliahan. ## Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)\nIni adalah langkah pertama untuk menciptakan “rumah” bagi seluruh materi dan aktivitas kuliah.\nStruktur folder yang rapi adalah kunci untuk menjaga agar repositori tetap terorganisir sepanjang semester.1",
+    "text": "3.1 Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)\nProses ini akan menciptakan ekosistem digital yang terpusat, transparan, dan kolaboratif untuk seluruh aktivitas perkuliahan.\nIni adalah langkah pertama untuk menciptakan “rumah” bagi seluruh materi dan aktivitas kuliah.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "Lampiran-GITHUB-setting.html#langkah-1-membuat-repositori-utama-oleh-dosenadmin",
+    "href": "Lampiran-GITHUB-setting.html#langkah-1-membuat-repositori-utama-oleh-dosenadmin",
+    "title": "3  Panduan Penyiapan Repositori GitHub",
+    "section": "",
+    "text": "Buat Akun GitHub: Jika belum ada, buat akun GitHub untuk dosen atau laboratorium yang akan mengelola mata kuliah.\nBuat Repositori Baru:\n\n\nKlik tombol “New” di halaman utama GitHub Anda.\nNama Repositori: Beri nama yang jelas dan konsisten, misalnya Sinyal-Sistem-TE-ITB.1\nDeskripsi: Tambahkan deskripsi singkat, contohnya “Repositori Resmi Mata Kuliah EL2007 Sinyal dan Sistem - The Sinyal Hunter Initiative”.\nVisibilitas: Set ke Public agar dapat diakses oleh semua mahasiswa.\nInisialisasi: Centang “Add a README file” untuk membuat file deskripsi awal.\n\n\nKlik “Create repository”.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]
@@ -53,8 +63,8 @@
     "objectID": "Lampiran-GITHUB-setting.html#langkah-2-membangun-struktur-direktori-dasar",
     "href": "Lampiran-GITHUB-setting.html#langkah-2-membangun-struktur-direktori-dasar",
     "title": "3  Panduan Penyiapan Repositori GitHub",
-    "section": "",
-    "text": "Clone Repositori: Di komputer Anda, buka terminal atau Git client, dan jalankan perintah git clone.\nBuat Folder-folder Utama: Di dalam folder repositori yang baru saja di-clone, buat struktur direktori berikut:\n\n\n00_Materi_Ajar/\n01_Tantangan_Treasure_Hunt/\n02_Knowledge_Maps/\n03_Hunter_Journals/\n04_Treasure_Submissions/\n05_Legacy_Archives/\n\n\nTambahkan File Placeholder: Git tidak melacak folder kosong. Agar struktur ini bisa di-commit, tambahkan file kosong bernama .gitkeep di dalam setiap folder.\nCommit & Push Struktur:\n\n\nJalankan git add.\nJalankan git commit -m “feat: initialize course directory structure”\nJalankan git push origin main",
+    "section": "3.2 Langkah 2: Membangun Struktur Direktori Dasar",
+    "text": "3.2 Langkah 2: Membangun Struktur Direktori Dasar\nStruktur folder yang rapi adalah kunci untuk menjaga agar repositori tetap terorganisir sepanjang semester.1\n\nClone Repositori: Di komputer Anda, buka terminal atau Git client, dan jalankan perintah git clone.\nBuat Folder-folder Utama: Di dalam folder repositori yang baru saja di-clone, buat struktur direktori berikut:\n\n\n00_Materi_Ajar/\n01_Tantangan_Treasure_Hunt/\n02_Knowledge_Maps/\n03_Hunter_Journals/\n04_Treasure_Submissions/\n05_Legacy_Archives/\n\n\nTambahkan File Placeholder: Git tidak melacak folder kosong. Agar struktur ini bisa di-commit, tambahkan file kosong bernama .gitkeep di dalam setiap folder.\nCommit & Push Struktur:\n\n\nJalankan git add.\nJalankan git commit -m “feat: initialize course directory structure”\nJalankan git push origin main",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]
@@ -63,8 +73,8 @@
     "objectID": "Lampiran-GITHUB-setting.html#langkah-3-menyiapkan-konten-awal",
     "href": "Lampiran-GITHUB-setting.html#langkah-3-menyiapkan-konten-awal",
     "title": "3  Panduan Penyiapan Repositori GitHub",
-    "section": "3.2 Langkah 3: Menyiapkan Konten Awal",
-    "text": "3.2 Langkah 3: Menyiapkan Konten Awal\nSebelum semester dimulai, isi repositori dengan materi-materi esensial.\n\nMateri Ajar: Masukkan slide, catatan kuliah, atau video untuk minggu pertama ke dalam folder 00_Materi_Ajar/. Sebaiknya dalam format Quarto (.qmd) atau PDF.1\nTantangan Pertama: Tulis deskripsi tantangan untuk minggu pertama dan letakkan di dalam folder 01_Tantangan_Treasure_Hunt/.\nBuat Template:\n\n\nBuat file journal_template.qmd yang berisi kerangka dasar untuk “Jurnal Harian Hunter”. Ini bisa berisi judul, bagian untuk refleksi mingguan, dan contoh cara memasukkan kode atau gambar.\nBuat file map_template.qmd sebagai templat untuk “Peta Pengetahuan” kelompok, mungkin dengan contoh diagram Mermaid/Graphviz sederhana.\n\n\nPerbarui README: Edit file README.md di direktori utama untuk menjelaskan tujuan repositori, aturan main, dan tautan-tautan penting.",
+    "section": "3.3 Langkah 3: Menyiapkan Konten Awal",
+    "text": "3.3 Langkah 3: Menyiapkan Konten Awal\nSebelum semester dimulai, isi repositori dengan materi-materi esensial.\n\nMateri Ajar: Masukkan slide, catatan kuliah, atau video untuk minggu pertama ke dalam folder 00_Materi_Ajar/. Sebaiknya dalam format Quarto (.qmd) atau PDF.1\nTantangan Pertama: Tulis deskripsi tantangan untuk minggu pertama dan letakkan di dalam folder 01_Tantangan_Treasure_Hunt/.\nBuat Template:\n\n\nBuat file journal_template.qmd yang berisi kerangka dasar untuk “Jurnal Harian Hunter”. Ini bisa berisi judul, bagian untuk refleksi mingguan, dan contoh cara memasukkan kode atau gambar.\nBuat file map_template.qmd sebagai templat untuk “Peta Pengetahuan” kelompok, mungkin dengan contoh diagram Mermaid/Graphviz sederhana.\n\n\nPerbarui README: Edit file README.md di direktori utama untuk menjelaskan tujuan repositori, aturan main, dan tautan-tautan penting.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]
@@ -73,8 +83,8 @@
     "objectID": "Lampiran-GITHUB-setting.html#langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa",
     "href": "Lampiran-GITHUB-setting.html#langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa",
     "title": "3  Panduan Penyiapan Repositori GitHub",
-    "section": "3.3 Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa",
-    "text": "3.3 Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa\nIni adalah bagian terpenting untuk memastikan mahasiswa memahami cara berinteraksi dengan repositori. Alur kerja ini mengajarkan mereka praktik version control standar industri.1\n\nKomunikasikan Alur Kerja: Jelaskan alur kerja Fork -&gt; Clone -&gt; Branch -&gt; Commit -&gt; Push -&gt; Pull Request kepada mahasiswa di pertemuan pertama.\nLangkah-langkah untuk Mahasiswa:\n\n\nFork: Setiap mahasiswa harus melakukan Fork pada repositori utama Sinyal-Sistem-TE-ITB ke akun GitHub pribadi mereka. Ini menciptakan salinan repositori di bawah kendali mereka.\nClone: Mahasiswa melakukan Clone pada repositori hasil fork mereka (bukan repositori utama) ke komputer lokal.\nBranch: Untuk setiap tugas atau kontribusi, mereka wajib membuat branch baru dengan nama yang deskriptif (misalnya, tugas-minggu-2-NIM atau update-jurnal-minggu-2). Pekerjaan tidak boleh dilakukan langsung di branch main.\nBekerja & Commit: Mahasiswa mengerjakan tugas atau menulis jurnal di branch tersebut. Mereka melakukan commit secara berkala untuk menyimpan perubahan.\nPush: Setelah selesai, mereka melakukan Push branch tersebut ke repositori forked mereka di GitHub.\nPull Request (PR): Dari halaman GitHub mereka, mahasiswa membuka Pull Request (PR) dari branch kerja mereka ke branch main di repositori utama. PR ini berfungsi sebagai mekanisme pengumpulan tugas formal.",
+    "section": "3.4 Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa",
+    "text": "3.4 Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa\nIni adalah bagian terpenting untuk memastikan mahasiswa memahami cara berinteraksi dengan repositori. Alur kerja ini mengajarkan mereka praktik version control standar industri.1\n\nKomunikasikan Alur Kerja: Jelaskan alur kerja Fork -&gt; Clone -&gt; Branch -&gt; Commit -&gt; Push -&gt; Pull Request kepada mahasiswa di pertemuan pertama.\nLangkah-langkah untuk Mahasiswa:\n\n\nFork: Setiap mahasiswa harus melakukan Fork pada repositori utama Sinyal-Sistem-TE-ITB ke akun GitHub pribadi mereka. Ini menciptakan salinan repositori di bawah kendali mereka.\nClone: Mahasiswa melakukan Clone pada repositori hasil fork mereka (bukan repositori utama) ke komputer lokal.\nBranch: Untuk setiap tugas atau kontribusi, mereka wajib membuat branch baru dengan nama yang deskriptif (misalnya, tugas-minggu-2-NIM atau update-jurnal-minggu-2). Pekerjaan tidak boleh dilakukan langsung di branch main.\nBekerja & Commit: Mahasiswa mengerjakan tugas atau menulis jurnal di branch tersebut. Mereka melakukan commit secara berkala untuk menyimpan perubahan.\nPush: Setelah selesai, mereka melakukan Push branch tersebut ke repositori forked mereka di GitHub.\nPull Request (PR): Dari halaman GitHub mereka, mahasiswa membuka Pull Request (PR) dari branch kerja mereka ke branch main di repositori utama. PR ini berfungsi sebagai mekanisme pengumpulan tugas formal.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]
@@ -83,8 +93,8 @@
     "objectID": "Lampiran-GITHUB-setting.html#langkah-5-proses-penilaian-dan-umpan-balik",
     "href": "Lampiran-GITHUB-setting.html#langkah-5-proses-penilaian-dan-umpan-balik",
     "title": "3  Panduan Penyiapan Repositori GitHub",
-    "section": "3.4 Langkah 5: Proses Penilaian dan Umpan Balik",
-    "text": "3.4 Langkah 5: Proses Penilaian dan Umpan Balik\nPull Request (PR) menjadi pusat untuk interaksi dan penilaian.\n\nReview PR: Asisten atau dosen dapat mereview setiap PR yang masuk. Fitur review di GitHub memungkinkan pemberian komentar pada baris kode atau teks tertentu, memberikan umpan balik yang sangat spesifik.\nMerge PR: Setelah tugas dinilai dan dianggap selesai, PR tersebut di-merge ke repositori utama. Ini secara resmi memasukkan pekerjaan mahasiswa ke dalam arsip kuliah.\nMenutup PR: Jika tugas memerlukan revisi, PR dapat dibiarkan terbuka dan mahasiswa dapat melakukan push commit tambahan ke branch yang sama untuk memperbaikinya.",
+    "section": "3.5 Langkah 5: Proses Penilaian dan Umpan Balik",
+    "text": "3.5 Langkah 5: Proses Penilaian dan Umpan Balik\nPull Request (PR) menjadi pusat untuk interaksi dan penilaian.\n\nReview PR: Asisten atau dosen dapat mereview setiap PR yang masuk. Fitur review di GitHub memungkinkan pemberian komentar pada baris kode atau teks tertentu, memberikan umpan balik yang sangat spesifik.\nMerge PR: Setelah tugas dinilai dan dianggap selesai, PR tersebut di-merge ke repositori utama. Ini secara resmi memasukkan pekerjaan mahasiswa ke dalam arsip kuliah.\nMenutup PR: Jika tugas memerlukan revisi, PR dapat dibiarkan terbuka dan mahasiswa dapat melakukan push commit tambahan ke branch yang sama untuk memperbaikinya.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]
@@ -93,8 +103,8 @@
     "objectID": "Lampiran-GITHUB-setting.html#langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions",
     "href": "Lampiran-GITHUB-setting.html#langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions",
     "title": "3  Panduan Penyiapan Repositori GitHub",
-    "section": "3.5 Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions",
-    "text": "3.5 Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions\nUntuk meningkatkan efisiensi, manfaatkan GitHub Actions.1\n\nRender Quarto ke Situs Web: Buat sebuah workflow GitHub Actions yang secara otomatis merender semua file .qmd (terutama materi ajar dan jurnal mahasiswa yang sudah di-merge) menjadi halaman HTML dan menerbitkannya menggunakan GitHub Pages. Ini akan menciptakan sebuah situs web dinamis untuk mata kuliah tersebut.\nPemeriksaan Otomatis: Untuk tantangan level “Uang” atau “Berlian” yang melibatkan kode, Anda bisa membuat workflow yang menjalankan tes otomatis pada kode yang disubmit dalam PR untuk memeriksa fungsionalitas dasar.\n\nDengan mengikuti langkah-langkah ini, Anda akan berhasil membangun sebuah ekosistem pembelajaran yang modern, interaktif, dan mempersiapkan mahasiswa dengan keterampilan teknis yang relevan dengan industri.\n**",
+    "section": "3.6 Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions",
+    "text": "3.6 Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions\nUntuk meningkatkan efisiensi, manfaatkan GitHub Actions.1\n\nRender Quarto ke Situs Web: Buat sebuah workflow GitHub Actions yang secara otomatis merender semua file .qmd (terutama materi ajar dan jurnal mahasiswa yang sudah di-merge) menjadi halaman HTML dan menerbitkannya menggunakan GitHub Pages. Ini akan menciptakan sebuah situs web dinamis untuk mata kuliah tersebut.\nPemeriksaan Otomatis: Untuk tantangan level “Uang” atau “Berlian” yang melibatkan kode, Anda bisa membuat workflow yang menjalankan tes otomatis pada kode yang disubmit dalam PR untuk memeriksa fungsionalitas dasar.\n\nDengan mengikuti langkah-langkah ini, Anda akan berhasil membangun sebuah ekosistem pembelajaran yang modern, interaktif, dan mempersiapkan mahasiswa dengan keterampilan teknis yang relevan dengan industri.\n**",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]

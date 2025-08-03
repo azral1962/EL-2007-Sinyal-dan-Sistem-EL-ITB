@@ -1,5 +1,28 @@
-# Introduction
+# Petunjuk Untuk Mahasiswa
 
+
+
+Ini adalah bagian terpenting untuk memastikan mahasiswa memahami cara berinteraksi dengan repositori. Alur kerja ini mengajarkan mereka praktik version control standar industri.1
+
+1. Komunikasikan Alur Kerja: Jelaskan alur kerja Fork -> Clone -> Branch -> Commit -> Push -> Pull Request kepada mahasiswa di pertemuan pertama.
+    
+2. Langkah-langkah untuk Mahasiswa:
+    
+
+- Fork: Setiap mahasiswa harus melakukan Fork pada repositori utama Sinyal-Sistem-TE-ITB ke akun GitHub pribadi mereka. Ini menciptakan salinan repositori di bawah kendali mereka.
+    
+- Clone: Mahasiswa melakukan Clone pada repositori hasil fork mereka (bukan repositori utama) ke komputer lokal.
+    
+- Branch: Untuk setiap tugas atau kontribusi, mereka wajib membuat branch baru dengan nama yang deskriptif (misalnya, tugas-minggu-2-NIM atau update-jurnal-minggu-2). Pekerjaan tidak boleh dilakukan langsung di branch main.
+    
+- Bekerja & Commit: Mahasiswa mengerjakan tugas atau menulis jurnal di branch tersebut. Mereka melakukan commit secara berkala untuk menyimpan perubahan.
+    
+- Push: Setelah selesai, mereka melakukan Push branch tersebut ke repositori forked mereka di GitHub.
+    
+- Pull Request (PR): Dari halaman GitHub mereka, mahasiswa membuka Pull Request (PR) dari branch kerja mereka ke branch main di repositori utama. PR ini berfungsi sebagai mekanisme pengumpulan tugas formal.
+    
+
+  
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.

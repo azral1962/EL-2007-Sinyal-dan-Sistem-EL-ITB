@@ -2,6 +2,7 @@
 # Panduan Penyiapan Repositori GitHub  
 
 Proses ini akan menciptakan ekosistem digital yang terpusat, transparan, dan kolaboratif untuk seluruh aktivitas perkuliahan.
+
 ## Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)
 
 Ini adalah langkah pertama untuk menciptakan "rumah" bagi seluruh materi dan aktivitas kuliah.
