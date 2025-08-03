@@ -1,4 +1,9 @@
-# Introduction
+# Pendahuluan
+
+
+3 Agustus 2025
+Lanjutkan Setting Github mencoba mana yang bisa digunakan untuk Github Page, apakah berbasis root atau docs?
+
 
 This is a book created from markdown and executable code.
 

@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: .
+  output-dir: docs
 
 book:
   title: "EL 2007 Sinyal dan Sistem"
@@ -9,7 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - 03_Hunter_Journals.md
+    - F03_Hunter_Journals.md
     - summary.qmd
     - references.qmd
     - Lampiran-GITHUB-setting.md
