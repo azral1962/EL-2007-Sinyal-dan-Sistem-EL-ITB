@@ -3,3 +3,7 @@
 This is a Quarto book.
 
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+# 03_Hunter_Journals
+
+[Nama_Lengkap_(NIM)](./03_Hunter_Journals/Nama_Lengkap_NIM/_book/index.html)
