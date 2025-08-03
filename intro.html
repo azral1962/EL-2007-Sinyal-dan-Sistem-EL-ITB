@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>EL 2007 Sinyal dan Sistem - 3&nbsp; Panduan Penyiapan Repositori GitHub</title>
+<title>EL 2007 Sinyal dan Sistem - 1&nbsp; Petunjuk Untuk Mahasiswa</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./references.html" rel="prev">
+<link href="./summary.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -80,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Lampiran-GITHUB-setting.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Panduan Penyiapan Repositori GitHub</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Petunjuk Untuk Mahasiswa</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -113,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Petunjuk Untuk Mahasiswa</span></span></a>
   </div>
 </li>
@@ -131,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Lampiran-GITHUB-setting.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Lampiran-GITHUB-setting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Panduan Penyiapan Repositori GitHub</span></span></a>
   </div>
 </li>
@@ -141,25 +162,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#langkah-1-membuat-repositori-utama-oleh-dosenadmin" id="toc-langkah-1-membuat-repositori-utama-oleh-dosenadmin" class="nav-link active" data-scroll-target="#langkah-1-membuat-repositori-utama-oleh-dosenadmin"><span class="header-section-number">3.1</span> Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)</a></li>
-  <li><a href="#langkah-2-membangun-struktur-direktori-dasar" id="toc-langkah-2-membangun-struktur-direktori-dasar" class="nav-link" data-scroll-target="#langkah-2-membangun-struktur-direktori-dasar"><span class="header-section-number">3.2</span> Langkah 2: Membangun Struktur Direktori Dasar</a></li>
-  <li><a href="#langkah-3-menyiapkan-konten-awal" id="toc-langkah-3-menyiapkan-konten-awal" class="nav-link" data-scroll-target="#langkah-3-menyiapkan-konten-awal"><span class="header-section-number">3.3</span> Langkah 3: Menyiapkan Konten Awal</a></li>
-  <li><a href="#langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa" id="toc-langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa" class="nav-link" data-scroll-target="#langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa"><span class="header-section-number">3.4</span> Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa</a></li>
-  <li><a href="#langkah-5-proses-penilaian-dan-umpan-balik" id="toc-langkah-5-proses-penilaian-dan-umpan-balik" class="nav-link" data-scroll-target="#langkah-5-proses-penilaian-dan-umpan-balik"><span class="header-section-number">3.5</span> Langkah 5: Proses Penilaian dan Umpan Balik</a></li>
-  <li><a href="#langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions" id="toc-langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions" class="nav-link" data-scroll-target="#langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions"><span class="header-section-number">3.6</span> Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Panduan Penyiapan Repositori GitHub</span></h1>
+<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Petunjuk Untuk Mahasiswa</span></h1>
 </div>
 
 
@@ -176,68 +186,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Proses ini akan menciptakan ekosistem digital yang terpusat, transparan, dan kolaboratif untuk seluruh aktivitas perkuliahan.</p>
-<section id="langkah-1-membuat-repositori-utama-oleh-dosenadmin" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="langkah-1-membuat-repositori-utama-oleh-dosenadmin"><span class="header-section-number">3.1</span> Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)</h2>
-<p>Ini adalah langkah pertama untuk menciptakan “rumah” bagi seluruh materi dan aktivitas kuliah.</p>
-<ol type="1">
-<li><p>Buat Akun GitHub: Jika belum ada, buat akun GitHub untuk dosen atau laboratorium yang akan mengelola mata kuliah.</p></li>
-<li><p>Buat Repositori Baru:</p></li>
-</ol>
-<ul>
-<li><p>Klik tombol “New” di halaman utama GitHub Anda.</p></li>
-<li><p>Nama Repositori: Beri nama yang jelas dan konsisten, misalnya Sinyal-Sistem-TE-ITB.1</p></li>
-<li><p>Deskripsi: Tambahkan deskripsi singkat, contohnya “Repositori Resmi Mata Kuliah EL2007 Sinyal dan Sistem - The Sinyal Hunter Initiative”.</p></li>
-<li><p>Visibilitas: Set ke Public agar dapat diakses oleh semua mahasiswa.</p></li>
-<li><p>Inisialisasi: Centang “Add a README file” untuk membuat file deskripsi awal.</p></li>
-</ul>
-<ol start="3" type="1">
-<li>Klik “Create repository”.</li>
-</ol>
-</section>
-<section id="langkah-2-membangun-struktur-direktori-dasar" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="langkah-2-membangun-struktur-direktori-dasar"><span class="header-section-number">3.2</span> Langkah 2: Membangun Struktur Direktori Dasar</h2>
-<p>Struktur folder yang rapi adalah kunci untuk menjaga agar repositori tetap terorganisir sepanjang semester.1</p>
-<ol type="1">
-<li><p>Clone Repositori: Di komputer Anda, buka terminal atau Git client, dan jalankan perintah git clone.</p></li>
-<li><p>Buat Folder-folder Utama: Di dalam folder repositori yang baru saja di-clone, buat struktur direktori berikut:</p></li>
-</ol>
-<ul>
-<li><p>00_Materi_Ajar/</p></li>
-<li><p>01_Tantangan_Treasure_Hunt/</p></li>
-<li><p>02_Knowledge_Maps/</p></li>
-<li><p>03_Hunter_Journals/</p></li>
-<li><p>04_Treasure_Submissions/</p></li>
-<li><p>05_Legacy_Archives/</p></li>
-</ul>
-<ol start="3" type="1">
-<li><p>Tambahkan File Placeholder: Git tidak melacak folder kosong. Agar struktur ini bisa di-commit, tambahkan file kosong bernama .gitkeep di dalam setiap folder.</p></li>
-<li><p>Commit &amp; Push Struktur:</p></li>
-</ol>
-<ul>
-<li><p>Jalankan git add.</p></li>
-<li><p>Jalankan git commit -m “feat: initialize course directory structure”</p></li>
-<li><p>Jalankan git push origin main</p></li>
-</ul>
-</section>
-<section id="langkah-3-menyiapkan-konten-awal" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="langkah-3-menyiapkan-konten-awal"><span class="header-section-number">3.3</span> Langkah 3: Menyiapkan Konten Awal</h2>
-<p>Sebelum semester dimulai, isi repositori dengan materi-materi esensial.</p>
-<ol type="1">
-<li><p>Materi Ajar: Masukkan slide, catatan kuliah, atau video untuk minggu pertama ke dalam folder 00_Materi_Ajar/. Sebaiknya dalam format Quarto (.qmd) atau PDF.1</p></li>
-<li><p>Tantangan Pertama: Tulis deskripsi tantangan untuk minggu pertama dan letakkan di dalam folder 01_Tantangan_Treasure_Hunt/.</p></li>
-<li><p>Buat Template:</p></li>
-</ol>
-<ul>
-<li><p>Buat file journal_template.qmd yang berisi kerangka dasar untuk “Jurnal Harian Hunter”. Ini bisa berisi judul, bagian untuk refleksi mingguan, dan contoh cara memasukkan kode atau gambar.</p></li>
-<li><p>Buat file map_template.qmd sebagai templat untuk “Peta Pengetahuan” kelompok, mungkin dengan contoh diagram Mermaid/Graphviz sederhana.</p></li>
-</ul>
-<ol start="4" type="1">
-<li>Perbarui README: Edit file README.md di direktori utama untuk menjelaskan tujuan repositori, aturan main, dan tautan-tautan penting.</li>
-</ol>
-</section>
-<section id="langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="langkah-4-mengatur-alur-kerja-dan-instruksi-untuk-mahasiswa"><span class="header-section-number">3.4</span> Langkah 4: Mengatur Alur Kerja dan Instruksi untuk Mahasiswa</h2>
 <p>Ini adalah bagian terpenting untuk memastikan mahasiswa memahami cara berinteraksi dengan repositori. Alur kerja ini mengajarkan mereka praktik version control standar industri.1</p>
 <ol type="1">
 <li><p>Komunikasikan Alur Kerja: Jelaskan alur kerja Fork -&gt; Clone -&gt; Branch -&gt; Commit -&gt; Push -&gt; Pull Request kepada mahasiswa di pertemuan pertama.</p></li>
@@ -251,28 +199,15 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Push: Setelah selesai, mereka melakukan Push branch tersebut ke repositori forked mereka di GitHub.</p></li>
 <li><p>Pull Request (PR): Dari halaman GitHub mereka, mahasiswa membuka Pull Request (PR) dari branch kerja mereka ke branch main di repositori utama. PR ini berfungsi sebagai mekanisme pengumpulan tugas formal.</p></li>
 </ul>
-</section>
-<section id="langkah-5-proses-penilaian-dan-umpan-balik" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="langkah-5-proses-penilaian-dan-umpan-balik"><span class="header-section-number">3.5</span> Langkah 5: Proses Penilaian dan Umpan Balik</h2>
-<p>Pull Request (PR) menjadi pusat untuk interaksi dan penilaian.</p>
-<ol type="1">
-<li><p>Review PR: Asisten atau dosen dapat mereview setiap PR yang masuk. Fitur review di GitHub memungkinkan pemberian komentar pada baris kode atau teks tertentu, memberikan umpan balik yang sangat spesifik.</p></li>
-<li><p>Merge PR: Setelah tugas dinilai dan dianggap selesai, PR tersebut di-merge ke repositori utama. Ini secara resmi memasukkan pekerjaan mahasiswa ke dalam arsip kuliah.</p></li>
-<li><p>Menutup PR: Jika tugas memerlukan revisi, PR dapat dibiarkan terbuka dan mahasiswa dapat melakukan push commit tambahan ke branch yang sama untuk memperbaikinya.</p></li>
-</ol>
-</section>
-<section id="langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="langkah-6-opsional-sangat-direkomendasikan-otomatisasi-dengan-github-actions"><span class="header-section-number">3.6</span> Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions</h2>
-<p>Untuk meningkatkan efisiensi, manfaatkan GitHub Actions.1</p>
-<ol type="1">
-<li><p>Render Quarto ke Situs Web: Buat sebuah workflow GitHub Actions yang secara otomatis merender semua file .qmd (terutama materi ajar dan jurnal mahasiswa yang sudah di-merge) menjadi halaman HTML dan menerbitkannya menggunakan GitHub Pages. Ini akan menciptakan sebuah situs web dinamis untuk mata kuliah tersebut.</p></li>
-<li><p>Pemeriksaan Otomatis: Untuk tantangan level “Uang” atau “Berlian” yang melibatkan kode, Anda bisa membuat workflow yang menjalankan tes otomatis pada kode yang disubmit dalam PR untuk memeriksa fungsionalitas dasar.</p></li>
-</ol>
-<p>Dengan mengikuti langkah-langkah ini, Anda akan berhasil membangun sebuah ekosistem pembelajaran yang modern, interaktif, dan mempersiapkan mahasiswa dengan keterampilan teknis yang relevan dengan industri.</p>
-<p>**</p>
+<p>This is a book created from markdown and executable code.</p>
+<p>See <span class="citation" data-cites="knuth84">Knuth (<a href="references.html#ref-knuth84" role="doc-biblioref">1984</a>)</span> for additional discussion of literate programming.</p>
 
 
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-knuth84" class="csl-entry" role="listitem">
+Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -686,11 +621,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./references.html" class="pagination-link" aria-label="References">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">References</span>
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
