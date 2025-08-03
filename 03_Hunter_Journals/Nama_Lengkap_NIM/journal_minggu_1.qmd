@@ -1,7 +1,4 @@
----
-title: "My Document"
-format: 
-  html:
-    toc: true
-    code-fold: true
----
+# Journal Minggu Pertama
+
+3 Agustus 2025
+Mencoba berbagai kombinasi tayangan tugas
