@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: ../../docs/03_Hunter_Journals/Nama_Lengkap_NIM
+  output-dir: "../../docs/03_Hunter_Journals/Nama_Lengkap_NIM/"
 
 book:
   title: "Hunter_Journals"
@@ -10,7 +10,6 @@ book:
     - index.qmd
     - intro.qmd
     - journal_minggu_1.qmd
-
     - summary.qmd
     - references.qmd
 
