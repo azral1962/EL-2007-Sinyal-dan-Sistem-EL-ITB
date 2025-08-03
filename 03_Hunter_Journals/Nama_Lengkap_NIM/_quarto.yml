@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: ../docs/03_Hunter_Journals/Nama_Lengkap_NIM
+  output-dir: ../../docs/03_Hunter_Journals/Nama_Lengkap_NIM
 
 book:
   title: "Hunter_Journals"
