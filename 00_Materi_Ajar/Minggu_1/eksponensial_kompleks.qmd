@@ -1,0 +1,111 @@
+---
+title: "Eksponensial Kompleks"
+author: "Armein Z. R. Langi (01234567)"
+---
+
+Tentu, mari kita perkenalkan keluarga sinyal eksponensial kompleks yang sangat fundamental dalam studi sinyal dan sistem. Sinyal ini dapat didefinisikan dengan amplituda $A$, frekuensi $\omega$ (omega) atau $f$, dan fase $\phi$.
+
+### Sinyal Eksponensial Kompleks
+
+Sinyal eksponensial kompleks adalah bentuk dasar yang sangat penting dalam analisis sinyal, khususnya dalam Sistem Linear Tak-Variabel Waktu (LTI) karena sifatnya sebagai *eigenfunction* dari sistem LTI. Ini berarti ketika sinyal eksponensial kompleks menjadi masukan ke sistem LTI, keluarannya adalah sinyal eksponensial kompleks yang sama, hanya dikalikan dengan konstanta kompleks (nilai eigen).
+
+Sinyal eksponensial kompleks dapat direpresentasikan dalam domain waktu kontinu ($x(t)$) maupun waktu diskrit ($x[n]$).
+
+1.  **Sinyal Eksponensial Kompleks Waktu Kontinu Periodik**
+    Sinyal ini umumnya didefinisikan sebagai:
+    $x(t) = A e^{j(\omega_0 t + \phi)}$
+    di mana:
+    *   $A$ adalah **amplituda** (bilangan real positif).
+    *   $j$ adalah unit imajiner, $j = \sqrt{-1}$.
+    *   $\omega_0$ adalah **frekuensi angular** dalam radian per detik (rad/s). Frekuensi dalam Hertz ($f_0$) terkait dengan $\omega_0$ melalui hubungan $\omega_0 = 2\pi f_0$.
+    *   $t$ adalah variabel waktu.
+    *   $\phi$ adalah **fase** dalam radian.
+
+    Dalam bentuk umum, sinyal eksponensial kompleks dapat juga memiliki bagian eksponensial real, $x(t) = C e^{at}$, di mana $C$ dan $a$ adalah bilangan kompleks. Jika $C = A e^{j\phi}$ dan $a = \sigma + j\omega_0$, maka $x(t) = A e^{(\sigma + j\omega_0)t} e^{j\phi} = A e^{\sigma t} e^{j(\omega_0 t + \phi)}$. Bagian real dan imajiner dari sinyal ini adalah sinyal sinusoidal dengan amplituda yang bervariasi secara eksponensial seiring waktu (bertumbuh jika $\sigma > 0$, meluruh jika $\sigma < 0$, atau konstan jika $\sigma = 0$).
+
+2.  **Sinyal Eksponensial Kompleks Waktu Diskrit Periodik**
+    Sinyal ini didefinisikan sebagai:
+    $x[n] = A e^{j(\Omega_0 n + \phi)}$
+    di mana:
+    *   $A$ adalah amplituda.
+    *   $j$ adalah unit imajiner.
+    *   $\Omega_0$ adalah **frekuensi angular diskrit** dalam radian per sampel.
+    *   $n$ adalah indeks waktu diskrit.
+    *   $\phi$ adalah fase.
+
+    Serupa dengan kasus waktu kontinu, bentuk umum dapat dinyatakan sebagai $x[n] = C a^n$, di mana $C$ dan $a$ adalah bilangan kompleks. Jika $C = A e^{j\phi}$ dan $a = r e^{j\Omega_0}$, maka $x[n] = A r^n e^{j(\Omega_0 n + \phi)}$. Magnituda $r$ menentukan apakah amplop sinyal tumbuh, meluruh, atau tetap konstan seiring waktu.
+
+### Identitas Euler
+
+Identitas Euler adalah hubungan fundamental yang mengaitkan fungsi eksponensial kompleks dengan fungsi trigonometri sinus dan kosinus. Identitas ini dinyatakan sebagai:
+$e^{j\theta} = \cos(\theta) + j \sin(\theta)$
+
+Dengan identitas ini, kita dapat menulis sinyal eksponensial kompleks dalam bentuk real dan imajiner. Misalnya, untuk sinyal waktu kontinu:
+$x(t) = A e^{j(\omega_0 t + \phi)} = A [\cos(\omega_0 t + \phi) + j \sin(\omega_0 t + \phi)]$
+Ini menunjukkan bahwa sinyal eksponensial kompleks adalah gabungan dari sinyal kosinus (bagian realnya) dan sinyal sinus (bagian imajinernya) dengan amplituda yang sama dan pergeseran fase 90 derajat satu sama lain. Kita juga bisa menyatakan sinyal sinusoidal real dalam bentuk eksponensial kompleks menggunakan identitas ini, seperti $\cos(\theta) = \frac{e^{j\theta} + e^{-j\theta}}{2}$ dan $\sin(\theta) = \frac{e^{j\theta} - e^{-j\theta}}{2j}$.
+
+### Deskripsi dan Penggambaran Sinyal Menggunakan Python dan Matplotlib
+
+Untuk mendeskripsikan dan menggambar sinyal eksponensial kompleks menggunakan Python, kita akan memanfaatkan pustaka `numpy` untuk komputasi numerik dan `matplotlib.pyplot` untuk visualisasi.
+
+Berikut adalah contoh kode Python untuk sinyal eksponensial kompleks waktu kontinu, yang menunjukkan bagian real dan imajinernya:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# --- Parameter Sinyal Eksponensial Kompleks ---
+A = 1.0       # Amplituda
+f0 = 1.0      # Frekuensi dalam Hertz (Hz)
+omega0 = 2 * np.pi * f0 # Frekuensi angular dalam rad/s
+phi = np.pi / 4 # Fase dalam radian (misal: pi/4 radian)
+
+# --- Definisi Sinyal Waktu Kontinu ---
+# Membuat vektor waktu 't' dari 0 hingga 2 detik dengan 500 titik
+t = np.linspace(0, 2, 500)
+
+# Menghitung sinyal eksponensial kompleks x(t) = A * e^(j*(omega0*t + phi))
+x_t = A * np.exp(1j * (omega0 * t + phi)) # '1j' merepresentasikan unit imajiner
+
+# --- Ekstraksi Bagian Real dan Imajiner ---
+real_part = np.real(x_t)
+imag_part = np.imag(x_t)
+
+# --- Menggambar Sinyal Menggunakan Matplotlib ---
+plt.figure(figsize=(10, 6))
+
+# Plot bagian real
+plt.subplot(2, 1, 1) # Membuat subplot 2 baris, 1 kolom, plot pertama
+plt.plot(t, real_part, label='Bagian Real', color='blue')
+plt.title(f'Sinyal Eksponensial Kompleks (A={A}, f0={f0}Hz, phi={phi/np.pi:.2f}pi rad)')
+plt.xlabel('Waktu (detik)')
+plt.ylabel('Amplituda')
+plt.grid(True)
+plt.legend()
+
+# Plot bagian imajiner
+plt.subplot(2, 1, 2) # Plot kedua
+plt.plot(t, imag_part, label='Bagian Imajiner', color='red')
+plt.xlabel('Waktu (detik)')
+plt.ylabel('Amplituda')
+plt.grid(True)
+plt.legend()
+
+plt.tight_layout() # Menyesuaikan layout agar tidak ada tumpang tindih
+plt.show()
+
+# --- Contoh Penggunaan Identitas Euler dalam Python ---
+theta_euler = np.pi / 3 # Sudut contoh untuk identitas Euler
+e_j_theta = np.exp(1j * theta_euler)
+cos_theta = np.cos(theta_euler)
+sin_theta = np.sin(theta_euler)
+
+print(f"\nVerifikasi Identitas Euler untuk theta = {theta_euler/np.pi:.2f}pi rad:")
+print(f"e^(j*theta) = {e_j_theta}")
+print(f"cos(theta) + j*sin(theta) = {cos_theta + 1j*sin_theta}")
+print(f"Apakah sama (perbedaan kecil karena presisi floating point)? {np.allclose(e_j_theta, cos_theta + 1j*sin_theta)}")
+```
+
+Kode di atas akan menghasilkan dua plot terpisah dalam satu figur: satu untuk bagian real sinyal eksponensial kompleks (yang berbentuk gelombang kosinus) dan satu untuk bagian imajiner sinyal (yang berbentuk gelombang sinus). Anda dapat mengubah parameter `A`, `f0`, dan `phi` untuk melihat bagaimana perubahan tersebut memengaruhi bentuk gelombang. Bagian akhir kode juga menunjukkan verifikasi numerik Identitas Euler.
+
+Untuk sinyal waktu diskrit, pendekatannya serupa, hanya saja Anda akan menggunakan array integer untuk waktu `n` dan fungsi `stem` dari Matplotlib untuk memvisualisasikan sampel diskrit, seperti yang diindikasikan oleh referensi sumber.

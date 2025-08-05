@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lampiran-GITHUB-setting.md",
+                "file": "index.qmd",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lampiran-GITHUB-setting"
+              "title": "index"
             }
           }
         ]
@@ -171,17 +171,21 @@
   },
   "active": "082460023c3a153c",
   "lastOpenFiles": [
-    "site_libs/bootstrap/bootstrap-7580570a2e354cd56757c689413fca0c.min.css",
-    "site_libs/quarto-search/quarto-search.js",
-    "site_libs/quarto-search/fuse.min.js",
-    "site_libs/quarto-search/autocomplete.umd.js",
-    "site_libs/quarto-nav/quarto-nav.js",
-    "site_libs/quarto-nav/headroom.min.js",
-    "site_libs/quarto-html/tippy.umd.min.js",
-    "site_libs/quarto-html/tippy.css",
-    "site_libs/quarto-html/quarto.js",
-    "site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css",
-    "site_libs/quarto-html/popper.min.js",
+    "04_Treasure_Submissions/Treasure_1_3_Armein_Z_R_Langi.qmd",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/mediabag",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/clipboard/clipboard.min.js",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/quarto-html/tippy.umd.min.js",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/quarto-html/tippy.css",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/quarto-html/quarto.js",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/quarto-html/quarto-syntax-highlighting.css",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/quarto-html/popper.min.js",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/quarto-html/anchor.min.js",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/bootstrap/bootstrap.min.js",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1_files/libs/bootstrap/bootstrap.min.css",
+    "Tabel_rewards.md",
+    "01_Tantangan_Treasure_Hunt/WantedMinggu_1.md",
+    "00_Materi_Ajar/Minggu_1/Tabel_rewards.md",
+    "00_Materi_Ajar/eksponensial_kompleks.md",
     "Lampiran-GITHUB-setting.md",
     "Untitled.canvas"
   ]
