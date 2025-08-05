@@ -4,9 +4,59 @@
     "href": "index.html",
     "title": "EL 2007 Sinyal dan Sistem",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n\n03_Hunter_Journals\nNama_Lengkap_(NIM)",
+    "text": "Pengantar\nDari diskusi kita yang mendalam, kita telah membangun sebuah konsep pembelajaran dan asesmen yang utuh dan sangat inovatif untuk mata kuliah Sinyal dan Sistem. Konsep ini memadukan kekuatan visualisasi, gamifikasi, kolaborasi, personalisasi, dan pembelajaran berkelanjutan dengan memanfaatkan alat modern seperti GitHub dan Quarto.\nBerikut adalah laporan lengkap dari konsep yang telah kita bahas, siap Anda implementasikan:\nPembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan * Pembelajaran berberorientasi Nilai * Pembelajaran bertujuan KoKreasi Nilai * Studi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan * Pembelajaran Kolaboratif * Pembelajaran Personal\nSebuah metafora “Perburuan Harat Karun” dimulai dengan Mahasiswa sebagai pemburu harta karun yang akan dibeli oleh Dosen. Dosen bekerja sama dengan mahasiwa untuk merumuskan harta karun apa yang perlu diberikan oleh Mahasiswa kepada Dosen, dengan imbalan uang, berlian, emas, titanium.\nHarta karun ysang dicari berbentuk pengetahuan, bahan ajar, jawaban dari pertanyaan, solusi dari masalah, atau produk yang berguna.",
     "crumbs": [
-      "Preface"
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#fondasi-konseptual-knowledge-map-sebagai-peta-pengetahuan",
+    "href": "index.html#fondasi-konseptual-knowledge-map-sebagai-peta-pengetahuan",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Fondasi Konseptual: Knowledge Map sebagai Peta Pengetahuan",
+    "text": "Fondasi Konseptual: Knowledge Map sebagai Peta Pengetahuan\nKnowledge Map (Peta Pengetahuan) adalah tulang punggung dari seluruh konsep ini. Ini adalah representasi visual dari seluruh materi mata kuliah Sinyal dan Sistem, berfungsi sebagai panduan utama bagi mahasiswa.\nElemen Peta:\n     Titik (Nodes): Konsep-konsep kunci dalam Sinyal dan Sistem (misalnya, Domain Waktu, Domain Frekuensi, Transformasi Fourier, Transformasi Laplace, Sistem LTI, Konvolusi, Filter, Pole-Zero, Bode Plot, Op-Amp, Elemen Tunda, Sampler, Kuantizer, Rangkaian RLC).\n     Rute (Edges): Hubungan antar konsep yang menunjukkan bagaimana mereka saling terkait dan bagaimana bergerak dari satu konsep ke konsep lain (misalnya, “memiliki representasi di”, “dapat dianalisis dengan”, “digunakan untuk mendesain”). Panah menunjukkan arah hubungan.\n     Atribut Node/Edge: Setiap titik atau rute dapat diperkaya dengan detail seperti rumus kunci, grafik representatif, kondisi batas, atau contoh spesifik.\nTujuan:\n     Membantu mahasiswa melihat gambaran besar dan interkoneksi antar topik.\n     Menjadi alat navigasi saat memecahkan masalah: mengidentifikasi Titik Mulai (apa yang diketahui dari soal) dan Titik Akhir (apa yang ditanyakan/solusi yang dicari).",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#kendaraan-belajar-matematika-dan-alat-komputasi",
+    "href": "index.html#kendaraan-belajar-matematika-dan-alat-komputasi",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Kendaraan Belajar: Matematika dan Alat Komputasi",
+    "text": "Kendaraan Belajar: Matematika dan Alat Komputasi\nUntuk menempuh “Rute” dalam Knowledge Map dan mencapai “Titik Akhir”, mahasiswa akan menggunakan berbagai “Kendaraan”. Kendaraan ini juga diasosiasikan dengan tingkat Taksonomi Bloom yang relevan, menunjukkan kemampuan yang dibutuhkan.\nKendaraan Matematika (Fundamental): Ini adalah bahasa dasar Sinyal dan Sistem, diperlukan untuk hampir setiap rute.\n     Aljabar, Kalkulus (Diferensial/Integral): Untuk manipulasi persamaan, solusi, dan definisi dasar.\n     Geometri: Untuk memahami representasi dan transformasi sinyal.\n     Bilangan Kompleks & Variabel Kompleks: Sangat krusial untuk Transformasi Fourier, Laplace, Z, analisis pole-zero, dan respons frekuensi.\n     Tingkat Bloom: Terutama Menerapkan dan Menganalisis.\nKendaraan Diagram & Visualisasi: Ini adalah cara untuk merepresentasikan sistem dan sinyal secara visual.\n     Signal Flow Graph (SFG): Untuk merepresentasikan fungsi fungsional sistem dan mendapatkan fungsi transfer menggunakan Mason’s Gain Formula.\n     Diagram Blok: Untuk merepresentasikan sistem menggunakan elemen dasar (pengali, penjumlah, integrator, diferensiator, elemen tunda, sampler, kuantizer, dll.). Ideal untuk realisasi dan memahami aliran sinyal.\n     Plot Sinyal (Domain Waktu, Frekuensi, Kompleks): Visualisasi hasil analisis atau karakteristik sistem (misalnya, plot sinyal x(t), spektrum ∣X(jω)∣, plot pole-zero, Bode Plot). Ini seringkali menjadi “Titik Akhir” visual dari analisis.\n     Tingkat Bloom: Memahami, Menerapkan, Menganalisis, Menciptakan.\nKendaraan Komputasi (Super Kendaraan): Python beserta library-nya adalah alat ampuh untuk menerapkan kendaraan matematis dan visualisasi secara efisien.\n     Matplotlib: Untuk semua jenis visualisasi plot sinyal dan sistem.\n     SciPy: Untuk komputasi numerik sinyal dan sistem (konvolusi, respons, desain filter).\n     SymPy: Untuk matematika simbolik (manipulasi aljabar, transformasi simbolik, pencarian akar).\n     Tingkat Bloom: Menerapkan, Menganalisis, Menciptakan.",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#asesmen-melalui-gamifikasi-treasure-hunt",
+    "href": "index.html#asesmen-melalui-gamifikasi-treasure-hunt",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Asesmen Melalui Gamifikasi: “Treasure Hunt”",
+    "text": "Asesmen Melalui Gamifikasi: “Treasure Hunt”\nAsesmen akan diimplementasikan melalui “Treasure Hunt” yang interaktif, mendorong mahasiswa untuk menavigasi Knowledge Map dan memecahkan masalah.\nAlur Cerita (Storytelling): Mahasiswa berperan sebagai “Sinyal Hunter” yang berburu “Rumus Universal Sinyal” dengan memecahkan serangkaian teka-teki terkait materi Sinyal dan Sistem.\nMekanisme Harta Karun:\n     Setiap Titik (Node) dalam Knowledge Map bisa menjadi lokasi “harta karun” atau “tantangan”.\n     Tantangan adalah soal-soal asesmen yang harus diselesaikan.\n     Setiap tantangan yang berhasil diselesaikan akan memberikan “kunci” yang membuka “locker” berisi berbagai jenis “harta karun” dengan bobot poin berbeda:\n         Emas (Poin Rendah): Pertanyaan Mengingat dan Memahami (definisi, identifikasi konsep).\n         Platinum (Poin Sedang): Pertanyaan Menerapkan dan Menganalisis (perhitungan, interpretasi).\n         Uang (Poin Tinggi): Tugas Menciptakan (desain, realisasi kode Python).\n         Berlian (Poin Sangat Tinggi): Tugas Mengevaluasi dan Menganalisis Tingkat Lanjut (diagnosis masalah, optimasi desain).\n     Total skor dari harta karun ini akan menjadi nilai akhir mahasiswa.\nJenis Reward\n\n\n\n\n\n\n\n\n\n\nTopik\nKonsep Dasar\nJawaban Solusi\nKendaraan Komputer\nJalan Matematika\n\n\n\n\nTime Domain\nUang IDR Rupiah\nDiamond Indonesia\nEmas\nPlatinum\n\n\nDomain Frekuensi\nUang USD Dollar\nDiamond AS\nEmas\nPlatinum\n\n\nDomain Laplace\nUang EUR Euro\nDiamond Eropa\nEmas\nPlatinum\n\n\nDomain Z\nUang GBP Poundsterling\nDiamond Inggris\nEmas\nPlatinum\n\n\nSampling\nUang JPY Yen\nDiamond Jepang\nEmas\nPlatinum\n\n\n\nStrategi Pemecahan Soal: Mahasiswa diajarkan untuk menganalisis soal ujian sebagai “Titik Mulai” dan “Titik Akhir” dalam Knowledge Map, kemudian memilih “Rute” dan “Kendaraan” (matematika/Python/diagram) yang sesuai untuk menemukan “Solusi”.\n\nKolaborasi & Personalisasi: Belajar Bersama, Berkembang Sendiri\n\nKonsep ini menyeimbangkan dukungan kelompok dengan akuntabilitas individu.\nPembuatan Knowledge Map (Kolaborasi Kelompok):\n     Mahasiswa dibagi menjadi kelompok-kelompok kecil.\n     Setiap kelompok secara kolaboratif membangun Knowledge Map master mereka menggunakan Quarto (dengan Mermaid/Graphviz).\n     Ini mendorong diskusi, saling menjelaskan, dan membangun pemahaman bersama.\nTantangan “Treasure Hunt” (Personalisasi Individual):\n     Sebagian besar tantangan dalam Treasure Hunt diselesaikan secara mandiri oleh setiap mahasiswa. Kunci dan poin yang didapat adalah milik pribadi.\n     Mahasiswa menggunakan Peta Pengetahuan kelompok mereka sebagai panduan dan referensi.\nTantangan “Misi Tim” (Bonus Kolaboratif):\n     Beberapa tantangan didesain untuk diselesaikan bersama oleh kelompok, memberikan poin bonus yang dibagikan merata.\nPenilaian Kontribusi (Peer Assessment):\n     Setelah tugas kelompok, mahasiswa melakukan penilaian sejawat terhadap kontribusi anggota kelompoknya. Hasilnya bisa memengaruhi sebagian kecil dari nilai kelompok atau bonus individu, memastikan kontribusi yang adil dihargai.\n     Refleksi Individu: Setiap mahasiswa menulis jurnal refleksi tentang proses kolaborasi mereka.\n\nPembelajaran Berkelanjutan: Jurnal Harian Hunter & Legacy\n\nUntuk memastikan perbaikan kualitas dari tahun ke tahun dan menumbuhkan budaya belajar, konsep ini memperkenalkan mekanisme legacy.\nJurnal Harian Hunter:\n     Setiap mahasiswa wajib membuat Jurnal Harian Hunter dalam format Quarto (.qmd).\n     Jurnal ini berisi catatan pergumulan yang dihadapi, strategi yang dicoba, solusi yang ditemukan, kesalahan yang dibuat, dan pembelajaran baru.\n     Tujuannya adalah untuk mendorong refleksi metakognitif (belajar tentang cara belajar).\nRepositori “Legacy” (GitHub):\n     Di akhir setiap semester, Knowledge Map terbaik, solusi (kode Python & penjelasannya), dan Jurnal Harian (setelah proses anonimitas untuk menjaga privasi) dari mahasiswa tahun tersebut akan disimpan dalam repositori GitHub utama di folder 05_Legacy_Tahun_Lalu/Tahun_Sekarang/.\nSiklus Peningkatan:\n     Mahasiswa baru di tahun berikutnya akan memulai dengan mempelajari karya pendahulu mereka di repositori “Legacy”, terutama membaca Jurnal Harian untuk memahami tantangan umum dan strategi efektif.\n     Tugas mereka adalah tidak hanya mereplikasi, tetapi juga meningkatkan Knowledge Map, menemukan “Rute” yang lebih baik, menggunakan “Kendaraan” yang lebih canggih (misalnya, optimasi kode Python), atau mencapai “Skor” yang lebih tinggi dalam tantangan. Ini memastikan kualitas mata kuliah terus meningkat secara organik setiap tahun.",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#implementasi-teknis-menggunakan-github-dan-quarto",
+    "href": "index.html#implementasi-teknis-menggunakan-github-dan-quarto",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Implementasi Teknis Menggunakan GitHub dan Quarto",
+    "text": "Implementasi Teknis Menggunakan GitHub dan Quarto\nSeluruh konsep ini dapat diimplementasikan secara efisien menggunakan GitHub sebagai fondasi dan Quarto sebagai alat utama untuk pembuatan konten.\nStruktur Repositori GitHub:\n     Satu repositori utama (Sinyal-Sistem-TE-ITB) dengan sub-folder yang terstruktur rapi untuk materi ajar, Knowledge Map kelompok, tantangan Treasure Hunt, solusi mahasiswa, jurnal harian, dan arsip “Legacy” tahun sebelumnya.\nPenggunaan Quarto (.qmd):\n     Semua dokumen kunci (Knowledge Map, Jurnal Harian, Solusi Harta Karun, bahkan Materi Ajar) akan dibuat dalam format Quarto (.qmd).\n     Quarto mendukung penulisan teks Markdown, blok kode Python (dengan output dan plot Matplotlib), diagram Mermaid/Graphviz, dan rumus LaTeX, semuanya dalam satu file.\n     File .qmd ini dapat dirender menjadi HTML (untuk web interaktif di GitHub Pages), PDF, atau format lain.\nAlur Kerja GitHub untuk Mahasiswa:\n     Fork -&gt; Clone -&gt; Branch -&gt; Edit .qmd -&gt; Commit -&gt; Push -&gt; Pull Request.\n     Ini mengajarkan mahasiswa version control dan kolaborasi standar industri.\nGitHub Pages & GitHub Actions:\n     Gunakan GitHub Actions untuk secara otomatis merender file .qmd menjadi HTML setiap kali ada perubahan dan menerbitkannya ke GitHub Pages, menciptakan situs web dinamis dari seluruh ekosistem belajar.\n     GitHub Actions juga bisa digunakan untuk auto-grading beberapa tantangan atau mengelola leaderboard.\nKonsep “The Sinyal Hunter Initiative” ini akan mengubah mata kuliah Sinyal dan Sistem menjadi pengalaman belajar yang aktif, kolaboratif, reflektif, dan berkelanjutan, membekali mahasiswa dengan pemahaman mendalam serta keterampilan praktis yang sangat berharga di dunia Teknik Elektro. Selamat mengimplementasikannya!",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#daftar-harga",
+    "href": "index.html#daftar-harga",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Daftar Harga",
+    "text": "Daftar Harga",
+    "crumbs": [
+      "Pengantar"
     ]
   },
   {
@@ -30,16 +80,6 @@
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "3  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
@@ -54,7 +94,7 @@
     "href": "Lampiran-GITHUB-setting.html",
     "title": "4  Panduan Penyiapan Repositori GitHub",
     "section": "",
-    "text": "4.1 Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)\nIni adalah langkah pertama untuk menciptakan “rumah” bagi seluruh materi dan aktivitas kuliah.",
+    "text": "4.1 Langkah 1: Membuat Repositori Utama (Oleh Dosen/Admin)\nProses ini akan menciptakan ekosistem digital yang terpusat, transparan, dan kolaboratif untuk seluruh aktivitas perkuliahan.\nIni adalah langkah pertama untuk menciptakan “rumah” bagi seluruh materi dan aktivitas kuliah.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
     ]
