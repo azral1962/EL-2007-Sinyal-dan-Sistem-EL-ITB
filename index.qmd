@@ -1,37 +1,70 @@
 # Pengantar {.unnumbered}
 
-Dari diskusi kita yang mendalam, kita telah membangun sebuah **konsep pembelajaran dan asesmen yang utuh dan sangat inovatif** untuk mata kuliah Sinyal dan Sistem. Konsep ini memadukan kekuatan visualisasi, gamifikasi, kolaborasi, personalisasi, dan pembelajaran berkelanjutan dengan memanfaatkan alat modern seperti GitHub dan Quarto.
+Topik Sinyal dan Sistem mengajarkan pada calon rekayasawan sebuah framework dan platform yang telah terbukti menghasilkan karya-karya (aretfak) fenomenal yang menjadi pembangun peradaban. Kemajuan teknologi yang kita bisa nikmati hari ini adalah contoh nyata penerapan Sinyal dan Sistem.
+
+Tetapi tidak bisa disangkal selain kita membutuhkan artefak, kita juga membutuhkan cara (metodologi) rekayasa, membutuhkan karakter atau sosok seorang rekaysawan. Pendidikan teknik pada umumnya, dan bidang teknik elektro khususnya, tidak saja mengajarkan fenomena alam yang mendasari maaha karya, tapi terutama membangunkan sosok rekayasan di dalam dirinya.
+
+## Pembelajran
+
+Untuk ite Pembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan rekayasawana sebagai berikut: 
+
+*   Pembelajaran berberorientasi Nilai (values). 
+    Nilai-nilai yang dijunjung tinggi oleh sdeorang rejaysadwasn termasuk etik, kejujuran, keselamatan, disiplin, ilmiah, dan kemanusiaan
+
+*   Pembelajaran bertujuan KoKreasi Nilai, 
+    yang berarti rekayasawn bersaama pengguna menciptakan nilai guna (ekonimis, sosuial, budayaa, dan lingkungan) yang berkelanjutan
+    
+*   Studi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan.
+    Seorang rekaysawan membangun artefak sebagai karyanyaa. Dalam kuliah ini artefak yang dimaksud adalha artefak pengetahuan Body of Knowlewgde yang sudah di olah menjadi peta pengetahuan beserta kenadraan untuk menjslaninya.
+    
+*   Pembelajaran Kolaboratif.
+    Rekayasawan bersinegri secara koleglitsa dengn sesamsa nay sehingga menjadi komaunitas yang profesional dan respekted
+    
+*   Pembelajaran Personal. 
+    Setiap rekayaswn memiliki kontrwibusi orisinal dan otentik.
+
+## Era Kecerdasan Buatan
+
+Kecerdasan Buatan (AI) mengubah, mendisrupsi, berbagai aspek dari rekayasa serta pembelajaran. Kuliah ini mengadopsi penggunaan AI secara maksimal untuk mencapai tujuan pembelajaran, yaitu mengembangkan sosok rekayasawan. AI tidak mengganti rekayasawan, melainkanmemberdayaksan dan memperkuat kapasitas rekayasawan untuk menghasilkan karya yang otentik.
+
+Kulaih ini mendorong perserta untuk memanfatkan berbagai layanan digital dan AI untuk proses belajar. Secara khusus alat bantu belajar yang direkomendasikan adalah
+
+* notebooklm dari Google
+* google drive dari Google
+* Visual Studio Code dari Microsoft
+* quarto dari Posit, besert tinytex dan chromium
+* python (beserta numpy, matplotlib, sympy, scipy) dari
+* mermaid dan graphvis
+
+## Tujuan Pembalajaran
+
+Setelah menyelesaikan kuliah ini oeserta 
+1. mampu menguasai materi sinyal dan sistem yang diperlihatkan melalui kemampuan untuk menghasilkan bukti tertulis jawaban yang benar atas pertanyaan verifikatif. 
+2. Mampu menerapkan penguasaan materi ini untuk menghasilkan solusi yang berguna bagi stakeholders, baik solusi khusus, maupun solusi umum, yaitu sistem pengelolaan pengetahuan mamou bekerjasama dan berkontribusi dalam membangun karaya rejkayasa sinyal dan sistem
+
+## Gamifikasi
+
+Kita telah membangun sebuah **konsep pembelajaran dan asesmen yang utuh dan sangat inovatif** untuk mata kuliah Sinyal dan Sistem. Konsep ini memadukan kekuatan visualisasi, gamifikasi, kolaborasi, personalisasi, dan pembelajaran berkelanjutan dengan memanfaatkan alat modern seperti GitHub dan Quarto.
 
 Berikut adalah laporan lengkap dari konsep yang telah kita bahas, siap Anda implementasikan:
 
-
-
-Pembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan 
-* Pembelajaran berberorientasi Nilai
-* Pembelajaran bertujuan KoKreasi Nilai
-* Studi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan
-* Pembelajaran Kolaboratif
-* Pembelajaran Personal 
-
-Sebuah metafora "Perburuan Harat Karun" dimulai dengan Mahasiswa sebagai pemburu harta karun yang akan dibeli oleh Dosen. Dosen bekerja sama dengan mahasiwa untuk merumuskan harta karun apa yang perlu diberikan oleh Mahasiswa kepada Dosen, dengan imbalan uang, berlian, emas, titanium. 
+Sebuah metafora "Perburuan Harat Karun" dimulai dengan Mahasiswa sebagai pemburu harta karun yang akan dibeli oleh Dosen. Dosen bekerja sama dengan mahasiwa untuk merumuskan harta karun apa yang perlu diberikan oleh Mahasiswa kepada Dosen, dengan imbalan uang, berlian, emas, titanium.
 
 Harta karun ysang dicari berbentuk pengetahuan, bahan ajar, jawaban dari pertanyaan, solusi dari masalah, atau produk yang berguna.
 
-1. Setiap minggu Dosen mengumumkan kebutuhan akan harta karun.
+1.  Setiap minggu Dosen mengumumkan kebutuhan akan harta karun.
 
-2. Dosen dan Mahasiswa bersama-sama merumuskan bentuk harta karun yang diperlukan serta harga yang Dosen bersedia bayar
+2.  Dosen dan Mahasiswa bersama-sama merumuskan bentuk harta karun yang diperlukan serta harga yang Dosen bersedia bayar
 
-3. Mahasiswa berkolaborasi melakukan studi untuk mendapatkan peta pengetahuan di titik mana harta karun itu berada. Hasilnya disimpan di Sistem Peneglolaan Pengetahuan, Knowledge Managemenb System (KMS) 
+3.  Mahasiswa berkolaborasi melakukan studi untuk mendapatkan peta pengetahuan di titik mana harta karun itu berada. Hasilnya disimpan di Sistem Peneglolaan Pengetahuan, Knowledge Managemenb System (KMS)
 
-4. Mahasiswa berkolaborasi membuat rute jalan-jalan dan membentuk kendaraan yang sesuai dengan pilihan jalan terseburt.
+4.  Mahasiswa berkolaborasi membuat rute jalan-jalan dan membentuk kendaraan yang sesuai dengan pilihan jalan terseburt.
 
-5. Mahasiswa secara personal menjalani rute yang dipilih sehingga harta karun itu bisa diambil
+5.  Mahasiswa secara personal menjalani rute yang dipilih sehingga harta karun itu bisa diambil
 
-6. Mahasiswa memasukkan harta karun ke Repositori untuk digunakan dengan imbalan uang, berlian, emas, dan titanium.
+6.  Mahasiswa memasukkan harta karun ke Repositori untuk digunakan dengan imbalan uang, berlian, emas, dan titanium.
 
-7. Di akhir semester kekayaan masing-masing Mahasiswa dihitung untuk mendapatkan nilai akhir.
-
-
+7.  Di akhir semester kekayaan masing-masing Mahasiswa dihitung untuk mendapatkan nilai akhir.
 
 # Konsep Pembelajaran dan Asesmen Inovatif Mata Kuliah Sinyal dan Sistem: The "Sinyal Hunter" Initiative
 
@@ -79,7 +112,7 @@ Untuk menempuh "Rute" dalam Knowledge Map dan mencapai "Titik Akhir", mahasiswa 
 
      **Tingkat Bloom:** **Memahami**, **Menerapkan**, **Menganalisis**, **Menciptakan**.
 
-**Kendaraan Komputasi (Super Kendaraan):** **Python** beserta _library_-nya adalah alat ampuh untuk menerapkan kendaraan matematis dan visualisasi secara efisien.
+**Kendaraan Komputasi (Super Kendaraan):** **Python** beserta *library*-nya adalah alat ampuh untuk menerapkan kendaraan matematis dan visualisasi secara efisien.
 
      **Matplotlib:** Untuk semua jenis visualisasi plot sinyal dan sistem.
 
@@ -89,7 +122,7 @@ Untuk menempuh "Rute" dalam Knowledge Map dan mencapai "Titik Akhir", mahasiswa 
 
      **Tingkat Bloom:** **Menerapkan**, **Menganalisis**, **Menciptakan**.
 
-##  Asesmen Melalui Gamifikasi: "Treasure Hunt"
+## Asesmen Melalui Gamifikasi: "Treasure Hunt"
 
 Asesmen akan diimplementasikan melalui **"Treasure Hunt"** yang interaktif, mendorong mahasiswa untuk menavigasi Knowledge Map dan memecahkan masalah.
 
@@ -113,21 +146,19 @@ Asesmen akan diimplementasikan melalui **"Treasure Hunt"** yang interaktif, me
 
      Total skor dari harta karun ini akan menjadi nilai akhir mahasiswa.
 
-
 **Jenis Reward**
 
-| Topik            | Konsep Dasar           | Jawaban Solusi    | Kendaraan Komputer | Jalan Matematika |
-| ---------------- | ---------------------- | ----------------- | ------------------ | ---------------- |
-| Time Domain      | Uang IDR Rupiah        | Diamond Indonesia | Emas               | Platinum         |
-| Domain Frekuensi | Uang USD Dollar        | Diamond AS        | Emas               | Platinum         |
-| Domain Laplace   | Uang EUR Euro          | Diamond Eropa     | Emas               | Platinum         |
-| Domain Z         | Uang GBP Poundsterling | Diamond Inggris   | Emas               | Platinum         |
-| Sampling         | Uang JPY Yen           | Diamond Jepang    | Emas               | Platinum         |
-
+| Topik | Konsep Dasar | Jawaban Solusi | Kendaraan Komputer | Jalan Matematika |
+|---------------|---------------|---------------|---------------|---------------|
+| Time Domain | Uang IDR Rupiah | Diamond Indonesia | Emas | Platinum |
+| Domain Frekuensi | Uang USD Dollar | Diamond AS | Emas | Platinum |
+| Domain Laplace | Uang EUR Euro | Diamond Eropa | Emas | Platinum |
+| Domain Z | Uang GBP Poundsterling | Diamond Inggris | Emas | Platinum |
+| Sampling | Uang JPY Yen | Diamond Jepang | Emas | Platinum |
 
 **Strategi Pemecahan Soal:** Mahasiswa diajarkan untuk menganalisis soal ujian sebagai "Titik Mulai" dan "Titik Akhir" dalam Knowledge Map, kemudian memilih "Rute" dan "Kendaraan" (matematika/Python/diagram) yang sesuai untuk menemukan "Solusi".
 
-4. Kolaborasi & Personalisasi: Belajar Bersama, Berkembang Sendiri
+4.  Kolaborasi & Personalisasi: Belajar Bersama, Berkembang Sendiri
 
 Konsep ini menyeimbangkan dukungan kelompok dengan akuntabilitas individu.
 
@@ -135,13 +166,13 @@ Konsep ini menyeimbangkan dukungan kelompok dengan akuntabilitas individu.
 
      Mahasiswa dibagi menjadi kelompok-kelompok kecil.
 
-     Setiap kelompok secara kolaboratif membangun **Knowledge Map** _master_ mereka menggunakan Quarto (dengan Mermaid/Graphviz).
+     Setiap kelompok secara kolaboratif membangun **Knowledge Map** *master* mereka menggunakan Quarto (dengan Mermaid/Graphviz).
 
      Ini mendorong diskusi, saling menjelaskan, dan membangun pemahaman bersama.
 
 **Tantangan "Treasure Hunt" (Personalisasi Individual):**
 
-     Sebagian besar tantangan dalam _Treasure Hunt_ diselesaikan secara **mandiri** oleh setiap mahasiswa. Kunci dan poin yang didapat adalah milik pribadi.
+     Sebagian besar tantangan dalam *Treasure Hunt* diselesaikan secara **mandiri** oleh setiap mahasiswa. Kunci dan poin yang didapat adalah milik pribadi.
 
      Mahasiswa menggunakan Peta Pengetahuan kelompok mereka sebagai panduan dan referensi.
 
@@ -155,9 +186,9 @@ Konsep ini menyeimbangkan dukungan kelompok dengan akuntabilitas individu.
 
      **Refleksi Individu:** Setiap mahasiswa menulis jurnal refleksi tentang proses kolaborasi mereka.
 
-5. Pembelajaran Berkelanjutan: Jurnal Harian Hunter & Legacy
+5.  Pembelajaran Berkelanjutan: Jurnal Harian Hunter & Legacy
 
-Untuk memastikan perbaikan kualitas dari tahun ke tahun dan menumbuhkan budaya belajar, konsep ini memperkenalkan mekanisme _legacy_.
+Untuk memastikan perbaikan kualitas dari tahun ke tahun dan menumbuhkan budaya belajar, konsep ini memperkenalkan mekanisme *legacy*.
 
 **Jurnal Harian Hunter:**
 
@@ -183,29 +214,28 @@ Seluruh konsep ini dapat diimplementasikan secara efisien menggunakan GitHub seb
 
 **Struktur Repositori GitHub:**
 
-     Satu repositori utama (Sinyal-Sistem-TE-ITB) dengan sub-folder yang terstruktur rapi untuk materi ajar, Knowledge Map kelompok, tantangan _Treasure Hunt_, solusi mahasiswa, jurnal harian, dan arsip "Legacy" tahun sebelumnya.
+     Satu repositori utama (Sinyal-Sistem-TE-ITB) dengan sub-folder yang terstruktur rapi untuk materi ajar, Knowledge Map kelompok, tantangan *Treasure Hunt*, solusi mahasiswa, jurnal harian, dan arsip "Legacy" tahun sebelumnya.
 
 **Penggunaan Quarto (.qmd):**
 
      Semua dokumen kunci (Knowledge Map, Jurnal Harian, Solusi Harta Karun, bahkan Materi Ajar) akan dibuat dalam format **Quarto (.qmd)**.
 
-     Quarto mendukung penulisan teks Markdown, blok kode Python (dengan _output_ dan plot Matplotlib), diagram Mermaid/Graphviz, dan rumus LaTeX, semuanya dalam satu _file_.
+     Quarto mendukung penulisan teks Markdown, blok kode Python (dengan *output* dan plot Matplotlib), diagram Mermaid/Graphviz, dan rumus LaTeX, semuanya dalam satu *file*.
 
-     _File_ .qmd ini dapat dirender menjadi HTML (untuk _web_ interaktif di GitHub Pages), PDF, atau format lain.
+     *File* .qmd ini dapat dirender menjadi HTML (untuk *web* interaktif di GitHub Pages), PDF, atau format lain.
 
 **Alur Kerja GitHub untuk Mahasiswa:**
 
-     **Fork -> Clone -> Branch -> Edit .qmd -> Commit -> Push -> Pull Request.**
+     **Fork -\> Clone -\> Branch -\> Edit .qmd -\> Commit -\> Push -\> Pull Request.**
 
-     Ini mengajarkan mahasiswa _version control_ dan kolaborasi standar industri.
+     Ini mengajarkan mahasiswa *version control* dan kolaborasi standar industri.
 
 **GitHub Pages & GitHub Actions:**
 
-     Gunakan **GitHub Actions** untuk secara otomatis merender _file_ .qmd menjadi HTML setiap kali ada perubahan dan menerbitkannya ke **GitHub Pages**, menciptakan situs web dinamis dari seluruh ekosistem belajar.
+     Gunakan **GitHub Actions** untuk secara otomatis merender *file* .qmd menjadi HTML setiap kali ada perubahan dan menerbitkannya ke **GitHub Pages**, menciptakan situs web dinamis dari seluruh ekosistem belajar.
 
-     GitHub Actions juga bisa digunakan untuk _auto-grading_ beberapa tantangan atau mengelola _leaderboard_.
+     GitHub Actions juga bisa digunakan untuk *auto-grading* beberapa tantangan atau mengelola *leaderboard*.
 
 Konsep "The Sinyal Hunter Initiative" ini akan mengubah mata kuliah Sinyal dan Sistem menjadi pengalaman belajar yang aktif, kolaboratif, reflektif, dan berkelanjutan, membekali mahasiswa dengan pemahaman mendalam serta keterampilan praktis yang sangat berharga di dunia Teknik Elektro. Selamat mengimplementasikannya!
 
 ## Daftar Harga
-

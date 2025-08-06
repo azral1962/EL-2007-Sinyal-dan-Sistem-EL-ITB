@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "EL 2007 Sinyal dan Sistem",
     "section": "",
-    "text": "Pengantar\nDari diskusi kita yang mendalam, kita telah membangun sebuah konsep pembelajaran dan asesmen yang utuh dan sangat inovatif untuk mata kuliah Sinyal dan Sistem. Konsep ini memadukan kekuatan visualisasi, gamifikasi, kolaborasi, personalisasi, dan pembelajaran berkelanjutan dengan memanfaatkan alat modern seperti GitHub dan Quarto.\nBerikut adalah laporan lengkap dari konsep yang telah kita bahas, siap Anda implementasikan:\nPembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan * Pembelajaran berberorientasi Nilai * Pembelajaran bertujuan KoKreasi Nilai * Studi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan * Pembelajaran Kolaboratif * Pembelajaran Personal\nSebuah metafora “Perburuan Harat Karun” dimulai dengan Mahasiswa sebagai pemburu harta karun yang akan dibeli oleh Dosen. Dosen bekerja sama dengan mahasiwa untuk merumuskan harta karun apa yang perlu diberikan oleh Mahasiswa kepada Dosen, dengan imbalan uang, berlian, emas, titanium.\nHarta karun ysang dicari berbentuk pengetahuan, bahan ajar, jawaban dari pertanyaan, solusi dari masalah, atau produk yang berguna.",
+    "text": "Pengantar\nTopik Sinyal dan Sistem mengajarkan pada calon rekayasawan sebuah framework dan platform yang telah terbukti menghasilkan karya-karya (aretfak) fenomenal yang menjadi pembangun peradaban. Kemajuan teknologi yang kita bisa nikmati hari ini adalah contoh nyata penerapan Sinyal dan Sistem.\nTetapi tidak bisa disangkal selain kita membutuhkan artefak, kita juga membutuhkan cara (metodologi) rekayasa, membutuhkan karakter atau sosok seorang rekaysawan. Pendidikan teknik pada umumnya, dan bidang teknik elektro khususnya, tidak saja mengajarkan fenomena alam yang mendasari maaha karya, tapi terutama membangunkan sosok rekayasan di dalam dirinya.",
     "crumbs": [
       "Pengantar"
     ]
@@ -157,6 +157,46 @@
     "text": "4.6 Langkah 6 (Opsional, Sangat Direkomendasikan): Otomatisasi dengan GitHub Actions\nUntuk meningkatkan efisiensi, manfaatkan GitHub Actions.1\n\nRender Quarto ke Situs Web: Buat sebuah workflow GitHub Actions yang secara otomatis merender semua file .qmd (terutama materi ajar dan jurnal mahasiswa yang sudah di-merge) menjadi halaman HTML dan menerbitkannya menggunakan GitHub Pages. Ini akan menciptakan sebuah situs web dinamis untuk mata kuliah tersebut.\nPemeriksaan Otomatis: Untuk tantangan level “Uang” atau “Berlian” yang melibatkan kode, Anda bisa membuat workflow yang menjalankan tes otomatis pada kode yang disubmit dalam PR untuk memeriksa fungsionalitas dasar.\n\nDengan mengikuti langkah-langkah ini, Anda akan berhasil membangun sebuah ekosistem pembelajaran yang modern, interaktif, dan mempersiapkan mahasiswa dengan keterampilan teknis yang relevan dengan industri.\n**",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Panduan Penyiapan Repositori GitHub</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#pembelajran",
+    "href": "index.html#pembelajran",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Pembelajran",
+    "text": "Pembelajran\nUntuk ite Pembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan rekayasawana sebagai berikut:\n\nPembelajaran berberorientasi Nilai (values). Nilai-nilai yang dijunjung tinggi oleh sdeorang rejaysadwasn termasuk etik, kejujuran, keselamatan, disiplin, ilmiah, dan kemanusiaan\nPembelajaran bertujuan KoKreasi Nilai, yang berarti rekayasawn bersaama pengguna menciptakan nilai guna (ekonimis, sosuial, budayaa, dan lingkungan) yang berkelanjutan\nStudi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan. Seorang rekaysawan membangun artefak sebagai karyanyaa. Dalam kuliah ini artefak yang dimaksud adalha artefak pengetahuan Body of Knowlewgde yang sudah di olah menjadi peta pengetahuan beserta kenadraan untuk menjslaninya.\nPembelajaran Kolaboratif. Rekayasawan bersinegri secara koleglitsa dengn sesamsa nay sehingga menjadi komaunitas yang profesional dan respekted\nPembelajaran Personal. Setiap rekayaswn memiliki kontrwibusi orisinal dan otentik.",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#era-kecerdasan-buatan",
+    "href": "index.html#era-kecerdasan-buatan",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Era Kecerdasan Buatan",
+    "text": "Era Kecerdasan Buatan\nKecerdasan Buatan (AI) mengubah, mendisrupsi, berbagai aspek dari rekayasa serta pembelajaran. Kuliah ini mengadopsi penggunaan AI secara maksimal untuk mencapai tujuan pembelajaran, yaitu mengembangkan sosok rekayasawan. AI tidak mengganti rekayasawan, melainkanmemberdayaksan dan memperkuat kapasitas rekayasawan untuk menghasilkan karya yang otentik.\nKulaih ini mendorong perserta untuk memanfatkan berbagai layanan digital dan AI untuk proses belajar. Secara khusus alat bantu belajar yang direkomendasikan adalah\n\nnotebooklm dari Google\ngoogle drive dari Google\nVisual Studio Code dari Microsoft\nquarto dari Posit, besert tinytex dan chromium\npython (beserta numpy, matplotlib, sympy, scipy) dari\nmermaid dan graphvis",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#tujuan-pembalajaran",
+    "href": "index.html#tujuan-pembalajaran",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Tujuan Pembalajaran",
+    "text": "Tujuan Pembalajaran\nSetelah menyelesaikan kuliah ini oeserta 1. mampu menguasai materi sinyal dan sistem yang diperlihatkan melalui kemampuan untuk menghasilkan bukti tertulis jawaban yang benar atas pertanyaan verifikatif. 2. Mampu menerapkan penguasaan materi ini untuk menghasilkan solusi yang berguna bagi stakeholders, baik solusi khusus, maupun solusi umum, yaitu sistem pengelolaan pengetahuan mamou bekerjasama dan berkontribusi dalam membangun karaya rejkayasa sinyal dan sistem",
+    "crumbs": [
+      "Pengantar"
+    ]
+  },
+  {
+    "objectID": "index.html#gamifikasi",
+    "href": "index.html#gamifikasi",
+    "title": "EL 2007 Sinyal dan Sistem",
+    "section": "Gamifikasi",
+    "text": "Gamifikasi\nKita telah membangun sebuah konsep pembelajaran dan asesmen yang utuh dan sangat inovatif untuk mata kuliah Sinyal dan Sistem. Konsep ini memadukan kekuatan visualisasi, gamifikasi, kolaborasi, personalisasi, dan pembelajaran berkelanjutan dengan memanfaatkan alat modern seperti GitHub dan Quarto.\nBerikut adalah laporan lengkap dari konsep yang telah kita bahas, siap Anda implementasikan:\nSebuah metafora “Perburuan Harat Karun” dimulai dengan Mahasiswa sebagai pemburu harta karun yang akan dibeli oleh Dosen. Dosen bekerja sama dengan mahasiwa untuk merumuskan harta karun apa yang perlu diberikan oleh Mahasiswa kepada Dosen, dengan imbalan uang, berlian, emas, titanium.\nHarta karun ysang dicari berbentuk pengetahuan, bahan ajar, jawaban dari pertanyaan, solusi dari masalah, atau produk yang berguna.\n\nSetiap minggu Dosen mengumumkan kebutuhan akan harta karun.\nDosen dan Mahasiswa bersama-sama merumuskan bentuk harta karun yang diperlukan serta harga yang Dosen bersedia bayar\nMahasiswa berkolaborasi melakukan studi untuk mendapatkan peta pengetahuan di titik mana harta karun itu berada. Hasilnya disimpan di Sistem Peneglolaan Pengetahuan, Knowledge Managemenb System (KMS)\nMahasiswa berkolaborasi membuat rute jalan-jalan dan membentuk kendaraan yang sesuai dengan pilihan jalan terseburt.\nMahasiswa secara personal menjalani rute yang dipilih sehingga harta karun itu bisa diambil\nMahasiswa memasukkan harta karun ke Repositori untuk digunakan dengan imbalan uang, berlian, emas, dan titanium.\nDi akhir semester kekayaan masing-masing Mahasiswa dihitung untuk mendapatkan nilai akhir.",
+    "crumbs": [
+      "Pengantar"
     ]
   }
 ]
