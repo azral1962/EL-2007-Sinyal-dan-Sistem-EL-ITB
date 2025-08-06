@@ -1,0 +1,8 @@
+---
+title: "Transformasi Fungsi"
+subtitle: "Treasure 3/I/2025"
+author: "Armein Z. R. Langi, [131902360]"
+---
+
+# Masalah
+Diketahui fungsi $f(t)$ dan $f[n]$ mengalami transformasi menjadi

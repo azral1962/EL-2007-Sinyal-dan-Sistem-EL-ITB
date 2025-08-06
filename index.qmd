@@ -6,22 +6,17 @@ Tetapi tidak bisa disangkal selain kita membutuhkan artefak, kita juga membutuhk
 
 ## Pembelajran
 
-Untuk ite Pembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan rekayasawana sebagai berikut: 
+Untuk ite Pembelajaran EL 2007 Sinyal dan Sistem mernggunakan pendekatan rekayasawana sebagai berikut:
 
-*   Pembelajaran berberorientasi Nilai (values). 
-    Nilai-nilai yang dijunjung tinggi oleh sdeorang rejaysadwasn termasuk etik, kejujuran, keselamatan, disiplin, ilmiah, dan kemanusiaan
+-   Pembelajaran berberorientasi Nilai (values). Nilai-nilai yang dijunjung tinggi oleh sdeorang rejaysadwasn termasuk etik, kejujuran, keselamatan, disiplin, ilmiah, dan kemanusiaan
 
-*   Pembelajaran bertujuan KoKreasi Nilai, 
-    yang berarti rekayasawn bersaama pengguna menciptakan nilai guna (ekonimis, sosuial, budayaa, dan lingkungan) yang berkelanjutan
-    
-*   Studi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan.
-    Seorang rekaysawan membangun artefak sebagai karyanyaa. Dalam kuliah ini artefak yang dimaksud adalha artefak pengetahuan Body of Knowlewgde yang sudah di olah menjadi peta pengetahuan beserta kenadraan untuk menjslaninya.
-    
-*   Pembelajaran Kolaboratif.
-    Rekayasawan bersinegri secara koleglitsa dengn sesamsa nay sehingga menjadi komaunitas yang profesional dan respekted
-    
-*   Pembelajaran Personal. 
-    Setiap rekayaswn memiliki kontrwibusi orisinal dan otentik.
+-   Pembelajaran bertujuan KoKreasi Nilai, yang berarti rekayasawn bersaama pengguna menciptakan nilai guna (ekonimis, sosuial, budayaa, dan lingkungan) yang berkelanjutan
+
+-   Studi, Pengembangan dan Penerapan Sistem Manajemen Pengetahuan. Seorang rekaysawan membangun artefak sebagai karyanyaa. Dalam kuliah ini artefak yang dimaksud adalha artefak pengetahuan Body of Knowlewgde yang sudah di olah menjadi peta pengetahuan beserta kenadraan untuk menjslaninya.
+
+-   Pembelajaran Kolaboratif. Rekayasawan bersinegri secara koleglitsa dengn sesamsa nay sehingga menjadi komaunitas yang profesional dan respekted
+
+-   Pembelajaran Personal. Setiap rekayaswn memiliki kontrwibusi orisinal dan otentik.
 
 ## Era Kecerdasan Buatan
 
@@ -29,18 +24,16 @@ Kecerdasan Buatan (AI) mengubah, mendisrupsi, berbagai aspek dari rekayasa serta
 
 Kulaih ini mendorong perserta untuk memanfatkan berbagai layanan digital dan AI untuk proses belajar. Secara khusus alat bantu belajar yang direkomendasikan adalah
 
-* notebooklm dari Google
-* google drive dari Google
-* Visual Studio Code dari Microsoft
-* quarto dari Posit, besert tinytex dan chromium
-* python (beserta numpy, matplotlib, sympy, scipy) dari
-* mermaid dan graphvis
+-   notebooklm dari Google
+-   google drive dari Google
+-   Visual Studio Code dari Microsoft
+-   quarto dari Posit, besert tinytex dan chromium
+-   python (beserta numpy, matplotlib, sympy, scipy) dari
+-   mermaid dan graphvis
 
 ## Tujuan Pembalajaran
 
-Setelah menyelesaikan kuliah ini oeserta 
-1. mampu menguasai materi sinyal dan sistem yang diperlihatkan melalui kemampuan untuk menghasilkan bukti tertulis jawaban yang benar atas pertanyaan verifikatif. 
-2. Mampu menerapkan penguasaan materi ini untuk menghasilkan solusi yang berguna bagi stakeholders, baik solusi khusus, maupun solusi umum, yaitu sistem pengelolaan pengetahuan mamou bekerjasama dan berkontribusi dalam membangun karaya rejkayasa sinyal dan sistem
+Setelah menyelesaikan kuliah ini oeserta 1. mampu menguasai materi sinyal dan sistem yang diperlihatkan melalui kemampuan untuk menghasilkan bukti tertulis jawaban yang benar atas pertanyaan verifikatif. 2. Mampu menerapkan penguasaan materi ini untuk menghasilkan solusi yang berguna bagi stakeholders, baik solusi khusus, maupun solusi umum, yaitu sistem pengelolaan pengetahuan mamou bekerjasama dan berkontribusi dalam membangun karaya rejkayasa sinyal dan sistem
 
 ## Gamifikasi
 
@@ -84,9 +77,9 @@ Konsep ini dirancang untuk mengubah mata kuliah Sinyal dan Sistem dari pengalama
 
 **Tujuan:**
 
-     Membantu mahasiswa melihat gambaran besar dan interkoneksi antar topik.
+-   Membantu mahasiswa melihat gambaran besar dan interkoneksi antar topik.
 
-     Menjadi alat navigasi saat memecahkan masalah: mengidentifikasi **Titik Mulai** (apa yang diketahui dari soal) dan **Titik Akhir** (apa yang ditanyakan/solusi yang dicari).
+-   Menjadi alat navigasi saat memecahkan masalah: mengidentifikasi **Titik Mulai** (apa yang diketahui dari soal) dan **Titik Akhir** (apa yang ditanyakan/solusi yang dicari).
 
 ## Kendaraan Belajar: Matematika dan Alat Komputasi
 
@@ -94,33 +87,33 @@ Untuk menempuh "Rute" dalam Knowledge Map dan mencapai "Titik Akhir", mahasiswa 
 
 **Kendaraan Matematika (Fundamental):** Ini adalah bahasa dasar Sinyal dan Sistem, diperlukan untuk hampir setiap rute.
 
-     **Aljabar, Kalkulus (Diferensial/Integral):** Untuk manipulasi persamaan, solusi, dan definisi dasar.
+-   **Aljabar, Kalkulus (Diferensial/Integral):** Untuk manipulasi persamaan, solusi, dan definisi dasar.
 
-     **Geometri:** Untuk memahami representasi dan transformasi sinyal.
+-   **Geometri:** Untuk memahami representasi dan transformasi sinyal.
 
-     **Bilangan Kompleks & Variabel Kompleks:** Sangat krusial untuk Transformasi Fourier, Laplace, Z, analisis pole-zero, dan respons frekuensi.
+-   **Bilangan Kompleks & Variabel Kompleks:** Sangat krusial untuk Transformasi Fourier, Laplace, Z, analisis pole-zero, dan respons frekuensi.
 
-     **Tingkat Bloom:** Terutama **Menerapkan** dan **Menganalisis**.
+-   **Tingkat Bloom:** Terutama **Menerapkan** dan **Menganalisis**.
 
 **Kendaraan Diagram & Visualisasi:** Ini adalah cara untuk merepresentasikan sistem dan sinyal secara visual.
 
-     **Signal Flow Graph (SFG):** Untuk merepresentasikan fungsi fungsional sistem dan mendapatkan fungsi transfer menggunakan Mason's Gain Formula.
+-   **Signal Flow Graph (SFG):** Untuk merepresentasikan fungsi fungsional sistem dan mendapatkan fungsi transfer menggunakan Mason's Gain Formula.
 
-     **Diagram Blok:** Untuk merepresentasikan sistem menggunakan elemen dasar (pengali, penjumlah, integrator, diferensiator, elemen tunda, sampler, kuantizer, dll.). Ideal untuk realisasi dan memahami aliran sinyal.
+-   **Diagram Blok:** Untuk merepresentasikan sistem menggunakan elemen dasar (pengali, penjumlah, integrator, diferensiator, elemen tunda, sampler, kuantizer, dll.). Ideal untuk realisasi dan memahami aliran sinyal.
 
-     **Plot Sinyal (Domain Waktu, Frekuensi, Kompleks):** Visualisasi hasil analisis atau karakteristik sistem (misalnya, plot sinyal x(t), spektrum ∣X(jω)∣, plot pole-zero, Bode Plot). Ini seringkali menjadi "Titik Akhir" visual dari analisis.
+-   **Plot Sinyal (Domain Waktu, Frekuensi, Kompleks):** Visualisasi hasil analisis atau karakteristik sistem (misalnya, plot sinyal x(t), spektrum ∣X(jω)∣, plot pole-zero, Bode Plot). Ini seringkali menjadi "Titik Akhir" visual dari analisis.
 
-     **Tingkat Bloom:** **Memahami**, **Menerapkan**, **Menganalisis**, **Menciptakan**.
+-   **Tingkat Bloom:** **Memahami**, **Menerapkan**, **Menganalisis**, **Menciptakan**.
 
 **Kendaraan Komputasi (Super Kendaraan):** **Python** beserta *library*-nya adalah alat ampuh untuk menerapkan kendaraan matematis dan visualisasi secara efisien.
 
-     **Matplotlib:** Untuk semua jenis visualisasi plot sinyal dan sistem.
+-   **Matplotlib:** Untuk semua jenis visualisasi plot sinyal dan sistem.
 
-     **SciPy:** Untuk komputasi numerik sinyal dan sistem (konvolusi, respons, desain filter).
+-   **SciPy:** Untuk komputasi numerik sinyal dan sistem (konvolusi, respons, desain filter).
 
-     **SymPy:** Untuk matematika simbolik (manipulasi aljabar, transformasi simbolik, pencarian akar).
+-   **SymPy:** Untuk matematika simbolik (manipulasi aljabar, transformasi simbolik, pencarian akar).
 
-     **Tingkat Bloom:** **Menerapkan**, **Menganalisis**, **Menciptakan**.
+-   **Tingkat Bloom:** **Menerapkan**, **Menganalisis**, **Menciptakan**.
 
 ## Asesmen Melalui Gamifikasi: "Treasure Hunt"
 
@@ -130,31 +123,44 @@ Asesmen akan diimplementasikan melalui **"Treasure Hunt"** yang interaktif, me
 
 **Mekanisme Harta Karun:**
 
-     Setiap **Titik (Node)** dalam Knowledge Map bisa menjadi lokasi "harta karun" atau "tantangan".
+-   Setiap **Titik (Node)** dalam Knowledge Map bisa menjadi lokasi "harta karun" atau "tantangan".
 
-     **Tantangan** adalah soal-soal asesmen yang harus diselesaikan.
+-   **Tantangan** adalah soal-soal asesmen yang harus diselesaikan.
 
-     Setiap tantangan yang berhasil diselesaikan akan memberikan "kunci" yang membuka "locker" berisi berbagai jenis "harta karun" dengan bobot poin berbeda:
+-    Setiap tantangan yang berhasil diselesaikan akan memberikan "kunci" yang membuka "locker" berisi berbagai jenis "harta karun" dengan bobot poin berbeda:
 
-         **Emas (Poin Rendah):** Pertanyaan **Mengingat** dan **Memahami** (definisi, identifikasi konsep).
+    -   **Uang (Poin Rendah):** Pertanyaan **Mengingat** dan **Memahami** (definisi, identifikasi konsep).
 
-         **Platinum (Poin Sedang):** Pertanyaan **Menerapkan** dan **Menganalisis** (perhitungan, interpretasi).
+    -   **Berlian (Poin Sedang):** Pertanyaan **Menerapkan** dan **Menganalisis** (perhitungan, interpretasi).
 
-         **Uang (Poin Tinggi):** Tugas **Menciptakan** (desain, realisasi kode Python).
+    -   **Emas (Poin Tinggi):** Tugas **Menciptakan** (desain, realisasi kode Python).
 
-         **Berlian (Poin Sangat Tinggi):** Tugas **Mengevaluasi** dan **Menganalisis Tingkat Lanjut** (diagnosis masalah, optimasi desain).
+    -   **Platinum (Poin Sangat Tinggi):** Tugas **Mengevaluasi** dan **Menganalisis Tingkat Lanjut** (diagnosis masalah, optimasi desain).
 
-     Total skor dari harta karun ini akan menjadi nilai akhir mahasiswa.
+Total skor dari harta karun ini akan menjadi nilai akhir mahasiswa. Kurs
 
-**Jenis Reward**
+| Aset          | Satuan | Harga Rupiah |
+|---------------|--------|--------------|
+| Uang          | 1 USD  | 16,300       |
+| Uang          | 1 GBP  | 21,700       |
+| Uang          | 1 EUR  | 19.000       |
+| Uang          | 1 JPY  | 111          |
+| Emas 24 karat | 1 gram | 1,810,000    |
+|               |        |              |
+|               |        |              |
+|               |        |              |
 
-| Topik | Konsep Dasar | Jawaban Solusi | Kendaraan Komputer | Jalan Matematika |
+: Harga dalam Rupiah
+
+**Detail Jenis Reward**
+
+| Topik            | Konsep Dasar           | Jawaban Solusi    | Kendaraan Komputer | Jalan Matematika |
 |---------------|---------------|---------------|---------------|---------------|
-| Time Domain | Uang IDR Rupiah | Diamond Indonesia | Emas | Platinum |
-| Domain Frekuensi | Uang USD Dollar | Diamond AS | Emas | Platinum |
-| Domain Laplace | Uang EUR Euro | Diamond Eropa | Emas | Platinum |
-| Domain Z | Uang GBP Poundsterling | Diamond Inggris | Emas | Platinum |
-| Sampling | Uang JPY Yen | Diamond Jepang | Emas | Platinum |
+| Time Domain      | Uang IDR Rupiah        | Diamond Indonesia | Emas               | Platinum         |
+| Domain Frekuensi | Uang USD Dollar        | Diamond AS        | Emas               | Platinum         |
+| Domain Laplace   | Uang EUR Euro          | Diamond Eropa     | Emas               | Platinum         |
+| Domain Z         | Uang GBP Poundsterling | Diamond Inggris   | Emas               | Platinum         |
+| Sampling         | Uang JPY Yen           | Diamond Jepang    | Emas               | Platinum         |
 
 **Strategi Pemecahan Soal:** Mahasiswa diajarkan untuk menganalisis soal ujian sebagai "Titik Mulai" dan "Titik Akhir" dalam Knowledge Map, kemudian memilih "Rute" dan "Kendaraan" (matematika/Python/diagram) yang sesuai untuk menemukan "Solusi".
 

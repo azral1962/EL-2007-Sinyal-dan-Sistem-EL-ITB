@@ -1,4 +1,373 @@
 # Journal Minggu Pertama
 
-3 Agustus 2025
-Mencoba berbagai kombinasi tayangan tugas
+
+Soal:
+Jelaskan apa yang terjadi dengan transformasi dari fungsi real $f(t)$ menjadi $Af(b(t-T))$, serta dari $f[n]$  menjadi $Af(b(n-N))$, di mana $A$, $b$, dan $T$ adalah real dan $n$, $N$ integer.
+
+Saya menyiapkan Notebook LLM, dan mencari sumber buku teks Sinyal Sistem, lalu Prompt ke Notebook LLM soal tersebut secara utuh. Hasilnya
+
+
+Transformasi dari fungsi real, baik itu sinyal waktu-kontinu $f(t)$ menjadi $Af(b(t-T))$ maupun barisan waktu-diskrit $f[n]$ menjadi $Af(b(n-N))$, melibatkan tiga jenis operasi dasar pada sinyal: **penskalaan amplitudo**, **pergeseran waktu**, dan **penskalaan waktu**. Berikut adalah penjelasan detail untuk setiap domain:
+
+### Transformasi Fungsi Waktu-Kontinu: $f(t)$ menjadi $Af(b(t-T))$
+
+1.  **Penskalaan Amplitudo ($A$)**:
+    *   Ini memengaruhi **variabel dependen (amplitudo)** sinyal.
+    *   Jika **$|A| > 1$**, amplitudo sinyal akan **diperbesar** (amplified).
+    *   Jika **$0 < |A| < 1$**, amplitudo sinyal akan **diperkecil** (attenuated).
+    *   Jika **$A < 0$**, selain penskalaan, akan terjadi pula **pembalikan (refleksi) sinyal terhadap sumbu horizontal**.
+
+2.  **Pergeseran Waktu ($T$)**:
+    *   Variabel $(t-T)$ menunjukkan pergeseran pada **sumbu waktu**.
+    *   Jika **$T > 0$**, sinyal akan **tertunda (delayed)** atau bergeser ke kanan pada sumbu waktu.
+    *   Jika **$T < 0$**, sinyal akan **maju (advanced)** atau bergeser ke kiri pada sumbu waktu.
+
+3.  **Penskalaan Waktu ($b$)**:
+    *   Variabel $b(t-T)$ menunjukkan penskalaan pada **sumbu waktu**.
+    *   Jika **$|b| > 1$**, sinyal akan **terkompresi** (compressed) di sepanjang sumbu waktu.
+    *   Jika **$0 < |b| < 1$**, sinyal akan **terekspansi (stretched)** atau memanjang di sepanjang sumbu waktu.
+    *   Jika **$b < 0$**, sinyal akan **terbalik dalam waktu (time-reversed)** atau terefleksi terhadap titik asal (origin).
+
+4.  **Urutan Operasi untuk Penskalaan dan Pergeseran Waktu (untuk $b(t-T)$)**:
+    *   Urutan penerapan pergeseran waktu dan penskalaan waktu **penting** karena keduanya tidak komutatif (hasilnya berbeda jika urutan dibalik).
+    *   Ada dua interpretasi yang ekuivalen untuk transformasi gabungan $y(t) = x(at-b)$:
+        *   Pertama, lakukan **pergeseran waktu** $x(t)$ sebesar $b$, kemudian lakukan **penskalaan waktu** hasilnya sebesar $a$.
+        *   Kedua, lakukan **penskalaan waktu** $x(t)$ sebesar $a$, kemudian lakukan **pergeseran waktu** hasilnya sebesar $b/a$.
+
+### Transformasi Barisan Waktu-Diskrit: $f[n]$ menjadi $Af(b(n-N))$
+
+1.  **Penskalaan Amplitudo ($A$)**:
+    *   Sama seperti pada sinyal waktu-kontinu, ini memengaruhi **amplitudo** barisan.
+
+2.  **Pergeseran Waktu ($N$)**:
+    *   Variabel $(n-N)$ menunjukkan pergeseran pada **indeks waktu diskrit**.
+    *   Jika **$N > 0$**, barisan akan **tertunda (delayed)** atau bergeser ke kanan.
+    *   Jika **$N < 0$**, barisan akan **maju (advanced)** atau bergeser ke kiri.
+
+3.  **Penskalaan Waktu ($b$)**:
+    *   Penskalaan waktu untuk barisan waktu-diskrit berbeda dengan sinyal waktu-kontinu.
+    *   Jika $b$ **bukan integer**, $f[bn]$ mungkin tidak membentuk barisan yang kontinu.
+    *   Jika $b$ adalah **integer positif** (misalnya $b=m>1$), ini sering disebut sebagai **ekspansi waktu (time expansion)** atau *upsampling*. Ini berarti **$m-1$ nilai nol disisipkan** di antara setiap sampel berturut-turut dari barisan asli. Hal ini menyebabkan **transformasi Fourier barisan tersebut terkompresi**.
+    *   Jika **$b < 0$**, barisan akan **terbalik dalam waktu (time-reversed)**.
+
+4.  **Urutan Operasi untuk Penskalaan dan Pergeseran Waktu (untuk $b(n-N)$)**:
+    *   Sama seperti pada domain waktu-kontinu, urutan operasi ini **tidak komutatif**.
+    *   Transformasi $y(n) = x(an-b)$ ekuivalen dengan:
+        *   Pertama, lakukan **pergeseran waktu** $x(n)$ sebesar $b$.
+        *   Kemudian, lakukan ***downsampling*** hasilnya sebesar $|a|$ dan, jika $a < 0$, juga lakukan **pembalikan waktu**.
+    *   Jika $b/a$ adalah integer, transformasinya juga ekuivalen dengan:
+        *   Pertama, lakukan **downsampling** $x(n)$ sebesar $|a|$ dan, jika $a < 0$, juga lakukan **pembalikan waktu**.
+        *   Kemudian, lakukan **pergeseran waktu** hasilnya sebesar $b/a$.
+
+
+Prompt berikutnya:
+Tadi sudha dijelaskan sebuah transformasi dari fungsi real $f(t)$ menjadi $Af(b(t-T))$, serta dari $f[n]$  menjadi $Af(b(n-N))$, di mana $A$, $b$, dan $T$ adalah real dan $n$, $N$ integer. bagaimana knowledge map dari transformasi ini?
+
+Konsep **Peta Pengetahuan (Knowledge Map)** adalah fondasi utama dari inisiatif "The Sinyal Hunter Initiative", dirancang sebagai representasi visual dinamis dari seluruh materi mata kuliah Sinyal dan Sistem. Peta ini berfungsi sebagai tulang punggung konseptual dan alat navigasi utama bagi mahasiswa untuk memahami interkonektivitas antar konsep, membantu mahasiswa melihat gambaran besar dan interkoneksi antar topik. Elemen-elemen dalam peta didefinisikan sebagai **Titik (Nodes)** yang merepresentasikan konsep-konsep kunci, dan **Rute (Edges)** yang menggambarkan hubungan logis atau matematis di antara konsep-konsep tersebut. Setiap titik atau rute dapat diperkaya dengan detail seperti rumus kunci, grafik representatif, kondisi batas, atau contoh spesifik.
+
+Untuk transformasi yang Anda jelaskan, dari fungsi real $f(t)$ menjadi $Af(b(t-T))$ dan dari $f[n]$ menjadi $Af(b(n-N))$, knowledge map-nya akan menyoroti bagaimana sinyal asli mengalami serangkaian transformasi dan parameter yang memengaruhinya.
+
+Berikut adalah gambaran knowledge map dari transformasi ini:
+
+*   **Titik (Nodes) Utama:**
+    *   **Sinyal Waktu-Kontinu ($f(t)$)**: Merepresentasikan sinyal yang didefinisikan pada setiap titik waktu kontinu.
+    *   **Sinyal Waktu-Diskrit ($f[n]$)**: Merepresentasikan sinyal yang didefinisikan pada interval waktu diskrit atau nilai integer.
+    *   **Transformasi Variabel Independen (Waktu)**: Perubahan yang terjadi pada sumbu waktu sinyal.
+        *   **Pergeseran Waktu (Time Shifting)**: Menggeser sinyal ke kiri atau ke kanan tanpa mengubah bentuknya.
+            *   Ditunjukkan oleh parameter **$T$** (untuk waktu-kontinu) atau **$N$** (untuk waktu-diskrit).
+            *   Jika $T > 0$ atau $N > 0$, sinyal bergeser ke kanan (tertunda); jika $T < 0$ atau $N < 0$, sinyal bergeser ke kiri (maju).
+        *   **Penskalaan Waktu (Time Scaling)**: Memampatkan atau meregangkan sinyal.
+            *   Ditunjukkan oleh parameter **$b$**.
+            *   Jika $|b| > 1$, sinyal **terkompresi** (menyempit) di sepanjang sumbu waktu; jika $|b| < 1$, sinyal **terekspansi** (melebar).
+            *   Jika $b$ negatif ($b < 0$), ini juga menyertakan **Pembalikan Waktu (Time Reversal)** atau **Refleksi** di sekitar sumbu vertikal.
+    *   **Transformasi Variabel Dependen (Amplitudo)**: Perubahan yang terjadi pada nilai sinyal.
+        *   **Penskalaan Amplitudo (Amplitude Scaling)**: Mengubah besaran sinyal secara vertikal.
+            *   Ditunjukkan oleh parameter **$A$**.
+            *   Jika $|A| > 1$, sinyal **diperkuat**; jika $|A| < 1$, sinyal **dilemahkan**.
+            *   Jika $A$ negatif, sinyal **dibalik** secara vertikal (refleksi di sekitar sumbu horizontal).
+    *   **Sinyal yang Ditransformasi** ($Af(b(t-T))$ atau $Af(b(n-N))$): Hasil akhir dari semua transformasi yang diterapkan.
+
+*   **Rute (Edges) dan Hubungan:**
+    *   Sinyal Waktu-Kontinu ($f(t)$) **"mengalami"** Transformasi Variabel Independen dan Transformasi Variabel Dependen.
+    *   Sinyal Waktu-Diskrit ($f[n]$) **"mengalami"** Transformasi Variabel Independen dan Transformasi Variabel Dependen.
+    *   Transformasi Variabel Independen **"terdiri dari"** Pergeseran Waktu dan Penskalaan Waktu (yang juga mencakup Pembalikan Waktu).
+    *   Transformasi Variabel Dependen **"terdiri dari"** Penskalaan Amplitudo.
+    *   Pergeseran Waktu **"memiliki parameter"** $T$ atau $N$.
+    *   Penskalaan Waktu **"memiliki parameter"** $b$.
+    *   Penskalaan Amplitudo **"memiliki parameter"** $A$.
+    *   Semua transformasi ini **"berkontribusi membentuk"** Sinyal yang Ditransformasi.
+
+*   **Atribut (Detail Penting) pada Rute/Nodes:**
+    *   **Urutan Transformasi Waktu:** Penting untuk dicatat bahwa urutan penerapan transformasi waktu (pergeseran dan penskalaan/pembalikan) memengaruhi hasil akhir. Dua interpretasi yang setara untuk $x(at-b)$ atau $x(a(t-T))$:
+        1.  **Pergeseran Waktu diikuti Penskalaan Waktu:** Pertama, geser sinyal $x$ sebesar $b$ (menjadi $x(t-b)$), lalu lakukan penskalaan waktu hasilnya sebesar $a$ (menjadi $x(a(t-b))$).
+        2.  **Penskalaan Waktu diikuti Pergeseran Waktu:** Pertama, lakukan penskalaan waktu sinyal $x$ sebesar $a$ (menjadi $x(at)$), lalu geser hasilnya sebesar $b/a$ (menjadi $x(a(t-b/a))$). Perhatikan bahwa $f(b(t-T))$ adalah $f(bt-bT)$, jadi $bT$ adalah pergeseran efektif setelah penskalaan.
+    *   **Contoh Visualisasi:** Setiap node transformasi dapat memiliki contoh visualisasi bagaimana sinyal dasar (misalnya, pulsa persegi atau impuls) berubah setelah transformasi.
+
+Dengan memvisualisasikan hubungan ini, mahasiswa dapat melihat bagaimana perubahan pada parameter $A$, $b$, $T$, dan $N$ secara individual maupun kombinasi memengaruhi sinyal asli, serta memahami proses langkah demi langkah untuk mendapatkan sinyal yang ditransformasi.
+
+Saya kemudiann melakukan prompt 
+
+  buat kode python yang memanfaatkan library yang ada untuk menggambarkan transformasi ini secara visual
+
+Untuk menggambarkan transformasi sinyal $Af(b(t-T))$ dan $Af(b(n-N))$ secara visual menggunakan Python, kita akan memanfaatkan library NumPy untuk komputasi numerik dan Matplotlib untuk visualisasi (plotting).
+Berikut adalah kode Python yang dapat Anda gunakan:
+import numpy as np
+import matplotlib.pyplot as plt
+
+# --- Fungsi Dasar Waktu-Kontinu ---
+def original_continuous_function(t):
+    """
+    Fungsi dasar waktu-kontinu (pulsa persegi dari t=0 hingga t=2).
+    """
+    return np.where((t >= 0) & (t <= 2), 1.0, 0.0)
+
+# --- Transformasi Waktu-Kontinu ---
+def transform_continuous(t_original, A, b, T):
+    """
+    Melakukan transformasi Af(b(t-T)) pada sinyal waktu-kontinu.
+    t_original: array waktu
+    A: penskalaan amplitudo
+    b: penskalaan waktu
+    T: pergeseran waktu
+    """
+    # Argumen untuk fungsi original_continuous_function menjadi b * (t_original - T)
+    transformed_t_arg = b * (t_original - T)
+    return A * original_continuous_function(transformed_t_arg)
+
+# --- Plotting Waktu-Kontinu ---
+def plot_continuous_transformation():
+    """
+    Menampilkan visualisasi berbagai transformasi pada sinyal waktu-kontinu.
+    """
+    t = np.linspace(-5, 5, 500) # Domain waktu yang cukup luas untuk simulasi
+
+    # Membuat figure dan subplot untuk menampilkan berbagai contoh transformasi
+    fig, axs = plt.subplots(3, 2, figsize=(12, 15))
+    fig.suptitle('Visualisasi Transformasi Sinyal Waktu-Kontinu: $Af(b(t-T))$', fontsize=16)
+
+    # Contoh 1: Sinyal Asli f(t)
+    axs.plot(t, original_continuous_function(t), label='f(t) Asli', color='blue')
+    axs.set_title('Sinyal Asli')
+    axs.set_xlabel('Waktu (t)')
+    axs.set_ylabel('Amplitudo')
+    axs.grid(True)
+    axs.legend()
+
+    # Contoh 2: Penskalaan Amplitudo (A) - A > 1 (Amplifikasi)
+    A_amp = 2
+    f_transformed_A = transform_continuous(t, A_amp, 1, 0)
+    axs[10].plot(t, original_continuous_function(t), 'b--', label='f(t) Asli')
+    axs[10].plot(t, f_transformed_A, label=f'${A_amp}f(t)$', color='red')
+    axs[10].set_title(f'Penskalaan Amplitudo ($A={A_amp}$)')
+    axs[10].set_xlabel('Waktu (t)')
+    axs[10].set_ylabel('Amplitudo')
+    axs[10].grid(True)
+    axs[10].legend()
+
+    # Contoh 3: Pergeseran Waktu (T) - T > 0 (Tertunda/Delayed)
+    T_delay = 1.5
+    f_transformed_T = transform_continuous(t, 1, 1, T_delay)
+    axs[10].plot(t, original_continuous_function(t), 'b--', label='f(t) Asli')
+    axs[10].plot(t, f_transformed_T, label=f'f(t-${T_delay}$)', color='green')
+    axs[10].set_title(f'Pergeseran Waktu ($T={T_delay}$) - Tertunda')
+    axs[10].set_xlabel('Waktu (t)')
+    axs[10].set_ylabel('Amplitudo')
+    axs[10].grid(True)
+    axs[10].legend()
+
+    # Contoh 4: Penskalaan Waktu (b) - b > 1 (Kompresi/Compressed)
+    b_comp = 2
+    f_transformed_b_comp = transform_continuous(t, 1, b_comp, 0)
+    axs[10, 10].plot(t, original_continuous_function(t), 'b--', label='f(t) Asli')
+    axs[10, 10].plot(t, f_transformed_b_comp, label=f'f(${b_comp}t$)', color='orange')
+    axs[10, 10].set_title(f'Penskalaan Waktu ($b={b_comp}$) - Kompresi')
+    axs[10, 10].set_xlabel('Waktu (t)')
+    axs[10, 10].set_ylabel('Amplitudo')
+    axs[10, 10].grid(True)
+    axs[10, 10].legend()
+
+    # Contoh 5: Penskalaan Waktu (b) - 0 < b < 1 (Ekspansi) & b < 0 (Pembalikan)
+    b_exp = 0.5
+    b_rev = -1
+    f_transformed_b_exp = transform_continuous(t, 1, b_exp, 0)
+    f_transformed_b_rev = transform_continuous(t, 1, b_rev, 0)
+    axs[11].plot(t, original_continuous_function(t), 'b--', label='f(t) Asli')
+    axs[11].plot(t, f_transformed_b_exp, label=f'f(${b_exp}t$) (Ekspansi)', color='purple')
+    axs[11].plot(t, f_transformed_b_rev, label=f'f(${b_rev}t$) (Pembalikan)', color='brown')
+    axs[11].set_title('Penskalaan Waktu (Ekspansi & Pembalikan)')
+    axs[11].set_xlabel('Waktu (t)')
+    axs[11].set_ylabel('Amplitudo')
+    axs[11].grid(True)
+    axs[11].legend()
+
+    # Contoh 6: Kombinasi Transformasi Af(b(t-T))
+    A_comb = 1.5
+    b_comb = -0.75
+    T_comb = 1
+    f_transformed_comb = transform_continuous(t, A_comb, b_comb, T_comb)
+    axs[10, 11].plot(t, original_continuous_function(t), 'b--', label='f(t) Asli')
+    axs[10, 11].plot(t, f_transformed_comb, label=f'${A_comb}f({b_comb}(t-{T_comb}))$', color='darkred')
+    axs[10, 11].set_title('Kombinasi Transformasi')
+    axs[10, 11].set_xlabel('Waktu (t)')
+    axs[10, 11].set_ylabel('Amplitudo')
+    axs[10, 11].grid(True)
+    axs[10, 11].legend()
+
+    plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+    plt.show()
+
+# --- Data Dasar Waktu-Diskrit (sebagai lookup table global) ---
+# Indeks asli dari barisan f[n]
+original_n_indices = np.arange(-2, 7)
+# Nilai asli dari barisan f[n] (contoh pulsa segitiga)
+original_f_n_values = np.array([10, 10, 11, 11, 12])
+
+def get_discrete_value(n_index):
+    """
+    Mengambil nilai f[n] dari barisan asli berdasarkan indeks.
+    Mengembalikan 0 jika indeks di luar jangkauan yang ditentukan.
+    """
+    if n_index in original_n_indices:
+        pos = np.where(original_n_indices == n_index)
+        return original_f_n_values[pos]
+    return 0
+
+# --- Transformasi Waktu-Diskrit ---
+def transform_discrete(n_target, A, b, N):
+    """
+    Melakukan transformasi Af(b(n-N)) pada barisan waktu-diskrit.
+    n_target: array indeks waktu yang diinginkan untuk sinyal hasil transformasi
+    A: penskalaan amplitudo
+    b: penskalaan waktu (asumsi integer untuk downsampling/pembalikan, atau 1/m untuk upsampling)
+    N: pergeseran waktu
+    """
+    f_transformed_values = np.zeros_like(n_target, dtype=float)
+
+    for i, n in enumerate(n_target):
+        arg_n_float = b * (n - N)
+        
+        # Cek apakah arg_n_float sangat dekat dengan integer
+        # Ini penting karena untuk sinyal diskrit, indeks harus integer.
+        if abs(arg_n_float - round(arg_n_float)) < 1e-9:
+            arg_n_int = int(round(arg_n_float))
+            f_transformed_values[i] = A * get_discrete_value(arg_n_int)
+        # Jika bukan integer yang dekat, nilai tetap 0 (sesuai inisialisasi zeros_like).
+        # Ini mencakup kasus di mana sampel "diskip" (saat b > 1, downsampling)
+        # atau di mana "nol disisipkan" (saat b = 1/m, upsampling).
+            
+    return f_transformed_values
+
+# --- Plotting Waktu-Diskrit ---
+def plot_discrete_transformation():
+    """
+    Menampilkan visualisasi berbagai transformasi pada barisan waktu-diskrit.
+    """
+    n_min_orig, n_max_orig = min(original_n_indices), max(original_n_indices)
+    n_target = np.arange(n_min_orig - 5, n_max_orig + 5) # Domain waktu yang lebih luas
+
+    fig, axs = plt.subplots(3, 2, figsize=(12, 15))
+    fig.suptitle('Visualisasi Transformasi Barisan Waktu-Diskrit: $Af(b(n-N))$', fontsize=16)
+
+    # Contoh 1: Barisan Asli f[n]
+    axs.stem(original_n_indices, original_f_n_values, label='f[n] Asli', basefmt='b-', linefmt='b-', markerfmt='bo')
+    axs.set_title('Barisan Asli')
+    axs.set_xlabel('Waktu (n)')
+    axs.set_ylabel('Amplitudo')
+    axs.grid(True)
+    axs.legend()
+    axs.set_xlim(min(n_target)-1, max(n_target)+1)
+
+    # Contoh 2: Penskalaan Amplitudo (A) - A < 0 (Pembalikan & Penskalaan)
+    A_amp = -1.5
+    f_transformed_A = transform_discrete(n_target, A_amp, 1, 0)
+    axs[10].stem(original_n_indices, original_f_n_values, label='f[n] Asli', basefmt='b--', linefmt='b--', markerfmt='bo')
+    axs[10].stem(n_target, f_transformed_A, label=f'${A_amp}f[n]$', basefmt='r-', linefmt='r-', markerfmt='ro')
+    axs[10].set_title(f'Penskalaan Amplitudo ($A={A_amp}$)')
+    axs[10].set_xlabel('Waktu (n)')
+    axs[10].set_ylabel('Amplitudo')
+    axs[10].grid(True)
+    axs[10].legend()
+    axs[10].set_xlim(min(n_target)-1, max(n_target)+1)
+
+    # Contoh 3: Pergeseran Waktu (N) - N > 0 (Tertunda/Delayed)
+    N_delay = 2
+    f_transformed_N = transform_discrete(n_target, 1, 1, N_delay)
+    axs[10].stem(original_n_indices, original_f_n_values, label='f[n] Asli', basefmt='b--', linefmt='b--', markerfmt='bo')
+    axs[10].stem(n_target, f_transformed_N, label=f'f[n-${N_delay}$]', basefmt='g-', linefmt='g-', markerfmt='go')
+    axs[10].set_title(f'Pergeseran Waktu ($N={N_delay}$) - Tertunda')
+    axs[10].set_xlabel('Waktu (n)')
+    axs[10].set_ylabel('Amplitudo')
+    axs[10].grid(True)
+    axs[10].legend()
+    axs[10].set_xlim(min(n_target)-1, max(n_target)+1)
+
+    # Contoh 4: Penskalaan Waktu (b) - b_int > 1 (Downsampling/Kompresi)
+    b_down = 2
+    f_transformed_b_down = transform_discrete(n_target, 1, b_down, 0)
+    axs[10, 10].stem(original_n_indices, original_f_n_values, label='f[n] Asli', basefmt='b--', linefmt='b--', markerfmt='bo')
+    axs[10, 10].stem(n_target, f_transformed_b_down, label=f'f[${b_down}n$]', basefmt='o-', linefmt='o-', markerfmt='o--')
+    axs[10, 10].set_title(f'Penskalaan Waktu ($b={b_down}$) - Downsampling')
+    axs[10, 10].set_xlabel('Waktu (n)')
+    axs[10, 10].set_ylabel('Amplitudo')
+    axs[10, 10].grid(True)
+    axs[10, 10].legend()
+    axs[10, 10].set_xlim(min(n_target)-1, max(n_target)+1)
+
+    # Contoh 5: Penskalaan Waktu (b) - b_frac = 1/m (Upsampling) & b < 0 (Pembalikan)
+    b_up = 0.5 # Ini berarti m = 2
+    b_rev = -1
+    f_transformed_b_up = transform_discrete(n_target, 1, b_up, 0)
+    f_transformed_b_rev = transform_discrete(n_target, 1, b_rev, 0)
+    axs[11].stem(original_n_indices, original_f_n_values, label='f[n] Asli', basefmt='b--', linefmt='b--', markerfmt='bo')
+    axs[11].stem(n_target, f_transformed_b_up, label=f'f[n/${int(1/b_up)}$] (Upsampling)', basefmt='p-', linefmt='p--', markerfmt='p--')
+    axs[11].stem(n_target, f_transformed_b_rev, label=f'f[${b_rev}n$] (Pembalikan)', basefmt='s-', linefmt='s--', markerfmt='s--')
+    axs[11].set_title('Penskalaan Waktu (Upsampling & Pembalikan)')
+    axs[11].set_xlabel('Waktu (n)')
+    axs[11].set_ylabel('Amplitudo')
+    axs[11].grid(True)
+    axs[11].legend()
+    axs[11].set_xlim(min(n_target)-1, max(n_target)+1)
+
+    # Contoh 6: Kombinasi Transformasi Af(b(n-N))
+    A_comb = 0.8
+    b_comb = -2 # Kompresi dan pembalikan
+    N_comb = 1
+    f_transformed_comb = transform_discrete(n_target, A_comb, b_comb, N_comb)
+    axs[10, 11].stem(original_n_indices, original_f_n_values, label='f[n] Asli', basefmt='b--', linefmt='b-', markerfmt='bo')
+    axs[10, 11].stem(n_target, f_transformed_comb, label=f'${A_comb}f[{b_comb}(n-{N_comb})]$', basefmt='k-', linefmt='k-', markerfmt='ks')
+    axs[10, 11].set_title('Kombinasi Transformasi')
+    axs[10, 11].set_xlabel('Waktu (n)')
+    axs[10, 11].set_ylabel('Amplitudo')
+    axs[10, 11].grid(True)
+    axs[10, 11].legend()
+    axs[10, 11].set_xlim(min(n_target)-1, max(n_target)+1)
+
+    plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+    plt.show()
+
+# Untuk menjalankan visualisasi, uncomment baris di bawah ini:
+# plot_continuous_transformation()
+# plot_discrete_transformation()
+Penjelasan Kode:
+1. Import Library:
+    ◦ import numpy as np: Digunakan untuk operasi numerik seperti membuat array, perhitungan matematika, dan fungsi where untuk mendefinisikan sinyal.
+    ◦ import matplotlib.pyplot as plt: Digunakan untuk membuat plot sinyal.
+2. Sinyal Waktu-Kontinu ($f(t)$):
+    ◦ original_continuous_function(t): Mendefinisikan sinyal dasar. Dalam contoh ini, digunakan pulsa persegi (rectangular pulse) yang bernilai 1 antara t=0 dan t=2, dan 0 di tempat lain. Pulsa persegi sering digunakan untuk demonstrasi karena efek transformasinya mudah terlihat.
+    ◦ transform_continuous(t_original, A, b, T): Fungsi ini mengimplementasikan transformasi $Af(b(t-T))$.
+        ▪ Penskalaan Amplitudo ($A$): Amplitudo sinyal dikalikan dengan $A$. Jika $A < 0$, sinyal akan dibalik (direfleksikan) secara vertikal.
+        ▪ Penskalaan Waktu ($b$): Variabel waktu $t$ diganti dengan $bt$. Jika $|b| > 1$, sinyal akan terkompresi. Jika $0 < |b| < 1$, sinyal akan terekspansi. Jika $b < 0$, sinyal akan dibalik (direfleksikan) secara horizontal atau dalam waktu.
+        ▪ Pergeseran Waktu ($T$): Variabel waktu $t$ diganti dengan $(t-T)$. Jika $T > 0$, sinyal tertunda (delayed/bergeser ke kanan). Jika $T < 0$, sinyal maju (advanced/bergeser ke kiri). Urutan operasi ini penting; dalam notasi $b(t-T)$, pergeseran $T$ diterapkan terlebih dahulu, kemudian hasilnya diskalakan dengan $b$.
+    ◦ plot_continuous_transformation(): Membuat serangkaian plot untuk menunjukkan efek masing-masing parameter ($A$, $b$, $T$) secara terpisah, dan kemudian kombinasi ketiganya.
+3. Barisan Waktu-Diskrit ($f[n]$):
+    ◦ original_n_indices dan original_f_n_values: Mendefinisikan barisan dasar sebagai pulsa segitiga pada indeks tertentu.
+    ◦ get_discrete_value(n_index): Fungsi pembantu yang bertindak sebagai "lookup table" untuk mendapatkan nilai $f[n]$ pada indeks $n$ yang diberikan. Jika indeks di luar jangkauan barisan asli, nilai dikembalikan sebagai 0.
+    ◦ transform_discrete(n_target, A, b, N): Fungsi ini mengimplementasikan transformasi $Af(b(n-N))$ untuk sinyal diskrit.
+        ▪ Penskalaan Amplitudo ($A$) dan Pergeseran Waktu ($N$) bekerja analog dengan kasus waktu-kontinu.
+        ▪ Penskalaan Waktu ($b$) untuk barisan diskrit memerlukan penanganan khusus:
+            • Jika $b$ adalah bilangan bulat ($b > 1$), ini akan menyebabkan sinyal terkompresi (efek downsampling), di mana sampel asli akan dilewati.
+            • Jika $b$ adalah kebalikan dari bilangan bulat positif (misalnya $b = 0.5$ yang berarti $1/2$), ini akan menyebabkan sinyal terekspansi (upsampling), di mana nilai nol akan disisipkan di antara sampel asli.
+            • Jika $b$ adalah bilangan bulat negatif ($b < 0$), sinyal akan terbalik dalam waktu (time-reversed).
+            • Penting untuk memastikan bahwa indeks $b(n-N)$ yang dihitung adalah integer untuk mengambil nilai dari original_f_n_values. Jika tidak, nilai dianggap nol. Untuk nilai $b$ yang bukan integer atau kebalikan integer, implementasi langsung $f[b(n-N)]$ akan memerlukan teknik interpolasi yang lebih kompleks, yang di luar cakupan transformasi dasar ini.
+    ◦ plot_discrete_transformation(): Mirip dengan fungsi plot waktu-kontinu, fungsi ini menampilkan berbagai efek transformasi pada barisan waktu-diskrit.
+Untuk menjalankan kode ini, Anda perlu meng-uncomment salah satu baris panggilan fungsi di bagian paling bawah (plot_continuous_transformation() atau plot_discrete_transformation()) sesuai dengan visualisasi yang ingin Anda lihat.

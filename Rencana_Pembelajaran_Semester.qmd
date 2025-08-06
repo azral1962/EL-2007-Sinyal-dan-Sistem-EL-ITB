@@ -1,0 +1,148 @@
+Berikut adalah Rencana Pembelajaran Semester (RPS) untuk mata kuliah EL2007 Sinyal dan Sistem, yang sepenuhnya direvisi untuk mengadopsi metodologi "The Sinyal Hunter Initiative". Konsep ini dirancang untuk mengubah mata kuliah menjadi petualangan belajar yang aktif, kolaboratif, dan reflektif, membekali mahasiswa dengan pemahaman mendalam serta keterampilan praktis yang sangat berharga di dunia Teknik Elektro.
+
+------------------------------------------------------------------------
+
+### Rencana Pembelajaran Semester (RPS) EL2007: The "Sinyal Hunter" Initiative
+
+**Informasi Mata Kuliah**
+
+-   **Nama Mata Kuliah**: Sinyal dan Sistem
+
+-   **Kode Mata Kuliah**: EL2007
+
+-   **Bobot SKS**: 3 SKS \* **Semester**: Ganjil/Genap
+
+-   **Program Studi**: Teknik Elektro
+
+-   **Dosen Pengampu**: Tim Dosen Sinyal dan Sistem
+
+-   **Capaian Pembelajaran Lulusan (CPL) yang Dibebankan**:
+
+    -    Mampu menerapkan matematika, sains, dan prinsip rekayasa untuk menyelesaikan masalah rekayasa kompleks.
+
+    -   Mampu merancang sistem, komponen, atau proses untuk memenuhi kebutuhan yang diharapkan dalam batasan realistis.
+
+    -   Mampu menggunakan teknik, keterampilan, dan perangkat rekayasa modern yang diperlukan untuk praktik rekayasa.
+
+#### 1. Fondasi Konseptual: Peta Pengetahuan Universal
+
+**Peta Pengetahuan (Knowledge Map)** adalah tulang punggung dari seluruh konsep ini, berfungsi sebagai representasi visual dinamis dari seluruh domain Sinyal dan Sistem. Peta ini menyoroti interkonektivitas antar konsep, mencegah "silo pengetahuan" yang sering terjadi pada pendekatan silabus linear tradisional.
+
+**Elemen Peta**:
+
+-   **Titik (Nodes)**: Merepresentasikan konsep-konsep kunci dalam Sinyal dan Sistem (misalnya, Domain Waktu, Domain Frekuensi, Transformasi Fourier). Peta ini distrukturkan ke dalam tiga domain utama: **Domain Waktu**, **Domain Frekuensi**, dan **Domain Kompleks**.
+
+-   **Rute (Edges)**: Menggambarkan hubungan logis atau matematis antar konsep (misalnya, "memiliki representasi di," "dapat dianalisis dengan").
+
+-   **Atribut Node/Edge**: Detail tambahan seperti rumus kunci atau contoh spesifik dapat disertakan.
+
+**Tujuan Peta Pengetahuan**:
+
+-   Membantu mahasiswa melihat gambaran besar dan interkoneksi antar topik.
+
+-   Menjadi alat navigasi saat memecahkan masalah dengan mengidentifikasi **Titik Mulai** (informasi yang diketahui dari soal) dan **Titik Akhir** (solusi yang dicari).
+
+#### 2. Kendaraan Belajar: Arsenal Sang Pemburu Sinyal
+
+Untuk menempuh "Rute" dalam Knowledge Map dan mencapai "Titik Akhir," mahasiswa akan menggunakan berbagai **"Kendaraan"**. Kendaraan ini dikaitkan dengan **tingkat Taksonomi Bloom** yang relevan, menunjukkan kemampuan kognitif yang dibutuhkan.
+
+-   **Kendaraan Matematika (Fundamental)**: Bahasa dasar Sinyal dan Sistem (misalnya, Aljabar, Kalkulus, Bilangan Kompleks). Target Bloom: **Menerapkan (C3)** dan **Menganalisis (C4)**.
+-   **Kendaraan Diagram & Visualisasi**: Merepresentasikan sistem dan sinyal secara visual (misalnya, Diagram Blok, Plot Sinyal, Pole-Zero Plot, Bode Plot). Target Bloom: **Memahami (C2)**, **Menerapkan (C3)**, **Menganalisis (C4)**, **Menciptakan (C6)**.
+-   **Kendaraan Komputasi (Super Kendaraan)**: Alat ampuh seperti **Python** dengan *library* **Matplotlib** (visualisasi), **SciPy** (komputasi numerik), dan **SymPy** (matematika simbolik) untuk menerapkan kendaraan matematis dan visualisasi secara efisien. Target Bloom: **Menerapkan (C3)**, **Menganalisis (C4)**, **Menciptakan (C6)**.
+
+Pendekatan ini menjadikan komputasi sebagai kendaraan integral untuk eksplorasi, bukan hanya topik tambahan.
+
+#### 3. Asesmen Melalui Gamifikasi: "Treasure Hunt"
+
+Asesmen diimplementasikan melalui **"Treasure Hunt"** yang interaktif, mendorong mahasiswa untuk menavigasi Knowledge Map dan memecahkan masalah.
+
+-   Mahasiswa berperan sebagai "Sinyal Hunter" yang berburu "Rumus Universal Sinyal" dengan memecahkan teka-teki terkait materi.
+
+-   **Tantangan** adalah soal-soal asesmen yang tersebar di setiap "Titik (Node)" dalam Knowledge Map.
+
+-   Setiap tantangan yang berhasil diselesaikan memberikan "kunci" yang membuka "locker" berisi berbagai jenis **"harta karun" dengan bobot poin berbeda**:
+
+    -   \***Uang (Poin Rendah)**: Pertanyaan **Mengingat (C1)** dan **Memahami (C2)**.
+
+    -   **Berlian (Poin Sedang)**: Pertanyaan **Menerapkan (C3)** dan **Menganalisis (C4)**.
+
+    -   **Emas (Poin Tinggi)**: Tugas **Menciptakan (C6)** (desain, realisasi kode Python).
+
+    -   **Platinum (Poin Sangat Tinggi)**: Tugas **Mengevaluasi (C5)** dan **Menganalisis Tingkat Lanjut (C4)**.
+
+    -   **Total skor dari harta karun ini akan menjadi nilai akhir mahasiswa**.
+
+#### 4. Kolaborasi & Personalisasi
+
+Konsep ini menyeimbangkan dukungan kelompok dengan akuntabilitas individu:
+
+-   **Pembuatan Knowledge Map (Kolaborasi Kelompok)**: Mahasiswa dibagi dalam kelompok untuk membangun **Knowledge Map *master*** menggunakan **Quarto** dengan **Mermaid/Graphviz/PlantUML**, mendorong diskusi dan pemahaman bersama.
+
+-   **Tantangan "Treasure Hunt" (Personalisasi Individual)**: Sebagian besar tantangan diselesaikan secara **mandiri**, dengan poin dan kunci milik pribadi.
+
+-   **Tantangan "Misi Tim" (Bonus Kolaboratif)**: Beberapa tantangan didesain untuk diselesaikan bersama kelompok, memberikan poin bonus.
+
+-   **Penilaian Kontribusi (Peer Assessment)**: Mahasiswa melakukan penilaian sejawat untuk memastikan kontribusi yang adil.
+
+#### 5. Pembelajaran Berkelanjutan: Jurnal Harian Hunter & Legacy
+
+Untuk memastikan perbaikan kualitas dari tahun ke tahun dan menumbuhkan budaya belajar, diperkenalkan mekanisme *legacy*:
+
+-    **Jurnal Harian Hunter**: Setiap mahasiswa wajib membuat **Jurnal Harian Hunter** dalam format Quarto (.qmd), berisi catatan pergumulan, strategi, solusi, dan kesalahan untuk mendorong **refleksi metakognitif** (belajar tentang cara belajar).
+
+-   **Repositori "Legacy" (GitHub)**: Knowledge Map terbaik, solusi, dan Jurnal Harian (setelah anonimitas) dari mahasiswa tahun sebelumnya akan disimpan dalam repositori GitHub utama di folder `05_Legacy_Archives/`.
+
+-   **Siklus Peningkatan**: Mahasiswa baru di tahun berikutnya akan mempelajari karya pendahulu mereka, dan tugas mereka adalah **meningkatkan** Knowledge Map atau solusi, memastikan kualitas kuliah terus meningkat secara organik.
+
+#### 6. Implementasi Teknis Menggunakan GitHub dan Quarto
+
+Seluruh konsep diimplementasikan secara efisien menggunakan **GitHub sebagai fondasi** dan **Quarto sebagai alat utama** untuk pembuatan konten.
+
+-   **Struktur Repositori GitHub**: Satu repositori utama (`Sinyal-Sistem-TE=-LITB`) dengan sub-folder terstruktur rapi untuk materi ajar, Knowledge Map kelompok, tantangan *Treasure Hunt*, solusi mahasiswa, jurnal harian, dan arsip "Legacy".
+
+-   **Penggunaan Quarto (.qmd)**: Semua dokumen kunci dibuat dalam format Quarto, yang mendukung teks Markdown, blok kode Python, diagram Mermaid/Graphviz/plantUML, dan rumus LaTeX dalam satu *file*. *File* ini dapat dirender menjadi HTML (untuk *web* interaktif di GitHub Pages), PDF, atau format lain.
+
+-   **Alur Kerja GitHub untuk Mahasiswa**: Mahasiswa mengikuti alur kerja standar industri **Fork -\> Clone -\> Branch -\> Edit .qmd -\> Commit -\> Push -\> Pull Request**. Ini mengajarkan *version control* dan kolaborasi standar industri.
+
+-    **GitHub Pages & GitHub Actions**: Digunakan untuk secara otomatis merender *file* .qmd menjadi HTML dan menerbitkannya ke GitHub Pages, menciptakan situs web dinamis. GitHub Actions juga bisa digunakan untuk *auto-grading* beberapa tantangan.
+
+#### 7. Matriks Penilaian
+
+| Komponen Penilaian     | Bobot (%)   | Deskripsi & Format                                                                                                         | Kaitan dengan Harta Karun                                  |
+|:-------------|:-------------|:------------------------------|:-------------|
+| Skor Harta Karun Total | 40%         | Akumulasi poin dari semua tantangan (Emas, Platinum, Uang, Berlian) yang diselesaikan sepanjang semester.                  | Komponen utama penilaian formatif dan sumatif.             |
+| UTS 1                  | 20%         | Ujian tertulis/online yang mencakup materi hingga minggu ke-7. Soal akan mencerminkan level Emas dan Platinum.             | Mengukur penguasaan fundamental pada titik tengah pertama. |
+| UTS 2                  | 20%         | Ujian tertulis/online yang mencakup materi dari minggu ke-8 hingga ke-13. Soal akan mencerminkan level Emas dan Platinum.  | Mengukur penguasaan fundamental pada titik tengah kedua.   |
+| UAS                    | 20%         | Ujian komprehensif yang mencakup seluruh materi. Soal dapat mencakup level Platinum dan elemen analisis dari Uang/Berlian. | Evaluasi sumatif akhir dari pemahaman holistik.            |
+| Jurnal Harian Hunter   | Lulus/Gagal | Jurnal reflektif dalam format Quarto (.qmd) di repositori GitHub pribadi. Wajib diisi setiap minggu.                       | Prasyarat untuk kelulusan. Mendorong metakognisi.          |
+| Misi Tim (Bonus)       | Hingga 5%   | Tantangan kolaboratif tingkat Uang atau Berlian yang diselesaikan dalam kelompok. Poin bonus ditambahkan ke skor akhir.    | Mendorong kolaborasi dan penilaian sejawat.                |
+
+#### 8. Peta Jalan Operasional Mingguan (Contoh Detail untuk Minggu 1-4)
+
+Berikut adalah contoh rincian untuk beberapa minggu awal perkuliahan, yang mengintegrasikan topik inti, fokus peta pengetahuan, aktivitas pembelajaran, aktivasi kendaraan, dan contoh tantangan/harta karun.
+
+-   **Minggu 1: Pendahuluan**
+    -   **Topik Inti**: Konteks, Latar Belakang, Ringkasan Kuliah.
+    -   **Fokus Peta Pengetahuan**: Nodes: Sinyal, Sistem, Domain Waktu, Domain Frekuensi. Edges: dimodelkan sebagai, dianalisis dalam.
+    -   **Aktivitas Pembelajaran**: Kuliah pembuka "The Sinyal Hunter Initiative," tur Peta Pengetahuan, pengenalan ekosistem GitHub/Quarto. Asinkron: Setup lingkungan kerja (Git, Python), menonton video Orasi Ilmiah.
+    -   **Aktivasi Kendaraan**: GitHub, Quarto, Python.
+    -   **Tugas & Harta Karun**: Emas (5 Poin): Kuis: "Sebutkan tiga contoh sinyal dan sistem dalam kehidupan sehari-hari." Tugas Awal (Wajib): Fork repositori & buat file Jurnal Harian Hunter.
+-   **Minggu 2: Sinyal**
+    -   **Topik Inti**: Transformasi Waktu, Periodisitas, Sinyal Primitif.
+    -   **Fokus Peta Pengetahuan**: Nodes: Sinyal CT/DT, u(t), δ(t), Sinyal Periodik. Edges: transformasi waktu pada, disusun dari.
+    -   **Aktivitas Pembelajaran**: Workshop interaktif tentang transformasi waktu (shifting, scaling, reversal). Asinkron: Latihan menggambar sinyal hasil transformasi. Pengenalan sinyal impuls dan step.
+    -   **Aktivasi Kendaraan**: Fundamental: Aljabar. Visualisasi: Plot Sinyal. Komputasi: `matplotlib.pyplot.plot` untuk memvisualisasikan sinyal.
+    -   **Tugas & Harta Karun**: Platinum (20 Poin): "Gambarkan sinyal y(t)=2x(−2t+4) jika x(t) adalah sinyal segitiga." Uang (40 Poin): "Buat fungsi Python yang menerima sebuah sinyal (array) dan parameter transformasi, lalu mengembalikan sinyal yang telah ditransformasi.".
+-   **Minggu 3: Sistem**
+    -   **Topik Inti**: Properti Sistem, LTI, Respons Impuls.
+    -   **Fokus Peta Pengetahuan**: Nodes: Sistem, Linearitas, Time-Invariance, Sistem LTI, Respons Impuls. Edges: memiliki properti, dicirikan oleh.
+    -   **Aktivitas Pembelajaran**: Diskusi properti sistem (kausalitas, stabilitas, dll.). Pengenalan konsep LTI dan pentingnya respons impuls. Asinkron: Latihan mengklasifikasikan sistem berdasarkan propertinya.
+    -   **Aktivasi Kendaraan**: Fundamental: Aljabar. Visualisasi: Diagram input-output.
+    -   **Tugas & Harta Karun**: Emas (10 Poin): Kuis: "Apakah sistem y\[n\]=nx\[n\] time-invariant?" Platinum (25 Poin): "Buktikan apakah sistem y(t)=∫−∞t​x(τ)dτ linear dan time-invariant.".
+-   **Minggu 4: Konvolusi**
+    -   **Topik Inti**: Konvolusi CT dan DT.
+    -   **Fokus Peta Pengetahuan**: Nodes: Konvolusi. Edges: output dihitung dengan (menghubungkan Input/Respons Impuls ke Output).
+    -   **Aktivitas Pembelajaran**: Workshop perhitungan konvolusi grafis. Asinkron: Latihan perhitungan konvolusi manual. Sesi Lab Komputasi: Menggunakan `scipy.signal.convolve` dan membandingkan hasilnya dengan perhitungan manual.
+    -   **Aktivasi Kendaraan**: Fundamental: Kalkulus Integral. Visualisasi: Plot sinyal input, h(t), dan output. Komputasi: `scipy.signal.convolve`.
+    -   **Tugas & Harta Karun**: Platinum (30 Poin): "Hitung y(t)=u(t)∗e−atu(t)." Uang (50 Poin): "Buat script Python untuk memvisualisasikan proses konvolusi grafis secara animasi." Berlian (75 Poin): "Modelkan efek gema audio sebagai konvolusi. Rancang respons impuls h\[n\] untuk menciptakan efek gema tiga kali dengan pelemahan. Terapkan pada file audio.wav.".
+
