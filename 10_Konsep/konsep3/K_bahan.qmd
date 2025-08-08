@@ -1,0 +1,395 @@
+
+# III. Sistem Manajemen Pengetahuan (KMS) untuk EL 2007
+
+## A. Konseptualisasi Peta Pengetahuan (Knowledge Map)
+
+Sistem Manajemen Pengetahuan (KMS) akan secara sistematis menangkap, mengatur, menyimpan, dan berbagi pengetahuan.2 Komponen inti dari ini adalah "peta pengetahuan," yang berfungsi sebagai representasi pemahaman yang terstruktur [User Query]. Peta-peta ini akan menjadi alat bantu utama bagi mahasiswa dalam membuat solusi, berfungsi sebagai semacam 'cheat sheets' yang terorganisir secara sistematis [User Query].
+
+1. Peta Pengetahuan Primitif: Ekstraksi dari Sumber Primer
+    
+    Definisi: Peta pengetahuan primitif merepresentasikan pemahaman dasar yang diekstraksi langsung dari materi kursus primer, seperti buku teks Signals and Systems oleh Oppenheim, Willsky, dan Nawab.1 Peta-peta ini mirip dengan "cheat sheets" yang detail [User Query], tetapi terstruktur untuk pemahaman yang komprehensif. Mereka mencakup konsep-konsep fundamental yang menjadi dasar bagi pembelajaran lebih lanjut.
+    
+    **Contoh Konten:** Contoh konten untuk peta pengetahuan primitif meliputi definisi kunci (misalnya, sinyal waktu kontinu vs. diskrit, sistem LTI, jumlah/integral konvolusi), properti fundamental (misalnya, linearitas, invarian waktu, kausalitas, stabilitas), dan transformasi dasar (misalnya, deret/transformasi Fourier, transformasi Laplace/Z).1
+    
+    **Tujuan:** Untuk memastikan mahasiswa memahami konsep teoritis inti sebelum beralih ke aplikasi. Peta-peta ini berfungsi sebagai blok bangunan fundamental dalam KMS. Istilah "primitif" menyiratkan tingkat pengetahuan yang mendasar, namun esensial. Hal ini secara langsung mengatasi kebutuhan akan pembelajaran terstruktur dari mata pelajaran teknis yang kompleks.1 Dengan mengharuskan mahasiswa untuk
+    
+    _membuat_ peta-peta ini, pembelajaran aktif dan pemrosesan mendalam terhadap konten buku teks dapat dipastikan, alih-alih membaca secara pasif, mendorong "transfer pengetahuan taktis" dari buku teks ke pemahaman mahasiswa sendiri.5
+    
+2. Peta Pengetahuan Aplikatif: Solusi Berbasis Pengetahuan
+    
+    Definisi: Peta pengetahuan aplikatif memperluas pengetahuan primitif dengan mendemonstrasikan penerapannya untuk memecahkan masalah spesifik atau mengatasi "kebutuhan produk pengetahuan" yang teridentifikasi di Pasar Pengetahuan. Peta-peta ini berorientasi pada masalah, menunjukkan bagaimana konstruksi teoritis dimanfaatkan untuk solusi praktis.
+    
+    **Contoh Konten:** Contoh konten untuk peta pengetahuan aplikatif meliputi penerapan analisis Fourier untuk desain filter 1, teorema sampling untuk pemrosesan sinyal digital 1, teknik modulasi dalam sistem komunikasi 1, atau kendali umpan balik untuk stabilisasi sistem.1
+    
+    **Tujuan:** Untuk menjembatani kesenjangan antara teori dan praktik, mendemonstrasikan kompetensi dalam menerapkan prinsip-prinsip Sinyal dan Sistem. Progresi dari peta pengetahuan "primitif" ke "aplikatif" mencerminkan Taksonomi Bloom, bergerak dari pemahaman/mengingat ke penerapan/analisis. Progresi terstruktur ini memastikan bahwa mahasiswa membangun fondasi teoritis yang kuat sebelum menangani masalah berorientasi aplikasi yang kompleks, mencegah pemahaman yang dangkal.
+    
+3. Struktur dan Taksonomi Peta Pengetahuan
+    
+    Semua peta pengetahuan, baik primitif maupun aplikatif, akan mematuhi struktur standar untuk memastikan konsistensi dan kemudahan navigasi dalam KMS. Struktur ini akan mencakup:
+    
+    - **Nomor Produk (Kode Produk):** Pengidentifikasi unik yang menghubungkan produk ke topik penilaian dan kompetensi spesifik [User Query]. Ini dapat diturunkan dari nomor bab/masalah Oppenheim & Willsky 1, misalnya,
+        
+        `EL2007-CH02-BP2.1` untuk Basic Problem 2.1.
+        
+    - **Pernyataan Masalah/Tujuan Pembelajaran:** Tantangan atau konsep yang jelas yang dibahas.
+        
+    - **Konsep/Teorema Kunci:** Tautan ke pengetahuan primitif yang relevan.
+        
+    - **Metodologi/Langkah-langkah Solusi:** Penjelasan detail tentang pendekatan yang digunakan.
+        
+    - **Hasil/Ilustrasi:** Visualisasi, kode, contoh-contoh.
+        
+    - **Diskusi/Wawasan:** Refleksi tentang solusi, batasan, dan implikasi yang lebih luas.
+        
+    - **Kata Kunci/Tag:** Untuk kemudahan penemuan dalam KMS.
+        
+    
+    **Taksonomi:** Sistem klasifikasi hierarkis akan dikembangkan untuk produk pengetahuan, mengkategorikannya berdasarkan domain (misalnya, Domain Waktu, Domain Frekuensi), topik (misalnya, Konvolusi, Sampling), area aplikasi (misalnya, Komunikasi, Kontrol), dan tingkat kompleksitas. Ini selaras dengan prinsip-prinsip KMS dalam mengembangkan "taksonomi atau sistem klasifikasi".2
+    
+
+## B. Kendaraan Pengetahuan: Pengemasan Produk Menggunakan Quarto QMD
+
+"Kendaraan" (pengemasan) untuk produk pengetahuan akan secara eksklusif menggunakan file Quarto QMD [User Query]. Pilihan ini didorong oleh kemampuan Quarto untuk penulisan ilmiah dan pelaporan teknis.10
+
+1. **Fitur Quarto QMD untuk Dokumentasi Sinyal dan Sistem**
+    
+    - **Sintaks Berbasis Markdown:** Sintaks berbasis Markdown teks biasa Quarto 12 membuatnya "mudah ditulis, dan, yang lebih penting, mudah dibaca," mengurangi kurva pembelajaran bagi mahasiswa untuk membuat dokumen yang terlihat profesional.
+        
+    - **Integrasi Komputasi:** File QMD memungkinkan integrasi kode yang mulus (misalnya, MATLAB, Python, R untuk komputasi Sinyal & Sistem) langsung dalam narasi.11 Ini memungkinkan "publikasi komputasi bersama manuskrip, memungkinkan pembaca untuk mendalami kode Anda".10 Sebagai contoh, mahasiswa dapat menyematkan kode Python untuk menghitung transformasi Fourier atau mensimulasikan respons sistem LTI, membuat solusi dapat direproduksi dan diverifikasi.
+        
+    - **Fitur Ilmiah:** Dukungan untuk "gambar, tabel, persamaan, referensi silang, dan kutipan" 10 sangat penting untuk laporan teknis. Ini memastikan bahwa produk pengetahuan memenuhi standar akademik.
+        
+    - **Diagram:** Kemampuan untuk menyematkan "flowcharts, sequence diagrams, state diagrams, Gantt charts" menggunakan sintaks teks biasa seperti Mermaid 12 sangat berharga untuk mengilustrasikan interkoneksi sistem, alur pemrosesan sinyal, atau langkah-langkah algoritmik.
+        
+2. Integrasi Kode, Komputasi, dan Narasi Teknis
+    
+    Mahasiswa akan diminta untuk mendemonstrasikan pemahaman mereka tidak hanya secara konseptual tetapi juga secara komputasi. "Blok kode" Quarto dengan "penyorotan sintaks" dan "nomor baris" 12 akan memastikan kejelasan dan keterbacaan pekerjaan komputasi mereka. "Opsi eksekusi" 11 memungkinkan rendering keluaran (plot, hasil numerik) langsung dalam dokumen, menciptakan produk pengetahuan yang dinamis dan interaktif.
+    
+3. Fleksibilitas Format Output (PDF, HTML, DOCX)
+    
+    Quarto dapat "menghasilkan manuskrip dalam berbagai format (termasuk format LaTeX atau MS Word yang disyaratkan oleh jurnal), dan memberikan pembaca akses mudah ke semua format melalui situs web manuskrip".10 Fleksibilitas ini merupakan kunci untuk "Pasar Pengetahuan," karena memungkinkan produk dikonsumsi dalam berbagai format yang disukai, meningkatkan nilai dan aksesibilitas yang dirasakan untuk mahasiswa di masa mendatang. Pilihan Quarto QMD adalah langkah strategis, bergerak melampaui pembuatan dokumen sederhana untuk menumbuhkan "literasi komputasi" dan keterampilan "penelitian yang dapat direproduksi". Dengan mengemas solusi dengan kode yang disematkan dan dapat dieksekusi, mahasiswa mempelajari praktik terbaik untuk komunikasi teknis dan menciptakan aset yang tidak hanya deskriptif tetapi juga fungsional dan dapat diverifikasi, mempersiapkan mereka untuk peran teknik tingkat lanjut.
+    
+
+## C. Pemanfaatan KMS untuk Pembelajaran dan Inovasi Berkelanjutan
+
+1. Repositori Pengetahuan Terpusat
+    
+    KMS akan berfungsi sebagai "repositori terpusat" untuk semua produk pengetahuan yang dihasilkan bersama.2 Ini mengatasi masalah "informasi vital dapat berada di berbagai tempat".5 Ini akan menyimpan "dokumen, makalah penelitian, dan aset pengetahuan lainnya" 2, termasuk semua peta pengetahuan primitif dan aplikatif.
+    
+2. Fasilitasi Transfer Pengetahuan Tacit dan Eksplisit
+    
+    KMS mempromosikan "transfer pengetahuan taktis" 5 dengan menangkap "wawasan informal, pengalaman, dan keahlian yang dimiliki oleh individu." Ini sangat penting untuk pemecahan masalah yang kompleks dalam Sinyal dan Sistem, di mana intuisi dan kiat praktis sama berharganya dengan persamaan formal. Pengetahuan eksplisit (rumus, derivasi, kode) diatur dan dibagikan secara sistematis.
+    
+3. Membangun Komunitas Praktik di Lingkungan Akademik
+    
+    KMS akan "memfasilitasi berbagi pengetahuan dan kolaborasi" 2 dengan memungkinkan mahasiswa untuk berkontribusi pada kumpulan sumber daya bersama. Ini menumbuhkan "lingkungan yang berorientasi pada berbagi" 2 dan membangun "komunitas praktik" 2 di mana mahasiswa dapat belajar dari pekerjaan satu sama lain dan berkontribusi pada kecerdasan kolektif. KMS yang diimplementasikan dengan baik, selain menjadi sistem penyimpanan belaka, mengubah lingkungan belajar menjadi "organisasi pembelajaran" di tingkat kelas. Ini memastikan bahwa pengetahuan tidak hilang dengan setiap angkatan tetapi terakumulasi, membuat kursus lebih kaya dari tahun ke tahun dan mewujudkan aspek "memperkaya kursus secara timbal balik untuk mahasiswa di masa depan" dari
+    
+    _value co-creation_ [User Query].
+    
+
+# IV. Pasar Pengetahuan (Knowledge Market): Ekosistem Pembelajaran Berbasis Proyek
+
+## A. Dinamika Pasar Pengetahuan dan Konsep "Target Kekayaan" Mahasiswa
+
+"Pasar Pengetahuan" adalah konstruksi pedagogis yang dirancang untuk mensimulasikan ekonomi dunia nyata dalam kursus, mendorong keterlibatan mahasiswa dan kualitas "produk pengetahuan."
+
+1. Simulasi Ekonomi Pengetahuan dalam Lingkungan Akademik
+    
+    Mahasiswa bertindak sebagai "produsen" atau "penjual" produk pengetahuan, sementara dosen (dan berpotensi mahasiswa di masa depan) bertindak sebagai "konsumen" atau "pembeli" [User Query]. "Permintaan" di pasar ini ditetapkan oleh "kebutuhan produk" mingguan dosen [User Query], yang selaras dengan tujuan pembelajaran kursus dan aplikasi dunia nyata. Pembingkaian pembelajaran sebagai "pasar" memperkenalkan prinsip-prinsip ekonomi dunia nyata ke dalam kelas. Mahasiswa belajar tentang permintaan, penawaran, proposisi nilai, dan peningkatan produk iteratif dalam lingkungan berisiko rendah, mengembangkan keterampilan kewirausahaan di samping keterampilan teknis. Ini adalah bentuk "pembelajaran otentik" yang kuat.3
+    
+2. Motivasi Intrinsik dan Ekstrinsik Melalui "Kekayaan"
+    
+    Mahasiswa termotivasi untuk membuat "produk demi produk yang lebih bernilai" untuk mencapai "target kekayaan" yang diinginkan [User Query], yang diukur dalam "kantong mata uang dan aset" virtual [User Query]. Pendekatan gamifikasi ini 6 memberikan "insentif bagi mahasiswa untuk menyerahkan pekerjaan dan menerapkan umpan balik" 8, mengubah penilaian tradisional menjadi sistem hadiah yang dinamis. "Target kekayaan" bertindak sebagai tujuan pembelajaran yang dipersonalisasi, memungkinkan mahasiswa untuk "maju ke pekerjaan tingkat yang lebih tinggi dan mendapatkan kredit dengan kecepatan mereka sendiri" 7, selaras dengan prinsip-prinsip pendidikan berbasis kompetensi. Ini mengalihkan fokus dari sekadar lulus menjadi secara aktif mengumpulkan aset berharga dan menunjukkan penguasaan, menumbuhkan pola pikir pertumbuhan.
+    
+
+## B. Siklus Pengembangan Produk Pengetahuan
+
+1. Identifikasi Masalah dan Kebutuhan di Pasar (Outcome 2)
+    
+    Setiap minggu, dosen akan "merancang kebutuhan produk" [User Query] dengan menguraikan masalah spesifik atau kesenjangan pengetahuan dalam kurikulum Sinyal dan Sistem 1 yang memerlukan solusi produk pengetahuan. Kebutuhan ini akan dibingkai sebagai "panggilan untuk proposal" di Pasar Pengetahuan. Mahasiswa akan belajar untuk "mempelajari kebutuhan produk pengetahuan di Pasar Pengetahuan, terutama masalah yang memerlukan solusi berbasis pengetahuan" [User Query, Outcome 2]. Ini melibatkan pemahaman "pelanggan" (mahasiswa di masa depan) dan masalah mereka.
+    
+2. Penerapan Peta Pengetahuan untuk Solusi (Outcome 3)
+    
+    Mahasiswa akan menerapkan "peta pengetahuan primitif" dan "aplikatif" mereka [User Query] untuk "menghasilkan solusi" untuk masalah yang teridentifikasi. Ini menekankan utilitas praktis dari pengetahuan terstruktur mereka. Proses ini mendorong "belajar sambil melakukan" 14 dan "pengembangan produk dunia nyata".14
+    
+3. Pengemasan dan "Penjualan" Produk Pengetahuan
+    
+    Solusi "dikemas sebagai produk pengetahuan untuk dijual di Pasar Pengetahuan" [User Query, Outcome 3] menggunakan Quarto QMD [User Query]. Ini melibatkan komunikasi teknis yang jelas, ringkas, dan terdokumentasi dengan baik. "Menjual" menyiratkan penyajian produk secara efektif, menunjukkan nilainya, dan mengatasi kebutuhan "pelanggan."
+    
+4. Inisiatif Berkelanjutan untuk Produk Bernilai Tinggi (Outcome 4)
+    
+    Mahasiswa didorong untuk "berinisiatif membuat produk demi produk yang lebih bernilai untuk mencapai target kekayaan yang diinginkan" [User Query, Outcome 4]. Ini menumbuhkan inovasi berkelanjutan dan pembelajaran mandiri. Proses iteratif ini selaras dengan "berbagai kesempatan untuk mendapatkan XP" 7 dan "mengerjakan ulang/menambahkan ke pekerjaan mereka" 7 prinsip-prinsip pembelajaran gamifikasi.
+    
+
+## C. GitHub sebagai Fasilitator Pasar Pengetahuan dan Repositori Produk
+
+GitHub akan berfungsi sebagai platform pusat untuk Pasar Pengetahuan, memfasilitasi kolaborasi, kontrol versi, dan _hosting_ produk pengetahuan [User Query].
+
+1. GitHub sebagai Platform Kolaborasi Proyek
+    
+    Mahasiswa akan menggunakan GitHub untuk "pembelajaran berbasis proyek" 14, memungkinkan mereka untuk bekerja secara individu atau dalam tim pada produk pengetahuan. "GitHub Flow" (alur kerja berbasis cabang,
+    
+    _pull requests_, pelacakan masalah) 15 akan diadopsi untuk mengelola pengembangan produk, menumbuhkan "pengalaman dunia nyata" 16 dalam praktik rekayasa perangkat lunak.
+    
+    `GitHub Codespaces` 17 dapat menyediakan lingkungan pengembangan berbasis
+    
+    _cloud_, memastikan konsistensi dan aksesibilitas untuk semua mahasiswa.
+    
+2. Manajemen Versi dan Kontrol Kualitas Produk
+    
+    Sistem kontrol versi GitHub memastikan bahwa semua iterasi produk pengetahuan dilacak, memungkinkan tinjauan mudah terhadap kemajuan dan perubahan. Ini sangat penting untuk menilai peningkatan iteratif dan memberikan umpan balik. Pull requests akan berfungsi sebagai mekanisme utama untuk "menyerahkan" produk ke Pasar Pengetahuan untuk "pembelian" oleh dosen, memungkinkan tinjauan sejawat dan umpan balik dosen sebelum penerimaan akhir.
+    
+3. GitHub Pages untuk Hosting Produk Pengetahuan
+    
+    "Pasar Pengetahuan" itu sendiri dapat di-hosting menggunakan GitHub Pages 15, menyediakan situs web yang dapat diakses publik untuk semua produk Quarto QMD yang dibuat bersama. Ini menciptakan "portofolio" yang nyata 16 bagi mahasiswa dan sumber daya yang berharga untuk angkatan mendatang. Setiap produk akan memiliki halaman khusus sendiri, membuatnya mudah ditemukan dan diakses. Etos
+    
+    _open-source_ bawaan GitHub 16 secara alami selaras dengan prinsip-prinsip
+    
+    _value co-creation_ dan berbagi pengetahuan. Dengan menggunakan GitHub, kursus ini tidak hanya mengajarkan konsep teknis tetapi juga menanamkan praktik terbaik dalam pengembangan kolaboratif, kontrol versi, dan diseminasi pengetahuan terbuka, mempersiapkan mahasiswa untuk berkontribusi pada komunitas teknis yang lebih luas. Ini adalah hasil pembelajaran meta.
+    
+4. Hosting Jurnal Perjalanan Pengetahuan
+    
+    Jurnal Perjalanan Pengetahuan mahasiswa, yang dibuat dalam format Quarto QMD, juga akan di-host di repositori GitHub. Ini memungkinkan kontrol versi yang ketat, melacak setiap perubahan dan keputusan yang dibuat selama proses pengembangan produk. Setiap entri jurnal akan menjadi bagian dari riwayat komit repositori, memberikan bukti otentisitas dan repeatabilitas. Mahasiswa dapat menggunakan fitur GitHub seperti issues atau discussions untuk mencatat tantangan dan keputusan, yang kemudian dapat diintegrasikan ke dalam entri jurnal mereka. Jurnal ini, meskipun bersifat pribadi untuk penilaian, dapat dibagikan (dengan persetujuan mahasiswa) kepada mahasiswa angkatan berikutnya sebagai sumber inspirasi dan pembelajaran dari pengalaman nyata.
+    
+
+# V. Kerangka Penilaian dan Evaluasi Gamifikasi
+
+## A. Sistem Penilaian "Bags of Currencies and Asset"
+
+Sistem penilaian akan digamifikasi, menggunakan model "kantong mata uang dan aset" [User Query] untuk memotivasi mahasiswa dan memberikan umpan balik yang bernuansa tentang kemajuan dan kualitas produk mereka.
+
+1. Konsep Gamifikasi dalam Penilaian
+    
+    Sistem ini mengambil inspirasi dari "penilaian gamifikasi" 7, "ekonomi token" 9, dan "uang kampus".6 Ini bertujuan untuk "menanamkan kegembiraan" 7 dan mendorong "kebiasaan sehari-hari" 6 dalam belajar dan berproduksi. "Mata uang" (Uang, Emas, Platinum, Berlian) merepresentasikan tingkat nilai dan pencapaian yang berbeda, mirip dengan "XP" (Experience Points).7
+    
+2. **Definisi dan Nilai Relatif Setiap "Mata Uang"**
+    
+    - **Uang (Koin Perunggu):** Mata uang dasar untuk penyelesaian tugas-tugas fundamental, partisipasi, dan penyerahan peta pengetahuan primitif yang memenuhi spesifikasi minimum. Merepresentasikan upaya dasar.
+        
+    - **Emas (Koin Emas):** Diberikan untuk peta pengetahuan primitif yang terstruktur dengan baik, jelas, dan akurat, atau untuk versi awal produk pengetahuan aplikatif yang menunjukkan pemahaman yang kuat. Merepresentasikan kualitas yang baik.
+        
+    - **Platinum (Batangan Platinum):** Diberikan untuk produk pengetahuan aplikatif yang memecahkan masalah kompleks secara efektif, menunjukkan inovasi, dan dikemas dengan baik (Quarto QMD). Merepresentasikan kualitas tinggi dan aplikasi.
+        
+    - **Berlian (Berlian):** Tingkat tertinggi, dicadangkan untuk produk pengetahuan yang luar biasa, sangat inovatif, dan berdampak yang secara signifikan memperkaya Pasar Pengetahuan, menunjukkan penguasaan dan orisinalitas. Juga diberikan untuk kontribusi signifikan terhadap tinjauan sejawat atau dukungan komunitas. Merepresentasikan keunggulan dan _co-creation_ yang signifikan.
+        
+    
+    Sistem mata uang berjenjang ini memungkinkan umpan balik yang granular dan pengakuan atas berbagai tingkat penguasaan dan kontribusi, bergerak melampaui satu nilai numerik. Ini mendorong mahasiswa untuk berusaha mencapai kualitas yang lebih tinggi (Platinum, Berlian) dengan secara eksplisit menghubungkan upaya dan inovasi dengan hadiah yang lebih besar, selaras dengan prinsip "belajar sambil menghasilkan".6
+    
+3. **Mekanisme Perolehan dan Pengeluaran "Mata Uang"**
+    
+    - **Perolehan:** Mata uang diperoleh setelah "pembelian" produk pengetahuan yang berhasil oleh dosen (berdasarkan rubrik kualitas). Mata uang bonus dapat diberikan untuk kontribusi tinjauan sejawat, partisipasi aktif dalam diskusi, atau "misi sampingan" 7 (misalnya, memperbaiki
+        
+        _bug_ pada produk yang ada, meningkatkan dokumentasi).
+        
+    - **Pengeluaran:** Mata uang dapat "dibelanjakan" untuk berbagai "keuntungan" atau "token" akademik 9:
+        
+        - **Uang:** Revisi kecil, perpanjangan tenggat waktu minor.
+            
+        - **Emas:** Revisi besar, penghapusan produk bernilai rendah, akses ke sumber daya lanjutan.
+            
+        - **Platinum:** "Kebangkitan" produk yang gagal, sesi bimbingan dengan dosen atau pakar industri.
+            
+        - **Berlian:** Peningkatan nilai akhir, pengakuan khusus, kesempatan untuk memimpin modul kursus di masa depan.
+            
+    
+    "Target kekayaan" adalah nilai kumulatif mata uang yang diperoleh, yang secara langsung diterjemahkan ke nilai akhir kursus.
+    
+
+## B. Penilaian Kualitas Produk Berdasarkan "Product-Number" dan Kompetensi
+
+Penilaian kualitas akan transparan dan berbasis kompetensi, memastikan bahwa "kriteria dan target eksplisit tersedia bagi mahasiswa sebelumnya".7
+
+1. Pemetaan Topik Asesmen ke Kode Produk
+    
+    Setiap "nomor produk" [User Query] akan menjadi kode yang diturunkan dari struktur bab dan masalah buku teks Oppenheim & Willsky.1 Misalnya,
+    
+    `EL2007-CH04-BP4.1` untuk produk yang terkait dengan Bab 4, Masalah Dasar 4.1. Hal ini memastikan bahwa setiap produk secara langsung membahas hasil pembelajaran dan kompetensi spesifik dalam kurikulum Sinyal dan Sistem.
+    
+2. **Rubrik Penilaian Berbasis Spesifikasi dan Kompetensi**
+    
+    - **Penilaian Spesifikasi:** Rubrik akan mendefinisikan "apa yang merupakan pekerjaan yang memenuhi syarat dari mahasiswa" 9, dengan "ekspektasi yang jelas untuk penyelesaian yang berhasil dari setiap tugas".18 Alih-alih rubrik multi-tingkat untuk A/B/C, akan ada spesifikasi yang jelas untuk "memenuhi spesifikasi" atau "tidak memenuhi spesifikasi" untuk setiap tingkatan mata uang.
+        
+    - **Kriteria:** Rubrik akan menilai:
+        
+        - **Akurasi Teknis:** Ketepatan konsep, derivasi, dan komputasi Sinyal dan Sistem.19
+            
+        - **Kejelasan & Keterbacaan:** Kualitas penjelasan, organisasi, dan keterbacaan kode.20
+            
+        - **Kelengkapan:** Kepatuhan terhadap semua persyaratan yang ditentukan dari "kebutuhan produk."
+            
+        - **Inovasi & Nilai Tambah:** Untuk tingkatan mata uang yang lebih tinggi (Platinum, Berlian), penilaian pendekatan baru, wawasan yang lebih dalam, atau peningkatan signifikan dibandingkan solusi yang ada.
+            
+        - **Kualitas Quarto QMD:** Penggunaan fitur Quarto yang efektif (blok kode, persamaan, referensi silang, diagram) untuk presentasi profesional.12
+            
+        - **Keaslian dan Repeatabilitas (untuk Jurnal):** Penilaian kejujuran dalam dokumentasi proses, kejelasan keputusan, dan potensi repeatabilitas solusi berdasarkan jurnal.
+            
+    - **Umpan Balik:** "Umpan balik yang dapat ditindaklanjuti" 7 akan diberikan, memungkinkan mahasiswa "berbagai kesempatan untuk mendapatkan XP (mempraktikkan standar)" 7 melalui revisi.
+        
+3. Mekanisme Umpan Balik Iteratif untuk Peningkatan Produk
+    
+    "Sistem token" 9 memungkinkan mahasiswa untuk "menukar satu atau lebih token ini untuk berbagai kesempatan seperti merevisi atau menghapus satu bagian pekerjaan yang tidak memenuhi spesifikasi".9 Ini mendorong peningkatan berkelanjutan. Tinjauan sejawat 21 akan diintegrasikan, memungkinkan mahasiswa untuk "berbagi proyek mereka satu sama lain dan melakukan tinjauan sejawat," mengurangi "beban" dosen.21 Kombinasi pemetaan "nomor produk" [User Query] dan rubrik berbasis spesifikasi 9 memastikan bahwa sistem penilaian gamifikasi tetap ketat secara akademis. Ini mencegah gamifikasi menjadi "mawar dengan nama lain" 7 dengan secara eksplisit menghubungkan hadiah virtual dengan penguasaan yang ditunjukkan dari kompetensi Sinyal dan Sistem tertentu, menumbuhkan "penilaian berbasis kompetensi".7
+    
+
+## C. Integrasi GitHub Classroom untuk Manajemen Asesmen
+
+`GitHub Classroom` 16 akan menyederhanakan alur kerja tugas dan proses penilaian.
+
+1. Otomatisasi Penyerahan dan Peninjauan Produk
+    
+    Tugas (kebutuhan produk) akan didistribusikan melalui GitHub Classroom. Mahasiswa menyerahkan produk Quarto QMD mereka sebagai repositori GitHub. Ini memfasilitasi "pelacakan dan pengelolaan tugas" 16 dan "penilaian otomatis" 16 jika berlaku (misalnya, untuk pemeriksaan kebenaran kode dasar).
+    
+    _Pull requests_ akan berfungsi sebagai mekanisme utama untuk "menyerahkan" produk ke Pasar Pengetahuan untuk "pembelian" oleh dosen, memungkinkan tinjauan sejawat dan umpan balik dosen sebelum penerimaan akhir.
+    
+2. Pelacakan Kemajuan dan Portofolio Mahasiswa
+    
+    Repositori GitHub berfungsi sebagai "portofolio dinamis yang menampilkan pengalaman dunia nyata" 16 untuk setiap mahasiswa, mengumpulkan produk pengetahuan mereka selama semester. Dosen dapat dengan mudah melacak kemajuan individu dan tim, mengidentifikasi area kesulitan, dan memberikan dukungan yang ditargetkan.
+    
+
+# VI. Rencana Pembelajaran Semester (RPS) EL 2007
+
+Bagian ini merinci rincian kegiatan mingguan, hasil pembelajaran, dan ekspektasi produk, berfungsi sebagai panduan komprehensif untuk dosen dan mahasiswa. RPS ini juga mengintegrasikan pembuatan Jurnal Perjalanan Pengetahuan sebagai bagian integral dari proses pembelajaran.
+
+## A. Struktur Umum RPS
+
+RPS disusun untuk selaras dengan perkembangan topik dalam buku _Signals and Systems_ oleh Oppenheim, Willsky, dan Nawab 1, sambil mengintegrasikan prinsip-prinsip
+
+_co-creation_, KMS, dan _Knowledge Market_, serta penanaman nilai luhur melalui Jurnal Perjalanan Pengetahuan.
+
+1. **Minggu 1-3: Pengenalan Konsep Dasar Sinyal dan Sistem (Oppenheim & Willsky Chapter 1-2)**
+    
+    - **Peran Dosen:** Memperkenalkan visi dan misi kursus EL 2007, menekankan pendekatan _Value Co-creation_ dan KMS. Menjelaskan konsep _Knowledge Market_, "mata uang" (uang, emas, platinum, berlian), dan "target kekayaan." Memperkenalkan Quarto QMD dan GitHub sebagai alat utama, dengan tutorial dasar. Menentukan kebutuhan produk pengetahuan primitif awal (misalnya, definisi sinyal, sistem, properti dasar LTI) dari Bab 1 dan 2 Oppenheim & Willsky.1 Menekankan pentingnya kejujuran dan integritas dalam proses pembelajaran dan memperkenalkan konsep Jurnal Perjalanan Pengetahuan.
+        
+    - **Peran Mahasiswa:** Mempelajari Bab 1 dan 2 dari buku teks.1 Membuat akun GitHub dan menginstal Quarto. Mulai membuat peta pengetahuan primitif pertama dalam format Quarto QMD, fokus pada ekstraksi definisi dan properti kunci. Memahami sistem "mata uang" dan kriteria penilaian awal.
+        
+        **Mulai membuat entri Jurnal Perjalanan Pengetahuan mingguan, mendokumentasikan pemahaman awal dan tantangan.**
+        
+    - **Outcome Pembelajaran:** Mahasiswa memahami konsep dasar sinyal dan sistem, familiar dengan lingkungan pembelajaran berbasis KMS, mampu membuat dokumen teknis dasar dengan Quarto QMD, dan memahami pentingnya dokumentasi proses yang otentik.
+        
+    - **Produk yang Diharapkan:** Peta Pengetahuan Primitif (Quarto QMD) untuk Bab 1 & 2; Entri Jurnal Perjalanan Pengetahuan.
+        
+    - **Kode Produk/Asesmen:** EL2007-CH01-PM01, EL2007-CH02-PM01 (PM = Primitive Map); EL2007-JPP-Wk1, EL2007-JPP-Wk2, EL2007-JPP-Wk3 (JPP = Jurnal Perjalanan Pengetahuan).
+        
+2. **Minggu 4-6: Analisis Domain Frekuensi (Oppenheim & Willsky Chapter 3-4)**
+    
+    - **Peran Dosen:** Menjelaskan kebutuhan produk aplikatif terkait analisis Fourier (Deret Fourier dan Transformasi Fourier).1 Memberikan studi kasus masalah di
+        
+        _Knowledge Market_ yang memerlukan aplikasi analisis Fourier (misalnya, desain filter sederhana, analisis spektrum sinyal). Menyediakan contoh produk aplikatif berkualitas (Platinum/Berlian) dari tahun sebelumnya (jika ada) untuk inspirasi. **Meninjau entri jurnal mahasiswa, memberikan umpan balik tentang kualitas refleksi dan dokumentasi proses.**
+        
+    - **Peran Mahasiswa:** Mempelajari Bab 3 dan 4 dari buku teks.1 Mengembangkan peta pengetahuan aplikatif yang mengintegrasikan konsep Fourier untuk memecahkan studi kasus yang diberikan. Mulai merancang dan mengimplementasikan produk pengetahuan aplikatif pertama mereka dalam Quarto QMD, termasuk kode komputasi dan visualisasi. Berpartisipasi dalam sesi
+        
+        _peer review_ awal untuk produk primitif. **Memperbarui Jurnal Perjalanan Pengetahuan, mencatat keputusan desain, tantangan implementasi, dan strategi pemecahan masalah.**
+        
+    - **Outcome Pembelajaran:** Mahasiswa menguasai konsep analisis Fourier dan mampu mengaplikasikannya untuk analisis sinyal dan sistem, mulai membuat produk pengetahuan aplikatif, dan mendokumentasikan proses pembelajaran secara reflektif.
+        
+    - **Produk yang Diharapkan:** Peta Pengetahuan Aplikatif (Quarto QMD) untuk analisis Fourier; Produk Pengetahuan Aplikatif pertama (misalnya, "Interactive Fourier Series Visualizer"); Entri Jurnal Perjalanan Pengetahuan.
+        
+    - **Kode Produk/Asesmen:** EL2007-CH03-AM01, EL2007-CH04-AM01 (AM = Applicative Map); EL2007-CH04-AP01 (AP = Applicative Product); EL2007-JPP-Wk4, EL2007-JPP-Wk5, EL2007-JPP-Wk6.
+        
+3. **Minggu 7-9: Transformasi dan Aplikasi (Oppenheim & Willsky Chapter 5-6)**
+    
+    - **Peran Dosen:** "Membeli" produk pengetahuan dari mahasiswa, memberikan umpan balik rinci menggunakan rubrik penilaian berbasis spesifikasi 18 dan memberikan "mata uang" yang sesuai. Mengidentifikasi kebutuhan produk baru berdasarkan analisis kualitas produk yang masuk dan kesenjangan pembelajaran yang masih ada (
+        
+        _Value Co-creation_). Menyelenggarakan sesi diskusi tentang "permintaan Pasar Pengetahuan" dan "proposisi nilai" produk. **Melakukan tinjauan mendalam terhadap Jurnal Perjalanan Pengetahuan untuk menilai otentisitas dan repeatabilitas.**
+        
+    - **Peran Mahasiswa:** Mempelajari Bab 5 dan 6 dari buku teks.1 Memasarkan produk pengetahuan mereka di
+        
+        _Knowledge Market_ (melalui GitHub), berinteraksi dengan "pembeli" (dosen). Mengumpulkan "mata uang" dari produk yang "terjual." Mengidentifikasi peluang untuk membuat produk bernilai lebih tinggi atau merevisi produk yang ada berdasarkan umpan balik. Mulai bekerja pada proyek produk aplikatif kedua. **Memperbarui Jurnal Perjalanan Pengetahuan, fokus pada refleksi kritis terhadap umpan balik dan proses revisi.**
+        
+    - **Outcome Pembelajaran:** Mahasiswa menguasai transformasi domain diskrit, memahami karakteristik waktu dan frekuensi sistem LTI, mampu mengelola siklus hidup produk pengetahuan, dan menunjukkan integritas dalam dokumentasi proses.
+        
+    - **Produk yang Diharapkan:** Peta Pengetahuan Primitif/Aplikatif untuk Bab 5 & 6; Produk Pengetahuan Aplikatif kedua (misalnya, "Discrete-Time Filter Design Guide"); Entri Jurnal Perjalanan Pengetahuan.
+        
+    - **Kode Produk/Asesmen:** EL2007-CH05-PM/AM01, EL2007-CH06-PM/AM01; EL2007-CH06-AP02; EL2007-JPP-Wk7, EL2007-JPP-Wk8, EL2007-JPP-Wk9.
+        
+4. **Minggu 10-12: Sampling dan Komunikasi (Oppenheim & Willsky Chapter 7-8)**
+    
+    - **Peran Dosen:** Menantang mahasiswa dengan masalah kompleks yang memerlukan solusi terintegrasi dari berbagai bab (misalnya, mendesain sistem komunikasi digital sederhana). Mendorong kolaborasi tim untuk produk pengetahuan yang lebih besar dan kompleks. Menyediakan "misi sampingan" 7 yang menawarkan bonus Berlian untuk kontribusi luar biasa.
+        
+        **Memberikan umpan balik berkelanjutan pada jurnal, mendorong detail yang lebih kaya untuk repeatabilitas.**
+        
+    - **Peran Mahasiswa:** Mempelajari Bab 7 dan 8 dari buku teks.1 Berkolaborasi dalam tim (menggunakan fitur GitHub seperti cabang,
+        
+        _pull requests_) untuk menciptakan produk pengetahuan kompleks (misalnya, simulasi sistem sampling dengan _aliasing_, modulasi AM/FM). Berusaha mencapai "target kekayaan" yang diinginkan melalui produk bernilai tinggi. Melakukan _peer review_ ekstensif untuk produk tim. **Memperbarui Jurnal Perjalanan Pengetahuan, mencatat dinamika tim, pembagian tugas, dan tantangan kolaboratif.**
+        
+    - **Outcome Pembelajaran:** Mahasiswa menguasai konsep sampling dan sistem komunikasi, mampu mengaplikasikan pengetahuan secara terintegrasi, mengembangkan keterampilan kolaborasi tim, dan mendokumentasikan proses kolaborasi secara transparan.
+        
+    - **Produk yang Diharapkan:** Produk Pengetahuan Aplikatif tim (misalnya, "Digital Communication System Simulator"); Entri Jurnal Perjalanan Pengetahuan.
+        
+    - **Kode Produk/Asesmen:** EL2007-CH07-AP01, EL2007-CH08-AP01; EL2007-JPP-Wk10, EL2007-JPP-Wk11, EL2007-JPP-Wk12.
+        
+5. **Minggu 13-15: Transformasi Lanjutan dan Sistem Umpan Balik (Oppenheim & Willsky Chapter 9-11)**
+    
+    - **Peran Dosen:** Memfasilitasi diskusi tentang inovasi produk, keberlanjutan bisnis pengetahuan, dan potensi dampak jangka panjang dari KMS. Menyelenggarakan "Knowledge Market Fair" di mana mahasiswa mempresentasikan portofolio produk mereka. Melakukan penilaian akhir "kekayaan" dan konversi ke nilai akhir. **Menilai kelengkapan dan kualitas Jurnal Perjalanan Pengetahuan sebagai bagian dari portofolio akhir.**
+        
+    - **Peran Mahasiswa:** Mempelajari Bab 9, 10, dan 11 dari buku teks.1 Membuat produk pengetahuan terkait transformasi Laplace/Z dan sistem umpan balik. Menyelesaikan portofolio produk mereka di GitHub Pages. Mempresentasikan perjalanan pembelajaran dan "kekayaan" yang dicapai, merefleksikan keterampilan yang diperoleh.
+        
+        **Menyelesaikan Jurnal Perjalanan Pengetahuan, termasuk refleksi akhir tentang pertumbuhan pribadi, pembelajaran dari kesulitan, dan kontribusi terhadap komunitas pengetahuan.**
+        
+    - **Outcome Pembelajaran:** Mahasiswa menguasai transformasi lanjutan dan sistem umpan balik, mampu merefleksikan proses pembelajaran, mengkomunikasikan portofolio pengetahuan mereka, dan menunjukkan komitmen terhadap kejujuran dan integritas dalam dokumentasi.
+        
+    - **Produk yang Diharapkan:** Peta Pengetahuan Primitif/Aplikatif untuk Bab 9-11; Produk Pengetahuan Aplikatif akhir (misalnya, "Feedback System Stability Analyzer"); Jurnal Perjalanan Pengetahuan lengkap.
+        
+    - **Kode Produk/Asesmen:** EL2007-CH09-PM/AM01, EL2007-CH10-PM/AM01, EL2007-CH11-PM/AM01; EL2007-CH11-AP01; EL2007-JPP-FINAL.
+        
+
+## B. Tabel Rencana Pembelajaran Mingguan (RPS)
+
+Tabel ini memberikan peta jalan mingguan yang jelas, memastikan transparansi dan keselarasan bagi dosen dan mahasiswa. Ini mengkonkretkan konsep-konsep abstrak menjadi langkah-langkah yang dapat ditindaklanjuti, menunjukkan bagaimana kerangka teoritis diterjemahkan ke dalam kegiatan kelas praktis. Integrasi bab-bab Oppenheim & Willsky memastikan bahwa konten teknis inti tercakup secara sistematis.
+
+|Minggu|Topik Pembelajaran (Oppenheim & Willsky)|Referensi (Bab)|Peran Dosen (Kebutuhan Produk)|Peran Mahasiswa (Aktivitas & Produk)|Outcome Pembelajaran|Kode Produk/Asesmen|
+|---|---|---|---|---|---|---|
+|1|Pengenalan Sinyal dan Sistem|1|Kebutuhan Peta Primitif: Representasi Sinyal (EL2007-CH01-PM01). Perkenalan Jurnal.|Mempelajari Bab 1, Membuat akun GitHub, Instal Quarto. Membuat Peta Primitif Sinyal (Quarto QMD). **Membuat entri Jurnal Perjalanan Pengetahuan.**|Memahami dasar sinyal, familiar KMS, memahami pentingnya jurnal.|EL2007-CH01-PM01, EL2007-JPP-Wk1|
+|2|Properti Sistem|1|Kebutuhan Peta Primitif: Properti Sistem (EL2007-CH01-PM02). Tinjauan Jurnal.|Mempelajari Bab 1, Membuat Peta Primitif Properti Sistem. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Memahami properti sistem, mendokumentasikan proses.|EL2007-CH01-PM02, EL2007-JPP-Wk2|
+|3|Sistem LTI & Konvolusi|2|Kebutuhan Peta Primitif: Konvolusi (EL2007-CH02-PM01). Tinjauan Jurnal.|Mempelajari Bab 2, Membuat Peta Primitif Konvolusi. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai konvolusi, mendokumentasikan proses.|EL2007-CH02-PM01, EL2007-JPP-Wk3|
+|4|Representasi Deret Fourier|3|Kebutuhan Peta Aplikatif: Analisis Sinyal Periodik (EL2007-CH03-AM01). Tinjauan Jurnal.|Mempelajari Bab 3, Membuat Peta Aplikatif Deret Fourier. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai deret Fourier, mendokumentasikan proses.|EL2007-CH03-AM01, EL2007-JPP-Wk4|
+|5|Transformasi Fourier Waktu Kontinu|4|Kebutuhan Produk Aplikatif: Filter Frekuensi (EL2007-CH04-AP01). Tinjauan Jurnal.|Mempelajari Bab 4, Membuat Produk Aplikatif Filter Frekuensi (Quarto QMD). **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai Transformasi Fourier, membuat produk aplikatif, mendokumentasikan proses.|EL2007-CH04-AP01, EL2007-JPP-Wk5|
+|6|Properti Transformasi Fourier|4|Kebutuhan Peta Aplikatif: Properti Fourier (EL2007-CH04-AM02). Tinjauan Jurnal.|Mempelajari Bab 4, Membuat Peta Aplikatif Properti Fourier. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Memahami properti Fourier, mendokumentasikan proses.|EL2007-CH04-AM02, EL2007-JPP-Wk6|
+|7|Transformasi Fourier Waktu Diskrit|5|Kebutuhan Produk Aplikatif: Desain Filter Digital (EL2007-CH05-AP01). Tinjauan Jurnal.|Mempelajari Bab 5, Membuat Produk Aplikatif Desain Filter Digital. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai Transformasi Fourier Diskrit, membuat produk aplikatif, mendokumentasikan proses.|EL2007-CH05-AP01, EL2007-JPP-Wk7|
+|8|Karakterisasi Waktu & Frekuensi|6|Kebutuhan Peta Aplikatif: Analisis Respon Sistem (EL2007-CH06-AM01). Tinjauan Jurnal.|Mempelajari Bab 6, Membuat Peta Aplikatif Respon Sistem. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Memahami respon sistem, mendokumentasikan proses.|EL2007-CH06-AM01, EL2007-JPP-Wk8|
+|9|Sampling|7|Kebutuhan Produk Aplikatif: Simulasi Aliasing (EL2007-CH07-AP01). Tinjauan Jurnal.|Mempelajari Bab 7, Membuat Produk Aplikatif Simulasi Aliasing. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai sampling, membuat produk aplikatif, mendokumentasikan proses.|EL2007-CH07-AP01, EL2007-JPP-Wk9|
+|10|Sistem Komunikasi|8|Kebutuhan Produk Aplikatif: Modulasi AM/FM (EL2007-CH08-AP01). Tinjauan Jurnal.|Mempelajari Bab 8, Membuat Produk Aplikatif Modulasi AM/FM. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Memahami sistem komunikasi, membuat produk aplikatif, mendokumentasikan proses.|EL2007-CH08-AP01, EL2007-JPP-Wk10|
+|11|Transformasi Laplace|9|Kebutuhan Peta Primitif: Properti Laplace (EL2007-CH09-PM01). Tinjauan Jurnal.|Mempelajari Bab 9, Membuat Peta Primitif Properti Laplace. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai Transformasi Laplace, mendokumentasikan proses.|EL2007-CH09-PM01, EL2007-JPP-Wk11|
+|12|Transformasi Z|10|Kebutuhan Peta Primitif: Properti Z-Transform (EL2007-CH10-PM01). Tinjauan Jurnal.|Mempelajari Bab 10, Membuat Peta Primitif Properti Z-Transform. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Menguasai Transformasi Z, mendokumentasikan proses.|EL2007-CH10-PM01, EL2007-JPP-Wk12|
+|13|Sistem Umpan Balik Linier|11|Kebutuhan Produk Aplikatif: Analisis Stabilitas Feedback (EL2007-CH11-AP01). Tinjauan Jurnal.|Mempelajari Bab 11, Membuat Produk Aplikatif Analisis Stabilitas Feedback. **Memperbarui entri Jurnal Perjalanan Pengetahuan.**|Memahami sistem umpan balik, membuat produk aplikatif, mendokumentasikan proses.|EL2007-CH11-AP01, EL2007-JPP-Wk13|
+|14|Proyek Akhir & Presentasi Portofolio|Semua Bab|Evaluasi Portofolio Produk & Kekayaan. Penilaian Akhir Jurnal.|Mempresentasikan portofolio produk, refleksi pembelajaran. **Menyelesaikan dan menyerahkan Jurnal Perjalanan Pengetahuan.**|Mengkomunikasikan pengetahuan, menunjukkan kejujuran dan integritas.|EL2007-FINAL-PORT, EL2007-JPP-FINAL|
+|15|Refleksi & Penutupan|-|Sesi Umpan Balik Co-creation.|Memberikan umpan balik untuk perbaikan kursus.|Berkontribusi pada perbaikan kursus.|-|
+
+## C. Tabel Taksonomi Produk Pengetahuan dan Pemetaan Kompetensi
+
+Tabel ini memberikan gambaran terstruktur tentang jenis produk pengetahuan yang akan dibuat mahasiswa, menghubungkannya langsung dengan hasil pembelajaran dan kompetensi. Kejelasan ini sangat penting untuk pemahaman mahasiswa tentang ekspektasi dan untuk proses penilaian dosen. Ini memformalkan konsep "produk pengetahuan."
+
+|Kategori Produk|Contoh Produk|Deskripsi|Kompetensi yang Dinilai|Kode Produk (Contoh)|Mata Uang Target (Contoh)|
+|---|---|---|---|---|---|
+|**Peta Pengetahuan Primitif (PPM)**|Ringkasan Konsep Dasar Sinyal Waktu Kontinu|Dokumentasi ringkas konsep, definisi, dan properti dasar dari buku teks. Mirip 'cheat sheet' terstruktur.|Pemahaman konsep dasar, ekstraksi informasi, organisasi pengetahuan.|EL2007-CH01-PM01|Uang, Emas|
+||Properti Sistem LTI|Penjelasan detail properti linearitas, invarian waktu, kausalitas, dan stabilitas dengan contoh matematis.|Analisis properti sistem, penulisan teknis yang jelas.|EL2007-CH02-PM01|Uang, Emas|
+||Tabel Transformasi Fourier|Kompilasi pasangan transformasi Fourier dan propertinya dengan contoh penggunaan.|Rekognisi pola, efisiensi ekstraksi informasi.|EL2007-CH04-PM01|Emas|
+|**Peta Pengetahuan Aplikatif (PPA)**|Panduan Desain Filter Sederhana|Penerapan analisis Fourier untuk mendesain filter _low-pass_ atau _high-pass_ dengan contoh simulasi.|Aplikasi teori ke masalah desain, penggunaan alat komputasi.|EL2007-CH06-AM01|Emas, Platinum|
+||Analisis Sistem Umpan Balik|Demonstrasi analisis stabilitas sistem umpan balik menggunakan transformasi Laplace/Z dan _root locus_.|Analisis sistem kompleks, interpretasi hasil.|EL2007-CH11-AM01|Emas, Platinum|
+|**Produk Pengetahuan Aplikatif (PPA)**|Visualizer Deret Fourier Interaktif|Aplikasi Quarto QMD dengan kode yang dapat dieksekusi untuk memvisualisasikan konvergensi deret Fourier.|Implementasi komputasi, visualisasi data, interaktivitas.|EL2007-CH03-AP01|Platinum, Berlian|
+||Simulator Sistem Sampling dengan Aliasing|Simulasi efek _aliasing_ dalam sampling sinyal waktu kontinu menggunakan Python/MATLAB di Quarto QMD.|Pemahaman fenomena kompleks, simulasi, analisis dampak.|EL2007-CH07-AP01|Platinum, Berlian|
+||Modul Komunikasi AM/FM|Implementasi dan analisis modulasi amplitudo (AM) atau frekuensi (FM) sederhana, termasuk spektrum sinyal.|Desain sistem komunikasi, analisis domain frekuensi.|EL2007-CH08-AP01|Platinum, Berlian|
+||Analisis Stabilitas Sistem Kontrol|Analisis kasus nyata sistem kontrol (misalnya, suspensi mobil) menggunakan diagram Bode dan kriteria Nyquist.|Pemecahan masalah rekayasa, sintesis berbagai metode analisis.|EL2007-CH11-AP02|Berlian|
+|**Jurnal Perjalanan Pengetahuan (JPP)**|Entri Jurnal Mingguan|Dokumentasi naratif tentang proses pembelajaran, tantangan, keputusan, dan refleksi dalam pembuatan produk pengetahuan.|Kejujuran, integritas, pemikiran metakognitif, refleksi diri, kemampuan dokumentasi, repeatabilitas.|EL2007-JPP-WkX|Uang, Emas|
+
+# VII. Kesimpulan dan Rekomendasi
+
+Transformasi matakuliah EL 2007 Sinyal dan Sistem melalui pendekatan _Value Co-creation_ dan Sistem Manajemen Pengetahuan (KMS) yang digamifikasi merupakan langkah progresif menuju pendidikan teknik yang lebih relevan dan memberdayakan. Kerangka kerja yang diusulkan ini secara fundamental mengubah peran dosen dari penyampai konten menjadi perancang kebutuhan dan kurator pengetahuan, sementara mahasiswa berevolusi dari penerima pasif menjadi produsen dan inovator aktif.
+
+Integrasi _Value Co-creation_, KMS, dan _Knowledge Market_ menciptakan ekosistem pembelajaran yang saling memperkuat. _Co-creation_ memastikan bahwa konten kursus terus diperkaya oleh kontribusi mahasiswa, KMS memberikan struktur dan keberlanjutan untuk pengetahuan yang dihasilkan, dan Pasar Pengetahuan, didorong oleh sistem penilaian gamifikasi, memotivasi mahasiswa untuk secara konsisten menghasilkan produk pengetahuan berkualitas tinggi. Penggunaan Quarto QMD memastikan bahwa produk-produk ini tidak hanya akurat secara teknis tetapi juga dikemas secara profesional dan dapat direproduksi, menumbuhkan keterampilan komunikasi teknis dan literasi komputasi yang penting. Platform GitHub berfungsi sebagai tulang punggung operasional, memfasilitasi kolaborasi, kontrol versi, dan diseminasi produk pengetahuan, sambil menanamkan praktik pengembangan dunia nyata.
+
+Sistem "kantong mata uang dan aset" yang digamifikasi, yang dipetakan ke kompetensi spesifik melalui nomor produk dan rubrik berbasis spesifikasi, memastikan bahwa motivasi intrinsik dan ekstrinsik selaras dengan hasil pembelajaran yang ketat secara akademis. Ini mendorong pembelajaran berkelanjutan, revisi, dan upaya untuk mencapai penguasaan, bukan hanya nilai kelulusan. Penambahan "Jurnal Perjalanan Pengetahuan" memperkuat penanaman nilai-nilai kejujuran, integritas, dan otentisitas, memastikan bahwa produk yang dihasilkan tidak hanya berkualitas tetapi juga otentik dan dapat direproduksi, serta menjadi sumber inspirasi bagi mahasiswa di masa depan.
+
+**Rekomendasi Aksi:**
+
+1. **Fase Percontohan (Pilot Phase):** Mengimplementasikan kerangka kerja ini secara bertahap, mungkin dimulai dengan satu atau dua topik di semester pertama, untuk mengumpulkan umpan balik dan menyempurnakan proses.
+    
+2. **Pelatihan Dosen:** Memberikan pelatihan komprehensif kepada dosen tentang pedagogi _Value Co-creation_, penggunaan Quarto QMD, dan manajemen GitHub Classroom, serta desain rubrik berbasis spesifikasi.
+    
+3. **Pengembangan Sumber Daya Awal:** Membuat beberapa contoh produk pengetahuan primitif dan aplikatif awal untuk memandu mahasiswa dan menetapkan standar kualitas.
+    
+4. **Iterasi Berkelanjutan:** Secara teratur mengevaluasi efektivitas "kebutuhan produk" yang dirancang dosen dan mekanisme penilaian gamifikasi, menyesuaikannya berdasarkan kinerja mahasiswa dan umpan balik.
+    
+5. **Promosi Komunitas:** Mendorong mahasiswa untuk secara aktif berpartisipasi dalam tinjauan sejawat dan berkontribusi pada budaya berbagi pengetahuan, memperkuat aspek "komunitas praktik" dari KMS.
+    
+
+Dengan menerapkan pendekatan ini, EL 2007 Sinyal dan Sistem tidak hanya akan membekali mahasiswa dengan pemahaman teknis yang mendalam tetapi juga dengan keterampilan kewirausahaan, kolaboratif, dan komunikasi yang sangat berharga, mempersiapkan mereka untuk menjadi pemimpin inovatif di bidang teknik.

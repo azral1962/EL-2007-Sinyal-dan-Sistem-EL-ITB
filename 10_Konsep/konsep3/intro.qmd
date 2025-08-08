@@ -1,0 +1,37 @@
+
+# I. Pendahuluan: Visi dan Transformasi Pembelajaran Sinyal dan Sistem
+
+## A. Latar Belakang dan Urgensi Inovasi Kurikulum
+
+Model pedagogis tradisional dalam pendidikan tinggi, khususnya di bidang teknik seperti Sinyal dan Sistem, seringkali menekankan penyampaian konten dan konsumsi informasi secara pasif. Pendekatan ini, meskipun mendasar, dapat membatasi keterlibatan mahasiswa, pemikiran kritis, dan pengembangan keterampilan praktis yang dapat ditransfer. Materi kuliah Sinyal dan Sistem, seperti yang diuraikan dalam buku teks "Signals and Systems" oleh Oppenheim, Willsky, dan Nawab, mencakup topik-topik kompleks seperti sinyal waktu kontinu dan diskrit, sistem linear waktu-invarian (LTI), konvolusi, analisis Fourier, transformasi Laplace dan Z, serta aplikasi dalam komunikasi dan sistem kendali.1 Pemahaman mendalam terhadap materi ini membutuhkan lebih dari sekadar hafalan; mahasiswa perlu mampu menerapkan konsep-konsep ini untuk memecahkan masalah nyata.
+
+Dalam ekonomi berbasis pengetahuan yang berkembang pesat saat ini, lulusan tidak hanya diharapkan menjadi konsumen informasi, tetapi juga pencipta, kurator, dan komunikator pengetahuan yang aktif.2 Kompleksitas Sinyal dan Sistem menuntut pemahaman yang lebih mendalam dan terapan yang melampaui pembelajaran hafalan. Oleh karena itu, terdapat urgensi yang berkembang untuk bergerak melampaui metode penilaian dan evaluasi tradisional menuju sistem yang mendorong motivasi intrinsik, kolaborasi, dan pemecahan masalah dunia nyata, selaras dengan tuntutan angkatan kerja modern.
+
+Pergeseran dari "kurikulum sebagai penyampaian" menjadi "pembuatan makna bersama" bukan sekadar preferensi pedagogis, melainkan respons strategis terhadap perubahan sifat pekerjaan berbasis pengetahuan.3 Dalam bidang teknik, di mana masalah seringkali tidak terdefinisi dengan baik dan solusi memerlukan sintesis lintas domain, pendekatan
+
+_co-creation_ mempersiapkan mahasiswa menghadapi ambiguitas dan tuntutan kolaboratif dalam praktik profesional. Transformasi ini sangat penting untuk memastikan bahwa pendidikan Sinyal dan Sistem tetap relevan dan menghasilkan insinyur yang siap menghadapi tantangan masa depan.
+
+## B. Tujuan Umum Pengembangan Matakuliah EL 2007
+
+Pengembangan matakuliah EL 2007 Sinyal dan Sistem ini memiliki beberapa tujuan umum yang saling terkait:
+
+- Menciptakan lingkungan belajar yang dinamis di mana mahasiswa secara aktif berpartisipasi dalam konstruksi, aplikasi, dan diseminasi pengetahuan dalam bidang Sinyal dan Sistem. Ini memberdayakan mahasiswa untuk mengambil peran yang lebih besar dalam proses pembelajaran mereka.
+    
+- Memberdayakan mahasiswa dengan pola pikir kewirausahaan, memungkinkan mereka untuk mengidentifikasi kesenjangan pengetahuan, mengembangkan solusi, dan mengemasnya sebagai "produk pengetahuan" yang bernilai. Hal ini menumbuhkan kemampuan untuk melihat nilai dalam aplikasi teoritis.
+    
+- Membangun Sistem Manajemen Pengetahuan (KMS) yang berkelanjutan yang memperkaya materi perkuliahan untuk angkatan berikutnya, menciptakan warisan aset pendidikan yang dihasilkan bersama. Ini memastikan bahwa upaya pembelajaran setiap angkatan berkontribusi pada peningkatan kualitas kursus secara keseluruhan.
+    
+- Mengimplementasikan kerangka penilaian berbasis gamifikasi yang secara intrinsik memotivasi mahasiswa, memberikan umpan balik yang transparan, dan menghargai kompetensi serta inovasi. Pendekatan ini bertujuan untuk membuat proses penilaian lebih menarik dan relevan dengan upaya belajar mahasiswa.
+    
+
+## C. Gambaran Umum Pendekatan Value Co-creation dan Knowledge Management System
+
+Matakuliah EL 2007 akan mengadopsi pendekatan holistik yang mengintegrasikan tiga pilar utama: Value Co-creation, Sistem Manajemen Pengetahuan (KMS), dan Pasar Pengetahuan (Knowledge Market) berbasis gamifikasi.
+
+**Value Co-creation:** Pendekatan ini akan menjadi filosofi pedagogis inti, memposisikan dosen dan mahasiswa sebagai kolaborator aktif dalam membentuk pengalaman pendidikan. Hal ini melibatkan tanggung jawab bersama untuk pembelajaran, pertukaran wawasan timbal balik, dan produksi bersama sumber daya pembelajaran yang bernilai.3 Mahasiswa tidak lagi hanya menerima informasi, tetapi secara aktif berkontribusi pada korpus pengetahuan kursus.
+
+**Sistem Manajemen Pengetahuan (KMS):** KMS yang kuat akan berfungsi sebagai tulang punggung operasional, menyediakan alat dan proses untuk menangkap, mengatur, menyimpan, dan berbagi pengetahuan yang dihasilkan bersama.2 Sistem ini akan memfasilitasi pembuatan "peta pengetahuan" dan "produk pengetahuan," memastikan bahwa pembelajaran bersifat kumulatif dan mudah diakses. KMS akan menjadi wadah di mana semua kontribusi pengetahuan mahasiswa dan dosen disimpan dan dikelola.
+
+**Pasar Pengetahuan (Knowledge Market) & Gamifikasi:** Konsep "Pasar Pengetahuan" akan mengubah proses pembelajaran menjadi simulasi ekonomi dunia nyata di mana mahasiswa "menjual" produk pengetahuan mereka dan "mendapatkan" mata uang virtual. Pendekatan gamifikasi ini dirancang untuk mendorong peningkatan dan inovasi berkelanjutan.6
+
+Integrasi _Value Co-creation_, KMS, dan _Knowledge Market_ berbasis gamifikasi menciptakan ekosistem pembelajaran yang saling memperkuat. _Co-creation_ menghasilkan bahan mentah (pengetahuan), KMS menstrukturkan dan melestarikannya, dan pasar/gamifikasi menyediakan insentif serta lingkaran umpan balik untuk produksi dan penyempurnaan berkelanjutan. Pendekatan ini melampaui teknik pedagogis yang terisolasi menuju sistem yang holistik dan dinamis. Hal ini memastikan bahwa setiap komponen mendukung dan memperkuat yang lain, menciptakan pengalaman belajar yang lebih kohesif dan efektif.
