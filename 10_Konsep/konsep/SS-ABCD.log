@@ -1,55 +1,55 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.31)  7 AUG 2025 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.11.22)  8 AUG 2025 07:36
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**SS-ABCD.tex
-(./SS-ABCD.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2024-12-25>
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2024/10/24 v3.43 KOMA-Script document class (report)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
-))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+**c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex
+(c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2022/10/12 v3.38 KOMA-Script document class (report)
+(c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+ (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+ (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+))) (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks16
 )
-Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
-)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip49
-\scr@dte@tocline@numbox=\box52
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)) (c:/texlive/2023/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 137.
 Class scrreprt Info: File `scrsize11pt.clo' used instead of
-(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2713.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2024/10/24 v3.43 KOMA-Script font size class option (11pt)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2024/10/24 v3.43 KOMA-Script package (type area)
-\ta@bcor=\skip50
-\ta@div=\count192
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2614.
+ (c:/texlive/2023/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt)
+) (c:/texlive/2023/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
+\ta@bcor=\skip49
+\ta@div=\count185
 Package typearea Info: You've used standard option `letterpaper'.
 (typearea)             This is correct!
 (typearea)             Internally I'm using `paper=letter'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `paper=letter' there
 (typearea)             instead of `letterpaper', too.
-\ta@hblk=\skip51
-\ta@vblk=\skip52
-\ta@temp=\skip53
-\footheight=\skip54
+\ta@hblk=\skip50
+\ta@vblk=\skip51
+\ta@temp=\skip52
+\footheight=\skip53
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 11
 (typearea)             BCOR = 0.0pt
@@ -66,182 +66,145 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1802.
+(typearea)              on input line 1767.
 )
-\c@part=\count193
-\c@chapter=\count194
-\c@section=\count195
-\c@subsection=\count196
-\c@subsubsection=\count197
-\c@paragraph=\count198
-\c@subparagraph=\count199
-\scr@dte@chapter@maxnumwidth=\skip55
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@chapter@maxnumwidth=\skip54
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 6020.
-\scr@dte@section@maxnumwidth=\skip56
+(scrreprt)           for `\chapter on input line 5902.
+\scr@dte@section@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 6031.
+(scrreprt)           for `\section on input line 5913.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 6031.
-\scr@dte@part@maxnumwidth=\skip57
+(scrreprt)           for `\section on input line 5913.
+\scr@dte@part@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 6040.
-\scr@dte@subsection@maxnumwidth=\skip58
+(scrreprt)           for `\part on input line 5922.
+\scr@dte@subsection@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 6050.
+(scrreprt)           for `\subsection on input line 5932.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 6050.
-\scr@dte@subsubsection@maxnumwidth=\skip59
+(scrreprt)           for `\subsection on input line 5932.
+\scr@dte@subsubsection@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 6060.
+(scrreprt)           for `\subsubsection on input line 5942.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 6060.
-\scr@dte@paragraph@maxnumwidth=\skip60
+(scrreprt)           for `\subsubsection on input line 5942.
+\scr@dte@paragraph@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 6071.
+(scrreprt)           for `\paragraph on input line 5953.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 6071.
-\scr@dte@subparagraph@maxnumwidth=\skip61
+(scrreprt)           for `\paragraph on input line 5953.
+\scr@dte@subparagraph@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 6081.
+(scrreprt)           for `\subparagraph on input line 5963.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 6081.
-\abovecaptionskip=\skip62
-\belowcaptionskip=\skip63
-\c@pti@nb@sid@b@x=\box53
+(scrreprt)           for `\subparagraph on input line 5963.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box52
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 7269.
-\scr@dte@figure@maxnumwidth=\skip64
-\c@figure=\count266
+(tocbasic)             for `lof' on input line 7140.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count193
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 7286.
-\scr@dte@table@maxnumwidth=\skip65
-\c@table=\count267
-Class scrreprt Info: Redefining `\numberline' on input line 7457.
-\bibindent=\dimen141
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip66
+(tocbasic)             for `lot' on input line 7157.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count194
+Class scrreprt Info: Redefining `\numberline' on input line 7328.
+\bibindent=\dimen140
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip65
+
 For additional information on amsmath, use the `?' option.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen142
-)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks17
+\ex@=\dimen141
+)) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen142
+) (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count268
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count269
-\leftroot@=\count270
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count271
-\DOTSCASE@=\count272
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count273
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count274
-\dotsspace@=\muskip17
-\c@parentequation=\count275
-\dspbrk@lvl=\count276
-\tag@help=\toks19
-\row@=\count277
-\column@=\count278
-\maxfields@=\count279
-\andhelp@=\toks20
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
-\@envbody=\toks21
-\multlinegap=\skip67
-\multlinetaggap=\skip68
-\mathdisplay@stack=\toks22
+\inf@bad=\count195
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count196
+\leftroot@=\count197
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count198
+\DOTSCASE@=\count199
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count266
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count267
+\dotsspace@=\muskip16
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks18
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-12-25 L3 programming layer (loader) 
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count280
-\l__pdf_internal_box=\box56
-\g__pdf_backend_annotation_int=\count281
-\g__pdf_backend_link_int=\count282
-))
-Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count283
-\l__fontspec_language_int=\count284
-\l__fontspec_strnum_int=\count285
-\l__fontspec_tmp_int=\count286
-\l__fontspec_tmpa_int=\count287
-\l__fontspec_tmpb_int=\count288
-\l__fontspec_tmpc_int=\count289
-\l__fontspec_em_int=\count290
-\l__fontspec_emdef_int=\count291
-\l__fontspec_strong_int=\count292
-\l__fontspec_strongdef_int=\count293
-\l__fontspec_tmpa_dim=\dimen151
-\l__fontspec_tmpb_dim=\dimen152
-\l__fontspec_tmpc_dim=\dimen153
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+)) (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
-))
-\g__um_fam_int=\count294
-\g__um_fonts_used_int=\count295
-\l__um_primecount_int=\count296
-\g__um_primekern_muskip=\muskip18
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+) (c:/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (c:/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -275,212 +238,217 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2024/12/12 v3.2 Micro-typographical refinements (RS)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+ (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count297
+\etb@tempcnta=\count273
 )
-\MT@toks=\toks23
-\MT@tempbox=\box57
-\MT@count=\count298
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1075.
-LaTeX Info: Redefining \leftprotrusion on input line 1076.
-\MT@prot@toks=\toks24
-LaTeX Info: Redefining \rightprotrusion on input line 1095.
-LaTeX Info: Redefining \textls on input line 1437.
-\MT@outer@kern=\dimen154
-LaTeX Info: Redefining \microtypecontext on input line 2041.
-LaTeX Info: Redefining \textmicrotypecontext on input line 2058.
-\MT@listname@count=\count299
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/microtype/microtype-xetex.def
-File: microtype-xetex.def 2024/12/12 v3.2 Definitions specific to xetex (RS)
-LaTeX Info: Redefining \lsstyle on input line 443.
-LaTeX Info: Redefining \lslig on input line 451.
-\MT@outer@space=\skip69
+\MT@toks=\toks24
+\MT@tempbox=\box55
+\MT@count=\count274
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks25
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen150
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count275
+ (c:/texlive/2023/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip68
 )
 Package microtype Info: Loading configuration file microtype.cfg.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2024/12/12 v3.2 microtype main configuration file (RS)
-)
-LaTeX Info: Redefining \microtypesetup on input line 3053.
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2023/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 274.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
-File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
-File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip70
-\LTright=\skip71
-\LTpre=\skip72
-\LTpost=\skip73
-\LTchunksize=\count300
-\LTcapwidth=\dimen155
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
-\LT@gbox=\box62
-\LT@cols=\count301
-\LT@rows=\count302
-\c@LT@tables=\count303
-\c@LT@chunks=\count304
-\LT@p@ftn=\toks25
+) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2022/06/12 v2.14 Predefined colors according to SVG 1.1 (UK)
+) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
+)) (c:/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count276
+\LTcapwidth=\dimen151
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count277
+\LT@rows=\count278
+\c@LT@tables=\count279
+\c@LT@chunks=\count280
+\LT@p@ftn=\toks26
 )
 Class scrreprt Info: longtable captions redefined on input line 72.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen156
-\lightrulewidth=\dimen157
-\cmidrulewidth=\dimen158
-\belowrulesep=\dimen159
-\belowbottomsep=\dimen160
-\aboverulesep=\dimen161
-\abovetopsep=\dimen162
-\cmidrulesep=\dimen163
-\cmidrulekern=\dimen164
-\defaultaddspace=\dimen165
-\@cmidla=\count305
-\@cmidlb=\count306
-\@aboverulesep=\dimen166
-\@belowrulesep=\dimen167
-\@thisruleclass=\count307
-\@lastruleclass=\count308
-\@thisrulewidth=\dimen168
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen169
-\ar@mcellbox=\box63
-\extrarowheight=\dimen170
-\NC@list=\toks26
-\extratabsurround=\skip74
-\backup@length=\skip75
-\ar@cellbox=\box64
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count309
-\calc@Bcount=\count310
-\calc@Adimen=\dimen171
-\calc@Bdimen=\dimen172
-\calc@Askip=\skip76
-\calc@Bskip=\skip77
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen164
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box61
+\extrarowheight=\dimen166
+\NC@list=\toks27
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box62
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen167
+\calc@Bdimen=\dimen168
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count311
-\calc@Cskip=\skip78
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
-Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box65
-\fn@width=\dimen173
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+\calc@Ccount=\count287
+\calc@Cskip=\skip77
+) (c:/texlive/2023/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
+\FNH@notes=\box63
+\FNH@width=\dimen169
+\FNH@toks=\toks28
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
 )
-\cslhangindent=\skip79
-\csllabelwidth=\skip80
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+\cslhangindent=\skip78
+\csllabelwidth=\skip79
+ (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+ (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count312
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+\c@section@level=\count288
 )
-\@linkdim=\dimen176
-\Hy@linkcounter=\count313
-\Hy@pagecounter=\count314
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+\@linkdim=\dimen172
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count315
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count291
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4040.
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count316
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip19
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count292
+ (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen177
-(c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+\XeTeXLinkMargin=\dimen173
+ (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count317
-\Field@Width=\dimen178
-\Fld@charsize=\dimen179
+\Fld@menulength=\count293
+\Field@Width=\dimen174
+\Fld@charsize=\dimen175
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -488,81 +456,88 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count318
-\c@Item=\count319
-\c@Hfootnote=\count320
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
 )
-Package hyperref Info: Driver (autodetected): hxetex.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
-\pdfm@box=\box66
-\c@Hy@AnnotLevel=\count321
-\HyField@AnnotCount=\count322
-\Fld@listcount=\count323
-\c@bookmark@seq@number=\count324
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+ (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip81
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
-File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count325
-)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen180
-\captionmargin=\dimen181
-\caption@leftmargin=\dimen182
-\caption@rightmargin=\dimen183
-\caption@width=\dimen184
-\caption@indent=\dimen185
-\caption@parindent=\dimen186
-\caption@hangindent=\dimen187
+\Hy@SectionHShift=\skip80
+) (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count299
+)) (c:/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen176
+\captionmargin=\dimen177
+\caption@leftmargin=\dimen178
+\caption@rightmargin=\dimen179
+\caption@width=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
 Package caption Info: KOMA-Script document class detected.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption-koma.sto
-File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2022/12/27 v2.0c Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count326
-\c@continuedfloat=\count327
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: KOMA-Script scrextend package detected.
-\caption@addmargin@hsize=\dimen188
-\caption@addmargin@linewidth=\dimen189
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/float/float.sty
+\caption@addmargin@hsize=\dimen184
+\caption@addmargin@linewidth=\dimen185
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count328
-\float@exts=\toks27
-\float@box=\box67
-\@float@everytoks=\toks28
-\@floatcapt=\box68
+\c@float@type=\count302
+\float@exts=\toks29
+\float@box=\box64
+\@float@everytoks=\toks30
+\@floatcapt=\box65
 )
-\@float@every@codelisting=\toks29
-\c@codelisting=\count329
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count330
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count331
+\@float@every@codelisting=\toks31
+\c@codelisting=\count303
+ (c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count304
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count305
+) (c:/texlive/2023/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 189.
-No file SS-ABCD.aux.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 196.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count306
+\l__pdf_internal_box=\box66
+) (./SS-ABCD.aux)
 \openout1 = `SS-ABCD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 196.
@@ -574,8 +549,6 @@ LaTeX Font Info:    ... okay on input line 196.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 196.
 LaTeX Font Info:    ... okay on input line 196.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 196.
-LaTeX Font Info:    ... okay on input line 196.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 196.
 LaTeX Font Info:    ... okay on input line 196.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 196.
 LaTeX Font Info:    ... okay on input line 196.
@@ -596,661 +569,2336 @@ Package scrbase Info: activating english \listfigurename on input line 196.
 Package scrbase Info: activating english \listtablename on input line 196.
 Package scrbase Info: activating english \bibname on input line 196.
 Package scrbase Info: activating english \indexname on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 196.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 196.
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(0)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 196.
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(1)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.57>s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 196.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 196.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 196.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 196.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 196.
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096766517402.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096766517402.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096766517402.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096766517402.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096766517402.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(2)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
-(fontspec)             8\font =7.41315pt\relax \fontdimen 9\font
-(fontspec)             =4.3143pt\relax \fontdimen 10\font =4.8618pt\relax
-(fontspec)             \fontdimen 11\font =7.5117pt\relax \fontdimen 12\font
-(fontspec)             =3.77776pt\relax \fontdimen 13\font =3.97485pt\relax
-(fontspec)             \fontdimen 14\font =3.97485pt\relax \fontdimen 15\font
-(fontspec)             =3.16455pt\relax \fontdimen 16\font =2.70465pt\relax
-(fontspec)             \fontdimen 17\font =2.70465pt\relax \fontdimen 18\font
-(fontspec)             =2.7375pt\relax \fontdimen 19\font =2.19pt\relax
-(fontspec)             \fontdimen 22\font =2.7375pt\relax \fontdimen 20\font
-(fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.3075->s*[1.000096766517402]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6.57-9.3075>s*[1.000096766517402]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.57>s*[1.000096766517402]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.000096766517402]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 196.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 196.
-LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 196.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 196.
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998967671640342.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998967671640342.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998967671640342.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998967671640342.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999967668407183.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998967671640342.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(3)' created for font
-(fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
-(fontspec)             8\font =0.438pt\relax \fontdimen 9\font =2.19pt\relax
-(fontspec)             \fontdimen 10\font =1.82864pt\relax \fontdimen 11\font
-(fontspec)             =1.21545pt\relax \fontdimen 12\font =6.56999pt\relax
-(fontspec)             \fontdimen 13\font =0pt\relax }].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.3075->s*[0.9998967671640342]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6.57-9.3075>s*[0.9998967671640342]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.57>s*[0.9998967671640342]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9998967671640342]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
-
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 196.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 196.
-LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 196.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 196.
 LaTeX Info: Redefining \microtypecontext on input line 196.
 Package microtype Info: Applying patch `item' on input line 196.
 Package microtype Info: Applying patch `toc' on input line 196.
 Package microtype Info: Applying patch `eqnum' on input line 196.
 Package microtype Info: Applying patch `footnote' on input line 196.
 Package microtype Info: Applying patch `verbatim' on input line 196.
-LaTeX Info: Redefining \microtypesetup on input line 196.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 196.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of spacing.
-Package microtype Info: No adjustment of kerning.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
-)
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+) (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen186
+\scratchbox=\box67
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen187
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks33
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 Package hyperref Info: Link coloring ON on input line 196.
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 198.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: TU).
+(microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 198.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 198.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 198.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 198.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 198.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 198.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 198.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 198.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 198.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 198.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 198.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 198.
-(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+) (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-
-[1
+) [1
 
 
 
-]
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 Package tocbasic Info: character protrusion at toc deactivated on input line 203.
+
 No file SS-ABCD.toc.
 \tf@toc=\write3
 \openout3 = `SS-ABCD.toc'.
-
-
 
 [2
 
 ]
 chapter 1.
 
-
-[3
-
-]
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[4]
-
-[5]
-
-[6]
-chapter 2.
-
-
-[7
-
-]
-
-[8]
-Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no θ (U+03B8) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[9]
-Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ϕ (U+03D5) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[10]
-Underfull \hbox (badness 1571) in paragraph at lines 646--651
-\TU/lmr/m/n/10.95 berhubungan secara harmonis.39 Ini berarti sinyal periodik dapat diuraikan menjadi
- []
-
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[11]
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no π (U+03C0) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[12]
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ∑ (U+2211) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[13]
-
-[14]
-Underfull \hbox (badness 1735) in paragraph at lines 893--901
-[]\TU/lmr/m/it/10.95 sebelum \TU/lmr/m/n/10.95 proses sampling untuk menghilangkan komponen frekuensi di atas frekuensi
- []
-
-
-
-[15]
-
-[16]
-Missing character: There is no ∫ (U+222B) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no τ (U+03C4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[17]
-Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[18]
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (26.4824pt too wide) in paragraph at lines 1166--1168
-[]\TU/lmr/bx/n/10.95 Metode: \TU/lmr/m/n/10.95 Pembagian di domain frekuensi. H(ejω)=Y(ejω)/X(ejω) atau H[k]=Y[k]/X[k].113 
- []
-
-Missing character: There is no ω (U+03C9) in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-
-Overfull \hbox (26.3729pt too wide) in paragraph at lines 1175--1177
-[]\TU/lmr/bx/n/10.95 Metode: \TU/lmr/m/n/10.95 Pembagian di domain frekuensi. X(ejω)=Y(ejω)/H(ejω) atau X[k]=Y[k]/H[k].114 
- []
-
-
-
-[19]
-
-[20]
-Missing character: There is no ↔ (U+2194) in font [lmsans10-bold]:mapping=tex-text;!
-Missing character: There is no ↔ (U+2194) in font [lmsans10-bold]:mapping=tex-text;!
-Missing character: There is no ↔ (U+2194) in font [lmsans10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ↔ (U+2194) in font [lmsans10-bold]:mapping=tex-text;!
-
-
-[21]
-Missing character: There is no ↔ (U+2194) in font [lmsans10-bold]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ↔ (U+2194) in font [lmsans10-bold]:mapping=tex-text;!
-
-
-[22]
-
-[23]
-
-[24]
-chapter 3.
-
-
-[25
-
-]
-
-[26]
-Underfull \hbox (badness 1142) in paragraph at lines 1586--1588
-[]\TU/lmr/bx/n/10.95 Pernyataan Lengkap: \TU/lmr/m/n/10.95 Tujuan utama dari transformasi ini adalah untuk
- []
-
-
-
-[27]
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[28]
-
-[29]
-
-[30]
-Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no δ (U+03B4) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmroman10-regular]:mapping=tex-text;!
-
-
-[31]
-
-[32]
-
-[33]
-
-[34]
-chapter 4.
-
-
-[35
-
-]
-
-[36]
-
-[37]
-
-[38]
-
-[39]
-
-[40] [41] [42]
-
-[43]
-Overfull \hbox (3.46143pt too wide) in paragraph at lines 2515--2516
-[]\TU/lmr/m/n/10.95 Tingkat 
- []
-
-
-Overfull \hbox (11.69582pt too wide) in paragraph at lines 2521--2522
-[]\TU/lmr/m/n/10.95 Frekuensi 
- []
-
-
-Overfull \hbox (11.69582pt too wide) in paragraph at lines 2523--2524
-[]\TU/lmr/m/n/10.95 Frekuensi 
- []
-
-
-Overfull \hbox (2.77158pt too wide) in paragraph at lines 2525--2526
-[]\TU/lmr/m/n/10.95 Laplace  
- []
-
-
-Overfull \hbox (15.13412pt too wide) in paragraph at lines 2527--2528
-\TU/lmr/m/n/10.95 Transform  
- []
-
-
-Overfull \hbox (26.45642pt too wide) in paragraph at lines 2529--2530
-\TU/lmr/m/n/10.95 tinu/Digital)  
- []
-
-
-Overfull \hbox (10.54607pt too wide) in paragraph at lines 2531--2532
-[]\TU/lmr/m/n/10.95 Sampling 
- []
-
-
-Overfull \hbox (13.03172pt too wide) in paragraph at lines 2533--2534
-[]\TU/lmr/m/n/10.95 Konvolusi 
- []
-
-
-
-[44]
-
-[45]
-Underfull \hbox (badness 3098) in paragraph at lines 2638--2643
-[]\TU/lmr/bx/n/10.95 Kategorisasi Komprehensif: \TU/lmr/m/n/10.95 Sistem harus memungkinkan kategorisasi peta
- []
-
-
-
-[46]
-
-[47]
-
-[48]
-Overfull \hbox (0.74266pt too wide) in paragraph at lines 2802--2802
-\TU/lmr/bx/n/10.95 tur/Organisasi 
- []
-
-[49]
-
-[50]
-
-[51]
-
-[52]
-chapter 5.
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2938.
-
-
-[53
-
-]
-Overfull \hbox (317.82355pt too wide) in paragraph at lines 2979--2979
-[]\TU/lmtt/m/n/10.95 * [Deskripsikan masalah yang Anda temui. Misalnya: "Saya kesulitan memahami hubungan antara deret Fourier dan transformasi Fourier."][] 
- []
-
-
-Overfull \hbox (881.20093pt too wide) in paragraph at lines 2979--2979
-[]\TU/lmtt/m/n/10.95 * [Jelaskan momen "aha!" atau solusi yang Anda temukan. Misalnya: "Setelah menonton video lain, saya menyadari bahwa transformasi Fourier adalah representasi deret Fourier untuk sinyal aperiodik dengan periode yang tak terhingga."][] 
- []
-
-
-Overfull \hbox (363.81354pt too wide) in paragraph at lines 2979--2979
-[]\TU/lmtt/m/n/10.95 * [Cantumkan semua alat yang Anda gunakan. Contoh: "Notebook Python untuk simulasi, YouTube untuk visualisasi konsep, diagram di buku teks."][] 
- []
-
-
-Overfull \hbox (93.62234pt too wide) in paragraph at lines 2979--2979
-[]\TU/lmtt/m/n/10.95 * [Ringkas pembelajaran utama yang Anda dapatkan dari proses ini. Ini adalah kesimpulan Anda.][] 
- []
-
-
-
-[54]
-
-[55]
-chapter 6.
-
-
-[56
-
-]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Class scrreprt Warning: \float@addtolists detected!
+(scrreprt)              Implementation of \float@addtolist became
+(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrreprt)              has been replaced by several more flexible
+(scrreprt)              features of package `tocbasic`.
+(scrreprt)              Since Version 3.12 support for deprecated
+(scrreprt)              \float@addtolist interface has been
+(scrreprt)              restricted to only some of the KOMA-Script
+(scrreprt)              features and been removed from others.
+(scrreprt)              Loading of package `scrhack' may help to
+(scrreprt)              avoid this warning, if you are using a
+(scrreprt)              a package that still implements the
+(scrreprt)              deprecated \float@addtolist interface.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 237.
+(c:/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [3
+
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [4]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3057 \end{CSLReferences}
-                           
-Here is how much of TeX's memory you used:
- 23501 strings out of 475791
- 452142 string characters out of 5773019
- 1174368 words of memory out of 5000000
- 46172 multiletter control sequences out of 15000+600000
- 562441 words of font info for 70 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 108i,8n,123p,10902b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+l.362     y(t)=∫
+                  −∞∞\hspace{0pt}x(τ)h(t−τ)dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-Output written on SS-ABCD.pdf (56 pages).
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362     y(t)=∫−
+                     ∞∞\hspace{0pt}x(τ)h(t−τ)dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362     y(t)=∫−∞
+                        ∞\hspace{0pt}x(τ)h(t−τ)dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362     y(t)=∫−∞∞
+                           \hspace{0pt}x(τ)h(t−τ)dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character τ (U+03C4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362     y(t)=∫−∞∞\hspace{0pt}x(τ
+                                           )h(t−τ)dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362     y(t)=∫−∞∞\hspace{0pt}x(τ)h(t−
+                                                  τ)dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character τ (U+03C4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362 ...(t)=∫−∞∞\hspace{0pt}x(τ)h(t−τ
+                                                  )dτ.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:362: LaTeX Error: Unicode character τ (U+03C4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362 ...∫−∞∞\hspace{0pt}x(τ)h(t−τ)dτ
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:377: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.377 ... 2:} Inverse Laplace Transform: y(t)=L−
+                                                  1\{Y(s)\}.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[5] [6]
+chapter 2.
+[7
+
+] [8]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:576: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 simetris (genap, x(t)=x(−
+                                 t)) atau antisimetris (ganjil, x(t)=−x(�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:576: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 ...��t)) atau antisimetris (ganjil, x(t)=−
+                                                  x(−t)).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:576: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.576 ... atau antisimetris (ganjil, x(t)=−x(−
+                                                  t)).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:580: LaTeX Error: Unicode character δ (U+03B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.580 δ
+        (t)), fungsi step unit (u(t)), fungsi ramp (r(t)), dan sinyal
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:581: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.581 sinusoidal (Acos(ω
+                         t+θ)).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:581: LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.581 sinusoidal (Acos(ωt+θ
+                             )).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[9]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:625: LaTeX Error: Unicode character δ (U+03B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 δ
+        {[}n{]}), sekuen step unit (u{[}n{]}), dan sekuen sinusoidal diskrit
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:626: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.626 (Asin(ω
+              0\hspace{0pt}n+ϕ)).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:626: LaTeX Error: Unicode character ϕ (U+03D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.626 (Asin(ω0\hspace{0pt}n+ϕ
+                               )).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[10]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:657: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657   x(t)=∑
+                k=−∞∞\hspace{0pt}ak\hspace{0pt}ejkω0\hspace{0pt}t 40
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:657: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657   x(t)=∑k=−
+                     ∞∞\hspace{0pt}ak\hspace{0pt}ejkω0\hspace{0pt}t 40
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:657: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657   x(t)=∑k=−∞
+                        ∞\hspace{0pt}ak\hspace{0pt}ejkω0\hspace{0pt}t 40
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:657: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657   x(t)=∑k=−∞∞
+                           \hspace{0pt}ak\hspace{0pt}ejkω0\hspace{0pt}t 40
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:657: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 ...=−∞∞\hspace{0pt}ak\hspace{0pt}ejkω
+                                                  0\hspace{0pt}t 40
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:663: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.663     ω
+            0\hspace{0pt}=2π/T adalah frekuensi fundamental, dengan T adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:663: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.663     ω0\hspace{0pt}=2π
+                             /T adalah frekuensi fundamental, dengan T adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:668: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.668   ak\hspace{0pt}=T1\hspace{0pt}∫
+                                        T\hspace{0pt}x(t)e−jkω0\hspace{0p...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:668: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.668 ...t}=T1\hspace{0pt}∫T\hspace{0pt}x(t)e−
+                                                  jkω0\hspace{0pt}tdt
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:668: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.668 ...1\hspace{0pt}∫T\hspace{0pt}x(t)e−jkω
+                                                  0\hspace{0pt}tdt
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:693: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 frekuensi kontinu (X(jω
+                              ) atau X(Ω)).13 Transformasi ini menguraikan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:693: LaTeX Error: Unicode character Ω (U+03A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 frekuensi kontinu (X(jω) atau X(Ω
+                                         )).13 Transformasi ini menguraikan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω
+           )=∫−∞∞\hspace{0pt}x(t)e−jωtdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω)=∫
+                −∞∞\hspace{0pt}x(t)e−jωtdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω)=∫−
+                   ∞∞\hspace{0pt}x(t)e−jωtdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω)=∫−∞
+                      ∞\hspace{0pt}x(t)e−jωtdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω)=∫−∞∞
+                         \hspace{0pt}x(t)e−jωtdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω)=∫−∞∞\hspace{0pt}x(t)e−
+                                             jωtdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:698: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.698 X(jω)=∫−∞∞\hspace{0pt}x(t)e−jω
+                                                tdt, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 x(t)=2π
+              1\hspace{0pt}∫−∞∞\hspace{0pt}X(jω)ejωtdω.13 Propert...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 x(t)=2π1\hspace{0pt}∫
+                              −∞∞\hspace{0pt}X(jω)ejωtdω.13 Propert...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 x(t)=2π1\hspace{0pt}∫−
+                                 ∞∞\hspace{0pt}X(jω)ejωtdω.13 Propert...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 x(t)=2π1\hspace{0pt}∫−∞
+                                    ∞\hspace{0pt}X(jω)ejωtdω.13 Propert...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 x(t)=2π1\hspace{0pt}∫−∞∞
+                                       \hspace{0pt}X(jω)ejωtdω.13 Propert...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 ...\hspace{0pt}∫−∞∞\hspace{0pt}X(jω
+                                                  )ejωtdω.13 Properti kunc...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 ...ce{0pt}∫−∞∞\hspace{0pt}X(jω)ejω
+                                                  tdω.13 Properti kunci CTFT
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:699: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.699 ...pt}∫−∞∞\hspace{0pt}X(jω)ejωtdω
+                                                  .13 Properti kunci CTFT
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[11]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:718: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.718   x{[}n{]}=∑
+                    k=0N−1\hspace{0pt}ak\hspace{0pt}ejkω0\hspace{0pt}n 5
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:718: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.718   x{[}n{]}=∑k=0N−
+                           1\hspace{0pt}ak\hspace{0pt}ejkω0\hspace{0pt}n 5
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:718: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.718 ...��k=0N−1\hspace{0pt}ak\hspace{0pt}ejkω
+                                                  0\hspace{0pt}n 5
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:723: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.723     Di mana ω
+                    0\hspace{0pt}=2π/N adalah frekuensi fundamental diskrit.5
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:723: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.723     Di mana ω0\hspace{0pt}=2π
+                                     /N adalah frekuensi fundamental diskrit.5
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:727: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727   ak\hspace{0pt}=N1\hspace{0pt}∑
+                                        n=0N−1\hspace{0pt}x{[}n{]}e−jkω...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:727: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727   ak\hspace{0pt}=N1\hspace{0pt}∑n=0N−
+                                               1\hspace{0pt}x{[}n{]}e−jkω...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:727: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727 ...e{0pt}∑n=0N−1\hspace{0pt}x{[}n{]}e−
+                                                  jkω0\hspace{0pt}n
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:727: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.727 ...t}∑n=0N−1\hspace{0pt}x{[}n{]}e−jkω
+                                                  0\hspace{0pt}n
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756   X(ejω
+              )=∑n=−∞∞\hspace{0pt}x{[}n{]}e−jωn, dan inversnya ad...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756   X(ejω)=∑
+                   n=−∞∞\hspace{0pt}x{[}n{]}e−jωn, dan inversnya ad...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756   X(ejω)=∑n=−
+                        ∞∞\hspace{0pt}x{[}n{]}e−jωn, dan inversnya ad...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756   X(ejω)=∑n=−∞
+                           ∞\hspace{0pt}x{[}n{]}e−jωn, dan inversnya ad...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756   X(ejω)=∑n=−∞∞
+                              \hspace{0pt}x{[}n{]}e−jωn, dan inversnya ad...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756 ...�)=∑n=−∞∞\hspace{0pt}x{[}n{]}e−
+                                                  jωn, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:756: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.756 ...∑n=−∞∞\hspace{0pt}x{[}n{]}e−jω
+                                                  n, dan inversnya adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757   x{[}n{]}=2π
+                    1\hspace{0pt}∫−ππ\hspace{0pt}X(ejω)ejωndω.21 DT...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757   x{[}n{]}=2π1\hspace{0pt}∫
+                                    −ππ\hspace{0pt}X(ejω)ejωndω.21 DT...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757   x{[}n{]}=2π1\hspace{0pt}∫−
+                                       ππ\hspace{0pt}X(ejω)ejωndω.21 DT...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757   x{[}n{]}=2π1\hspace{0pt}∫−π
+                                         π\hspace{0pt}X(ejω)ejωndω.21 DT...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757   x{[}n{]}=2π1\hspace{0pt}∫−ππ
+                                           \hspace{0pt}X(ejω)ejωndω.21 DT...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757 ...1\hspace{0pt}∫−ππ\hspace{0pt}X(ejω
+                                                  )ejωndω.21 DTFT bersifat
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757 ...ace{0pt}∫−ππ\hspace{0pt}X(ejω)ejω
+                                                  ndω.21 DTFT bersifat
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:757: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.757 ...0pt}∫−ππ\hspace{0pt}X(ejω)ejωndω
+                                                  .21 DTFT bersifat
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:765: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765   X{[}k{]}=∑
+                    n=0N−1\hspace{0pt}x{[}n{]}e−jN2π\hspace{0pt}kn, dan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:765: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765   X{[}k{]}=∑n=0N−
+                           1\hspace{0pt}x{[}n{]}e−jN2π\hspace{0pt}kn, dan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:765: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765 ...}k{]}=∑n=0N−1\hspace{0pt}x{[}n{]}e−
+                                                  jN2π\hspace{0pt}kn, dan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:765: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765 ...=∑n=0N−1\hspace{0pt}x{[}n{]}e−jN2π
+                                                  \hspace{0pt}kn, dan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:767: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.767   x{[}n{]}=N1\hspace{0pt}∑
+                                  k=0N−1\hspace{0pt}X{[}k{]}ejN2π\hspace{...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:767: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.767   x{[}n{]}=N1\hspace{0pt}∑k=0N−
+                                         1\hspace{0pt}X{[}k{]}ejN2π\hspace{...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:767: LaTeX Error: Unicode character π (U+03C0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.767 ...0pt}∑k=0N−1\hspace{0pt}X{[}k{]}ejN2π
+                                                  \hspace{0pt}kn.20
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[12]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:792: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.792 F(s)=∫
+              0∞\hspace{0pt}f(t)e−stdt.64 Invers Transformasi Laplace
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:792: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.792 F(s)=∫0∞
+                  \hspace{0pt}f(t)e−stdt.64 Invers Transformasi Laplace
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:792: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.792 F(s)=∫0∞\hspace{0pt}f(t)e−
+                                      stdt.64 Invers Transformasi Laplace
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:829: LaTeX Error: Unicode character ∑ (U+2211)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 X(z)=∑
+              n=−∞∞\hspace{0pt}x{[}n{]}z−n.73 Invers Transformasi Z
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:829: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 X(z)=∑n=−
+                   ∞∞\hspace{0pt}x{[}n{]}z−n.73 Invers Transformasi Z
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:829: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 X(z)=∑n=−∞
+                      ∞\hspace{0pt}x{[}n{]}z−n.73 Invers Transformasi Z
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:829: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 X(z)=∑n=−∞∞
+                         \hspace{0pt}x{[}n{]}z−n.73 Invers Transformasi Z
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:829: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.829 X(z)=∑n=−∞∞\hspace{0pt}x{[}n{]}z−
+                                                 n.73 Invers Transformasi Z
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[13] [14] [15]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character ∗ (U+2217)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001     y(t)=x(t)∗
+                       h(t)=∫−∞∞\hspace{0pt}x(τ)h(t−τ)dτ. Konvo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character ∫ (U+222B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001     y(t)=x(t)∗h(t)=∫
+                               −∞∞\hspace{0pt}x(τ)h(t−τ)dτ. Konvo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001     y(t)=x(t)∗h(t)=∫−
+                                  ∞∞\hspace{0pt}x(τ)h(t−τ)dτ. Konvo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001     y(t)=x(t)∗h(t)=∫−∞
+                                     ∞\hspace{0pt}x(τ)h(t−τ)dτ. Konvo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001     y(t)=x(t)∗h(t)=∫−∞∞
+                                        \hspace{0pt}x(τ)h(t−τ)dτ. Konvo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character τ (U+03C4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001 ...x(t)∗h(t)=∫−∞∞\hspace{0pt}x(τ
+                                                  )h(t−τ)dτ. Konvolusi m...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001 ...h(t)=∫−∞∞\hspace{0pt}x(τ)h(t−
+                                                  τ)dτ. Konvolusi merupakan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character τ (U+03C4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001 ...t)=∫−∞∞\hspace{0pt}x(τ)h(t−τ
+                                                  )dτ. Konvolusi merupakan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1001: LaTeX Error: Unicode character τ (U+03C4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1001 ...��−∞∞\hspace{0pt}x(τ)h(t−τ)dτ
+                                                  . Konvolusi merupakan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1013: LaTeX Error: Unicode character δ (U+03B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1013     (δ
+              (t)), output yang dihasilkan sistem adalah respons impuls h(t).30
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[16]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1069: LaTeX Error: Unicode character δ (U+03B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1069     impuls unit (Kronecker delta, δ
+                                           {[}n{]}). Jika input adalah impuls
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[17]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1093: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1093   \textbf{Mencari Output (Y(jω)):}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1098: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1098 ...kalian di domain frekuensi. Output Y(jω
+                                                  ) adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1099: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1099 ...an dari Transformasi Fourier input X(jω
+                                                  ) dan respons
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1100: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100     frekuensi sistem H(jω
+                                 ): Y(jω)=X(jω)H(jω).11 Properti ini meru...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1100: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100     frekuensi sistem H(jω): Y(jω
+                                         )=X(jω)H(jω).11 Properti ini meru...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1100: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100     frekuensi sistem H(jω): Y(jω)=X(jω
+                                                )H(jω).11 Properti ini meru...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1100: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1100 ...kuensi sistem H(jω): Y(jω)=X(jω)H(jω
+                                                  ).11 Properti ini merupakan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1106: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1106   \textbf{Mencari Sistem (H(jω)):}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1111: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1111     H(jω
+                )=Y(jω)/X(jω).135 Setelah mendapatkan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1111: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1111     H(jω)=Y(jω
+                       )/X(jω).135 Setelah mendapatkan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1111: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1111     H(jω)=Y(jω)/X(jω
+                              ).135 Setelah mendapatkan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1113: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1113     H(jω
+                ), invers CTFT dapat dilakukan untuk memperoleh respons impuls
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1117: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1117   \textbf{Mencari Input (X(jω)):}
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1121: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1121 ...e:} Pembagian di domain frekuensi. X(jω
+                                                  )=Y(jω)/H(jω).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1121: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1121 ...bagian di domain frekuensi. X(jω)=Y(jω
+                                                  )/H(jω).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1121: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1121 ...di domain frekuensi. X(jω)=Y(jω)/H(jω
+                                                  ).3
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1124: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124     X(jω
+                ), invers CTFT dapat dilakukan untuk memperoleh input x(t) di
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1135: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1135 Y(jω
+            )=X(jω)H(jω)).13 Penyederhanaan ini tidak hanya mengurangi beban
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1135: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1135 Y(jω)=X(jω
+                   )H(jω)).13 Penyederhanaan ini tidak hanya mengurangi beban
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1135: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1135 Y(jω)=X(jω)H(jω
+                         )).13 Penyederhanaan ini tidak hanya mengurangi beban
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1140: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1140 H(jω
+            ) secara langsung menunjukkan bagaimana sistem melemahkan atau
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1152: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1152 ...Mencari Output (Y(ejω) atau Y{[}k{]}):}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[18]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1158: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1158     Y(ejω
+                 )=X(ejω)H(ejω) untuk DTFT, atau Y{[}k{]}=X{[}k{]}H{[}k{]}...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1158: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1158     Y(ejω)=X(ejω
+                         )H(ejω) untuk DTFT, atau Y{[}k{]}=X{[}k{]}H{[}k{]}...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1158: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1158     Y(ejω)=X(ejω)H(ejω
+                                ) untuk DTFT, atau Y{[}k{]}=X{[}k{]}H{[}k{]}...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1163: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1163 ...Mencari Sistem (H(ejω) atau H{[}k{]}):}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1168: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1168 ...:} Pembagian di domain frekuensi. H(ejω
+                                                  )=Y(ejω)/X(ejω)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1168: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1168 ...gian di domain frekuensi. H(ejω)=Y(ejω
+                                                  )/X(ejω)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1168: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1168 ...domain frekuensi. H(ejω)=Y(ejω)/X(ejω
+                                                  )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (9.39368pt too wide) in paragraph at lines 1168--1170
+[]\T1/lmr/bx/n/10.95 (-20) Metode: \T1/lmr/m/n/10.95 (-20) Pem-ba-gian di do-main frekuensi. H(ej)=Y(ej)/X(ej) atau H[k]=Y[k]/X[k].113 
+ []
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1172: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1172 ...{Mencari Input (X(ejω) atau X{[}k{]}):}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1177: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1177 ...:} Pembagian di domain frekuensi. X(ejω
+                                                  )=Y(ejω)/H(ejω)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1177: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1177 ...gian di domain frekuensi. X(ejω)=Y(ejω
+                                                  )/H(ejω)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1177: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1177 ...domain frekuensi. X(ejω)=Y(ejω)/H(ejω
+                                                  )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (9.28416pt too wide) in paragraph at lines 1177--1179
+[]\T1/lmr/bx/n/10.95 (-20) Metode: \T1/lmr/m/n/10.95 (-20) Pem-ba-gian di do-main frekuensi. X(ej)=Y(ej)/H(ej) atau X[k]=Y[k]/H[k].114 
+ []
+
+[19]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1277: LaTeX Error: Unicode character ↔ (U+2194)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1277 Kontinu}
+               \label{waktu-kontinu-frekuensi-kontinu}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1284: LaTeX Error: Unicode character ↔ (U+2194)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1284 Diskrit}
+               \label{waktu-diskrit-frekuensi-diskrit}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1292: LaTeX Error: Unicode character ↔ (U+2194)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1292 Laplace}
+               \label{waktu-kontinu-kompleks-laplace}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[20]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1303: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1303 (jω
+           -axis) di s-plane.14 Transformasi Laplace memperluas analisis ini ke
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1316: LaTeX Error: Unicode character ↔ (U+2194)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 Z}
+         \label{waktu-diskrit-kompleks-z}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1324: LaTeX Error: Unicode character ↔ (U+2194)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1324 Laplace}
+               \label{frekuensi-kontinu-kompleks-laplace}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1326: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1326 Sumbu jω
+                 di s-plane Transformasi Laplace secara langsung berhubungan
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1334: LaTeX Error: Unicode character ↔ (U+2194)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1334 Z}
+         \label{frekuensi-diskrit-kompleks-z}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[21] [22] [23]
+chapter 3.
+[24
+
+] [25]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1600: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1600 ... T) = x(t) untuk semua nilai t, dari −
+                                                  ∞
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1600: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1600 ... = x(t) untuk semua nilai t, dari −∞
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1601: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1601     \textless{} t \textless{} ∞
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1607: LaTeX Error: Unicode character − (U+2212)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1607     x(t) untuk semua nilai t, dari −
+                                             ∞ \textless{} t \textless{} ∞.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1607: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1607     x(t) untuk semua nilai t, dari −∞
+                                                 \textless{} t \textless{} ∞.
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1607: LaTeX Error: Unicode character ∞ (U+221E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1607 ...ari −∞ \textless{} t \textless{} ∞
+                                                  .
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[26]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1691: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1691     (X(jω
+                 ) atau X(Ω))
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1691: LaTeX Error: Unicode character Ω (U+03A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1691     (X(jω) atau X(Ω
+                            ))
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1695: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1695 ...esentasi domain frekuensi kontinu (X(jω
+                                                  ) atau
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1696: LaTeX Error: Unicode character Ω (U+03A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1696     X(Ω
+               )).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[27] [28] [29]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1854: LaTeX Error: Unicode character δ (U+03B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1854     Dirac (δ
+                    (t))
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1859: LaTeX Error: Unicode character δ (U+03B4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1859     adalah impuls Dirac (δ
+                                  (t)), output yang dihasilkan sistem adalah
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1885: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1885     \textbf{A}ktor: Output Y(jω
+                                       )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1891: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1891 ...an dari Transformasi Fourier input X(jω
+                                                  )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1892: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1892     dan respons frekuensi sistem H(jω
+                                             )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1894: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1894 ...textbf{Pernyataan Lengkap:} Output Y(jω
+                                                  ) adalah perkalian dari
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1895: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1895     Transformasi Fourier input X(jω
+                                           ) dan respons frekuensi sistem H(...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:1895: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1895 ...(jω) dan respons frekuensi sistem H(jω
+                                                  ).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[30] [31] [32] [33]
+chapter 4.
+[34
+
+] [35] [36]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:2276: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2276 ...NTASI\_FREK\_DARI) -\textgreater{} X(jω
+                                                  ) (DF\_TransFourier).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:2277: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2277 ... (DW\_SinyalDasar) -\textgreater{} Y(jω
+                                                  ) = X(jω)H(jω)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:2277: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2277 ...yalDasar) -\textgreater{} Y(jω) = X(jω
+                                                  )H(jω)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:2277: LaTeX Error: Unicode character ω (U+03C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2277 ...ar) -\textgreater{} Y(jω) = X(jω)H(jω
+                                                  )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 2274--2279
+\T1/lmr/m/n/10.95 (+20) Out-put y(t) (DW_SinyalDasar) -> Y(j) = X(j)H(j) (OUTPUT-FREKUENSI-CTFT-
+ []
+
+[37] [38] [39] [40] [41]
+chapter 5.
+[42
+
+] [43] [44] [45] [46] [47] [48] [49] [50]
+Overfull \hbox (2.69249pt too wide) in paragraph at lines 2938--2939
+[]\T1/lmr/m/n/10.95 (-20) Tingkat 
+ []
+
+
+Overfull \hbox (10.75702pt too wide) in paragraph at lines 2944--2945
+[]\T1/lmr/m/n/10.95 (-20) Frekuensi 
+ []
+
+
+Overfull \hbox (10.75702pt too wide) in paragraph at lines 2946--2947
+[]\T1/lmr/m/n/10.95 (-20) Frekuensi 
+ []
+
+
+Overfull \hbox (2.04097pt too wide) in paragraph at lines 2948--2949
+[]\T1/lmr/m/n/10.95 (-20) Laplace  
+ []
+
+
+Overfull \hbox (14.1175pt too wide) in paragraph at lines 2950--2951
+\T1/lmr/m/n/10.95 (-20) Transform  
+ []
+
+
+Overfull \hbox (25.19673pt too wide) in paragraph at lines 2952--2953
+\T1/lmr/m/n/10.95 (-20) tinu/Digital)  
+ []
+
+
+Overfull \hbox (9.64143pt too wide) in paragraph at lines 2954--2955
+[]\T1/lmr/m/n/10.95 (-20) Sampling 
+ []
+
+
+Overfull \hbox (12.06837pt too wide) in paragraph at lines 2956--2957
+[]\T1/lmr/m/n/10.95 (-20) Konvolusi 
+ []
+
+[51] [52] [53]
+Underfull \hbox (badness 1742) in paragraph at lines 3061--3066
+[]\T1/lmr/bx/n/10.95 (+20) Kategorisasi Kom-pre-hen-sif: \T1/lmr/m/n/10.95 (+20) Sis-tem harus memu-ngkinkan kat-e-gorisasi peta
+ []
+
+[54] [55] [56] [57] [58] [59]
+chapter 6.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3361.
+(c:/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 3361.
+ [60
+
+]
+Overfull \hbox (317.82152pt too wide) in paragraph at lines 3402--3402
+[]\T1/lmtt/m/n/10.95 * [Deskripsikan masalah yang Anda temui. Misalnya: "Saya kesulitan memahami hubungan antara deret Fourier dan transformasi Fourier."][] 
+ []
+
+
+Overfull \hbox (881.1974pt too wide) in paragraph at lines 3402--3402
+[]\T1/lmtt/m/n/10.95 * [Jelaskan momen "aha!" atau solusi yang Anda temukan. Misalnya: "Setelah menonton video lain, saya menyadari bahwa transformasi Fourier adalah representasi deret Fourier untuk sinyal aperiodik dengan periode yang tak terhingga."][] 
+ []
+
+
+Overfull \hbox (363.81139pt too wide) in paragraph at lines 3402--3402
+[]\T1/lmtt/m/n/10.95 * [Cantumkan semua alat yang Anda gunakan. Contoh: "Notebook Python untuk simulasi, YouTube untuk visualisasi konsep, diagram di buku teks."][] 
+ []
+
+
+Overfull \hbox (93.62091pt too wide) in paragraph at lines 3402--3402
+[]\T1/lmtt/m/n/10.95 * [Ringkas pembelajaran utama yang Anda dapatkan dari proses ini. Ini adalah kesimpulan Anda.][] 
+ []
+
+[61] [62]
+chapter 7.
+[63
+
+]
+
+c:/github3/EL-2007-Sinyal-dan-Sistem-EL-ITB/10_Konsep/konsep/SS-ABCD.tex:3479: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3479 \end{CSLReferences}
+                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[64
+
+] (./SS-ABCD.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 19038 strings out of 476025
+ 333219 string characters out of 5794014
+ 1869382 words of memory out of 5000000
+ 38762 multiletter control sequences out of 15000+600000
+ 564601 words of font info for 186 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,8n,106p,10663b,702s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on SS-ABCD.pdf (64 pages, 339985 bytes).
+PDF statistics:
+ 771 PDF objects out of 1000 (max. 8388607)
+ 683 compressed objects within 7 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 27313 words of extra memory for PDF output out of 29859 (max. 10000000)
+

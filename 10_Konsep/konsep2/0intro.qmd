@@ -1,7 +1,4 @@
-# Summary
-
-In summary, this book has no content whatsoever.
-
+# Introduction
 
 This is a book created from markdown and executable code.
 
