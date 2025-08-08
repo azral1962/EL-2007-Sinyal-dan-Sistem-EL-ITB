@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.55">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2&nbsp; Laporan Ahli: Konsep Dasar Sinyal dan Sistem: Peta Pengetahuan dan Kerangka Pemecahan Masalah – konsep</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./SS-ABCD.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Laporan Ahli: Konsep Dasar Sinyal dan Sistem: Peta Pengetahuan dan Kerangka Pemecahan Masalah</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">konsep</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Part 1: The Primitive Knowledge Map</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Laporan Ahli: Konsep Dasar Sinyal dan Sistem: Peta Pengetahuan dan Kerangka Pemecahan Masalah</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SS-ABCD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">SS-ABCD.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SS-Assessment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Merancang Sistem Asesmen Pembelajaran Berbasis Nilai Pengetahuan di Bidang Sinyal dan Sistem</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SS-journal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Konsep “Jurnal Belajar” dengan Git/GitHub</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#i.-pendahuluan-fondasi-sinyal-dan-sistem" id="toc-i.-pendahuluan-fondasi-sinyal-dan-sistem" class="nav-link active" data-scroll-target="#i.-pendahuluan-fondasi-sinyal-dan-sistem"><span class="header-section-number">2.1</span> I. Pendahuluan: Fondasi Sinyal dan Sistem</a></li>
+  <li><a href="#a.-konsep-dasar-sinyal-dan-sistem" id="toc-a.-konsep-dasar-sinyal-dan-sistem" class="nav-link" data-scroll-target="#a.-konsep-dasar-sinyal-dan-sistem"><span class="header-section-number">2.2</span> A. Konsep Dasar Sinyal dan Sistem</a>
+  <ul class="collapse">
+  <li><a href="#definisi-sinyal" id="toc-definisi-sinyal" class="nav-link" data-scroll-target="#definisi-sinyal"><span class="header-section-number">2.2.1</span> Definisi Sinyal</a></li>
+  <li><a href="#definisi-sistem" id="toc-definisi-sistem" class="nav-link" data-scroll-target="#definisi-sistem"><span class="header-section-number">2.2.2</span> Definisi Sistem</a></li>
+  <li><a href="#hubungan-fundamental-input-sistem-output" id="toc-hubungan-fundamental-input-sistem-output" class="nav-link" data-scroll-target="#hubungan-fundamental-input-sistem-output"><span class="header-section-number">2.2.3</span> Hubungan Fundamental Input-Sistem-Output</a></li>
+  </ul></li>
+  <li><a href="#b.-enam-kawasan-analisis-sinyal-dan-sistem" id="toc-b.-enam-kawasan-analisis-sinyal-dan-sistem" class="nav-link" data-scroll-target="#b.-enam-kawasan-analisis-sinyal-dan-sistem"><span class="header-section-number">2.3</span> B. Enam Kawasan Analisis Sinyal dan Sistem</a></li>
+  <li><a href="#ii.-peta-pengetahuan-primitif-sinyal-dan-sistem-primitive-knowledge-map" id="toc-ii.-peta-pengetahuan-primitif-sinyal-dan-sistem-primitive-knowledge-map" class="nav-link" data-scroll-target="#ii.-peta-pengetahuan-primitif-sinyal-dan-sistem-primitive-knowledge-map"><span class="header-section-number">2.4</span> II. Peta Pengetahuan Primitif Sinyal dan Sistem (Primitive Knowledge Map)</a></li>
+  <li><a href="#a.-kawasan-waktu-time-domain" id="toc-a.-kawasan-waktu-time-domain" class="nav-link" data-scroll-target="#a.-kawasan-waktu-time-domain"><span class="header-section-number">2.5</span> A. Kawasan Waktu (Time Domain)</a>
+  <ul class="collapse">
+  <li><a href="#sinyal-waktu-kontinu-continuous-time-signals---cts" id="toc-sinyal-waktu-kontinu-continuous-time-signals---cts" class="nav-link" data-scroll-target="#sinyal-waktu-kontinu-continuous-time-signals---cts"><span class="header-section-number">2.5.1</span> 1. Sinyal Waktu Kontinu (Continuous-Time Signals - CTS)</a></li>
+  <li><a href="#sistem-waktu-kontinu-continuous-time-systems---cts" id="toc-sistem-waktu-kontinu-continuous-time-systems---cts" class="nav-link" data-scroll-target="#sistem-waktu-kontinu-continuous-time-systems---cts"><span class="header-section-number">2.5.2</span> 2. Sistem Waktu Kontinu (Continuous-Time Systems - CTS)</a></li>
+  <li><a href="#sinyal-waktu-diskrit-discrete-time-signals---dts" id="toc-sinyal-waktu-diskrit-discrete-time-signals---dts" class="nav-link" data-scroll-target="#sinyal-waktu-diskrit-discrete-time-signals---dts"><span class="header-section-number">2.5.3</span> 3. Sinyal Waktu Diskrit (Discrete-Time Signals - DTS)</a></li>
+  <li><a href="#sistem-waktu-diskrit-discrete-time-systems---dts" id="toc-sistem-waktu-diskrit-discrete-time-systems---dts" class="nav-link" data-scroll-target="#sistem-waktu-diskrit-discrete-time-systems---dts"><span class="header-section-number">2.5.4</span> 4. Sistem Waktu Diskrit (Discrete-Time Systems - DTS)</a></li>
+  </ul></li>
+  <li><a href="#b.-kawasan-frekuensi-frequency-domain" id="toc-b.-kawasan-frekuensi-frequency-domain" class="nav-link" data-scroll-target="#b.-kawasan-frekuensi-frequency-domain"><span class="header-section-number">2.6</span> B. Kawasan Frekuensi (Frequency Domain)</a>
+  <ul class="collapse">
+  <li><a href="#deret-fourier-waktu-kontinu-continuous-time-fourier-series---ctfs" id="toc-deret-fourier-waktu-kontinu-continuous-time-fourier-series---ctfs" class="nav-link" data-scroll-target="#deret-fourier-waktu-kontinu-continuous-time-fourier-series---ctfs"><span class="header-section-number">2.6.1</span> 1. Deret Fourier Waktu Kontinu (Continuous-Time Fourier Series - CTFS)</a></li>
+  <li><a href="#transformasi-fourier-waktu-kontinu-continuous-time-fourier-transform---ctft" id="toc-transformasi-fourier-waktu-kontinu-continuous-time-fourier-transform---ctft" class="nav-link" data-scroll-target="#transformasi-fourier-waktu-kontinu-continuous-time-fourier-transform---ctft"><span class="header-section-number">2.6.2</span> 2. Transformasi Fourier Waktu Kontinu (Continuous-Time Fourier Transform - CTFT)</a></li>
+  <li><a href="#deret-fourier-waktu-diskrit-discrete-time-fourier-series---dtfs" id="toc-deret-fourier-waktu-diskrit-discrete-time-fourier-series---dtfs" class="nav-link" data-scroll-target="#deret-fourier-waktu-diskrit-discrete-time-fourier-series---dtfs"><span class="header-section-number">2.6.3</span> 3. Deret Fourier Waktu Diskrit (Discrete-Time Fourier Series - DTFS)</a></li>
+  <li><a href="#transformasi-fourier-waktu-diskrit-discrete-time-fourier-transform---dtft-discrete-fourier-transform---dft" id="toc-transformasi-fourier-waktu-diskrit-discrete-time-fourier-transform---dtft-discrete-fourier-transform---dft" class="nav-link" data-scroll-target="#transformasi-fourier-waktu-diskrit-discrete-time-fourier-transform---dtft-discrete-fourier-transform---dft"><span class="header-section-number">2.6.4</span> 4. Transformasi Fourier Waktu Diskrit (Discrete-Time Fourier Transform - DTFT &amp; Discrete Fourier Transform - DFT)</a></li>
+  </ul></li>
+  <li><a href="#c.-kawasan-kompleks-complex-domain" id="toc-c.-kawasan-kompleks-complex-domain" class="nav-link" data-scroll-target="#c.-kawasan-kompleks-complex-domain"><span class="header-section-number">2.7</span> C. Kawasan Kompleks (Complex Domain)</a>
+  <ul class="collapse">
+  <li><a href="#transformasi-laplace-laplace-transform" id="toc-transformasi-laplace-laplace-transform" class="nav-link" data-scroll-target="#transformasi-laplace-laplace-transform"><span class="header-section-number">2.7.1</span> 1. Transformasi Laplace (Laplace Transform)</a></li>
+  <li><a href="#transformasi-z-z-transform" id="toc-transformasi-z-z-transform" class="nav-link" data-scroll-target="#transformasi-z-z-transform"><span class="header-section-number">2.7.2</span> 2. Transformasi Z (Z-Transform)</a></li>
+  </ul></li>
+  <li><a href="#d.-konsep-sampling-dan-rekonstruksi" id="toc-d.-konsep-sampling-dan-rekonstruksi" class="nav-link" data-scroll-target="#d.-konsep-sampling-dan-rekonstruksi"><span class="header-section-number">2.8</span> D. Konsep Sampling dan Rekonstruksi</a>
+  <ul class="collapse">
+  <li><a href="#sampling-waktu" id="toc-sampling-waktu" class="nav-link" data-scroll-target="#sampling-waktu"><span class="header-section-number">2.8.1</span> Sampling Waktu</a></li>
+  <li><a href="#rekonstruksi-sinyal" id="toc-rekonstruksi-sinyal" class="nav-link" data-scroll-target="#rekonstruksi-sinyal"><span class="header-section-number">2.8.2</span> Rekonstruksi Sinyal</a></li>
+  <li><a href="#sampling-frekuensi-implisit-dari-deret-fourier-dtftdft" id="toc-sampling-frekuensi-implisit-dari-deret-fourier-dtftdft" class="nav-link" data-scroll-target="#sampling-frekuensi-implisit-dari-deret-fourier-dtftdft"><span class="header-section-number">2.8.3</span> Sampling Frekuensi (Implisit dari Deret Fourier &amp; DTFT/DFT)</a></li>
+  </ul></li>
+  <li><a href="#iii.-peta-pemecahan-masalah-sinyal-dan-sistem-problem-solving-map" id="toc-iii.-peta-pemecahan-masalah-sinyal-dan-sistem-problem-solving-map" class="nav-link" data-scroll-target="#iii.-peta-pemecahan-masalah-sinyal-dan-sistem-problem-solving-map"><span class="header-section-number">2.9</span> III. Peta Pemecahan Masalah Sinyal dan Sistem (Problem-Solving Map)</a></li>
+  <li><a href="#a.-kawasan-waktu-time-domain-1" id="toc-a.-kawasan-waktu-time-domain-1" class="nav-link" data-scroll-target="#a.-kawasan-waktu-time-domain-1"><span class="header-section-number">2.10</span> A. Kawasan Waktu (Time Domain)</a>
+  <ul class="collapse">
+  <li><a href="#sinyal-dan-sistem-waktu-kontinu" id="toc-sinyal-dan-sistem-waktu-kontinu" class="nav-link" data-scroll-target="#sinyal-dan-sistem-waktu-kontinu"><span class="header-section-number">2.10.1</span> 1. Sinyal dan Sistem Waktu Kontinu</a></li>
+  <li><a href="#sinyal-dan-sistem-waktu-diskrit" id="toc-sinyal-dan-sistem-waktu-diskrit" class="nav-link" data-scroll-target="#sinyal-dan-sistem-waktu-diskrit"><span class="header-section-number">2.10.2</span> 2. Sinyal dan Sistem Waktu Diskrit</a></li>
+  </ul></li>
+  <li><a href="#b.-kawasan-frekuensi-frequency-domain-1" id="toc-b.-kawasan-frekuensi-frequency-domain-1" class="nav-link" data-scroll-target="#b.-kawasan-frekuensi-frequency-domain-1"><span class="header-section-number">2.11</span> B. Kawasan Frekuensi (Frequency Domain)</a>
+  <ul class="collapse">
+  <li><a href="#sinyal-dan-sistem-kontinu-menggunakan-ctft" id="toc-sinyal-dan-sistem-kontinu-menggunakan-ctft" class="nav-link" data-scroll-target="#sinyal-dan-sistem-kontinu-menggunakan-ctft"><span class="header-section-number">2.11.1</span> 1. Sinyal dan Sistem Kontinu (menggunakan CTFT)</a></li>
+  <li><a href="#sinyal-dan-sistem-diskrit-menggunakan-dtftdft" id="toc-sinyal-dan-sistem-diskrit-menggunakan-dtftdft" class="nav-link" data-scroll-target="#sinyal-dan-sistem-diskrit-menggunakan-dtftdft"><span class="header-section-number">2.11.2</span> 2. Sinyal dan Sistem Diskrit (menggunakan DTFT/DFT)</a></li>
+  </ul></li>
+  <li><a href="#c.-kawasan-kompleks-complex-domain-1" id="toc-c.-kawasan-kompleks-complex-domain-1" class="nav-link" data-scroll-target="#c.-kawasan-kompleks-complex-domain-1"><span class="header-section-number">2.12</span> C. Kawasan Kompleks (Complex Domain)</a>
+  <ul class="collapse">
+  <li><a href="#sinyal-dan-sistem-kontinu-menggunakan-transformasi-laplace" id="toc-sinyal-dan-sistem-kontinu-menggunakan-transformasi-laplace" class="nav-link" data-scroll-target="#sinyal-dan-sistem-kontinu-menggunakan-transformasi-laplace"><span class="header-section-number">2.12.1</span> 1. Sinyal dan Sistem Kontinu (menggunakan Transformasi Laplace)</a></li>
+  <li><a href="#sinyal-dan-sistem-diskrit-menggunakan-transformasi-z" id="toc-sinyal-dan-sistem-diskrit-menggunakan-transformasi-z" class="nav-link" data-scroll-target="#sinyal-dan-sistem-diskrit-menggunakan-transformasi-z"><span class="header-section-number">2.12.2</span> 2. Sinyal dan Sistem Diskrit (menggunakan Transformasi Z)</a></li>
+  </ul></li>
+  <li><a href="#d.-transformasi-antar-kawasan-inter-domain-transformations" id="toc-d.-transformasi-antar-kawasan-inter-domain-transformations" class="nav-link" data-scroll-target="#d.-transformasi-antar-kawasan-inter-domain-transformations"><span class="header-section-number">2.13</span> D. Transformasi Antar Kawasan (Inter-Domain Transformations)</a>
+  <ul class="collapse">
+  <li><a href="#waktu-kontinu-frekuensi-kontinu" id="toc-waktu-kontinu-frekuensi-kontinu" class="nav-link" data-scroll-target="#waktu-kontinu-frekuensi-kontinu"><span class="header-section-number">2.13.1</span> 1. Waktu Kontinu ↔︎ Frekuensi Kontinu</a></li>
+  <li><a href="#waktu-diskrit-frekuensi-diskrit" id="toc-waktu-diskrit-frekuensi-diskrit" class="nav-link" data-scroll-target="#waktu-diskrit-frekuensi-diskrit"><span class="header-section-number">2.13.2</span> 2. Waktu Diskrit ↔︎ Frekuensi Diskrit</a></li>
+  <li><a href="#waktu-kontinu-kompleks-laplace" id="toc-waktu-kontinu-kompleks-laplace" class="nav-link" data-scroll-target="#waktu-kontinu-kompleks-laplace"><span class="header-section-number">2.13.3</span> 3. Waktu Kontinu ↔︎ Kompleks Laplace</a></li>
+  <li><a href="#waktu-diskrit-kompleks-z" id="toc-waktu-diskrit-kompleks-z" class="nav-link" data-scroll-target="#waktu-diskrit-kompleks-z"><span class="header-section-number">2.13.4</span> 4. Waktu Diskrit ↔︎ Kompleks Z</a></li>
+  <li><a href="#frekuensi-kontinu-kompleks-laplace" id="toc-frekuensi-kontinu-kompleks-laplace" class="nav-link" data-scroll-target="#frekuensi-kontinu-kompleks-laplace"><span class="header-section-number">2.13.5</span> 5. Frekuensi Kontinu ↔︎ Kompleks Laplace</a></li>
+  <li><a href="#frekuensi-diskrit-kompleks-z" id="toc-frekuensi-diskrit-kompleks-z" class="nav-link" data-scroll-target="#frekuensi-diskrit-kompleks-z"><span class="header-section-number">2.13.6</span> 6. Frekuensi Diskrit ↔︎ Kompleks Z</a></li>
+  </ul></li>
+  <li><a href="#iv.-visualisasi-peta-pengetahuan-knowledge-map-visualization" id="toc-iv.-visualisasi-peta-pengetahuan-knowledge-map-visualization" class="nav-link" data-scroll-target="#iv.-visualisasi-peta-pengetahuan-knowledge-map-visualization"><span class="header-section-number">2.14</span> IV. Visualisasi Peta Pengetahuan (Knowledge Map Visualization)</a></li>
+  <li><a href="#a.-primitive-knowledge-map-konseptual" id="toc-a.-primitive-knowledge-map-konseptual" class="nav-link" data-scroll-target="#a.-primitive-knowledge-map-konseptual"><span class="header-section-number">2.15</span> A. Primitive Knowledge Map (Konseptual)</a></li>
+  <li><a href="#b.-problem-solving-map-aplikasi" id="toc-b.-problem-solving-map-aplikasi" class="nav-link" data-scroll-target="#b.-problem-solving-map-aplikasi"><span class="header-section-number">2.16</span> B. Problem-Solving Map (Aplikasi)</a></li>
+  <li><a href="#v.-kesimpulan-dan-rekomendasi" id="toc-v.-kesimpulan-dan-rekomendasi" class="nav-link" data-scroll-target="#v.-kesimpulan-dan-rekomendasi"><span class="header-section-number">2.17</span> V. Kesimpulan dan Rekomendasi</a></li>
+  <li><a href="#a.-ringkasan-integrasi-konsep" id="toc-a.-ringkasan-integrasi-konsep" class="nav-link" data-scroll-target="#a.-ringkasan-integrasi-konsep"><span class="header-section-number">2.18</span> A. Ringkasan Integrasi Konsep</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Laporan Ahli: Konsep Dasar Sinyal dan Sistem: Peta Pengetahuan dan Kerangka Pemecahan Masalah</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="i.-pendahuluan-fondasi-sinyal-dan-sistem" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="i.-pendahuluan-fondasi-sinyal-dan-sistem"><span class="header-section-number">2.1</span> I. Pendahuluan: Fondasi Sinyal dan Sistem</h2>
+<p>Analisis sinyal dan sistem merupakan pilar fundamental dalam berbagai disiplin ilmu teknik, termasuk teknik elektro, telekomunikasi, kontrol, dan pemrosesan citra. Disiplin ini menyediakan kerangka kerja matematis untuk memahami, memodelkan, dan memanipulasi fenomena yang bervariasi terhadap waktu atau ruang. Inti dari konsep ini adalah interaksi antara sinyal input, sistem atau medium yang memprosesnya, dan sinyal output yang dihasilkan. Kemampuan untuk menganalisis dan memecahkan permasalahan yang melibatkan ketiga elemen ini sangat krusial dalam rekayasa sistem modern.</p>
+</section>
+<section id="a.-konsep-dasar-sinyal-dan-sistem" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="a.-konsep-dasar-sinyal-dan-sistem"><span class="header-section-number">2.2</span> A. Konsep Dasar Sinyal dan Sistem</h2>
+<p>Sinyal dan sistem adalah dua entitas yang saling terkait erat dalam studi teknik. Pemahaman yang mendalam tentang keduanya merupakan prasyarat untuk merancang dan menganalisis sistem yang kompleks.</p>
+<section id="definisi-sinyal" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="definisi-sinyal"><span class="header-section-number">2.2.1</span> Definisi Sinyal</h3>
+<p>Sinyal didefinisikan sebagai representasi dari suatu fenomena fisik yang membawa informasi dan bervariasi terhadap satu atau lebih variabel independen, seperti waktu, ruang, atau variabel lainnya.1 Secara matematis, sinyal sering dinyatakan sebagai fungsi, misalnya</p>
+<p>x(t) untuk sinyal waktu kontinu atau x[n] untuk sinyal waktu diskrit. Contoh umum sinyal meliputi gelombang suara, yang direpresentasikan sebagai perubahan tekanan akustik terhadap waktu; tegangan atau arus listrik dalam suatu rangkaian; atau citra digital, yang dapat digambarkan sebagai fungsi kecerahan dua variabel spasial (koordinat piksel).2 Sinyal dapat memiliki nilai real atau skalar, dan karakteristiknya, seperti periodisitas, energi, daya, serta sifat genap atau ganjil, menjadi fokus utama dalam analisisnya.3</p>
+</section>
+<section id="definisi-sistem" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="definisi-sistem"><span class="header-section-number">2.2.2</span> Definisi Sistem</h3>
+<p>Sistem adalah entitas atau proses yang berinteraksi dengan sinyal input untuk menghasilkan sinyal output atau respons.1 Dalam konteks matematis, sistem dapat dipandang sebagai transformasi atau pemetaan yang mengubah sinyal input</p>
+<p>x menjadi sinyal output y, sering dinotasikan sebagai y=H{x}, di mana H adalah operator yang merepresentasikan aturan transformasi.7 Sistem dapat berupa perangkat fisik (seperti rangkaian elektronik atau alat kesehatan) atau algoritma pemrosesan data.1</p>
+</section>
+<section id="hubungan-fundamental-input-sistem-output" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="hubungan-fundamental-input-sistem-output"><span class="header-section-number">2.2.3</span> Hubungan Fundamental Input-Sistem-Output</h3>
+<p>Konsep dasar sinyal dan sistem berpusat pada tiga elemen utama yang saling terkait: sinyal input, sistem atau medium, dan sinyal output yang dihasilkan sebagai respons terhadap input [Query]. Sistem memproses sinyal input untuk menghasilkan sinyal output. Dalam analisis sistem, terdapat tiga permasalahan dasar yang sering dijumpai: (1) mencari sinyal output ketika sinyal input dan karakteristik sistem diketahui; (2) mencari karakteristik sistem ketika sinyal input dan sinyal output diketahui; dan (3) mencari sinyal input ketika karakteristik sistem dan sinyal output diketahui [Query].</p>
+<p>Hubungan antara input, sistem, dan output dalam analisis sinyal dan sistem tidak hanya bersifat fungsional, tetapi juga melibatkan prinsip kausalitas yang mendalam. Sebuah sistem disebut kausal (non-antisipatif) jika outputnya pada waktu tertentu hanya bergantung pada nilai input dan/atau output pada waktu saat ini atau sebelumnya, tanpa bergantung pada nilai input atau output di masa depan.11 Ini berarti bahwa output tidak dapat mendahului inputnya. Konsekuensi dari prinsip kausalitas ini sangat signifikan dalam rekayasa sistem nyata. Sistem fisik yang dapat diimplementasikan secara real-time harus bersifat kausal, karena mustahil bagi sistem untuk “mengetahui” atau “menggunakan” informasi dari masa depan. Misalnya, filter ideal yang dirancang untuk memiliki respons frekuensi yang sempurna seringkali bersifat non-kausal, yang berarti tidak dapat direalisasikan secara fisik. Oleh karena itu, dalam praktik, filter nyata selalu merupakan aproksimasi dari filter ideal yang bersifat kausal. Pemahaman tentang kausalitas ini menjadi batasan fundamental yang memandu desain dan analisis sistem di semua domain, memastikan bahwa model matematis yang dikembangkan sesuai dengan batasan fisik dan dapat diimplementasikan.</p>
+</section>
+</section>
+<section id="b.-enam-kawasan-analisis-sinyal-dan-sistem" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="b.-enam-kawasan-analisis-sinyal-dan-sistem"><span class="header-section-number">2.3</span> B. Enam Kawasan Analisis Sinyal dan Sistem</h2>
+<p>Untuk memahami karakteristik dan perilaku sinyal dan sistem secara komprehensif, analisis dilakukan dalam berbagai perspektif atau “kawasan.” Terdapat enam kawasan utama yang membentuk fondasi analisis ini: Waktu Kontinu, Waktu Diskrit, Frekuensi Kontinu, Frekuensi Diskrit, Kompleks Laplace, dan Kompleks Z [Query]. Setiap kawasan menawarkan sudut pandang unik yang menyoroti aspek-aspek berbeda dari sinyal dan sistem.</p>
+<p>Peran sentral dalam menghubungkan dan menavigasi antar kawasan ini dimainkan oleh berbagai transformasi matematis. Transformasi seperti Transformasi Fourier, Transformasi Laplace, dan Transformasi Z berfungsi sebagai jembatan, mengubah representasi sinyal dan sistem dari satu domain ke domain lain.13 Tujuan utama dari transformasi ini adalah untuk menyederhanakan analisis dan pemecahan masalah. Misalnya, operasi konvolusi yang kompleks di domain waktu dapat diubah menjadi perkalian aljabar sederhana di domain frekuensi atau domain kompleks, yang secara drastis mengurangi kompleksitas komputasi dan analisis.11 Pemilihan transformasi yang tepat bergantung pada jenis sinyal (kontinu atau diskrit) dan tujuan analisis (misalnya, analisis respons transien, stabilitas, atau konten frekuensi).</p>
+</section>
+<section id="ii.-peta-pengetahuan-primitif-sinyal-dan-sistem-primitive-knowledge-map" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="ii.-peta-pengetahuan-primitif-sinyal-dan-sistem-primitive-knowledge-map"><span class="header-section-number">2.4</span> II. Peta Pengetahuan Primitif Sinyal dan Sistem (Primitive Knowledge Map)</h2>
+<p>Peta pengetahuan primitif ini menguraikan konsep-konsep dasar sinyal dan sistem dalam setiap domain, serta karakteristik utamanya.</p>
+</section>
+<section id="a.-kawasan-waktu-time-domain" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="a.-kawasan-waktu-time-domain"><span class="header-section-number">2.5</span> A. Kawasan Waktu (Time Domain)</h2>
+<p>Kawasan waktu adalah representasi paling intuitif dari sinyal, menggambarkan bagaimana amplitudo sinyal berubah seiring waktu.</p>
+<section id="sinyal-waktu-kontinu-continuous-time-signals---cts" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="sinyal-waktu-kontinu-continuous-time-signals---cts"><span class="header-section-number">2.5.1</span> 1. Sinyal Waktu Kontinu (Continuous-Time Signals - CTS)</h3>
+<p>Sinyal waktu kontinu, sering disebut sinyal analog, didefinisikan untuk setiap nilai waktu t dan memiliki nilai real pada keseluruhan rentang waktu yang ditempatinya, dinotasikan sebagai x(t).3 Variabel independennya, waktu, bersifat kontinu. Karakteristik umum sinyal waktu kontinu meliputi apakah sinyal tersebut periodik (berulang setelah interval waktu</p>
+<p>T, yaitu x(t+T)=x(t)) atau aperiodik, apakah memiliki energi terbatas (sinyal energi) atau daya rata-rata terbatas (sinyal daya), dan apakah simetris (genap, x(t)=x(−t)) atau antisimetris (ganjil, x(t)=−x(−t)).3 Contoh sinyal dasar dalam domain waktu kontinu adalah fungsi impuls Dirac (</p>
+<p>δ(t)), fungsi step unit (u(t)), fungsi ramp (r(t)), dan sinyal sinusoidal (Acos(ωt+θ)).3</p>
+</section>
+<section id="sistem-waktu-kontinu-continuous-time-systems---cts" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="sistem-waktu-kontinu-continuous-time-systems---cts"><span class="header-section-number">2.5.2</span> 2. Sistem Waktu Kontinu (Continuous-Time Systems - CTS)</h3>
+<p>Sistem waktu kontinu adalah sistem yang memproses sinyal input waktu kontinu untuk menghasilkan sinyal output waktu kontinu, dinotasikan sebagai y(t)=H(x(t)).6 Karakteristik penting dari sistem waktu kontinu meliputi:</p>
+<ul>
+<li><p><strong>Linearitas:</strong> Sistem linear memenuhi prinsip superposisi, yang berarti respons terhadap kombinasi linear input adalah kombinasi linear dari respons terhadap setiap input secara terpisah. Ini mencakup sifat additivitas (respons terhadap jumlah input adalah jumlah respons) dan homogenitas (respons terhadap input yang diskalakan adalah respons yang diskalakan).11</p></li>
+<li><p><strong>Invariansi Waktu (Time-Invariance):</strong> Sistem invarian waktu memiliki karakteristik yang tidak berubah seiring waktu. Artinya, jika input digeser waktu, outputnya juga akan bergeser waktu dengan jumlah yang sama, tanpa perubahan bentuk atau magnitudo.6</p></li>
+<li><p><strong>Kausalitas:</strong> Output sistem pada waktu tertentu hanya bergantung pada input pada waktu saat ini atau masa lalu, tidak pada input di masa depan.11</p></li>
+<li><p><strong>Stabilitas (BIBO - Bounded Input, Bounded Output):</strong> Sistem stabil BIBO menjamin bahwa jika input yang diberikan terbatas (bounded), maka output yang dihasilkan juga akan terbatas.11</p></li>
+</ul>
+</section>
+<section id="sinyal-waktu-diskrit-discrete-time-signals---dts" class="level3" data-number="2.5.3">
+<h3 data-number="2.5.3" class="anchored" data-anchor-id="sinyal-waktu-diskrit-discrete-time-signals---dts"><span class="header-section-number">2.5.3</span> 3. Sinyal Waktu Diskrit (Discrete-Time Signals - DTS)</h3>
+<p>Sinyal waktu diskrit didefinisikan hanya pada waktu diskrit, di mana variabel independennya mengambil nilai integer, dinotasikan sebagai x[n].3 Sinyal-sinyal ini seringkali diperoleh dari proses sampling sinyal waktu kontinu. Karakteristik umum sinyal waktu diskrit analog dengan sinyal waktu kontinu, yaitu periodisitas, energi/daya, dan sifat genap/ganjil.3 Contoh sinyal dasar dalam domain waktu diskrit adalah sekuen impuls unit (Kronecker delta,</p>
+<p>δ[n]), sekuen step unit (u[n]), dan sekuen sinusoidal diskrit (Asin(ω0​n+ϕ)).3</p>
+</section>
+<section id="sistem-waktu-diskrit-discrete-time-systems---dts" class="level3" data-number="2.5.4">
+<h3 data-number="2.5.4" class="anchored" data-anchor-id="sistem-waktu-diskrit-discrete-time-systems---dts"><span class="header-section-number">2.5.4</span> 4. Sistem Waktu Diskrit (Discrete-Time Systems - DTS)</h3>
+<p>Sistem waktu diskrit adalah sistem yang memproses sinyal input waktu diskrit untuk menghasilkan sinyal output waktu diskrit, dinotasikan sebagai y[n]=H[x(n)].6 Karakteristik penting dari sistem waktu diskrit, seperti linearitas, invariansi waktu, kausalitas, dan stabilitas BIBO, secara konseptual analog dengan sistem waktu kontinu.7</p>
+</section>
+</section>
+<section id="b.-kawasan-frekuensi-frequency-domain" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="b.-kawasan-frekuensi-frequency-domain"><span class="header-section-number">2.6</span> B. Kawasan Frekuensi (Frequency Domain)</h2>
+<p>Kawasan frekuensi memberikan perspektif tentang komponen-komponen sinusoidal yang membentuk suatu sinyal, mengungkapkan distribusi energi sinyal di berbagai frekuensi.</p>
+<section id="deret-fourier-waktu-kontinu-continuous-time-fourier-series---ctfs" class="level3" data-number="2.6.1">
+<h3 data-number="2.6.1" class="anchored" data-anchor-id="deret-fourier-waktu-kontinu-continuous-time-fourier-series---ctfs"><span class="header-section-number">2.6.1</span> 1. Deret Fourier Waktu Kontinu (Continuous-Time Fourier Series - CTFS)</h3>
+<p>Deret Fourier Waktu Kontinu (CTFS) digunakan untuk merepresentasikan sinyal waktu kontinu yang <strong>periodik</strong> sebagai penjumlahan tak hingga dari eksponensial kompleks yang berhubungan secara harmonis.39 Ini berarti sinyal periodik dapat diuraikan menjadi komponen-komponen frekuensi diskrit.</p>
+<ul>
+<li><p><strong>Persamaan Sintesis:</strong> x(t)=∑k=−∞∞​ak​ejkω0​t 40</p>
+<ul>
+<li>Di mana ak​ adalah koefisien Deret Fourier, dan ω0​=2π/T adalah frekuensi fundamental, dengan T adalah periode sinyal.40</li>
+</ul></li>
+<li><p><strong>Persamaan Analisis (Koefisien Fourier):</strong> ak​=T1​∫T​x(t)e−jkω0​tdt 40</p>
+<ul>
+<li>Integral diambil selama satu periode T.</li>
+</ul></li>
+<li><p><strong>Properti Kunci:</strong> Linearitas, pergeseran waktu (time shifting) tidak mengubah koefisien Deret Fourier, dan penskalaan waktu (time scaling) mengubah representasi karena perubahan frekuensi fundamental tetapi tidak mengubah koefisien.39</p></li>
+<li><p><strong>Aplikasi:</strong> Analisis spektrum sinyal periodik, seperti gelombang persegi atau gelombang segitiga, untuk mengidentifikasi komponen frekuensi harmoniknya.43</p></li>
+</ul>
+</section>
+<section id="transformasi-fourier-waktu-kontinu-continuous-time-fourier-transform---ctft" class="level3" data-number="2.6.2">
+<h3 data-number="2.6.2" class="anchored" data-anchor-id="transformasi-fourier-waktu-kontinu-continuous-time-fourier-transform---ctft"><span class="header-section-number">2.6.2</span> 2. Transformasi Fourier Waktu Kontinu (Continuous-Time Fourier Transform - CTFT)</h3>
+<p>Transformasi Fourier Waktu Kontinu (CTFT) adalah alat matematis yang mengubah sinyal waktu kontinu (f(t)) menjadi representasi domain frekuensi kontinu (X(jω) atau X(Ω)).13 Transformasi ini menguraikan sinyal menjadi komponen-komponen frekuensi sinusoidalnya, menunjukkan seberapa besar kontribusi setiap frekuensi terhadap sinyal asli. Persamaan transformasinya adalah</p>
+<p>X(jω)=∫−∞∞​x(t)e−jωtdt, dan inversnya adalah x(t)=2π1​∫−∞∞​X(jω)ejωtdω.13 Properti kunci CTFT meliputi linearitas, pergeseran waktu (time shifting), pergeseran frekuensi (frequency shifting), penskalaan waktu (time scaling), dan yang terpenting, mengubah operasi konvolusi di domain waktu menjadi perkalian sederhana di domain frekuensi.13 CTFT banyak diaplikasikan dalam analisis spektrum sinyal non-periodik, desain filter analog, dan sistem modulasi.13</p>
+</section>
+<section id="deret-fourier-waktu-diskrit-discrete-time-fourier-series---dtfs" class="level3" data-number="2.6.3">
+<h3 data-number="2.6.3" class="anchored" data-anchor-id="deret-fourier-waktu-diskrit-discrete-time-fourier-series---dtfs"><span class="header-section-number">2.6.3</span> 3. Deret Fourier Waktu Diskrit (Discrete-Time Fourier Series - DTFS)</h3>
+<p>Deret Fourier Waktu Diskrit (DTFS), juga dikenal sebagai Discrete Fourier Series (DFS), digunakan untuk merepresentasikan sinyal waktu diskrit yang <strong>periodik</strong> dengan periode N.5</p>
+<ul>
+<li><p><strong>Persamaan Sintesis:</strong> x[n]=∑k=0N−1​ak​ejkω0​n 5</p>
+<ul>
+<li>Di mana ω0​=2π/N adalah frekuensi fundamental diskrit.5</li>
+</ul></li>
+<li><p><strong>Persamaan Analisis (Koefisien Fourier):</strong> ak​=N1​∑n=0N−1​x[n]e−jkω0​n 5</p>
+<ul>
+<li>Penjumlahan dilakukan selama satu periode N.</li>
+</ul></li>
+<li><p><strong>Properti Kunci:</strong> Linearitas, pergeseran sirkular, dan dualitas.42</p></li>
+<li><p><strong>Aplikasi:</strong> Analisis sinyal waktu diskrit periodik, seperti sekuens digital yang berulang.</p></li>
+</ul>
+</section>
+<section id="transformasi-fourier-waktu-diskrit-discrete-time-fourier-transform---dtft-discrete-fourier-transform---dft" class="level3" data-number="2.6.4">
+<h3 data-number="2.6.4" class="anchored" data-anchor-id="transformasi-fourier-waktu-diskrit-discrete-time-fourier-transform---dtft-discrete-fourier-transform---dft"><span class="header-section-number">2.6.4</span> 4. Transformasi Fourier Waktu Diskrit (Discrete-Time Fourier Transform - DTFT &amp; Discrete Fourier Transform - DFT)</h3>
+<p>Untuk sinyal waktu diskrit, terdapat dua transformasi Fourier utama:</p>
+<ul>
+<li><p><strong>Discrete-Time Fourier Transform (DTFT):</strong> DTFT mengubah sekuens diskrit (x[n]) menjadi fungsi frekuensi kontinu yang periodik.21 Spektrum yang dihasilkan adalah penjumlahan periodik dari CTFT sinyal kontinu aslinya yang telah disampel. Persamaan transformasinya adalah</p>
+<p>X(ejω)=∑n=−∞∞​x[n]e−jωn, dan inversnya adalah x[n]=2π1​∫−ππ​X(ejω)ejωndω.21 DTFT bersifat periodik di domain frekuensi.</p></li>
+<li><p><strong>Discrete Fourier Transform (DFT):</strong> DFT mengubah sekuens terbatas dari N sampel yang berjarak sama menjadi sekuens frekuensi diskrit dengan panjang yang sama.12 DFT dapat dianggap sebagai sampel diskrit dari satu siklus DTFT.21 Persamaan transformasinya adalah</p>
+<p>X[k]=∑n=0N−1​x[n]e−jN2π​kn, dan inversnya adalah x[n]=N1​∑k=0N−1​X[k]ejN2π​kn.20 Algoritma Fast Fourier Transform (FFT) adalah implementasi efisien dari DFT.53 Properti kunci DFT meliputi linearitas dan mengubah konvolusi sirkular menjadi perkalian.54 DFT banyak digunakan dalam pemrosesan sinyal digital (penyaringan, kompresi data seperti JPEG), sistem komunikasi (seperti Orthogonal Frequency Division Multiplexing/OFDM), dan analisis spektral.20</p></li>
+</ul>
+</section>
+</section>
+<section id="c.-kawasan-kompleks-complex-domain" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="c.-kawasan-kompleks-complex-domain"><span class="header-section-number">2.7</span> C. Kawasan Kompleks (Complex Domain)</h2>
+<p>Kawasan kompleks (s-domain untuk Laplace dan z-domain untuk Z-Transform) adalah generalisasi dari kawasan frekuensi, memungkinkan analisis sistem yang lebih luas, termasuk sistem tidak stabil dan penanganan kondisi awal.</p>
+<section id="transformasi-laplace-laplace-transform" class="level3" data-number="2.7.1">
+<h3 data-number="2.7.1" class="anchored" data-anchor-id="transformasi-laplace-laplace-transform"><span class="header-section-number">2.7.1</span> 1. Transformasi Laplace (Laplace Transform)</h3>
+<p>Transformasi Laplace mengubah fungsi waktu kontinu (f(t)) menjadi fungsi variabel kompleks (F(s)) di s-domain atau s-plane.14 Transformasi ini sangat berguna untuk menganalisis sistem linear dan menyelesaikan persamaan diferensial. Persamaan transformasi unilateralnya adalah</p>
+<p>F(s)=∫0∞​f(t)e−stdt.64 Invers Transformasi Laplace mengembalikan fungsi dari s-domain ke domain waktu.15</p>
+<ul>
+<li><p><strong>Region of Convergence (ROC):</strong> ROC adalah himpunan nilai s di mana integral Transformasi Laplace konvergen.68 ROC tidak mengandung pole dari</p>
+<p>F(s).68</p></li>
+<li><p><strong>Analisis Pole-Zero:</strong> Lokasi pole (akar-akar penyebut fungsi transfer) dan zero (akar-akar pembilang fungsi transfer) di s-plane sangat menentukan dinamika dan stabilitas sistem.69 Sistem dikatakan stabil jika semua pole-nya terletak di bidang kiri kompleks (yaitu, bagian real dari setiap pole adalah negatif).15</p></li>
+<li><p><strong>Properti Kunci:</strong> Transformasi Laplace bersifat linear, mengubah operasi diferensiasi dan integrasi di domain waktu menjadi perkalian dan pembagian sederhana dengan s di domain Laplace, dan mengubah konvolusi di domain waktu menjadi perkalian di domain Laplace.14 Transformasi ini juga secara alami menangani kondisi awal sistem.15</p></li>
+<li><p><strong>Aplikasi:</strong> Transformasi Laplace banyak diaplikasikan dalam analisis dan desain sistem kontrol, analisis rangkaian listrik, dan penyelesaian persamaan diferensial linear.14</p></li>
+</ul>
+</section>
+<section id="transformasi-z-z-transform" class="level3" data-number="2.7.2">
+<h3 data-number="2.7.2" class="anchored" data-anchor-id="transformasi-z-z-transform"><span class="header-section-number">2.7.2</span> 2. Transformasi Z (Z-Transform)</h3>
+<p>Transformasi Z adalah analog diskrit dari Transformasi Laplace, yang mengubah sinyal waktu diskrit (x[n]) menjadi representasi domain kompleks (X(z)) di z-domain atau z-plane.73 Persamaan transformasi bilateralnya adalah</p>
+<p>X(z)=∑n=−∞∞​x[n]z−n.73 Invers Transformasi Z mengembalikan fungsi dari z-domain ke domain waktu diskrit.73</p>
+<ul>
+<li><p><strong>Region of Convergence (ROC):</strong> ROC untuk Transformasi Z adalah himpunan nilai z di mana deret Transformasi Z konvergen.78 ROC merupakan daerah berbentuk cincin di z-plane dan tidak mengandung pole.78</p></li>
+<li><p><strong>Analisis Pole-Zero:</strong> Lokasi pole dan zero di z-plane menentukan stabilitas dan perilaku sistem waktu diskrit.78 Sistem dikatakan stabil jika semua pole-nya berada</p>
+<p><em>di dalam</em> lingkaran unit (lingkaran dengan radius satu yang berpusat di titik asal) di z-plane.78</p></li>
+<li><p><strong>Properti Kunci:</strong> Transformasi Z bersifat linear, memiliki properti pergeseran waktu, diferensiasi di z-domain, dan mengubah konvolusi di domain waktu diskrit menjadi perkalian di domain Z.74</p></li>
+<li><p><strong>Aplikasi:</strong> Transformasi Z sangat penting dalam analisis dan desain sistem kontrol digital, serta dalam pemrosesan sinyal digital untuk analisis stabilitas dan desain filter.84</p></li>
+</ul>
+</section>
+</section>
+<section id="d.-konsep-sampling-dan-rekonstruksi" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="d.-konsep-sampling-dan-rekonstruksi"><span class="header-section-number">2.8</span> D. Konsep Sampling dan Rekonstruksi</h2>
+<p>Sampling adalah proses fundamental yang menjembatani sinyal waktu kontinu (analog) dengan sinyal waktu diskrit (digital).</p>
+<section id="sampling-waktu" class="level3" data-number="2.8.1">
+<h3 data-number="2.8.1" class="anchored" data-anchor-id="sampling-waktu"><span class="header-section-number">2.8.1</span> Sampling Waktu</h3>
+<p>Sampling adalah proses mengubah sinyal kontinu menjadi sinyal diskrit dengan mengambil nilai sinyal pada interval waktu tertentu, T, yang disebut interval sampling atau periode sampling.28 Frekuensi sampling (</p>
+<p>fs​=1/T) adalah jumlah sampel per detik.89 Untuk menghindari distorsi yang dikenal sebagai aliasing, frekuensi sampling harus memenuhi kriteria yang ditetapkan oleh teorema Nyquist-Shannon.89</p>
+<ul>
+<li><p><strong>Teorema Nyquist-Shannon:</strong> Teorema ini menyatakan bahwa laju sampel (fs​) harus setidaknya dua kali bandwidth sinyal (B) (fs​&gt;2B) untuk memungkinkan rekonstruksi sinyal asli yang sempurna dan menghindari aliasing.89 Batas frekuensi</p>
+<p>fs​/2 dikenal sebagai frekuensi Nyquist.89</p></li>
+<li><p><strong>Aliasing:</strong> Aliasing adalah fenomena distorsi yang terjadi ketika sinyal kontinu di-sample pada frekuensi yang lebih rendah dari laju Nyquist.89</p></li>
+</ul>
+<p>Aliasing memiliki implikasi praktis yang mendalam dalam desain sistem nyata. Fenomena ini muncul karena spektrum sinyal yang telah disampel merupakan penjumlahan periodik dari spektrum sinyal kontinu aslinya, berulang pada kelipatan frekuensi sampling.20 Jika frekuensi sampling terlalu rendah, salinan-salinan spektrum ini akan tumpang tindih, menyebabkan frekuensi tinggi “menyamar” sebagai frekuensi rendah dan mengakibatkan hilangnya informasi yang tidak dapat dipulihkan.89 Untuk mengatasi masalah ini, filter anti-aliasing (filter low-pass) harus diterapkan</p>
+<p><em>sebelum</em> proses sampling untuk menghilangkan komponen frekuensi di atas frekuensi Nyquist.89 Ini adalah langkah krusial dalam konversi analog-ke-digital (ADC) dan merupakan batasan fundamental dalam pemrosesan sinyal digital. Pemilihan frekuensi sampling yang tepat, sesuai dengan teorema Nyquist-Shannon, sangat menentukan kualitas dan integritas data yang dikonversi. Kegagalan memenuhi kriteria ini akan menghasilkan distorsi yang signifikan, seperti yang diamati dalam analisis sinyal audio dengan frekuensi sampling rendah.98</p>
+</section>
+<section id="rekonstruksi-sinyal" class="level3" data-number="2.8.2">
+<h3 data-number="2.8.2" class="anchored" data-anchor-id="rekonstruksi-sinyal"><span class="header-section-number">2.8.2</span> Rekonstruksi Sinyal</h3>
+<p>Rekonstruksi sinyal adalah proses kebalikan dari sampling, yaitu mengembalikan sinyal diskrit menjadi sinyal kontinu.89 Metode yang umum digunakan untuk rekonstruksi adalah interpolasi sinc atau melalui filter low-pass ideal.89 Interpolasi sinc secara matematis setara dengan melewatkan deretan impuls Dirac yang dimodulasi oleh nilai sampel melalui filter low-pass ideal.89</p>
+</section>
+<section id="sampling-frekuensi-implisit-dari-deret-fourier-dtftdft" class="level3" data-number="2.8.3">
+<h3 data-number="2.8.3" class="anchored" data-anchor-id="sampling-frekuensi-implisit-dari-deret-fourier-dtftdft"><span class="header-section-number">2.8.3</span> Sampling Frekuensi (Implisit dari Deret Fourier &amp; DTFT/DFT)</h3>
+<p>Konsep sampling tidak hanya berlaku di domain waktu tetapi juga memiliki analogi di domain frekuensi, terutama dalam konteks hubungan antara sinyal kontinu dan diskrit melalui transformasi Fourier.</p>
+<p>Ketika sinyal kontinu di-sample di domain waktu, spektrum sinyal diskrit yang dihasilkan (melalui DTFT) adalah penjumlahan periodik dari spektrum sinyal kontinu aslinya, dengan periode yang ditentukan oleh frekuensi sampling.20 Ini menunjukkan bahwa operasi diskritisasi di satu domain (waktu) menyebabkan periodisitas di domain lainnya (frekuensi).</p>
+<p>Peran deret Fourier dalam konteks ini sangat penting. Deret Fourier digunakan untuk merepresentasikan sinyal periodik (baik waktu kontinu maupun diskrit) sebagai kombinasi linear dari eksponensial kompleks yang berhubungan secara harmonis.108 Koefisien deret Fourier ini menunjukkan komponen frekuensi diskrit yang membentuk sinyal periodik.39</p>
+<p>Hubungan antara sampling di domain waktu dan sifat periodik di domain frekuensi merupakan manifestasi dari dualitas waktu-frekuensi. Dualitas ini adalah prinsip sentral dalam analisis Fourier yang menyatakan bahwa operasi di satu domain memiliki efek timbal balik di domain lainnya. Misalnya:</p>
+<ul>
+<li><p>Sinyal waktu kontinu periodik (yang dijelaskan oleh Deret Fourier) memiliki spektrum frekuensi diskrit.</p></li>
+<li><p>Sinyal waktu diskrit aperiodik (yang dijelaskan oleh DTFT) memiliki spektrum frekuensi kontinu yang periodik.21</p></li>
+<li><p>Sinyal waktu kontinu aperiodik (yang dijelaskan oleh CTFT) memiliki spektrum frekuensi kontinu aperiodik.</p></li>
+<li><p>Sinyal waktu diskrit periodik (yang dijelaskan oleh DFT/DFS) memiliki spektrum frekuensi diskrit periodik.20</p></li>
+</ul>
+<p>Pemahaman tentang dualitas ini sangat penting dalam rekayasa sinyal. Ini menjelaskan mengapa sampling sinyal analog (mengambil sampel pada titik-titik waktu diskrit) menghasilkan spektrum frekuensi yang berulang secara periodik.21 Sebaliknya, menganalisis sinyal yang periodik di domain waktu akan menghasilkan komponen frekuensi yang diskrit. Pemahaman ini sangat membantu dalam merancang sistem pemrosesan sinyal digital yang efisien dan akurat, karena secara langsung menginformasikan hubungan antara operasi di domain waktu dan konsekuensinya di domain frekuensi.</p>
+</section>
+</section>
+<section id="iii.-peta-pemecahan-masalah-sinyal-dan-sistem-problem-solving-map" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="iii.-peta-pemecahan-masalah-sinyal-dan-sistem-problem-solving-map"><span class="header-section-number">2.9</span> III. Peta Pemecahan Masalah Sinyal dan Sistem (Problem-Solving Map)</h2>
+<p>Dalam setiap kawasan analisis (Waktu Kontinu, Waktu Diskrit, Frekuensi Kontinu, Frekuensi Diskrit, Kompleks Laplace, dan Kompleks Z), terdapat tiga masalah dasar yang dapat dipecahkan:</p>
+<ol type="1">
+<li><p><strong>Mencari Output:</strong> Diberikan sinyal input dan karakteristik sistem.</p></li>
+<li><p><strong>Mencari Sistem:</strong> Diberikan sinyal input dan sinyal output.</p></li>
+<li><p><strong>Mencari Input:</strong> Diberikan karakteristik sistem dan sinyal output.</p></li>
+</ol>
+<p>Berikut adalah pendekatan untuk memecahkan masalah-masalah ini di setiap kawasan.</p>
+</section>
+<section id="a.-kawasan-waktu-time-domain-1" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="a.-kawasan-waktu-time-domain-1"><span class="header-section-number">2.10</span> A. Kawasan Waktu (Time Domain)</h2>
+<section id="sinyal-dan-sistem-waktu-kontinu" class="level3" data-number="2.10.1">
+<h3 data-number="2.10.1" class="anchored" data-anchor-id="sinyal-dan-sistem-waktu-kontinu"><span class="header-section-number">2.10.1</span> 1. Sinyal dan Sistem Waktu Kontinu</h3>
+<ul>
+<li><p><strong>Mencari Output (y(t)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Konvolusi Integral. Output y(t) dari sistem Linear Time-Invariant (LTI) waktu kontinu adalah konvolusi dari input x(t) dan respons impuls sistem h(t).11 Persamaan matematisnya adalah</p>
+<p>y(t)=x(t)∗h(t)=∫−∞∞​x(τ)h(t−τ)dτ. Konvolusi merupakan operasi fundamental yang menggambarkan bagaimana output sistem LTI dihasilkan dari input dan respons impulsnya.</p></li>
+</ul></li>
+<li><p><strong>Mencari Sistem (h(t)):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Dekonvolusi atau dengan memberikan input impuls unit. Jika input yang diberikan ke sistem adalah impuls Dirac (δ(t)), output yang dihasilkan sistem adalah respons impuls h(t).30 Dekonvolusi adalah proses invers dari konvolusi, yang bertujuan untuk menghilangkan efek konvolusi pada data.10</li>
+</ul></li>
+<li><p><strong>Mencari Input (x(t)):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Dekonvolusi output dengan respons impuls sistem. Ini melibatkan operasi invers dari konvolusi.</li>
+</ul></li>
+</ul>
+<p>Penyelesaian masalah mencari sistem (respons impuls h(t)) atau mencari input (x(t)) di domain waktu seringkali melibatkan operasi dekonvolusi. Dekonvolusi, sebagai proses invers dari konvolusi, bertujuan untuk memulihkan salah satu sinyal penyusun ketika sinyal hasil konvolusi dan sinyal lainnya diketahui.125 Meskipun secara matematis didefinisikan, dekonvolusi di domain waktu memiliki tantangan praktis yang signifikan. Operasi ini seringkali bersifat</p>
+<p><em>ill-posed</em>, artinya solusi mungkin tidak unik, tidak stabil terhadap noise kecil pada data, atau tidak bergantung secara kontinu pada data input.38 Dalam aplikasi nyata seperti seismologi atau pemrosesan citra, noise dan ketidaksempurnaan data dapat memperburuk masalah ini, membuat dekonvolusi langsung menjadi sangat sulit atau bahkan tidak mungkin untuk mendapatkan hasil yang akurat.126 Keterbatasan ini mendorong para insinyur untuk memanfaatkan domain transformasi (seperti domain frekuensi atau kompleks) di mana operasi konvolusi menjadi perkalian, sehingga operasi inversnya menjadi pembagian sederhana, meskipun tetap rentan terhadap amplifikasi noise.</p>
+</section>
+<section id="sinyal-dan-sistem-waktu-diskrit" class="level3" data-number="2.10.2">
+<h3 data-number="2.10.2" class="anchored" data-anchor-id="sinyal-dan-sistem-waktu-diskrit"><span class="header-section-number">2.10.2</span> 2. Sinyal dan Sistem Waktu Diskrit</h3>
+<ul>
+<li><p><strong>Mencari Output (y[n]):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Konvolusi Sum. Output y[n] dari sistem LTI waktu diskrit adalah konvolusi dari input x[n] dan respons impuls sistem h[n].11 Ini adalah analog diskrit dari konvolusi integral untuk sinyal waktu kontinu.</li>
+</ul></li>
+<li><p><strong>Mencari Sistem (h[n]):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Dekonvolusi diskrit atau dengan memberikan input impuls unit (Kronecker delta, δ[n]). Jika input adalah impuls unit, output adalah respons impuls h[n].10</li>
+</ul></li>
+<li><p><strong>Mencari Input (x[n]):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Dekonvolusi output dengan respons impuls sistem.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="b.-kawasan-frekuensi-frequency-domain-1" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="b.-kawasan-frekuensi-frequency-domain-1"><span class="header-section-number">2.11</span> B. Kawasan Frekuensi (Frequency Domain)</h2>
+<p>Analisis di kawasan frekuensi sangat efisien untuk sistem LTI karena sifat perkalian yang menyederhanakan operasi konvolusi.</p>
+<section id="sinyal-dan-sistem-kontinu-menggunakan-ctft" class="level3" data-number="2.11.1">
+<h3 data-number="2.11.1" class="anchored" data-anchor-id="sinyal-dan-sistem-kontinu-menggunakan-ctft"><span class="header-section-number">2.11.1</span> 1. Sinyal dan Sistem Kontinu (menggunakan CTFT)</h3>
+<ul>
+<li><p><strong>Mencari Output (Y(jω)):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Perkalian di domain frekuensi. Output Y(jω) adalah perkalian dari Transformasi Fourier input X(jω) dan respons frekuensi sistem H(jω): Y(jω)=X(jω)H(jω).11 Properti ini merupakan salah satu alasan utama mengapa analisis di domain frekuensi sangat disukai untuk sistem LTI, karena mengubah operasi konvolusi yang kompleks di domain waktu menjadi perkalian aljabar sederhana.11</li>
+</ul></li>
+<li><p><strong>Mencari Sistem (H(jω)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Pembagian di domain frekuensi. H(jω)=Y(jω)/X(jω).135 Setelah mendapatkan</p>
+<p>H(jω), invers CTFT dapat dilakukan untuk memperoleh respons impuls h(t) di domain waktu.</p></li>
+</ul></li>
+<li><p><strong>Mencari Input (X(jω)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Pembagian di domain frekuensi. X(jω)=Y(jω)/H(jω).3 Setelah mendapatkan</p>
+<p>X(jω), invers CTFT dapat dilakukan untuk memperoleh input x(t) di domain waktu.</p></li>
+</ul></li>
+</ul>
+<p>Efisiensi analisis sistem LTI di domain frekuensi berasal dari sifat fundamental Transformasi Fourier yang mengubah operasi konvolusi di domain waktu menjadi perkalian di domain frekuensi.11 Konvolusi, yang secara matematis melibatkan integral atau penjumlahan yang rumit, menjadi operasi aljabar yang jauh lebih sederhana (</p>
+<p>Y(jω)=X(jω)H(jω)).13 Penyederhanaan ini tidak hanya mengurangi beban komputasi tetapi juga memberikan pemahaman konseptual yang lebih jelas tentang bagaimana sistem memodifikasi komponen frekuensi sinyal input. Misalnya, respons frekuensi sistem</p>
+<p>H(jω) secara langsung menunjukkan bagaimana sistem melemahkan atau menguatkan frekuensi tertentu.133 Kemampuan untuk dengan cepat menentukan output, sistem, atau input melalui perkalian atau pembagian di domain frekuensi merupakan perubahan paradigma yang signifikan dalam rekayasa, memungkinkan desain, analisis, dan optimasi filter, sistem komunikasi, dan sistem kontrol yang jauh lebih cepat dan intuitif.</p>
+</section>
+<section id="sinyal-dan-sistem-diskrit-menggunakan-dtftdft" class="level3" data-number="2.11.2">
+<h3 data-number="2.11.2" class="anchored" data-anchor-id="sinyal-dan-sistem-diskrit-menggunakan-dtftdft"><span class="header-section-number">2.11.2</span> 2. Sinyal dan Sistem Diskrit (menggunakan DTFT/DFT)</h3>
+<ul>
+<li><p><strong>Mencari Output (Y(ejω) atau Y[k]):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Perkalian di domain frekuensi. Output Y(ejω)=X(ejω)H(ejω) untuk DTFT, atau Y[k]=X[k]H[k] untuk DFT.12 Ini adalah analog diskrit dari perkalian di domain frekuensi kontinu.</li>
+</ul></li>
+<li><p><strong>Mencari Sistem (H(ejω) atau H[k]):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Pembagian di domain frekuensi. H(ejω)=Y(ejω)/X(ejω) atau H[k]=Y[k]/X[k].113</li>
+</ul></li>
+<li><p><strong>Mencari Input (X(ejω) atau X[k]):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Pembagian di domain frekuensi. X(ejω)=Y(ejω)/H(ejω) atau X[k]=Y[k]/H[k].114</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="c.-kawasan-kompleks-complex-domain-1" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="c.-kawasan-kompleks-complex-domain-1"><span class="header-section-number">2.12</span> C. Kawasan Kompleks (Complex Domain)</h2>
+<p>Kawasan kompleks (Laplace dan Z-Transform) menyediakan kerangka analisis yang lebih umum dan kuat, terutama untuk sistem yang tidak stabil atau yang memerlukan pertimbangan kondisi awal.</p>
+<section id="sinyal-dan-sistem-kontinu-menggunakan-transformasi-laplace" class="level3" data-number="2.12.1">
+<h3 data-number="2.12.1" class="anchored" data-anchor-id="sinyal-dan-sistem-kontinu-menggunakan-transformasi-laplace"><span class="header-section-number">2.12.1</span> 1. Sinyal dan Sistem Kontinu (menggunakan Transformasi Laplace)</h3>
+<ul>
+<li><p><strong>Mencari Output (Y(s)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Perkalian di domain Laplace. Y(s)=X(s)H(s).15 Setelah mendapatkan</p>
+<p>Y(s), invers Transformasi Laplace dilakukan untuk mendapatkan y(t) di domain waktu. Transformasi Laplace sangat efektif karena mengubah persamaan diferensial linear menjadi persamaan aljabar, yang jauh lebih mudah dipecahkan.62</p></li>
+</ul></li>
+<li><p><strong>Mencari Sistem (H(s)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Pembagian di domain Laplace. H(s)=Y(s)/X(s).9 Setelah mendapatkan</p>
+<p>H(s), invers Transformasi Laplace dapat dilakukan untuk memperoleh respons impuls h(t) di domain waktu.</p></li>
+</ul></li>
+<li><p><strong>Mencari Input (X(s)):</strong></p>
+<ul>
+<li><strong>Metode:</strong> Pembagian di domain Laplace. X(s)=Y(s)/H(s). Setelah mendapatkan X(s), invers Transformasi Laplace dapat dilakukan untuk memperoleh input x(t) di domain waktu.</li>
+</ul></li>
+</ul>
+</section>
+<section id="sinyal-dan-sistem-diskrit-menggunakan-transformasi-z" class="level3" data-number="2.12.2">
+<h3 data-number="2.12.2" class="anchored" data-anchor-id="sinyal-dan-sistem-diskrit-menggunakan-transformasi-z"><span class="header-section-number">2.12.2</span> 2. Sinyal dan Sistem Diskrit (menggunakan Transformasi Z)</h3>
+<ul>
+<li><p><strong>Mencari Output (Y(z)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Perkalian di domain Z. Y(z)=X(z)H(z).84 Setelah mendapatkan</p>
+<p>Y(z), invers Transformasi Z dilakukan untuk mendapatkan y[n] di domain waktu diskrit. Transformasi Z mengubah persamaan beda menjadi persamaan aljabar, menyederhanakan penyelesaian.84</p></li>
+</ul></li>
+<li><p><strong>Mencari Sistem (H(z)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Pembagian di domain Z. H(z)=Y(z)/X(z).19 Setelah mendapatkan</p>
+<p>H(z), invers Transformasi Z dapat dilakukan untuk memperoleh respons impuls h[n] di domain waktu diskrit.</p></li>
+</ul></li>
+<li><p><strong>Mencari Input (X(z)):</strong></p>
+<ul>
+<li><p><strong>Metode:</strong> Pembagian di domain Z. X(z)=Y(z)/H(z).73 Setelah mendapatkan</p>
+<p>X(z), invers Transformasi Z dapat dilakukan untuk memperoleh input x[n] di domain waktu diskrit.</p></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="d.-transformasi-antar-kawasan-inter-domain-transformations" class="level2" data-number="2.13">
+<h2 data-number="2.13" class="anchored" data-anchor-id="d.-transformasi-antar-kawasan-inter-domain-transformations"><span class="header-section-number">2.13</span> D. Transformasi Antar Kawasan (Inter-Domain Transformations)</h2>
+<p>Transformasi antar kawasan adalah alat vital yang memungkinkan analisis sinyal dan sistem dari berbagai perspektif, memilih domain yang paling sesuai untuk masalah tertentu.</p>
+<section id="waktu-kontinu-frekuensi-kontinu" class="level3" data-number="2.13.1">
+<h3 data-number="2.13.1" class="anchored" data-anchor-id="waktu-kontinu-frekuensi-kontinu"><span class="header-section-number">2.13.1</span> 1. Waktu Kontinu ↔︎ Frekuensi Kontinu</h3>
+<p>Hubungan ini diatur oleh Transformasi Fourier Kontinu (CTFT) dan Invers CTFT.13 CTFT mengubah sinyal waktu kontinu menjadi spektrum frekuensi kontinu, dan Invers CTFT melakukan sebaliknya.</p>
+</section>
+<section id="waktu-diskrit-frekuensi-diskrit" class="level3" data-number="2.13.2">
+<h3 data-number="2.13.2" class="anchored" data-anchor-id="waktu-diskrit-frekuensi-diskrit"><span class="header-section-number">2.13.2</span> 2. Waktu Diskrit ↔︎ Frekuensi Diskrit</h3>
+<p>Hubungan ini diatur oleh Transformasi Fourier Waktu Diskrit (DTFT) dan Discrete Fourier Transform (DFT), beserta inversnya.5 DTFT menghasilkan spektrum frekuensi kontinu yang periodik dari sinyal waktu diskrit, sementara DFT menyediakan sampel diskrit dari spektrum ini.</p>
+</section>
+<section id="waktu-kontinu-kompleks-laplace" class="level3" data-number="2.13.3">
+<h3 data-number="2.13.3" class="anchored" data-anchor-id="waktu-kontinu-kompleks-laplace"><span class="header-section-number">2.13.3</span> 3. Waktu Kontinu ↔︎ Kompleks Laplace</h3>
+<p>Transformasi Laplace dan Invers Laplace menjembatani domain waktu kontinu dengan domain kompleks s.14</p>
+<p>Generalisasi analisis sistem LTI dengan domain kompleks, melalui Transformasi Laplace dan Transformasi Z, memberikan kerangka kerja yang lebih kuat dibandingkan hanya menggunakan Transformasi Fourier. Transformasi Fourier, meskipun sangat berguna untuk analisis konten frekuensi, terbatas pada sinyal dan sistem yang stabil (yaitu, integral Fourier-nya konvergen) dan hanya beroperasi pada sumbu imajiner (jω-axis) di s-plane.14 Transformasi Laplace memperluas analisis ini ke seluruh bidang kompleks (</p>
+<p>s-plane), memungkinkan karakterisasi sistem yang tidak stabil (pole di bidang kanan kompleks) dan analisis respons transien serta kondisi awal sistem.14 ROC dari Transformasi Laplace secara langsung menunjukkan kausalitas dan stabilitas sistem; untuk sistem kausal, ROC terletak di sebelah kanan pole paling kanan.147 Perluasan ini sangat penting dalam desain sistem kontrol, di mana stabilitas adalah pertimbangan utama. Transformasi Laplace mengubah persamaan diferensial menjadi persamaan aljabar, menyederhanakan proses penyelesaian secara signifikan.62</p>
+</section>
+<section id="waktu-diskrit-kompleks-z" class="level3" data-number="2.13.4">
+<h3 data-number="2.13.4" class="anchored" data-anchor-id="waktu-diskrit-kompleks-z"><span class="header-section-number">2.13.4</span> 4. Waktu Diskrit ↔︎ Kompleks Z</h3>
+<p>Transformasi Z dan Invers Z menghubungkan domain waktu diskrit dengan domain kompleks z.78 Transformasi Z adalah analog diskrit dari Transformasi Laplace, membawa manfaat yang serupa untuk analisis sistem waktu diskrit.</p>
+</section>
+<section id="frekuensi-kontinu-kompleks-laplace" class="level3" data-number="2.13.5">
+<h3 data-number="2.13.5" class="anchored" data-anchor-id="frekuensi-kontinu-kompleks-laplace"><span class="header-section-number">2.13.5</span> 5. Frekuensi Kontinu ↔︎ Kompleks Laplace</h3>
+<p>Sumbu jω di s-plane Transformasi Laplace secara langsung berhubungan dengan domain frekuensi kontinu dari Transformasi Fourier.14 Ini berarti bahwa Transformasi Fourier dapat dianggap sebagai kasus khusus dari Transformasi Laplace ketika bagian real dari variabel kompleks</p>
+<p>s adalah nol.</p>
+</section>
+<section id="frekuensi-diskrit-kompleks-z" class="level3" data-number="2.13.6">
+<h3 data-number="2.13.6" class="anchored" data-anchor-id="frekuensi-diskrit-kompleks-z"><span class="header-section-number">2.13.6</span> 6. Frekuensi Diskrit ↔︎ Kompleks Z</h3>
+<p>Lingkaran unit di z-plane Transformasi Z berhubungan dengan domain frekuensi diskrit dari DTFT.78 Jika ROC dari Transformasi Z mencakup lingkaran unit, maka DTFT sinyal tersebut ada.</p>
+</section>
+</section>
+<section id="iv.-visualisasi-peta-pengetahuan-knowledge-map-visualization" class="level2" data-number="2.14">
+<h2 data-number="2.14" class="anchored" data-anchor-id="iv.-visualisasi-peta-pengetahuan-knowledge-map-visualization"><span class="header-section-number">2.14</span> IV. Visualisasi Peta Pengetahuan (Knowledge Map Visualization)</h2>
+<p>Untuk mengorganisir dan menyajikan informasi yang kompleks ini secara efektif, visualisasi dalam bentuk peta pengetahuan sangatlah bermanfaat. Dua jenis peta dapat disusun: Peta Pengetahuan Primitif (konseptual) dan Peta Pemecahan Masalah (aplikatif).</p>
+</section>
+<section id="a.-primitive-knowledge-map-konseptual" class="level2" data-number="2.15">
+<h2 data-number="2.15" class="anchored" data-anchor-id="a.-primitive-knowledge-map-konseptual"><span class="header-section-number">2.15</span> A. Primitive Knowledge Map (Konseptual)</h2>
+<p>Peta pengetahuan primitif berfungsi sebagai gambaran konseptual hierarkis dari sinyal dan sistem.</p>
+<ul>
+<li><p><strong>Struktur:</strong> Peta ini memiliki struktur hierarkis, dimulai dari konsep inti “Sinyal &amp; Sistem” sebagai node pusat.</p></li>
+<li><p><strong>Nodes:</strong> Level berikutnya akan bercabang menjadi “Kawasan Waktu,” “Kawasan Frekuensi,” dan “Kawasan Kompleks.” Di bawah setiap kawasan, akan ada node untuk “Sinyal Kontinu,” “Sistem Kontinu,” “Sinyal Diskrit,” dan “Sistem Diskrit” (untuk Kawasan Waktu); “Deret Fourier Waktu Kontinu,” “CTFT,” “Deret Fourier Waktu Diskrit,” dan “DTFT/DFT” (untuk Kawasan Frekuensi); serta “Transformasi Laplace” dan “Transformasi Z” (untuk Kawasan Kompleks). Node yang lebih rendah akan merinci properti sinyal (periodik, energi/daya, genap/ganjil), properti sistem (linearitas, invariansi waktu, kausalitas, stabilitas), definisi Region of Convergence (ROC), dan analisis pole-zero.</p></li>
+<li><p><strong>Links:</strong> Hubungan antar node akan ditunjukkan dengan panah berlabel. Misalnya, “terdiri dari” atau “dapat diklasifikasikan sebagai” akan menghubungkan level hierarkis. “Dihubungkan oleh” atau “menggunakan” akan menghubungkan konsep sampling dan transformasi. “Memiliki properti” akan menghubungkan sinyal/sistem dengan karakteristiknya.</p></li>
+<li><p><strong>Visual Elements:</strong> Penggunaan warna yang berbeda untuk setiap domain utama (Waktu, Frekuensi, Kompleks) dan sub-domain (Kontinu, Diskrit) akan meningkatkan kejelasan visual. Simbol standar seperti kotak atau lingkaran untuk node dan panah berlabel untuk hubungan akan digunakan.149</p></li>
+<li><p><strong>Suggested Tool:</strong> Alat seperti Miro, Lucidchart, atau MindMeister sangat cocok untuk membuat peta kolaboratif dan menarik secara visual.154 MathWhiteboard dapat digunakan untuk mengintegrasikan ekspresi matematis langsung ke dalam peta.155</p></li>
+</ul>
+</section>
+<section id="b.-problem-solving-map-aplikasi" class="level2" data-number="2.16">
+<h2 data-number="2.16" class="anchored" data-anchor-id="b.-problem-solving-map-aplikasi"><span class="header-section-number">2.16</span> B. Problem-Solving Map (Aplikasi)</h2>
+<p>Peta pemecahan masalah akan memvisualisasikan pendekatan sistematis untuk menyelesaikan tiga masalah dasar dalam setiap kawasan.</p>
+<ul>
+<li><p><strong>Struktur:</strong> Peta ini dapat berupa matriks atau flowchart, dengan domain sebagai baris/kolom dan masalah dasar sebagai entri.</p></li>
+<li><p><strong>Nodes:</strong> Node akan mencakup “Mencari Output,” “Mencari Sistem,” dan “Mencari Input” sebagai masalah utama. Di bawahnya, akan ada node untuk setiap dari enam kawasan, dan di bawahnya lagi, node detail untuk metode spesifik (misalnya, Konvolusi Integral/Sum, Dekonvolusi, Transformasi/Invers Transformasi, Persamaan Diferensial/Beda, Fungsi Transfer, Analisis Pole-Zero).</p></li>
+<li><p><strong>Links:</strong> Panah akan menunjukkan aliran proses atau ketergantungan antar metode.</p></li>
+<li><p><strong>Visual Elements:</strong> Simbol flowchart standar (mulai/akhir, proses, keputusan, data, panah) akan digunakan untuk memandu alur pemikiran dalam memecahkan masalah.156</p></li>
+<li><p><strong>Transformasi Antar Kawasan:</strong> Transformasi ini akan direpresentasikan sebagai jembatan atau panah besar yang menghubungkan domain-domain yang berbeda, dengan label transformasinya (CTFT, DTFT/DFT, Laplace, Z-Transform, Invers Transformasi), menunjukkan bagaimana berpindah antar domain untuk menyederhanakan masalah.</p></li>
+</ul>
+</section>
+<section id="v.-kesimpulan-dan-rekomendasi" class="level2" data-number="2.17">
+<h2 data-number="2.17" class="anchored" data-anchor-id="v.-kesimpulan-dan-rekomendasi"><span class="header-section-number">2.17</span> V. Kesimpulan dan Rekomendasi</h2>
+</section>
+<section id="a.-ringkasan-integrasi-konsep" class="level2" data-number="2.18">
+<h2 data-number="2.18" class="anchored" data-anchor-id="a.-ringkasan-integrasi-konsep"><span class="header-section-number">2.18</span> A. Ringkasan Integrasi Konsep</h2>
+<p>Konsep dasar sinyal dan sistem adalah landasan bagi banyak inovasi teknologi modern. Laporan ini telah menguraikan bagaimana sinyal dan sistem berinteraksi, membentuk hubungan input-sistem-output yang fundamental. Pemahaman tentang enam kawasan analisis (waktu kontinu, waktu diskrit, frekuensi kontinu, frekuensi diskrit, kompleks Laplace, dan kompleks Z) sangat penting untuk analisis yang komprehensif. Transformasi matematis berfungsi sebagai alat yang tak ternilai untuk berpindah antar kawasan ini, seringkali mengubah masalah yang kompleks (seperti konvolusi di domain waktu) menjadi operasi aljabar yang lebih sederhana (seperti perkalian di domain frekuensi atau kompleks). Konsep sampling dan rekonstruksi, yang diatur oleh teorema Nyquist-Shannon, merupakan jembatan krusial antara dunia analog dan digital, dengan implikasi signifikan terhadap integritas sin</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Part 1: The Primitive Knowledge Map">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Part 1: The Primitive Knowledge Map</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./SS-ABCD.html" class="pagination-link" aria-label="SS-ABCD.html">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">SS-ABCD.html</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

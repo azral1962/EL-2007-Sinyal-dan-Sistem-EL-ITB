@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.55">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>4&nbsp; Merancang Sistem Asesmen Pembelajaran Berbasis Nilai Pengetahuan di Bidang Sinyal dan Sistem – konsep</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./SS-journal.html" rel="next">
+<link href="./SS-ABCD.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./SS-Assessment.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Merancang Sistem Asesmen Pembelajaran Berbasis Nilai Pengetahuan di Bidang Sinyal dan Sistem</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">konsep</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Part 1: The Primitive Knowledge Map</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Laporan Ahli: Konsep Dasar Sinyal dan Sistem: Peta Pengetahuan dan Kerangka Pemecahan Masalah</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SS-ABCD.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">SS-ABCD.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SS-Assessment.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Merancang Sistem Asesmen Pembelajaran Berbasis Nilai Pengetahuan di Bidang Sinyal dan Sistem</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./SS-journal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Konsep “Jurnal Belajar” dengan Git/GitHub</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#i.-pendahuluan-merancang-ekosistem-pembelajaran-berbasis-nilai-di-sinyal-dan-sistem" id="toc-i.-pendahuluan-merancang-ekosistem-pembelajaran-berbasis-nilai-di-sinyal-dan-sistem" class="nav-link active" data-scroll-target="#i.-pendahuluan-merancang-ekosistem-pembelajaran-berbasis-nilai-di-sinyal-dan-sistem"><span class="header-section-number">4.1</span> I. Pendahuluan: Merancang Ekosistem Pembelajaran Berbasis Nilai di Sinyal dan Sistem</a></li>
+  <li><a href="#a.-latar-belakang-tantangan-asesmen-tradisional-dan-potensi-inovasi" id="toc-a.-latar-belakang-tantangan-asesmen-tradisional-dan-potensi-inovasi" class="nav-link" data-scroll-target="#a.-latar-belakang-tantangan-asesmen-tradisional-dan-potensi-inovasi"><span class="header-section-number">4.2</span> A. Latar Belakang: Tantangan Asesmen Tradisional dan Potensi Inovasi</a></li>
+  <li><a href="#b.-tujuan-sistem-asesmen-berbasis-nilai-pengetahuan" id="toc-b.-tujuan-sistem-asesmen-berbasis-nilai-pengetahuan" class="nav-link" data-scroll-target="#b.-tujuan-sistem-asesmen-berbasis-nilai-pengetahuan"><span class="header-section-number">4.3</span> B. Tujuan Sistem Asesmen Berbasis Nilai Pengetahuan</a></li>
+  <li><a href="#c.-gambaran-umum-sistem-knowledge-marketplace" id="toc-c.-gambaran-umum-sistem-knowledge-marketplace" class="nav-link" data-scroll-target="#c.-gambaran-umum-sistem-knowledge-marketplace"><span class="header-section-number">4.4</span> C. Gambaran Umum Sistem “Knowledge Marketplace”</a></li>
+  <li><a href="#ii.-fondasi-pedagogis-taksonomi-bloom-dan-peta-pengetahuan-untuk-penguasaan-konsep" id="toc-ii.-fondasi-pedagogis-taksonomi-bloom-dan-peta-pengetahuan-untuk-penguasaan-konsep" class="nav-link" data-scroll-target="#ii.-fondasi-pedagogis-taksonomi-bloom-dan-peta-pengetahuan-untuk-penguasaan-konsep"><span class="header-section-number">4.5</span> II. Fondasi Pedagogis: Taksonomi Bloom dan Peta Pengetahuan untuk Penguasaan Konsep</a></li>
+  <li><a href="#a.-memahami-tingkat-kognitif-taksonomi-bloom-dalam-pembelajaran-sinyal-dan-sistem" id="toc-a.-memahami-tingkat-kognitif-taksonomi-bloom-dalam-pembelajaran-sinyal-dan-sistem" class="nav-link" data-scroll-target="#a.-memahami-tingkat-kognitif-taksonomi-bloom-dalam-pembelajaran-sinyal-dan-sistem"><span class="header-section-number">4.6</span> A. Memahami Tingkat Kognitif Taksonomi Bloom dalam Pembelajaran Sinyal dan Sistem</a>
+  <ul class="collapse">
+  <li><a href="#level-dasar-mengingat-dan-memahami-peta-pengetahuan-primitif" id="toc-level-dasar-mengingat-dan-memahami-peta-pengetahuan-primitif" class="nav-link" data-scroll-target="#level-dasar-mengingat-dan-memahami-peta-pengetahuan-primitif"><span class="header-section-number">4.6.1</span> 1. Level Dasar: Mengingat dan Memahami (Peta Pengetahuan Primitif)</a></li>
+  <li><a href="#level-menengah-menerapkan-dan-menganalisis-peta-pengetahuan-aplikatif" id="toc-level-menengah-menerapkan-dan-menganalisis-peta-pengetahuan-aplikatif" class="nav-link" data-scroll-target="#level-menengah-menerapkan-dan-menganalisis-peta-pengetahuan-aplikatif"><span class="header-section-number">4.6.2</span> 2. Level Menengah: Menerapkan dan Menganalisis (Peta Pengetahuan Aplikatif)</a></li>
+  <li><a href="#level-lanjut-mengevaluasi-dan-menciptakan-peta-pengetahuan-aplikatif-lanjutan" id="toc-level-lanjut-mengevaluasi-dan-menciptakan-peta-pengetahuan-aplikatif-lanjutan" class="nav-link" data-scroll-target="#level-lanjut-mengevaluasi-dan-menciptakan-peta-pengetahuan-aplikatif-lanjutan"><span class="header-section-number">4.6.3</span> 3. Level Lanjut: Mengevaluasi dan Menciptakan (Peta Pengetahuan Aplikatif Lanjutan)</a></li>
+  </ul></li>
+  <li><a href="#b.-peran-peta-pengetahuan-dalam-mengukur-dan-memvisualisasikan-penguasaan" id="toc-b.-peran-peta-pengetahuan-dalam-mengukur-dan-memvisualisasikan-penguasaan" class="nav-link" data-scroll-target="#b.-peran-peta-pengetahuan-dalam-mengukur-dan-memvisualisasikan-penguasaan"><span class="header-section-number">4.7</span> B. Peran Peta Pengetahuan dalam Mengukur dan Memvisualisasikan Penguasaan</a>
+  <ul class="collapse">
+  <li><a href="#peta-pengetahuan-konseptual-untuk-pemahaman-struktural" id="toc-peta-pengetahuan-konseptual-untuk-pemahaman-struktural" class="nav-link" data-scroll-target="#peta-pengetahuan-konseptual-untuk-pemahaman-struktural"><span class="header-section-number">4.7.1</span> 1. Peta Pengetahuan Konseptual untuk Pemahaman Struktural</a></li>
+  <li><a href="#peta-pengetahuan-prosedural-untuk-pemecahan-masalah" id="toc-peta-pengetahuan-prosedural-untuk-pemecahan-masalah" class="nav-link" data-scroll-target="#peta-pengetahuan-prosedural-untuk-pemecahan-masalah"><span class="header-section-number">4.7.2</span> 2. Peta Pengetahuan Prosedural untuk Pemecahan Masalah</a></li>
+  </ul></li>
+  <li><a href="#c.-manfaat-peta-pengetahuan-untuk-pembelajaran-mendalam-dan-berbagi-pengetahuan" id="toc-c.-manfaat-peta-pengetahuan-untuk-pembelajaran-mendalam-dan-berbagi-pengetahuan" class="nav-link" data-scroll-target="#c.-manfaat-peta-pengetahuan-untuk-pembelajaran-mendalam-dan-berbagi-pengetahuan"><span class="header-section-number">4.8</span> C. Manfaat Peta Pengetahuan untuk Pembelajaran Mendalam dan Berbagi Pengetahuan</a></li>
+  <li><a href="#iii.-mekanisme-knowledge-marketplace-insentif-dan-penilaian" id="toc-iii.-mekanisme-knowledge-marketplace-insentif-dan-penilaian" class="nav-link" data-scroll-target="#iii.-mekanisme-knowledge-marketplace-insentif-dan-penilaian"><span class="header-section-number">4.9</span> III. Mekanisme “Knowledge Marketplace”: Insentif dan Penilaian</a></li>
+  <li><a href="#a.-struktur-mata-uang-digital-berjenjang-dan-kriterianya" id="toc-a.-struktur-mata-uang-digital-berjenjang-dan-kriterianya" class="nav-link" data-scroll-target="#a.-struktur-mata-uang-digital-berjenjang-dan-kriterianya"><span class="header-section-number">4.10</span> A. Struktur Mata Uang Digital Berjenjang dan Kriterianya</a></li>
+  <li><a href="#b.-sistem-pembayaran-berdasarkan-domain-sinyal-dan-sistem" id="toc-b.-sistem-pembayaran-berdasarkan-domain-sinyal-dan-sistem" class="nav-link" data-scroll-target="#b.-sistem-pembayaran-berdasarkan-domain-sinyal-dan-sistem"><span class="header-section-number">4.11</span> B. Sistem Pembayaran Berdasarkan Domain Sinyal dan Sistem</a></li>
+  <li><a href="#c.-proses-pengajuan-verifikasi-dan-pembelian-karya-pengetahuan" id="toc-c.-proses-pengajuan-verifikasi-dan-pembelian-karya-pengetahuan" class="nav-link" data-scroll-target="#c.-proses-pengajuan-verifikasi-dan-pembelian-karya-pengetahuan"><span class="header-section-number">4.12</span> C. Proses Pengajuan, Verifikasi, dan Pembelian Karya Pengetahuan</a></li>
+  <li><a href="#d.-konversi-harta-terkumpul-menjadi-nilai-akhir" id="toc-d.-konversi-harta-terkumpul-menjadi-nilai-akhir" class="nav-link" data-scroll-target="#d.-konversi-harta-terkumpul-menjadi-nilai-akhir"><span class="header-section-number">4.13</span> D. Konversi Harta Terkumpul menjadi Nilai Akhir</a></li>
+  <li><a href="#iv.-implementasi-praktis-dan-rekomendasi-teknis" id="toc-iv.-implementasi-praktis-dan-rekomendasi-teknis" class="nav-link" data-scroll-target="#iv.-implementasi-praktis-dan-rekomendasi-teknis"><span class="header-section-number">4.14</span> IV. Implementasi Praktis dan Rekomendasi Teknis</a></li>
+  <li><a href="#a.-platform-digital-untuk-pengelolaan-dan-publikasi-karya-mahasiswa" id="toc-a.-platform-digital-untuk-pengelolaan-dan-publikasi-karya-mahasiswa" class="nav-link" data-scroll-target="#a.-platform-digital-untuk-pengelolaan-dan-publikasi-karya-mahasiswa"><span class="header-section-number">4.15</span> A. Platform Digital untuk Pengelolaan dan Publikasi Karya Mahasiswa</a></li>
+  <li><a href="#b.-pemanfaatan-alat-bantu-ai-untuk-pembuatan-dan-validasi-peta-pengetahuan" id="toc-b.-pemanfaatan-alat-bantu-ai-untuk-pembuatan-dan-validasi-peta-pengetahuan" class="nav-link" data-scroll-target="#b.-pemanfaatan-alat-bantu-ai-untuk-pembuatan-dan-validasi-peta-pengetahuan"><span class="header-section-number">4.16</span> B. Pemanfaatan Alat Bantu AI untuk Pembuatan dan Validasi Peta Pengetahuan</a></li>
+  <li><a href="#c.-strategi-pedagogis-untuk-mendorong-keterlibatan-dan-kualitas-karya" id="toc-c.-strategi-pedagogis-untuk-mendorong-keterlibatan-dan-kualitas-karya" class="nav-link" data-scroll-target="#c.-strategi-pedagogis-untuk-mendorong-keterlibatan-dan-kualitas-karya"><span class="header-section-number">4.17</span> C. Strategi Pedagogis untuk Mendorong Keterlibatan dan Kualitas Karya</a></li>
+  <li><a href="#v.-kesimpulan-dan-prospek-masa-depan" id="toc-v.-kesimpulan-dan-prospek-masa-depan" class="nav-link" data-scroll-target="#v.-kesimpulan-dan-prospek-masa-depan"><span class="header-section-number">4.18</span> V. Kesimpulan dan Prospek Masa Depan</a></li>
+  <li><a href="#a.-rekapitulasi-manfaat-sistem" id="toc-a.-rekapitulasi-manfaat-sistem" class="nav-link" data-scroll-target="#a.-rekapitulasi-manfaat-sistem"><span class="header-section-number">4.19</span> A. Rekapitulasi Manfaat Sistem</a></li>
+  <li><a href="#b.-tantangan-dan-arah-pengembangan-lanjutan" id="toc-b.-tantangan-dan-arah-pengembangan-lanjutan" class="nav-link" data-scroll-target="#b.-tantangan-dan-arah-pengembangan-lanjutan"><span class="header-section-number">4.20</span> B. Tantangan dan Arah Pengembangan Lanjutan</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Merancang Sistem Asesmen Pembelajaran Berbasis Nilai Pengetahuan di Bidang Sinyal dan Sistem</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="i.-pendahuluan-merancang-ekosistem-pembelajaran-berbasis-nilai-di-sinyal-dan-sistem" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="i.-pendahuluan-merancang-ekosistem-pembelajaran-berbasis-nilai-di-sinyal-dan-sistem"><span class="header-section-number">4.1</span> I. Pendahuluan: Merancang Ekosistem Pembelajaran Berbasis Nilai di Sinyal dan Sistem</h2>
+</section>
+<section id="a.-latar-belakang-tantangan-asesmen-tradisional-dan-potensi-inovasi" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="a.-latar-belakang-tantangan-asesmen-tradisional-dan-potensi-inovasi"><span class="header-section-number">4.2</span> A. Latar Belakang: Tantangan Asesmen Tradisional dan Potensi Inovasi</h2>
+<p>Asesmen tradisional dalam pendidikan tinggi, terutama di bidang teknik yang kompleks seperti Sinyal dan Sistem, seringkali berfokus pada hafalan dan kemampuan mahasiswa untuk mereproduksi informasi. Pendekatan ini, yang umumnya melibatkan ujian tengah semester dan ujian akhir, dapat menimbulkan tekanan dan kecemasan yang signifikan pada mahasiswa, yang pada gilirannya dapat menghambat pemahaman materi secara mendalam.1 Penekanan pada hasil akhir tunggal ini seringkali mengabaikan proses pembelajaran dan perkembangan kognitif mahasiswa sepanjang semester.</p>
+<p>Dalam konteks disiplin ilmu Sinyal dan Sistem, di mana pemahaman konseptual dan kemampuan pemecahan masalah sangat krusial, metode asesmen yang lebih inovatif diperlukan. Tujuannya adalah untuk mendorong keterlibatan aktif mahasiswa, memotivasi mereka untuk mengeksplorasi dan menguasai materi secara lebih mendalam, serta memfasilitasi pengembangan keterampilan berpikir tingkat tinggi. Sistem asesmen yang dirancang secara strategis dapat bertindak sebagai alat pedagogis yang kuat, bukan hanya sebagai mekanisme evaluasi semata.</p>
+</section>
+<section id="b.-tujuan-sistem-asesmen-berbasis-nilai-pengetahuan" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="b.-tujuan-sistem-asesmen-berbasis-nilai-pengetahuan"><span class="header-section-number">4.3</span> B. Tujuan Sistem Asesmen Berbasis Nilai Pengetahuan</h2>
+<p>Sistem asesmen yang diusulkan ini dirancang dengan beberapa tujuan fundamental:</p>
+<ol type="1">
+<li><p><strong>Meningkatkan Keterlibatan Mahasiswa:</strong> Dengan memperkenalkan insentif yang jelas dan pengakuan atas kontribusi pengetahuan, sistem ini bertujuan untuk secara signifikan meningkatkan motivasi dan partisipasi aktif mahasiswa dalam proses pembelajaran.</p></li>
+<li><p><strong>Memberikan “Sense of Value Creation”:</strong> Mahasiswa akan merasakan bahwa karya intelektual mereka memiliki nilai nyata dan dapat dimanfaatkan oleh orang lain, tidak hanya sekadar tugas yang dinilai dan kemudian dilupakan. Ini menumbuhkan rasa kepemilikan dan kebanggaan terhadap hasil belajar mereka.2</p></li>
+<li><p><strong>Memfasilitasi Pelacakan Penguasaan Topik dan Tingkat Kognitif:</strong> Sistem ini memungkinkan pelacakan yang lebih granular terhadap topik materi yang telah dikuasai mahasiswa dan tingkat kedalaman pemahaman mereka sesuai dengan Taksonomi Bloom.</p></li>
+<li><p><strong>Membangun Repositori Pengetahuan Dinamis:</strong> Karya-karya terbaik mahasiswa akan membentuk sebuah basis pengetahuan yang terus berkembang, relevan, dan kontekstual, yang dihasilkan oleh komunitas pembelajar itu sendiri.</p></li>
+</ol>
+</section>
+<section id="c.-gambaran-umum-sistem-knowledge-marketplace" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="c.-gambaran-umum-sistem-knowledge-marketplace"><span class="header-section-number">4.4</span> C. Gambaran Umum Sistem “Knowledge Marketplace”</h2>
+<p>Untuk mencapai tujuan-tujuan tersebut, sistem ini mengusulkan sebuah model “Knowledge Marketplace” yang dinamis dan terintegrasi. Setiap minggu, dosen akan “mengiklankan” kebutuhan akan “karya pengetahuan dan pemecahan masalah” tertentu. Mahasiswa kemudian akan menghasilkan dokumen laporan, khususnya dalam bentuk peta pengetahuan (knowledge maps), yang merepresentasikan pemahaman mereka terhadap topik atau solusi masalah. Dokumen-dokumen ini akan “dibeli” oleh dosen menggunakan sistem mata uang digital berjenjang: Point Uang, Point Emas, Point Platinum, dan Point Berlian. Nilai pembelian ini akan dikaitkan secara langsung dengan tingkat kognitif Taksonomi Bloom yang dicapai oleh karya tersebut dan domain teknis spesifik dalam Sinyal dan Sistem yang dibahas.</p>
+<p>Lebih lanjut, sistem ini mengintegrasikan mata uang fiat yang berbeda (misalnya, IDR, MYR, USD, AUD, GBP, EUR, JPY, KRW, CNY) untuk setiap domain teknis, menambah lapisan insentif dan simulasi ekonomi. Karya-karya yang telah “dibeli” akan diunggah ke website kuliah, menjadi sumber belajar yang berharga bagi mahasiswa di tahun berikutnya. Di akhir perkuliahan, total “harta” (akumulasi poin dan mata uang fiat) yang terkumpul oleh setiap mahasiswa akan diindeks untuk mendapatkan nilai akhir mata kuliah. Model ini menciptakan siklus pembelajaran berkelanjutan dan mendorong mahasiswa untuk tidak hanya belajar, tetapi juga berkontribusi pada ekosistem pengetahuan.</p>
+</section>
+<section id="ii.-fondasi-pedagogis-taksonomi-bloom-dan-peta-pengetahuan-untuk-penguasaan-konsep" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="ii.-fondasi-pedagogis-taksonomi-bloom-dan-peta-pengetahuan-untuk-penguasaan-konsep"><span class="header-section-number">4.5</span> II. Fondasi Pedagogis: Taksonomi Bloom dan Peta Pengetahuan untuk Penguasaan Konsep</h2>
+</section>
+<section id="a.-memahami-tingkat-kognitif-taksonomi-bloom-dalam-pembelajaran-sinyal-dan-sistem" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="a.-memahami-tingkat-kognitif-taksonomi-bloom-dalam-pembelajaran-sinyal-dan-sistem"><span class="header-section-number">4.6</span> A. Memahami Tingkat Kognitif Taksonomi Bloom dalam Pembelajaran Sinyal dan Sistem</h2>
+<p>Taksonomi Bloom yang direvisi menyediakan kerangka kerja yang sistematis untuk mengklasifikasikan tujuan pembelajaran kognitif. Kerangka ini mengidentifikasi enam tingkatan keterampilan berpikir, yang bergerak dari yang paling sederhana hingga yang paling kompleks: Mengingat (Remember), Memahami (Understand), Menerapkan (Apply), Menganalisis (Analyze), Mengevaluasi (Evaluate), dan Menciptakan (Create).4 Setiap tingkatan ini memiliki karakteristik konseptual yang berbeda dan memerlukan jenis aktivitas kognitif yang spesifik.</p>
+<p>Penggunaan kata kerja tindakan yang tepat dan terukur sangat penting dalam merumuskan tujuan pembelajaran dan merancang asesmen yang selaras dengan setiap tingkatan Bloom.4 Misalnya, kata kerja seperti “mendefinisikan” atau “membuat daftar” cocok untuk tingkat Mengingat, sementara “menganalisis” atau “merancang” sesuai untuk tingkat yang lebih tinggi.</p>
+<p>Sifat hierarkis Taksonomi Bloom, di mana penguasaan pada tingkat yang lebih tinggi bergantung pada pencapaian pengetahuan dan keterampilan prasyarat pada tingkat yang lebih rendah, memiliki dampak langsung pada desain asesmen. Untuk dapat “menerapkan” suatu konsep, mahasiswa harus terlebih dahulu “memahami” konsep tersebut.8 Demikian pula, untuk “mengevaluasi” suatu proses, mahasiswa harus terlebih dahulu “menganalisisnya”.8 Oleh karena itu, tugas asesmen harus dirancang secara cermat untuk menargetkan keterampilan kognitif yang spesifik pada setiap level, memastikan validitas penilaian penguasaan materi.</p>
+<section id="level-dasar-mengingat-dan-memahami-peta-pengetahuan-primitif" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="level-dasar-mengingat-dan-memahami-peta-pengetahuan-primitif"><span class="header-section-number">4.6.1</span> 1. Level Dasar: Mengingat dan Memahami (Peta Pengetahuan Primitif)</h3>
+<p>Pada level dasar Taksonomi Bloom, fokusnya adalah pada akuisisi dan pemahaman informasi fundamental.</p>
+<ul>
+<li><p><strong>Mengingat:</strong> Tingkat ini melibatkan kemampuan untuk mengambil, memanggil kembali, atau mengenali pengetahuan yang relevan dari memori jangka panjang. Contoh kata kerja yang sesuai meliputi: menyebutkan, mendefinisikan, menjelaskan, mengidentifikasi, dan membuat daftar.4 Dalam konteks Sinyal dan Sistem, ini berarti mahasiswa dapat mengingat definisi sinyal waktu kontinu, sinyal waktu diskrit, atau properti dasar sistem.</p></li>
+<li><p><strong>Memahami:</strong> Tingkat ini menuntut mahasiswa untuk mendemonstrasikan pemahaman melalui berbagai bentuk penjelasan. Kata kerja yang relevan termasuk: menguraikan, menjelaskan, meringkas, mengklasifikasikan, dan membandingkan.4 Pada level ini, mahasiswa diharapkan dapat menjelaskan perbedaan antara sinyal periodik dan aperiodik, atau meringkas karakteristik sistem linear.</p></li>
+</ul>
+<p><strong>Peta Pengetahuan Primitif</strong> akan secara khusus dirancang untuk menguji kemampuan pada dua level ini. Peta ini akan berfokus pada representasi dasar konsep, definisi, dan karakteristik sinyal (seperti sinyal waktu kontinu dan diskrit, sinyal periodik dan aperiodik, sinyal energi dan daya) dan sistem (seperti linearitas, invarian waktu, kausalitas, dan stabilitas).9 Peta ini akan menjadi fondasi untuk membangun pemahaman yang lebih kompleks.</p>
+</section>
+<section id="level-menengah-menerapkan-dan-menganalisis-peta-pengetahuan-aplikatif" class="level3" data-number="4.6.2">
+<h3 data-number="4.6.2" class="anchored" data-anchor-id="level-menengah-menerapkan-dan-menganalisis-peta-pengetahuan-aplikatif"><span class="header-section-number">4.6.2</span> 2. Level Menengah: Menerapkan dan Menganalisis (Peta Pengetahuan Aplikatif)</h3>
+<p>Level menengah melibatkan penggunaan pengetahuan dalam situasi baru dan pemecahan masalah.</p>
+<ul>
+<li><p><strong>Menerapkan:</strong> Ini adalah kemampuan untuk menggunakan informasi atau keterampilan dalam situasi yang belum pernah ditemui sebelumnya. Kata kerja aksi yang sesuai meliputi: menerapkan, menghitung, melaksanakan, memecahkan, dan menunjukkan.4 Contohnya adalah menghitung respons sistem terhadap input tertentu.</p></li>
+<li><p><strong>Menganalisis:</strong> Tingkat ini mengharuskan mahasiswa untuk memecah materi atau konsep menjadi bagian-bagian penyusunnya dan menentukan bagaimana bagian-bagian tersebut saling berhubungan atau dengan struktur keseluruhan. Kata kerja yang relevan termasuk: menganalisis, memecah, membandingkan, dan membedakan.4 Contohnya adalah menganalisis spektrum frekuensi sinyal atau membedakan properti berbagai transformasi.</p></li>
+</ul>
+<p><strong>Peta Pengetahuan Aplikatif</strong> akan menunjukkan bagaimana konsep-konsep dasar diterapkan untuk memecahkan masalah, menganalisis respons sistem, atau membedakan antara jenis sinyal atau properti transformasi yang berbeda. Untuk mencapai tingkat “menerapkan” dan “menganalisis” dalam pendidikan teknik, mahasiswa perlu terlibat dalam pemecahan masalah yang aktif. Pemecahan masalah dalam Sinyal dan Sistem seringkali melibatkan penerapan transformasi matematis (seperti Transformasi Fourier, Laplace, atau Z-Transform) atau operasi konvolusi. Misalnya, penyelesaian persamaan diferensial menggunakan Transformasi Laplace melibatkan serangkaian langkah spesifik: mentransformasikan masalah ke dalam persamaan aljabar, melakukan manipulasi aljabar, dan kemudian melakukan transformasi balik untuk mendapatkan solusi di domain waktu.21 Demikian pula, operasi konvolusi, baik untuk sinyal waktu kontinu maupun diskrit, memiliki prosedur yang terdefinisi untuk mencari respons sistem.25 Oleh karena itu, peta pengetahuan aplikatif harus secara eksplisit mendemonstrasikan langkah-langkah prosedural ini, bukan hanya hasil akhirnya. Peta ini dapat berupa</p>
+<p><em>flowchart</em> atau <em>diagram alir</em> yang menggambarkan proses pemecahan masalah, langkah-langkah algoritma, atau alur keputusan.29 Ini secara langsung menghubungkan metode asesmen dengan keterampilan pemecahan masalah inti dalam domain Sinyal dan Sistem.</p>
+</section>
+<section id="level-lanjut-mengevaluasi-dan-menciptakan-peta-pengetahuan-aplikatif-lanjutan" class="level3" data-number="4.6.3">
+<h3 data-number="4.6.3" class="anchored" data-anchor-id="level-lanjut-mengevaluasi-dan-menciptakan-peta-pengetahuan-aplikatif-lanjutan"><span class="header-section-number">4.6.3</span> 3. Level Lanjut: Mengevaluasi dan Menciptakan (Peta Pengetahuan Aplikatif Lanjutan)</h3>
+<p>Level tertinggi Taksonomi Bloom berfokus pada penilaian kritis dan inovasi.</p>
+<ul>
+<li><p><strong>Mengevaluasi:</strong> Kemampuan untuk membuat penilaian berdasarkan kriteria dan standar yang diberikan. Kata kerja aksi yang sesuai meliputi: menilai, mendukung, membandingkan, mengkritik, menentukan, dan mengevaluasi.4 Contohnya adalah mengevaluasi efisiensi dua algoritma pemrosesan sinyal yang berbeda.</p></li>
+<li><p><strong>Menciptakan:</strong> Ini adalah kemampuan untuk menggabungkan elemen-elemen untuk membentuk keseluruhan yang baru dan koheren, atau menata ulang elemen-elemen menjadi pola atau struktur baru. Kata kerja yang relevan meliputi: menyusun, membangun, merancang, mengembangkan, merumuskan, dan menciptakan.4 Contohnya adalah merancang filter digital baru atau mengembangkan pendekatan novel untuk analisis sinyal.</p></li>
+</ul>
+<p><strong>Peta Pengetahuan Aplikatif Lanjutan</strong> pada level ini dapat melibatkan perancangan sistem atau algoritma pemrosesan sinyal yang inovatif, atau evaluasi kritis terhadap sistem yang ada, menunjukkan sintesis pengetahuan yang kompleks dan pemikiran orisinal.</p>
+</section>
+</section>
+<section id="b.-peran-peta-pengetahuan-dalam-mengukur-dan-memvisualisasikan-penguasaan" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="b.-peran-peta-pengetahuan-dalam-mengukur-dan-memvisualisasikan-penguasaan"><span class="header-section-number">4.7</span> B. Peran Peta Pengetahuan dalam Mengukur dan Memvisualisasikan Penguasaan</h2>
+<p>Peta konsep, atau peta pengetahuan, merupakan alat pedagogis yang sangat efektif yang membantu mahasiswa dalam menyusun pembelajaran mereka. Alat ini memungkinkan mahasiswa untuk melihat “gambaran besar” dari suatu topik, mengorganisir pengetahuan mereka, dan secara eksplisit menunjukkan hubungan antar konsep.34 Peta pengetahuan dapat merepresentasikan baik pengetahuan konseptual (fakta, konsep, dan objek) maupun pengetahuan prosedural (kemampuan untuk melakukan sesuatu, seperti langkah-langkah untuk memecahkan masalah).40 Integrasi kedua jenis pengetahuan ini sangat penting untuk kinerja pemecahan masalah yang efektif, karena tindakan tidak dapat dilakukan tanpa kesadaran akan informasi konseptual yang diperlukan.40</p>
+<p>Peta pengetahuan secara visual merepresentasikan pemahaman mahasiswa dan koneksi yang mereka buat antar konsep.35 Jika seorang mahasiswa kesulitan menghubungkan konsep-konsep tertentu atau menghilangkan hubungan kunci, hal ini secara langsung menyoroti adanya kesenjangan dalam pemahaman mereka. Kemampuan diagnostik visual ini lebih efisien daripada meninjau jawaban teks tradisional dan memberikan umpan balik yang dapat ditindaklanjuti baik untuk mahasiswa maupun instruktur.44 Ini secara langsung mendukung tujuan dosen untuk “melacak topik materi apa yang sudah di kuasai dan mana yang belum.” Dengan melihat struktur dan kelengkapan peta, dosen dapat dengan cepat mengidentifikasi area yang memerlukan intervensi atau penguatan lebih lanjut, memungkinkan pembelajaran yang lebih personal dan adaptif.</p>
+<section id="peta-pengetahuan-konseptual-untuk-pemahaman-struktural" class="level3" data-number="4.7.1">
+<h3 data-number="4.7.1" class="anchored" data-anchor-id="peta-pengetahuan-konseptual-untuk-pemahaman-struktural"><span class="header-section-number">4.7.1</span> 1. Peta Pengetahuan Konseptual untuk Pemahaman Struktural</h3>
+<p>Peta pengetahuan konseptual berfokus pada representasi definisi, klasifikasi, properti, dan hubungan hierarkis antar konsep dalam domain Sinyal dan Sistem. Ini membantu mahasiswa membangun kerangka kognitif yang kohesif, di mana mereka dapat melihat bagaimana ide-ide besar terurai menjadi sub-konsep dan bagaimana semuanya saling terkait.</p>
+</section>
+<section id="peta-pengetahuan-prosedural-untuk-pemecahan-masalah" class="level3" data-number="4.7.2">
+<h3 data-number="4.7.2" class="anchored" data-anchor-id="peta-pengetahuan-prosedural-untuk-pemecahan-masalah"><span class="header-section-number">4.7.2</span> 2. Peta Pengetahuan Prosedural untuk Pemecahan Masalah</h3>
+<p>Peta pengetahuan prosedural berfokus pada langkah-langkah, algoritma, dan alur keputusan yang terlibat dalam memecahkan masalah teknis. Ini bisa mencakup langkah-langkah untuk mencari fungsi transfer sistem, proses dekonvolusi sinyal, atau tahapan dalam proses sampling. Representasi ini paling efektif dalam bentuk <em>flowchart</em> atau <em>diagram alir</em> yang secara visual memetakan urutan tindakan dan keputusan.29</p>
+</section>
+</section>
+<section id="c.-manfaat-peta-pengetahuan-untuk-pembelajaran-mendalam-dan-berbagi-pengetahuan" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="c.-manfaat-peta-pengetahuan-untuk-pembelajaran-mendalam-dan-berbagi-pengetahuan"><span class="header-section-number">4.8</span> C. Manfaat Peta Pengetahuan untuk Pembelajaran Mendalam dan Berbagi Pengetahuan</h2>
+<p>Peta pengetahuan menawarkan berbagai manfaat pedagogis:</p>
+<ul>
+<li><p><strong>Mendorong Pembelajaran Aktif:</strong> Proses pembuatan peta itu sendiri merupakan aktivitas kognitif yang mendalam, mendorong pemikiran kritis dan keterampilan pemecahan masalah.45</p></li>
+<li><p><strong>Menciptakan “Produk Bernilai Abadi”:</strong> Salah satu aspek paling inovatif dari sistem ini adalah pemanfaatan karya mahasiswa sebagai bahan ajar untuk angkatan berikutnya. Dokumen laporan yang “dibeli” akan diunggah ke website kuliah, menjadi sumber belajar yang otentik dan relevan. Ini tidak hanya memberikan “sense of value creation” kepada mahasiswa yang membuatnya, tetapi juga menumbuhkan rasa kepemilikan dan kebanggaan terhadap kontribusi mereka.2</p></li>
+<li><p><strong>Meningkatkan Kualitas Pembelajaran:</strong> Dengan menyediakan sumber belajar yang relevan dan kontekstual yang dibuat oleh rekan sejawat, kualitas pembelajaran secara keseluruhan dapat meningkat. Mahasiswa dapat belajar dari berbagai perspektif dan strategi pemecahan masalah yang disajikan oleh teman-teman mereka.</p></li>
+</ul>
+<p>Berikut adalah tabel yang memetakan tingkat Taksonomi Bloom dengan jenis peta pengetahuan dan mata uang digital yang diusulkan:</p>
+<p><strong>Tabel 1: Pemetaan Tingkat Taksonomi Bloom dengan Jenis Peta Pengetahuan dan Mata Uang Digital</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tingkat Taksonomi Bloom</th>
+<th>Kata Kerja Kunci (Contoh)</th>
+<th>Jenis Peta Pengetahuan</th>
+<th>Mata Uang Digital</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mengingat</td>
+<td>Mendefinisikan, Membuat Daftar, Mengidentifikasi, Mengingat, Menamai, Menyebutkan, Mengutip, Melaporkan, Mereproduksi, Memilih, Menyatakan, Menabulasi, Menceritakan 4</td>
+<td>Peta Pengetahuan Primitif</td>
+<td>Point Uang</td>
+</tr>
+<tr class="even">
+<td>Memahami</td>
+<td>Menjelaskan, Meringkas, Mengklasifikasikan, Membandingkan, Menguraikan, Menginterpretasi, Memparafrasekan, Memprediksi, Menulis ulang 4</td>
+<td>Peta Pengetahuan Primitif</td>
+<td>Point Uang</td>
+</tr>
+<tr class="odd">
+<td>Menerapkan</td>
+<td>Menerapkan, Menghitung, Melaksanakan, Memecahkan, Menunjukkan, Menggunakan, Mendemonstrasikan, Mengilustrasikan, Memodifikasi, Mengoperasikan 4</td>
+<td>Peta Pengetahuan Aplikatif</td>
+<td>Point Emas</td>
+</tr>
+<tr class="even">
+<td>Menganalisis</td>
+<td>Menganalisis, Memecah, Membandingkan, Membedakan, Mengkategorikan, Mendeteksi, Mendiskriminasikan, Mengidentifikasi, Menguraikan, Mengorganisir, Menghubungkan, Memisahkan, Menyusun struktur 4</td>
+<td>Peta Pengetahuan Aplikatif</td>
+<td>Point Platinum</td>
+</tr>
+<tr class="odd">
+<td>Mengevaluasi</td>
+<td>Menilai, Mendukung, Mengkritik, Menentukan, Mengevaluasi, Memutuskan, Menjustifikasi, Mengukur, Merekomendasikan, Meninjau, Memilih 4</td>
+<td>Peta Pengetahuan Aplikatif Lanjutan</td>
+<td>Point Platinum</td>
+</tr>
+<tr class="even">
+<td>Menciptakan</td>
+<td>Merancang, Membangun, Mengembangkan, Merumuskan, Menciptakan, Mengatur, Menggabungkan, Menyusun, Menghasilkan, Menghipotesiskan, Mengintegrasikan, Menemukan, Memodifikasi, Merencanakan, Mempersiapkan, Mengusulkan, Menata ulang, Merekonstruksi, Menulis 4</td>
+<td>Peta Pengetahuan Aplikatif Lanjutan</td>
+<td>Point Berlian</td>
+</tr>
+</tbody>
+</table>
+<p>Tabel ini berfungsi sebagai “kontrak” sentral yang transparan antara dosen dan mahasiswa. Bagi mahasiswa, tabel ini secara jelas mendefinisikan ekspektasi: “Jika saya ingin mendapatkan Point Berlian, saya perlu membuat sesuatu yang baru (Level 6 Bloom), dan berikut adalah kata kerja yang terkait dengannya.” Ini memberikan peta jalan yang jelas untuk tujuan pembelajaran dan insentif mereka. Bagi dosen, tabel ini berfungsi sebagai rubrik dan panduan untuk merancang <em>prompt</em> tugas dan mengevaluasi kiriman, memastikan konsistensi dan keselarasan dengan tujuan pedagogis. Ini mengoperasionalkan konsep abstrak Taksonomi Bloom ke dalam hasil yang konkret dan terukur dalam kerangka “knowledge marketplace”.</p>
+</section>
+<section id="iii.-mekanisme-knowledge-marketplace-insentif-dan-penilaian" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="iii.-mekanisme-knowledge-marketplace-insentif-dan-penilaian"><span class="header-section-number">4.9</span> III. Mekanisme “Knowledge Marketplace”: Insentif dan Penilaian</h2>
+</section>
+<section id="a.-struktur-mata-uang-digital-berjenjang-dan-kriterianya" class="level2" data-number="4.10">
+<h2 data-number="4.10" class="anchored" data-anchor-id="a.-struktur-mata-uang-digital-berjenjang-dan-kriterianya"><span class="header-section-number">4.10</span> A. Struktur Mata Uang Digital Berjenjang dan Kriterianya</h2>
+<p>Sistem asesmen ini mengadopsi model “Knowledge Marketplace” yang menggunakan mata uang digital berjenjang untuk memberikan insentif kepada mahasiswa. Sistem poin ini secara langsung dihubungkan dengan tingkat Taksonomi Bloom, memberikan kerangka insentif yang jelas dan terstruktur untuk setiap level pencapaian kognitif.</p>
+<ul>
+<li><p><strong>Point Uang (Level 1-2 Bloom):</strong> Diberikan untuk peta pengetahuan primitif yang secara akurat mendefinisikan dan menjelaskan konsep dasar Sinyal dan Sistem. Ini mencakup kemampuan mengingat fakta dan memahami ide-ide fundamental.</p></li>
+<li><p><strong>Point Emas (Level 3 Bloom):</strong> Diberikan untuk peta pengetahuan aplikatif yang menunjukkan kemampuan menerapkan konsep untuk memecahkan masalah standar atau melakukan komputasi dasar. Ini menguji kemampuan mahasiswa untuk menggunakan pengetahuan mereka dalam skenario yang dikenal.</p></li>
+<li><p><strong>Point Platinum (Level 4-5 Bloom):</strong> Diberikan untuk peta pengetahuan aplikatif yang menunjukkan kemampuan menganalisis sistem, membandingkan metode, atau merancang solusi pada tingkat menengah. Ini mendorong pemikiran kritis dan pemecahan masalah yang lebih kompleks.</p></li>
+<li><p><strong>Point Berlian (Level 6 Bloom):</strong> Diberikan untuk peta pengetahuan aplikatif lanjutan yang menunjukkan kemampuan menciptakan solusi orisinal, mensintesis konsep kompleks, atau mengevaluasi secara kritis. Ini adalah level tertinggi yang menghargai inovasi dan kontribusi pengetahuan yang signifikan.</p></li>
+</ul>
+<p>Sistem “iklan dicari karya pengetahuan” mingguan menciptakan rasa urgensi dan kompetisi yang sehat di antara mahasiswa. Proses pembelian dokumen laporan oleh dosen memberikan pengakuan langsung atas upaya dan kualitas karya mahasiswa. Selain itu, janji bahwa karya mahasiswa akan diunggah ke “website kuliah untuk dipelajari mahasiswa tahun depan” memberikan rasa penciptaan nilai dan pengakuan yang kuat kepada mahasiswa.2 Kombinasi insentif ekstrinsik (poin/mata uang) dan intrinsik (pengakuan, kontribusi nyata) ini menciptakan lingkaran umpan balik positif yang mendorong mahasiswa untuk menghasilkan karya berkualitas tinggi. Mahasiswa tidak hanya belajar untuk nilai, tetapi juga untuk kontribusi dan warisan pengetahuan mereka. Gamifikasi, terutama melalui sistem poin dan pengakuan, telah terbukti meningkatkan motivasi dan keterlibatan mahasiswa dalam pendidikan tinggi.46</p>
+</section>
+<section id="b.-sistem-pembayaran-berdasarkan-domain-sinyal-dan-sistem" class="level2" data-number="4.11">
+<h2 data-number="4.11" class="anchored" data-anchor-id="b.-sistem-pembayaran-berdasarkan-domain-sinyal-dan-sistem"><span class="header-section-number">4.11</span> B. Sistem Pembayaran Berdasarkan Domain Sinyal dan Sistem</h2>
+<p>Sistem ini memperkenalkan dimensi insentif tambahan dengan mengaitkan mata uang fiat yang berbeda dengan domain teknis spesifik dalam Sinyal dan Sistem. Ini tidak hanya menambah elemen gamifikasi, tetapi juga secara halus membimbing mahasiswa menuju area-area yang dianggap memiliki nilai atau kompleksitas lebih tinggi dalam kurikulum.</p>
+<p>Berikut adalah matriks pembayaran mata uang fiat yang diusulkan:</p>
+<p><strong>Tabel 2: Matriks Pembayaran Mata Uang Fiat Berdasarkan Domain Sinyal dan Sistem dan Tingkat Bloom</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tingkat Bloom</th>
+<th>Waktu Kontinu (WK)</th>
+<th>Waktu Digital (WD)</th>
+<th>Frekuensi WK</th>
+<th>Frekuensi WD</th>
+<th>Laplace</th>
+<th>Z-Transform</th>
+<th>Deret Fourier (Kontinu/Digital)</th>
+<th>Sampling &amp; Rekonstruksi (WD-WK)</th>
+<th>Konvolusi &amp; Dekonvolusi</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Level 1-2</td>
+<td>IDR</td>
+<td>MYR</td>
+<td>USD</td>
+<td>AUD</td>
+<td>GBP</td>
+<td>EUR</td>
+<td>JPY</td>
+<td>CNY</td>
+<td>IDR</td>
+</tr>
+<tr class="even">
+<td>Level 3</td>
+<td>IDR</td>
+<td>MYR</td>
+<td>USD</td>
+<td>AUD</td>
+<td>GBP</td>
+<td>EUR</td>
+<td>JPY</td>
+<td>CNY</td>
+<td>MYR</td>
+</tr>
+<tr class="odd">
+<td>Level 4-5</td>
+<td>MYR</td>
+<td>USD</td>
+<td>AUD</td>
+<td>GBP</td>
+<td>EUR</td>
+<td>JPY</td>
+<td>KRW</td>
+<td>CNY</td>
+<td>USD</td>
+</tr>
+<tr class="even">
+<td>Level 6</td>
+<td>USD</td>
+<td>AUD</td>
+<td>GBP</td>
+<td>EUR</td>
+<td>JPY</td>
+<td>KRW</td>
+<td>CNY</td>
+<td>JPY</td>
+<td>AUD</td>
+</tr>
+</tbody>
+</table>
+<p>Domain-domain yang berbeda dalam Sinyal dan Sistem (misalnya, Domain Waktu, Domain Frekuensi, Transformasi Laplace, Z-Transform) merepresentasikan kerangka kerja matematis dan pendekatan analitis yang berbeda.48 Dengan menetapkan mata uang fiat yang berbeda untuk setiap domain, dosen secara implisit memberikan nilai yang berbeda pada pemahaman lintas domain dan keahlian khusus. Ini mendorong mahasiswa untuk tidak hanya menguasai konsep dalam satu domain, tetapi juga untuk membuat koneksi dan menerapkan pengetahuan di berbagai alat analitis, yang mencerminkan pemahaman holistik tentang mata pelajaran. Misalnya, memahami</p>
+<p><em>sampling</em> melibatkan domain waktu diskrit (WD) dan frekuensi diskrit (Frekuensi WD), serta interaksi di antaranya (fenomena <em>aliasing</em>).64 Diferensiasi mata uang ini dapat memotivasi mahasiswa untuk mengeksplorasi dan menguasai area-area yang mungkin dianggap lebih menantang atau memiliki relevansi aplikasi yang lebih tinggi.</p>
+<p>Penugasan mata uang fiat yang berbeda berdasarkan domain tidak hanya menciptakan permainan, tetapi secara halus membimbing mahasiswa menuju area-area yang dianggap memiliki nilai atau kompleksitas lebih tinggi dalam kurikulum. Misalnya, jika Transformasi Laplace dan Z-Transform (yang sering digunakan untuk analisis sistem dan kontrol) dibayar dalam GBP/EUR, ini dapat menandakan sifat lanjutan atau kepentingannya di bidang tersebut dibandingkan dengan konsep dasar domain waktu yang dibayar IDR. Ini memberikan insentif kepada mahasiswa untuk mendalami area-area spesifik, yang berpotensi lebih menantang, dalam Sinyal dan Sistem yang dianggap krusial oleh dosen, secara efektif membentuk lintasan pembelajaran mereka di luar hasil pembelajaran eksplisit. Ini juga menciptakan dinamika di mana mahasiswa dapat berspesialisasi atau mendiversifikasi “portofolio pengetahuan” mereka.</p>
+</section>
+<section id="c.-proses-pengajuan-verifikasi-dan-pembelian-karya-pengetahuan" class="level2" data-number="4.12">
+<h2 data-number="4.12" class="anchored" data-anchor-id="c.-proses-pengajuan-verifikasi-dan-pembelian-karya-pengetahuan"><span class="header-section-number">4.12</span> C. Proses Pengajuan, Verifikasi, dan Pembelian Karya Pengetahuan</h2>
+<p>Alur kerja sistem “Knowledge Marketplace” akan berjalan secara mingguan:</p>
+<ol type="1">
+<li><p><strong>Pengumuman Kebutuhan:</strong> Setiap minggu, dosen akan membuat “iklan dicari karya pengetahuan dan pemecahan masalah” yang spesifik, mungkin menargetkan topik dan tingkat Bloom tertentu.</p></li>
+<li><p><strong>Produksi Dokumen Laporan:</strong> Mahasiswa akan menghasilkan dokumen laporan, yang idealnya berupa peta pengetahuan (primitif atau aplikatif) yang menjawab “iklan” tersebut.</p></li>
+<li><p><strong>Pengajuan dan Verifikasi:</strong> Mahasiswa menyerahkan karya mereka. Dosen kemudian akan melakukan verifikasi kualitas dan menilai tingkat Bloom yang dicapai oleh karya tersebut.</p></li>
+<li><p><strong>Pembelian dan Pembayaran:</strong> Berdasarkan penilaian, dosen akan “membeli” dokumen laporan tersebut dengan mata uang digital berjenjang dan mata uang fiat yang sesuai.</p></li>
+<li><p><strong>Publikasi:</strong> Dokumen yang telah “dibeli” akan diunggah ke website kuliah. Ini memastikan bahwa karya-karya terbaik mahasiswa menjadi sumber daya yang dapat diakses dan dipelajari oleh mahasiswa di tahun-tahun berikutnya, mewujudkan konsep berbagi pengetahuan.</p></li>
+</ol>
+</section>
+<section id="d.-konversi-harta-terkumpul-menjadi-nilai-akhir" class="level2" data-number="4.13">
+<h2 data-number="4.13" class="anchored" data-anchor-id="d.-konversi-harta-terkumpul-menjadi-nilai-akhir"><span class="header-section-number">4.13</span> D. Konversi Harta Terkumpul menjadi Nilai Akhir</h2>
+<p>Di akhir perkuliahan, total “harta” (akumulasi poin mata uang digital dan mata uang fiat) yang terkumpul oleh setiap mahasiswa akan diindeks untuk mendapatkan nilai akhir mata kuliah. Mekanisme indeksasi ini harus didefinisikan secara transparan di awal semester, misalnya dengan memberikan bobot tertentu untuk setiap jenis mata uang digital dan konversi nilai tukar yang jelas untuk mata uang fiat. Hal ini memastikan keadilan dan prediktabilitas dalam sistem penilaian.</p>
+</section>
+<section id="iv.-implementasi-praktis-dan-rekomendasi-teknis" class="level2" data-number="4.14">
+<h2 data-number="4.14" class="anchored" data-anchor-id="iv.-implementasi-praktis-dan-rekomendasi-teknis"><span class="header-section-number">4.14</span> IV. Implementasi Praktis dan Rekomendasi Teknis</h2>
+</section>
+<section id="a.-platform-digital-untuk-pengelolaan-dan-publikasi-karya-mahasiswa" class="level2" data-number="4.15">
+<h2 data-number="4.15" class="anchored" data-anchor-id="a.-platform-digital-untuk-pengelolaan-dan-publikasi-karya-mahasiswa"><span class="header-section-number">4.15</span> A. Platform Digital untuk Pengelolaan dan Publikasi Karya Mahasiswa</h2>
+<p>Untuk mendukung sistem “Knowledge Marketplace” ini, diperlukan platform digital yang kuat dan intuitif. Platform ini akan berfungsi sebagai pusat pengelolaan, penyimpanan, dan publikasi peta pengetahuan yang dihasilkan mahasiswa. Fitur-fitur esensial yang harus dimiliki platform ini meliputi:</p>
+<ul>
+<li><p><strong>Pengunggahan Dokumen Fleksibel:</strong> Kemampuan untuk mengunggah berbagai format dokumen, mulai dari PDF, gambar (JPG, PNG), hingga format peta konsep interaktif (misalnya, dari CmapTools, MindMeister, atau Lucidchart).</p></li>
+<li><p><strong>Kategorisasi Komprehensif:</strong> Sistem harus memungkinkan kategorisasi peta berdasarkan topik materi, tingkat Taksonomi Bloom yang dicapai, dan domain teknis Sinyal dan Sistem yang relevan. Ini akan memudahkan navigasi dan pencarian.</p></li>
+<li><p><strong>Fungsionalitas Pencarian Canggih:</strong> Mahasiswa di tahun mendatang harus dapat dengan mudah mencari dan menemukan peta pengetahuan yang relevan menggunakan kata kunci, filter topik, atau filter tingkat Bloom.</p></li>
+<li><p><strong>Interaktivitas Peta Pengetahuan:</strong> Idealnya, platform harus mendukung tampilan peta pengetahuan interaktif yang memungkinkan pengguna untuk memperbesar, memperkecil, dan menavigasi detail dalam peta, seperti yang ditawarkan oleh beberapa alat pemetaan konsep modern.</p></li>
+</ul>
+<p>Mahasiswa dapat memanfaatkan berbagai perangkat lunak pemetaan konsep/mind mapping yang tersedia di pasaran untuk membuat karya mereka. Beberapa pilihan populer yang menawarkan fitur visualisasi dan kolaborasi yang kuat meliputi MindMeister, Lucidchart, Coggle, XMind, SimpleMind, atau MindManager.45 Alat-alat ini memungkinkan mahasiswa untuk fokus pada struktur dan konten pengetahuan tanpa terbebani oleh aspek desain visual yang rumit.</p>
+<p>Penilaian peta pengetahuan yang kompleks dari banyak mahasiswa di berbagai tingkat Bloom dan domain akan sangat memakan waktu bagi instruktur.1 Pemanfaatan alat bantu kecerdasan buatan (AI) dapat secara signifikan mengotomatiskan sebagian dari proses asesmen ini. Misalnya, AI yang digunakan untuk pembuatan</p>
+<p><em>knowledge graph</em> atau pemahaman semantik dapat menganalisis struktur dan konten peta pengetahuan yang diserahkan terhadap rubrik yang telah ditentukan atau <em>knowledge graph</em> ahli yang telah dibangun sebelumnya. Sistem AI dapat mengidentifikasi konsep yang hilang, koneksi yang lemah, atau bahkan potensi kesalahpahaman, dan memberikan umpan balik awal kepada mahasiswa. Otomatisasi ini akan secara signifikan mengurangi beban penilaian, memungkinkan umpan balik yang lebih sering kepada mahasiswa, dan memungkinkan dosen untuk berfokus pada evaluasi kualitatif tingkat tinggi dan bimbingan yang dipersonalisasi. Ini adalah langkah penting untuk menskalakan sistem asesmen inovatif ini dan membuatnya berkelanjutan, sejalan dengan tren pembelajaran personalisasi berbasis AI yang meningkatkan efisiensi dan keterlibatan.</p>
+</section>
+<section id="b.-pemanfaatan-alat-bantu-ai-untuk-pembuatan-dan-validasi-peta-pengetahuan" class="level2" data-number="4.16">
+<h2 data-number="4.16" class="anchored" data-anchor-id="b.-pemanfaatan-alat-bantu-ai-untuk-pembuatan-dan-validasi-peta-pengetahuan"><span class="header-section-number">4.16</span> B. Pemanfaatan Alat Bantu AI untuk Pembuatan dan Validasi Peta Pengetahuan</h2>
+<p>Integrasi AI tidak hanya terbatas pada asesmen, tetapi juga dapat mendukung proses pembuatan dan validasi peta pengetahuan oleh mahasiswa:</p>
+<ul>
+<li><p><strong>Bantuan Pembuatan Awal:</strong> Alat bantu AI dapat membantu mahasiswa dalam menghasilkan peta “primitif” awal. Misalnya, platform seperti NotebookLM atau Penseum dapat menganalisis materi sumber (PDF, catatan kuliah, video, atau file audio) dan menghasilkan ringkasan, poin-poin penting, atau pertanyaan-pertanyaan yang relevan. Output ini dapat menjadi dasar bagi mahasiswa untuk mulai membangun peta pengetahuan mereka, mempercepat proses awal dan memungkinkan mereka fokus pada pemahaman dan elaborasi.</p></li>
+<li><p><strong>Validasi dan Koreksi:</strong> AI dapat digunakan untuk membantu memvalidasi kebenaran atau kelengkapan peta “aplikatif” dengan membandingkannya dengan solusi yang diketahui atau kerangka kerja teoretis. Contohnya, dalam domain frekuensi, AI dapat membantu mengidentifikasi efek <em>aliasing</em> pada representasi spektrum sinyal yang di-<em>sampling</em> jika frekuensi sampling tidak memenuhi kriteria Nyquist.64 Ini memberikan lapisan verifikasi tambahan dan membantu mahasiswa mengidentifikasi area yang memerlukan perbaikan.</p></li>
+</ul>
+</section>
+<section id="c.-strategi-pedagogis-untuk-mendorong-keterlibatan-dan-kualitas-karya" class="level2" data-number="4.17">
+<h2 data-number="4.17" class="anchored" data-anchor-id="c.-strategi-pedagogis-untuk-mendorong-keterlibatan-dan-kualitas-karya"><span class="header-section-number">4.17</span> C. Strategi Pedagogis untuk Mendorong Keterlibatan dan Kualitas Karya</h2>
+<p>Keberhasilan sistem ini sangat bergantung pada strategi pedagogis yang menyertainya:</p>
+<ul>
+<li><p><strong>Panduan yang Jelas dan Contoh Konkret:</strong> Dosen harus menyediakan instruksi yang sangat jelas mengenai ekspektasi untuk setiap jenis peta pengetahuan dan tingkat Bloom. Menyertakan contoh-contoh peta pengetahuan yang baik untuk setiap level dan domain teknis akan sangat membantu mahasiswa dalam memahami standar kualitas.</p></li>
+<li><p><strong>Umpan Balik Iteratif dan Konstruktif:</strong> Mendorong penyempurnaan peta secara iteratif berdasarkan umpan balik dosen dan rekan sejawat adalah kunci. Ini memungkinkan mahasiswa untuk belajar dari kesalahan mereka dan secara bertahap meningkatkan kualitas karya mereka.</p></li>
+<li><p><strong>Pembelajaran Kolaboratif:</strong> Mendorong mahasiswa untuk bekerja sama dalam kelompok kecil untuk membuat dan saling mengkritik peta pengetahuan mereka dapat memperdalam pemahaman kolektif dan mengembangkan keterampilan kolaborasi.</p></li>
+<li><p><strong>Pertanyaan Pemandu (Focus Questions):</strong> Menggunakan “focus questions” atau pertanyaan pemandu yang dirancang dengan cermat dapat mengarahkan mahasiswa untuk menghasilkan peta yang berorientasi pada pemecahan masalah dan mendorong pemikiran tingkat tinggi.107</p></li>
+</ul>
+<p>Sistem yang diusulkan, dengan “iklan” dan “pembelian” mingguan, mengubah asesmen dari peristiwa sumatif berisiko tinggi menjadi aktivitas pembelajaran yang berkelanjutan, berisiko rendah, dan formatif.1 Ini mendorong keterlibatan yang konsisten dan memungkinkan mahasiswa untuk menerima umpan balik yang sering, mengulang pemahaman mereka, dan membangun pengetahuan mereka secara bertahap. Pergeseran ini selaras dengan pendekatan pedagogis modern yang memprioritaskan pengembangan berkelanjutan dan penguasaan daripada evaluasi tunggal bertekanan tinggi, yang pada akhirnya mengarah pada pembelajaran yang lebih mendalam dan retensi jangka panjang yang lebih baik.</p>
+<p>Berikut adalah contoh rubrik penilaian peta pengetahuan yang dapat digunakan:</p>
+<p><strong>Tabel 3: Contoh Rubrik Penilaian Peta Pengetahuan (Primitif &amp; Aplikatif) Berdasarkan Taksonomi Bloom</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kriteria Penilaian</th>
+<th>Sangat Baik (Excellent)</th>
+<th>Baik (Good)</th>
+<th>Cukup (Fair)</th>
+<th>Kurang (Poor)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1. Kedalaman Konsep (Bloom Level 1-6)</strong></td>
+<td>Mencakup semua definisi dan karakteristik dasar yang relevan dengan sangat jelas dan ringkas, serta menunjukkan pemahaman mendalam tentang implikasi dan batasan konsep. 4</td>
+<td>Mencakup sebagian besar definisi dan karakteristik penting, dengan penjelasan yang memadai. 4</td>
+<td>Beberapa konsep penting hilang atau dijelaskan secara tidak lengkap/kurang akurat. 4</td>
+<td>Banyak konsep penting hilang atau terdapat kesalahpahaman yang signifikan. 4</td>
+</tr>
+<tr class="even">
+<td><strong>2. Keterhubungan (Bloom Level 3-6)</strong></td>
+<td>Menunjukkan hubungan yang kuat, logis, dan relevan antar semua konsep utama, termasuk <em>cross-links</em> yang bermakna, mendukung pemahaman alur sistematis. 36</td>
+<td>Menunjukkan sebagian besar hubungan antar konsep, namun mungkin ada beberapa koneksi yang kurang jelas atau terlewat. 36</td>
+<td>Beberapa konsep terhubung, tetapi banyak hubungan penting yang hilang atau tidak logis. 36</td>
+<td>Konsep-konsep disajikan secara terisolasi tanpa menunjukkan hubungan yang jelas. 36</td>
+</tr>
+<tr class="odd">
+<td><strong>3. Akurasi Konten</strong></td>
+<td>Semua informasi teknis dan matematis disajikan dengan akurat dan tanpa kesalahan. 110</td>
+<td>Sebagian besar informasi akurat dengan beberapa kesalahan minor yang tidak signifikan. 110</td>
+<td>Terdapat beberapa kesalahan atau ketidakakuratan yang dapat menyesatkan. 110</td>
+<td>Banyak kesalahan atau ketidakakuratan yang serius, menunjukkan kesalahpahaman mendasar. 110</td>
+</tr>
+<tr class="even">
+<td><strong>4. Struktur/Organisasi (Peta Pengetahuan Prosedural)</strong></td>
+<td>Struktur peta (misalnya, <em>flowchart</em> atau <em>diagram alir</em>) sangat logis, jelas, dan mudah diikuti, merepresentasikan alur pemecahan masalah yang efisien. 29</td>
+<td>Struktur peta cukup jelas, namun mungkin ada sedikit ambiguitas dalam alur atau penempatan elemen. 29</td>
+<td>Struktur peta kurang jelas atau tidak konsisten, menyulitkan pemahaman alur. 29</td>
+<td>Struktur peta sangat kacau atau tidak ada, tidak dapat merepresentasikan proses dengan baik. 29</td>
+</tr>
+<tr class="odd">
+<td><strong>5. Orisinalitas/Inovasi (Bloom Level 6)</strong></td>
+<td>Menyajikan pendekatan baru, sintesis konsep yang inovatif, atau solusi orisinal yang melampaui ekspektasi, menunjukkan pemikiran tingkat tinggi. 4</td>
+<td>Menunjukkan beberapa elemen kreatif atau modifikasi yang cerdas dari konsep yang ada. 4</td>
+<td>Sedikit atau tidak ada elemen orisinalitas yang terlihat; hanya reproduksi standar. 4</td>
+<td>Tidak ada orisinalitas atau inovasi. 4</td>
+</tr>
+<tr class="even">
+<td><strong>6. Keterbacaan &amp; Kejelasan Visual</strong></td>
+<td>Peta disajikan dengan sangat rapi, jelas, dan estetis; penggunaan simbol, warna, dan tata letak mendukung pemahaman optimal. 109</td>
+<td>Peta cukup rapi dan jelas, dengan sedikit perbaikan visual yang dapat meningkatkan keterbacaan. 109</td>
+<td>Peta agak berantakan atau kurang jelas, dengan beberapa elemen visual yang mengganggu pemahaman. 109</td>
+<td>Peta sangat sulit dibaca atau dipahami karena tata letak yang buruk atau kurangnya kejelasan visual. 109</td>
+</tr>
+</tbody>
+</table>
+<p>Rubrik ini sangat penting untuk memastikan asesmen yang adil, konsisten, dan transparan. Bagi mahasiswa, ini menghilangkan misteri dari proses penilaian dengan secara jelas menguraikan apa yang merupakan pekerjaan berkualitas pada setiap tingkat Taksonomi Bloom dan untuk setiap jenis peta pengetahuan. Hal ini memungkinkan mereka untuk melakukan penilaian diri dan memfokuskan upaya mereka untuk memenuhi kriteria tertentu. Bagi dosen, ini menyederhanakan proses evaluasi, mengurangi subjektivitas, dan menyediakan kerangka kerja standar untuk memberikan umpan balik yang konstruktif. Ini juga membantu dalam menjaga kualitas “basis pengetahuan” yang akan dibagikan kepada mahasiswa masa depan, karena hanya peta yang memenuhi ambang kualitas tertentu yang akan “dibeli” dengan nilai yang lebih tinggi.</p>
+</section>
+<section id="v.-kesimpulan-dan-prospek-masa-depan" class="level2" data-number="4.18">
+<h2 data-number="4.18" class="anchored" data-anchor-id="v.-kesimpulan-dan-prospek-masa-depan"><span class="header-section-number">4.18</span> V. Kesimpulan dan Prospek Masa Depan</h2>
+</section>
+<section id="a.-rekapitulasi-manfaat-sistem" class="level2" data-number="4.19">
+<h2 data-number="4.19" class="anchored" data-anchor-id="a.-rekapitulasi-manfaat-sistem"><span class="header-section-number">4.19</span> A. Rekapitulasi Manfaat Sistem</h2>
+<p>Sistem asesmen berbasis nilai pengetahuan yang diusulkan ini menawarkan pendekatan revolusioner untuk pembelajaran di bidang Sinyal dan Sistem. Dengan mengintegrasikan Taksonomi Bloom, peta pengetahuan, dan mekanisme “Knowledge Marketplace” yang digamifikasi, sistem ini berpotensi:</p>
+<ul>
+<li><p>Menciptakan lingkungan pembelajaran yang sangat memotivasi dan menarik, mendorong partisipasi aktif dan rasa kepemilikan mahasiswa terhadap pembelajaran mereka.</p></li>
+<li><p>Mendorong pemahaman mendalam dan penguasaan konsep di berbagai tingkat kognitif, dari mengingat dasar hingga menciptakan solusi inovatif.</p></li>
+<li><p>Membangun komunitas pembelajar yang saling berbagi dan berkontribusi pada pengetahuan, menciptakan siklus pembelajaran yang berkelanjutan dan dinamis.</p></li>
+<li><p>Menghasilkan artefak pembelajaran yang berharga dan berkelanjutan, yang dapat dimanfaatkan oleh generasi mahasiswa berikutnya.</p></li>
+</ul>
+</section>
+<section id="b.-tantangan-dan-arah-pengembangan-lanjutan" class="level2" data-number="4.20">
+<h2 data-number="4.20" class="anchored" data-anchor-id="b.-tantangan-dan-arah-pengembangan-lanjutan"><span class="header-section-number">4.20</span> B. Tantangan dan Arah Pengembangan Lanjutan</h2>
+<p>Meskipun memiliki potensi besar, implementasi sistem ini juga akan menghadapi beberapa tantangan yang memerlukan pertimbangan dan pengembangan lebih lanjut:</p>
+<ul>
+<li><p><strong>Skalabilitas Asesmen:</strong> Dengan bertambahnya jumlah mahasiswa dan kompleksitas karya, proses penilaian secara manual akan sangat memakan waktu. Oleh karena itu, integrasi AI untuk otomatisasi sebagian proses asesmen, seperti analisis struktur peta dan identifikasi kesenjangan pengetahuan, akan menjadi kunci untuk menjaga efisiensi dan memungkinkan umpan balik yang lebih sering.</p></li>
+<li><p><strong>Jaminan Kualitas Konten:</strong> Penting untuk mengembangkan mekanisme yang kuat guna memastikan akurasi, relevansi, dan kualitas peta pengetahuan yang diunggah. Ini mungkin melibatkan proses <em>peer review</em>, validasi oleh asisten dosen, atau pengembangan algoritma AI yang lebih canggih untuk verifikasi konten.</p></li>
+<li><p><strong>Pencegahan Kecurangan:</strong> Seperti sistem asesmen lainnya, potensi penyalahgunaan (misalnya, plagiarisme atau ketergantungan berlebihan pada AI tanpa pemahaman mendalam) harus dimitigasi melalui desain tugas yang cermat, deteksi plagiarisme, dan pendidikan etika akademik.</p></li>
+<li><p><strong>Pengembangan Platform:</strong> Membangun atau mengadaptasi platform digital yang mampu mendukung semua fitur yang diusulkan, termasuk integrasi mata uang digital, sistem pembayaran fiat, dan indeksasi nilai, akan menjadi proyek yang signifikan. Platform ini harus user-friendly, aman, dan dapat diandalkan.</p></li>
+</ul>
+<p>Dengan mengatasi tantangan-tantangan ini secara proaktif dan terus mengembangkan sistem berdasarkan umpan balik dan data, “Knowledge Marketplace” ini dapat menjadi model asesmen yang transformatif, tidak hanya meningkatkan pencapaian belajar tetapi juga menumbuhkan budaya inovasi dan kolaborasi di kalangan mahasiswa teknik.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./SS-ABCD.html" class="pagination-link" aria-label="SS-ABCD.html">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">SS-ABCD.html</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./SS-journal.html" class="pagination-link" aria-label="Konsep &quot;Jurnal Belajar&quot; dengan Git/GitHub">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Konsep “Jurnal Belajar” dengan Git/GitHub</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

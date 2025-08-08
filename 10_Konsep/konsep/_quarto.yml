@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "konsep"
+  author: "Norah Jones"
+  date: "8/7/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - SS-ABCD.md
+    - SS-Assessment.md
+    - SS-journal.md
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
