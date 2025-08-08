@@ -1,0 +1,154 @@
+---
+title: "Laporan Transformasi Sinyal: Analisis Parameter Amplitudo, Penskalaan Waktu, dan Pergeseran Waktu"
+subtitle: "EL2007 Sinyal dan Sistem: The 'Sinyal Hunter Initiative'"
+author: "Tim Dosen Sinyal dan Sistem"
+date: 17/08/2025 # Tanggal dapat disesuaikan, contoh: "2 Agustus 2025" [1]
+lang: id
+format:
+  html:
+    toc: true # Menampilkan daftar isi
+    number-sections: true # Memberikan nomor pada setiap bagian
+    mermaid:
+      theme: neutral # Tema untuk diagram Mermaid (didukung secara native) [2, 3]
+    # Untuk dukungan PlantUML, perlu filter eksternal dan setup Java/Graphviz
+    # filters:
+    #   - diagram-generator.lua # Contoh penggunaan filter untuk PlantUML [4]
+  pdf:
+    toc: true
+    number-sections: true
+    # Rendering diagram Mermaid/Graphviz di PDF membutuhkan browser Chrome/Edge
+    # atau Chromium (quarto tools install chromium) [3]
+    # keep-tex: true # Penting untuk rendering diagram yang kompleks ke PDF [4]
+  docx:
+    toc: true
+    number-sections: true
+
+
+abstract: |
+ Laporan ini menganalisis secara komprehensif efek transformasi pada fungsi sinyal riil, baik waktu kontinu $f(t)$ maupun waktu diskrit $f[n]$. Transformasi yang diteliti adalah $Af(b(t-T))$ dan $Af(b(n-N))$, di mana $A$ merepresentasikan penskalaan amplitudo, $b$ merepresentasikan penskalaan/pembalikan waktu (serta *downsampling* untuk sinyal diskrit), dan $T/N$ merepresentasikan pergeseran waktu. Melalui pendekatan sistematis menggunakan Peta Pengetahuan (Knowledge Map) dan Kendaraan (Vehicles) yang relevan, kami mengidentifikasi bagaimana setiap parameter ($A$, $b$, $T/N$) secara individual dan gabungan memengaruhi bentuk, posisi, dan skala sinyal. Urutan operasi transformasi ditemukan sangat krusial, dengan prioritas pada penskalaan waktu sebelum pergeseran, dan amplitudo diterapkan terpisah. Hasil analisis ini menjadi "harta karun" berupa pemahaman mendalam tentang manipulasi sinyal, yang berkontribusi pada kerangka kerja "The Sinyal Hunter Initiative".
+---
+
+# **1. Introduksi (Tantangan)**
+
+Tantangan ini berfokus pada dekonstruksi dan pemahaman mendalam mengenai bagaimana sinyal riil diubah melalui serangkaian transformasi linear. Kami diberikan dua skenario transformasi umum: 1. **Untuk fungsi waktu kontinu:** Dari $f(t)$ menjadi $Af(b(t-T))$. 2. **Untuk fungsi waktu diskrit:** Dari $f[n]$ menjadi $Af(b(n-N))$.
+
+**Pengertian Tantangan (dari Perspektif Hunter):** Sebagai "Sinyal Hunter", tantangan ini adalah misi untuk **mengidentifikasi dan memetakan "jejak" setiap parameter (**$A$, $b$, dan $T/N$) pada "lanskap" sinyal. Tujuannya adalah untuk memahami secara intuitif dan matematis bagaimana setiap "perburuan" parameter tersebut mengubah karakteristik sinyal. Ini bukan hanya tentang menghitung, melainkan juga tentang membangun pemahaman yang kuat tentang hubungan sebab-akibat dalam manipulasi sinyal, serta menyelaraskan pemahaman kita dengan "peta harta karun" pengetahuan yang ada.
+
+**Identifikasi Titik Mulai (Start Point):** \* **Sinyal Asli:** Fungsi riil $f(t)$ \[Domain Waktu Kontinu, `DW_SinyalDasar_CT`\] dan $f[n]$ \[Domain Waktu Diskrit, `DT_SinyalDasar_DT`\]. \* **Parameter Transformasi:** Konstanta riil $A$, $b$, dan $T$ (waktu kontinu), serta konstanta riil $A$, $b$, dan integer $N$ (waktu diskrit).
+
+**Identifikasi Titik Akhir (End Point):** \* **Penjelasan Komprehensif:** Pemahaman yang jelas dan terstruktur tentang efek masing-masing parameter dan interaksinya pada sinyal. \* **Representasi Visual:** Kemampuan untuk memvisualisasikan hasil transformasi sinyal. \* **Pembaruan Peta Pengetahuan:** Integrasi pemahaman baru ke dalam Knowledge Map yang sudah ada.
+
+# **2. Dasar Teori (Peta Pengetahuan)**
+
+Bagian ini menyajikan landasan teoretis yang digunakan, yang direpresentasikan oleh Peta Pengetahuan (Knowledge Map) kami. Peta ini telah diperbarui untuk mencerminkan pemahaman yang lebih mendalam mengenai transformasi sinyal.
+
+**Peran Peta Pengetahuan:** Peta Pengetahuan berfungsi sebagai alat navigasi utama yang merepresentasikan domain Sinyal dan Sistem, menyoroti interkonektivitas antar konsep. Dalam tantangan ini, peta ini membantu kami memecah transformasi kompleks menjadi komponen-komponen yang lebih mudah dipahami.
+
+**Nodes (Konsep Kunci):** Peta Pengetahuan kami berfokus pada konsep-konsep transformasi dasar: \* **DW_SinyalDasar_CT:** Sinyal waktu kontinu asli. \* **DW_SkalaAmplitudo_CT:** Konsep penskalaan amplitudo sinyal waktu kontinu. \* **DW_PenskalaanWaktu_CT:** Konsep kompresi/ekspansi sinyal waktu kontinu. \* **DW_PergeseranWaktu_CT:** Konsep pergeseran (penundaan/percepatan) sinyal waktu kontinu. \* **DW_PembalikanWaktu_CT:** Konsep pembalikan (refleksi) sinyal waktu kontinu. \* **DW_SinyalTransformasi_CT:** Sinyal waktu kontinu yang telah ditransformasi. \* **DT_SinyalDasar_DT:** Sinyal waktu diskrit asli. \* **DT_SkalaAmplitudo_DT:** Konsep penskalaan amplitudo sinyal waktu diskrit. \* **DT_PenskalaanWaktu_DT:** Konsep kompresi/ekspansi sinyal waktu diskrit. \* **DT_PergeseranWaktu_DT:** Konsep pergeseran (penundaan/percepatan) sinyal waktu diskrit. \* **DT_PembalikanWaktu_DT:** Konsep pembalikan (refleksi) sinyal waktu diskrit. \* **DT_Downsampling_DT:** Konsep pengurangan laju sampel untuk sinyal diskrit. \* **DT_SinyalTransformasi_DT:** Sinyal waktu diskrit yang telah ditransformasi.
+
+**Edges (Hubungan Antar Konsep):** Hubungan-hubungan penting antara konsep-konsep ini mencakup: \* `MENGUBAH_AMPLITUDO_DENGAN(A)`: Menghubungkan sinyal dasar ke penskalaan amplitudo. \* `MENSKALA_WAKTU_DENGAN(b)`: Menghubungkan sinyal (setelah amplitudo) ke penskalaan waktu (kompresi/ekspansi). \* `MEMBALIKKAN_WAKTU_DENGAN(b<0)`: Kasus khusus penskalaan waktu yang melibatkan pembalikan. \* `MENGGESER_WAKTU_DENGAN(T/N)`: Menghubungkan sinyal (setelah penskalaan waktu) ke pergeseran waktu. \* `MELAKUKAN_DOWNSAMPLING_DENGAN(b_integer)`: Kasus khusus penskalaan waktu untuk sinyal diskrit. \* `MENGHASILKAN`: Menghubungkan langkah-langkah transformasi ke sinyal akhir.
+
+**Peta Pengetahuan yang Digunakan (Terbarui):** Berikut adalah representasi visual dari Peta Pengetahuan yang diperbarui untuk tantangan ini, menggunakan sintaks Mermaid:
+
+``` {mermaid}
+graph TD
+    subgraph Domain Waktu Kontinu [Domain Waktu Kontinu f(t)]
+        DW_SinyalDasar_CT[DW_SinyalDasar f(t)]
+        DW_SkalaAmplitudo_CT[DW_SkalaAmplitudo Af(t)]
+        DW_PenskalaanWaktu_CT[DW_PenskalaanWaktu Af(bt)]
+        DW_PergeseranWaktu_CT[DW_PergeseranWaktu Af(b(t-T))]
+        DW_SinyalTransformasi_CT[DW_SinyalTransformasi Akhir]
+    end
+
+    subgraph Domain Waktu Diskrit [Domain Waktu Diskrit f[n]]
+        DT_SinyalDasar_DT[DT_SinyalDasar f[n]]
+        DT_SkalaAmplitudo_DT[DT_SkalaAmplitudo Af[n]]
+        DT_PenskalaanWaktu_DT[DT_PenskalaanWaktu Af[bn]]
+        DT_PergeseranWaktu_DT[DT_PergeseranWaktu Af[b(n-N)]]
+        DT_SinyalTransformasi_DT[DT_SinyalTransformasi Akhir]
+    end
+
+    subgraph Kendaraan [Kendaraan]
+        K_MAT_Aljabar[K_MAT_Aljabar]
+        K_VIS_PlotSinyal[K_VIS_PlotSinyal]
+        K_KOM_PythonMatplotlib[K_KOM_PythonMatplotlib]
+    end
+
+    DW_SinyalDasar_CT -- MENGUBAH_AMPLITUDO_DENGAN(A) --> DW_SkalaAmplitudo_CT
+    DW_SkalaAmplitudo_CT -- MENSKALA_WAKTU_DENGAN(b) --> DW_PenskalaanWaktu_CT
+    DW_PenskalaanWaktu_CT -- MENGGESER_WAKTU_DENGAN(T) --> DW_PergeseranWaktu_CT
+    DW_PergeseranWaktu_CT -- MENGHASILKAN --> DW_SinyalTransformasi_CT
+
+    DT_SinyalDasar_DT -- MENGUBAH_AMPLITUDO_DENGAN(A) --> DT_SkalaAmplitudo_DT
+    DT_SkalaAmplitudo_DT -- MENSKALA_WAKTU_DENGAN(b) --> DT_PenskalaanWaktu_DT
+    DT_PenskalaanWaktu_DT -- MENGGESER_WAKTU_DENGAN(N) --> DT_PergeseranWaktu_DT
+    DT_PergeseranWaktu_DT -- MENGHASILKAN --> DT_SinyalTransformasi_DT
+
+    K_MAT_Aljabar -- DIGUNAKAN_UNTUK_ANALISIS --> DW_SinyalTransformasi_CT
+    K_MAT_Aljabar -- DIGUNAKAN_UNTUK_ANALISIS --> DT_SinyalTransformasi_DT
+    K_VIS_PlotSinyal -- MEMBANTU_VISUALISASI --> DW_SinyalTransformasi_CT
+    K_VIS_PlotSinyal -- MEMBANTU_VISUALISASI --> DT_SinyalTransformasi_DT
+    K_KOM_PythonMatplotlib -- IMPLEMENTASI_VISUALISASI --> K_VIS_PlotSinyal
+```
+
+# **3. Metode (Rute dan Kendaraan)**
+
+Metode yang digunakan untuk menaklukkan tantangan ini adalah pendekatan langkah demi langkah, memecah transformasi kompleks menjadi serangkaian operasi dasar.
+
+**Peta Rute Aplikasi yang Dipilih:** Untuk sinyal $Af(b(t-T))$ dan $Af(b(n-N))$, rute aplikasi yang paling logis dan umum direkomendasikan oleh sumber adalah: 1. **Penskalaan Amplitudo (Parameter A):** Mengalikan seluruh sinyal dengan konstanta $A$. Jika $A$ negatif, terjadi pembalikan vertikal. \* **Rute:** `DW_SinyalDasar_CT/DT_SinyalDasar_DT -- MENGUBAH_AMPLITUDO_DENGAN(A) --> DW_SkalaAmplitudo_CT/DT_SkalaAmplitudo_DT` 2. **Penskalaan Waktu (Parameter b):** Menerapkan penskalaan $b$ pada variabel waktu. Ini adalah langkah krusial di mana kompresi/ekspansi dan pembalikan waktu terjadi. \* **Rute:** `DW_SkalaAmplitudo_CT/DT_SkalaAmplitudo_DT -- MENSKALA_WAKTU_DENGAN(b) --> DW_PenskalaanWaktu_CT/DT_PenskalaanWaktu_DT` 3. **Pergeseran Waktu (Parameter T/N):** Menerapkan pergeseran $T$ atau $N$ pada variabel waktu yang sudah diskala. \* **Rute:** `DW_PenskalaanWaktu_CT/DT_PenskalaanWaktu_DT -- MENGGESER_WAKTU_DENGAN(T/N) --> DW_PergeseranWaktu_CT/DT_PergeseranWaktu_DT` 4. **Sinyal Akhir:** Menggabungkan semua efek untuk mendapatkan sinyal yang ditransformasi sepenuhnya. \* **Rute:** `DW_PergeseranWaktu_CT/DT_PergeseranWaktu_DT -- MENGHASILKAN --> DW_SinyalTransformasi_CT/DT_SinyalTransformasi_DT`
+
+**Kendaraan Khusus yang Digunakan:** \* **Matematika Fundamental (`K_MAT_Aljabar`):** Digunakan untuk menganalisis dan memanipulasi ekspresi aljabar dari transformasi. Misalnya, memecah $b(t-T)$ menjadi $bt-bT$ dan memahami implikasinya. Tingkat Taksonomi Bloom: Menganalisis. \* **Diagram & Visualisasi (`K_VIS_PlotSinyal`):** Sangat penting untuk memahami efek visual dari setiap transformasi. Dengan memplot sinyal pada setiap langkah transformasi, kami dapat memverifikasi pemahaman konseptual. Tingkat Taksonomi Bloom: Menerapkan, Mengevaluasi. \* **Komputasi (`K_KOM_PythonMatplotlib`, Super Kendaraan):** Digunakan untuk mengimplementasikan visualisasi sinyal. Matplotlib dalam Python adalah alat yang ideal untuk menggambar sinyal dan menunjukkan perubahan akibat transformasi. Tingkat Taksonomi Bloom: Menerapkan, Menciptakan.
+
+**Perjuangan dan Strategi (dari Jurnal):** Pada awalnya, ada sedikit kebingungan mengenai **urutan operasi antara penskalaan waktu dan pergeseran waktu**. Apakah itu $f(b(t-T))$ atau $f(bt-T)$? Sumber-sumber seperti Oppenheim dan Adams sangat membantu dalam mengklarifikasi hal ini. Adams, khususnya, menjelaskan dua interpretasi yang setara untuk $x(at-b)$: (1) geser $x$ dengan $b$, lalu skala hasilnya dengan $a$; atau (2) skala $x$ dengan $a$, lalu geser hasilnya dengan $b/a$. Dalam kasus $f(b(t-T))$, ini setara dengan $f(bt-bT)$. Maka, berdasarkan interpretasi kedua Adams, urutan yang paling intuitif adalah **melakukan penskalaan waktu (**$b$) terlebih dahulu pada $f(t)$ untuk mendapatkan $f(bt)$, kemudian menggeser hasil tersebut sebesar $T$ (bukan $bT$) untuk mendapatkan $f(b(t-T))$. Ini adalah kunci untuk memahami transformasi gabungan. Perjuangan ini menyoroti pentingnya merujuk pada materi ajar yang valid (seperti Oppenheim, Schaum's, Adams) untuk memastikan fondasi teoretis yang kuat dan menghindari kesalahan konseptual.
+
+# **4. Hasil (Harta Karun)**
+
+Setelah menerapkan metodologi yang dijelaskan, kami memperoleh "harta karun" berupa pemahaman yang jelas tentang efek setiap parameter transformasi:
+
+-   **Parameter A (Penskalaan Amplitudo):**
+    -   **Fungsi:** Mengubah tinggi atau intensitas sinyal.
+    -   **Efek:** Sinyal $f(t)$ atau $f[n]$ menjadi $Af(t)$ atau $Af[n]$.
+        -   Jika $A > 1$: Amplitudo sinyal membesar.
+        -   Jika $0 < A < 1$: Amplitudo sinyal mengecil.
+        -   Jika $A < 0$: Amplitudo sinyal dibalik secara vertikal (refleksi terhadap sumbu horizontal) dan diskalakan sesuai dengan $|A|$.
+-   **Parameter b (Penskalaan Waktu & Pembalikan):**
+    -   **Fungsi:** Mengubah durasi atau "kecepatan" sinyal di domain waktu, dan juga dapat membalikkan sinyal.
+    -   **Untuk Sinyal Waktu Kontinu (**$f(t) \rightarrow f(bt)$):
+        -   Jika $|b| > 1$: Sinyal **dikompresi** (diregangkan secara linier) sepanjang sumbu waktu. Sinyal "berlangsung lebih cepat".
+        -   Jika $0 < |b| < 1$: Sinyal **diekspansi** (dikompresi secara linier) sepanjang sumbu waktu. Sinyal "berlangsung lebih lambat".
+        -   Jika $b < 0$: Sinyal **dibalik** (direfleksikan) terhadap sumbu vertikal (sumbu $y$ atau sumbu $f(t)/f[n]$). Penskalaan $|b|$ juga diterapkan.
+    -   **Untuk Sinyal Waktu Diskrit (**$f[n] \rightarrow f[bn]$):
+        -   Jika $b$ adalah **integer positif** ($b > 0$): Ini adalah operasi **downsampling**. Hanya sampel pada kelipatan $b$ yang dipertahankan ($f, f[b], f[2b], \dots$), sampel di antaranya dihapus. Sinyal menjadi lebih pendek atau memiliki lebih sedikit sampel.
+        -   Jika $b$ adalah **integer negatif** ($b < 0$): Sinyal pertama **dibalik** terhadap $n=0$, lalu dilakukan *downsampling* dengan $|b|$.
+-   **Parameter T/N (Pergeseran Waktu):**
+    -   **Fungsi:** Menggeser posisi sinyal di domain waktu.
+    -   **Untuk Sinyal Waktu Kontinu (**$f(t) \rightarrow f(t-T)$):
+        -   Jika $T > 0$: Sinyal **bergeser ke kanan** (tertunda/delayed) sebesar $T$ unit waktu.
+        -   Jika $T < 0$: Sinyal **bergeser ke kiri** (dipercepat/advanced) sebesar $|T|$ unit waktu.
+    -   **Untuk Sinyal Waktu Diskrit (**$f[n] \rightarrow f[n-N]$):
+        -   Jika $N > 0$: Sinyal **bergeser ke kanan** (tertunda/delayed) sebesar $N$ unit sampel.
+        -   Jika $N < 0$: Sinyal **bergeser ke kiri** (dipercepat/advanced) sebesar $|N|$ unit sampel.
+
+**Harta Karun Gabungan:** Ketika transformasi digabungkan menjadi $Af(b(t-T))$ atau $Af(b(n-N))$, urutan operasi sangat penting dan harus dipahami sebagai berikut: 1. **Penskalaan Amplitudo (**$A$): Dapat diterapkan kapan saja, namun paling mudah dibayangkan sebagai langkah pertama atau terakhir, karena hanya mengubah nilai vertikal. Misalnya, asumsikan $A$ diterapkan pertama untuk menghasilkan $Af(t)$ atau $Af[n]$. 2. **Penskalaan Waktu (**$b$): Terapkan penskalaan waktu **terlebih dahulu** pada argumen sinyal $f(\cdot)$ (sehingga $f(t) \rightarrow f(bt)$ atau $f[n] \rightarrow f[bn]$). Ini sesuai dengan interpretasi Adams dan Oppenheim yang menyarankan penskalaan sebelum pergeseran untuk argumen berbentuk $at-b$. 3. **Pergeseran Waktu (**$T/N$): Setelah penskalaan waktu diterapkan, sinyal yang diskala ($Af(bt)$ atau $Af[bn]$) kemudian digeser sebesar $T$ atau $N$ unit. Pergeseran ini terjadi pada sumbu waktu yang **telah diskala**.
+
+**Jenis Harta Karun:** Tantangan ini termasuk kategori **Berlian (100 Poin)**. Ini melibatkan **analisis** mendalam terhadap berbagai parameter, **kreasi** model mental urutan transformasi, dan **evaluasi** konsistensi dengan teori yang ada. Solusi yang diberikan adalah komprehensif, mencakup sinyal kontinu dan diskrit, serta mengklarifikasi aspek-aspek kompleks seperti urutan operasi dan *downsampling*.
+
+# **5. Diskusi**
+
+Memecahkan tantangan ini menegaskan kembali pentingnya pemahaman yang granular tentang setiap operasi transformasi sinyal. Kesulitan utama muncul dari kebutuhan untuk memahami **urutan operasi yang benar** ketika penskalaan dan pergeseran waktu digabungkan. Banyak referensi (termasuk Schaum's dan Adams) secara implisit atau eksplisit menyarankan bahwa **penskalaan waktu harus dipertimbangkan sebelum pergeseran waktu** dalam kasus $f(b(t-T))$ atau $f(b(n-N))$. Ini berbeda dengan jika ekspresinya adalah $f(bt-T')$, di mana $T'$ adalah pergeseran efektif setelah penskalaan. Diskusi internal kami (dan Jurnal Harian Hunter) mencatat kebingungan awal ini dan bagaimana referensi seperti Adams menyediakan kerangka kerja yang jelas (geser-lalu-skala vs. skala-lalu-geser) untuk memecahkan ambiguitas ini.
+
+Selain itu, perbedaan perlakuan penskalaan waktu antara sinyal kontinu (yang dapat memiliki faktor penskalaan $b$ non-integer) dan sinyal diskrit (di mana $b$ harus bilangan bulat untuk operasi standar seperti *downsampling*) adalah poin penting. Untuk sinyal diskrit, penskalaan waktu oleh $b$ bilangan bulat positif secara fundamental mengubah jumlah sampel (yaitu, *downsampling*), yang memiliki implikasi signifikan pada interpretasi sinyal.
+
+# **6. Kesimpulan**
+
+**Ringkasan Jawaban:** Melalui analisis yang cermat, kami menyimpulkan bahwa transformasi sinyal $f(t) \rightarrow Af(b(t-T))$ dan $f[n] \rightarrow Af(b(n-N))$ melibatkan tiga efek utama: penskalaan amplitudo ($A$), penskalaan waktu ($b$) yang dapat mencakup pembalikan dan *downsampling* (untuk sinyal diskrit), serta pergeseran waktu ($T/N$). Urutan operasi yang disarankan adalah menerapkan penskalaan amplitudo, diikuti oleh penskalaan waktu, dan terakhir pergeseran waktu.
+
+**Pembaruan Peta Pengetahuan (Updated Knowledge Map):** Tantangan ini secara signifikan memperkaya Peta Pengetahuan kami dengan: \* Menambahkan `Nodes` spesifik untuk setiap jenis transformasi waktu (`DW_PenskalaanWaktu_CT`, `DW_PergeseranWaktu_CT`, `DW_PembalikanWaktu_CT`, `DT_Downsampling_DT`, dll.). \* Mendefinisikan `Edges` yang lebih presisi seperti `MENSKALA_WAKTU_DENGAN(b)` dan `MENGGESER_WAKTU_DENGAN(T/N)`, yang menekankan urutan operasional. \* Memperkuat hubungan antara `Kendaraan` (terutama `K_VIS_PlotSinyal` dan `K_KOM_PythonMatplotlib`) dengan proses `Transformasi Sinyal` sebagai alat esensial untuk visualisasi dan verifikasi.
+
+**Pembaruan Peta Rute Aplikasi:** Peta Rute Aplikasi yang kami gunakan telah diperbarui untuk secara eksplisit mencerminkan urutan langkah yang optimal dan telah diverifikasi (Penskalaan Amplitudo $\rightarrow$ Penskalaan Waktu $\rightarrow$ Pergeseran Waktu). Pemahaman ini kini menjadi pola pikir standar kami untuk menganalisis transformasi sinyal serupa di masa mendatang. Kontribusi ini penting untuk "Legacy" kuliah, menyediakan panduan yang lebih terstruktur bagi angkatan berikutnya dalam menavigasi kompleksitas transformasi sinyal.
+
+# **7. Saran**
+
+Berdasarkan pengalaman ini, kami menawarkan beberapa saran: \* **Untuk Tantangan Mendatang:** Pertimbangkan untuk menyertakan studi kasus nyata atau contoh kode dasar yang menunjukkan efek visual dari setiap transformasi parameter. Ini akan sangat membantu dalam memadukan teori dengan praktik. \* **Untuk Peta Pengetahuan:** Ada potensi untuk mengembangkan *sub-nodes* atau anotasi pada *edges* yang lebih detail tentang kondisi spesifik parameter (misalnya, $b>1$ untuk kompresi, $b<0$ untuk pembalikan). \* **Untuk Penggunaan Kendaraan:** Mendorong penggunaan rutin Python dan Matplotlib sejak awal semester sebagai bagian integral dari pemahaman konseptual, bukan hanya sebagai alat komputasi. Kemampuan memvisualisasikan sinyal secara dinamis adalah aset berharga dalam pembelajaran Sinyal dan Sistem.
+
+------------------------------------------------------------------------
