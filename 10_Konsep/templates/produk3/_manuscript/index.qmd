@@ -1,5 +1,5 @@
 ---
-title: "A Tufte Inspired Manuscript"
+title: "Tinjauan Sinyal dan Sistem"
 subtitle: "Using Quarto... and Typst!"
 # shorttitle: "Handout Layout"
 documenttype: Handout
