@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Konsep Pembelajaran Kokreasi Nilai"
+  author: "Armein Z. R. Langi"
+  date: "8/7/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - SS-ABCD.md
+    - SS-RPS.md
+    - SS-Assessment.md
+    - SS-journal.md
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

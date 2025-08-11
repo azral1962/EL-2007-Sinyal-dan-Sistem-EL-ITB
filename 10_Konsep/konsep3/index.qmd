@@ -1,0 +1,21 @@
+# Pengantar {.unnumbered}
+
+Kehadiran kecerdasan buatan (AI) mendisrupsi dunia pendidikan, membuatnya pendidikan untuk penguasan pengetahuna menjadi obsolet, atau sekurangnya tidak bernilai tinggi. 
+
+Penulis berpendapat pendidikan di era AI ini perlu:
+* mempromosikan nilai-nilai luhur seperti integritas,  
+* menghasilkan nilai bersama antara produsen dan konsumen
+* mengelola pengetahuan, mulai dari studi, mengkode nya, lalu menerapakan sebagai solusi permasalahan yang bernilai tinggi
+* merancang dan mengembangkan produk pengetahuan yang mengemas solusi tersebut
+* bekerjasama untuk bersinergi
+* personalisasi sehingga otensitas, serta originalitas
+
+Konsep pendidikan seperti ini perlu di realisasikan pada tingkat matakuliah.
+
+Dokumen ini menjelaskan sebuah upaya untuk menerapkan nya pada sebuah matakuliah di bidang ilmu teknik EL 2007 Sinyal dan Sistem. Meskipun materi kuliah masih sama dengan pendekatan terdahulu, cara menguasai materi mensimulasikan pekerjaan seorang rekayasawan.
+
+Semoga buku ini berguna bagi semua pihak yang bertkepentingan.
+
+Bandung 8 Agustus 2025
+
+Armein Z. R. Langi

@@ -1,0 +1,215 @@
+Baik, saya akan membuat panduan **step-by-step** untuk dosen dan mahasiswa berdasarkan dokumen pengembangan EL2007dan isi buku Oppenheim-Willsky, sekaligus menyediakan **template Quarto**, desain **dashboard interaksi**, dan mekanisme pencatatan kontribusi individu.
+
+---
+
+# **Panduan Step-by-Step Pengembangan & Pelaksanaan EL2007**
+
+## 1. **Persiapan Sebelum Semester**
+
+**Bagi Dosen**
+
+1. **Rancang Silabus Berbasis KMS**
+
+   * Mapping topik kuliah → “Produk Pengetahuan” sesuai Taksonomi Bloom.
+   * Tetapkan kode **product-number** unik untuk setiap topik.
+2. **Siapkan Knowledge Marketplace (KM)**
+
+   * Buat platform berbasis GitHub/GitLab + Quarto untuk penyimpanan dan distribusi produk.
+3. **Rancang Template Quarto QMD**
+
+   * Template untuk *Knowledge Map*, *Iklan Produk*, *Produk Iklan*, *Produk Pengetahuan*, *Jurnal* (lihat bagian template).
+4. **Siapkan Rubrik Penilaian**
+
+   * Gunakan *Bags of Currencies & Assets* untuk transparansi poin.
+5. **Konfigurasi Dashboard Dosen**
+
+   * Fitur: posting iklan produk mingguan, menerima submit, memberi poin, memberi umpan balik.
+
+**Bagi Mahasiswa**
+
+1. **Setup Akun GitHub** + install Quarto.
+2. **Pelajari Template QMD & Cara Commit** ke repositori.
+3. **Kenali Sistem Mata Uang Digital** (IDR, USD, Platinum, Berlian).
+4. **Buat Jurnal Belajar** di repositori pribadi.
+
+---
+
+## 2. **Pelaksanaan Mingguan**
+
+**Alur Mingguan**
+
+1. **Senin – Dosen Posting “Iklan Produk”**
+
+   * Spesifikasi: topik, level Bloom, jenis peta, product-number, deadline, poin.
+2. **Senin–Rabu – Mahasiswa Riset & Kolaborasi**
+
+   * Bangun *Peta Pengetahuan Primitif* bersama.
+3. **Rabu–Jumat – Produksi Produk Pengetahuan**
+
+   * Format Quarto QMD: teori, diagram (Mermaid), persamaan LaTeX, kode Python/Matlab.
+4. **Jumat – Pengumpulan**
+
+   * Submit via KM, push ke repositori GitHub.
+5. **Sabtu–Minggu – Penilaian Dosen**
+
+   * Beri poin + umpan balik. Produk terbaik di-*curate* ke repositori publik.
+
+**Catatan Jurnal Belajar (Mingguan)**:
+
+* Tanggal & Topik
+* Tantangan
+* Solusi & Terobosan
+* Tools digunakan
+* *Lesson learned*
+
+---
+
+## 3. **Evaluasi Akhir Semester**
+
+**Bagi Dosen**
+
+1. Analisis total poin & kontribusi tiap mahasiswa.
+2. Lihat **keragaman topik** yang dikuasai.
+3. Evaluasi kualitas jurnal untuk *integritas & repeatability*.
+4. Gunakan *peer review* antar mahasiswa untuk cross-check kontribusi.
+
+**Bagi Mahasiswa**
+
+1. Menyerahkan *portfolio* produk pengetahuan.
+2. Menulis refleksi capaian & rencana pengembangan diri.
+3. Mengisi *self-assessment* dan *peer assessment*.
+
+---
+
+# **Template Quarto**
+
+## 1. Template *Knowledge Map* (Primitif)
+
+````markdown
+---
+title: "Peta Pengetahuan: [Judul]"
+product-number: WK-S-001
+level-bloom: 3
+format: html
+---
+
+# Definisi
+...
+
+# Properti
+- ...
+- ...
+
+# Diagram
+```mermaid
+graph TD
+  A[Konsep A] --> B[Konsep B]
+````
+
+# Persamaan
+
+$x(t) = A \cos(2\pi f_0 t + \phi)$
+
+# Referensi
+
+````
+
+---
+
+## 2. Template *Produk Iklan*
+```markdown
+---
+title: "Iklan Produk Pengetahuan"
+date: 2025-08-15
+---
+
+**Topik:** Analisis Sinyal Sinusoidal Waktu Kontinu  
+**Jenis Peta:** Primitif  
+**Level Bloom:** 3 – Menerapkan  
+**Product-Number:** WK-S-002  
+**Pembayaran:** 50 Point IDR  
+**Deadline:** 2025-08-22
+````
+
+---
+
+## 3. Template *Produk Pengetahuan (Aplikatif)*
+
+````markdown
+---
+title: "Solusi Filter RC Lowpass"
+product-number: WK-A-015
+level-bloom: 5
+---
+
+# Deskripsi Masalah
+...
+
+# Langkah Penyelesaian
+...
+
+# Simulasi Python
+```{python}
+import numpy as np
+...
+````
+
+# Visualisasi
+
+```{mermaid}
+flowchart LR
+  A[Input] -->|Filter RC| B[Output]
+```
+
+````
+
+---
+
+## 4. Template *Jurnal Belajar*
+```markdown
+# Minggu 01 – Sinyal Sinusoidal
+
+**Tantangan:** Kesulitan memahami konsep fase.  
+**Solusi:** Menggambar sinyal pada berbagai fase menggunakan Python.  
+**Lesson Learned:** Visualisasi sangat membantu memahami pergeseran fase.
+````
+
+---
+
+# **Desain Dashboard**
+
+## **Dashboard Dosen**
+
+* **Post Iklan** → form dengan topik, level Bloom, mata uang, deadline.
+* **Monitoring Submission** → daftar produk per mahasiswa, status penilaian.
+* **Scoring System** → input poin + komentar.
+* **Repository Curator** → tombol “publish to public repo”.
+
+## **Dashboard Mahasiswa**
+
+* **Marketplace View** → daftar iklan mingguan + poin.
+* **My Products** → status (submitted, reviewed, published).
+* **Journal Tracker** → commit log dari GitHub.
+* **Leaderboard** → peringkat poin.
+
+---
+
+# **Pencatatan Kontribusi Individu dalam Kelompok**
+
+1. **Commit-based Tracking**
+
+   * Tiap anggota commit bagian kerja masing-masing di branch berbeda.
+2. **Kontribusi Terukur**
+
+   * Gunakan GitHub Insights → *Contributors* untuk melihat jumlah commit, baris kode, file yang diubah.
+3. **Log Tugas Internal**
+
+   * Tiap kelompok menyimpan *task assignment log* di file `tasks.md`.
+4. **Self & Peer Review**
+
+   * Form evaluasi kontribusi rekan kelompok di akhir minggu.
+
+---
+
+Kalau mau, saya bisa langsung buatkan **contoh file QMD siap pakai** beserta **mockup dashboard interaktif** yang kompatibel dengan GitHub & Quarto. Itu akan mempercepat implementasi sistem ini di semester pertama.
+

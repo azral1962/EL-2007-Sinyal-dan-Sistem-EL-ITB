@@ -1,0 +1,87 @@
+\contentsline {chapter}{\numberline {1}Pengantar}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Part 1: The Primitive Knowledge Map}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Part 2: The Problem-Solving Knowledge Map}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Summary: Your Two Maps}{6}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Laporan Ahli: Konsep Dasar Sinyal dan Sistem: Peta Pengetahuan dan Kerangka Pemecahan Masalah}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}I. Pendahuluan: Fondasi Sinyal dan Sistem}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}A. Konsep Dasar Sinyal dan Sistem}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Definisi Sinyal}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Definisi Sistem}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Hubungan Fundamental Input-Sistem-Output}{8}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}B. Enam Kawasan Analisis Sinyal dan Sistem}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}II. Peta Pengetahuan Primitif Sinyal dan Sistem (Primitive Knowledge Map)}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}A. Kawasan Waktu (Time Domain)}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}1. Sinyal Waktu Kontinu (Continuous-Time Signals - CTS)}{9}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}2. Sistem Waktu Kontinu (Continuous-Time Systems - CTS)}{10}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}3. Sinyal Waktu Diskrit (Discrete-Time Signals - DTS)}{10}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}4. Sistem Waktu Diskrit (Discrete-Time Systems - DTS)}{10}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}B. Kawasan Frekuensi (Frequency Domain)}{11}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}1. Deret Fourier Waktu Kontinu (Continuous-Time Fourier Series - CTFS)}{11}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}2. Transformasi Fourier Waktu Kontinu (Continuous-Time Fourier Transform - CTFT)}{11}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}3. Deret Fourier Waktu Diskrit (Discrete-Time Fourier Series - DTFS)}{12}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}4. Transformasi Fourier Waktu Diskrit (Discrete-Time Fourier Transform - DTFT \& Discrete Fourier Transform - DFT)}{12}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}C. Kawasan Kompleks (Complex Domain)}{13}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}1. Transformasi Laplace (Laplace Transform)}{13}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}2. Transformasi Z (Z-Transform)}{13}{subsection.2.7.2}%
+\contentsline {section}{\numberline {2.8}D. Konsep Sampling dan Rekonstruksi}{14}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Sampling Waktu}{14}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Rekonstruksi Sinyal}{15}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Sampling Frekuensi (Implisit dari Deret Fourier \& DTFT/DFT)}{15}{subsection.2.8.3}%
+\contentsline {section}{\numberline {2.9}III. Peta Pemecahan Masalah Sinyal dan Sistem (Problem-Solving Map)}{16}{section.2.9}%
+\contentsline {section}{\numberline {2.10}A. Kawasan Waktu (Time Domain)}{16}{section.2.10}%
+\contentsline {subsection}{\numberline {2.10.1}1. Sinyal dan Sistem Waktu Kontinu}{16}{subsection.2.10.1}%
+\contentsline {subsection}{\numberline {2.10.2}2. Sinyal dan Sistem Waktu Diskrit}{17}{subsection.2.10.2}%
+\contentsline {section}{\numberline {2.11}B. Kawasan Frekuensi (Frequency Domain)}{18}{section.2.11}%
+\contentsline {subsection}{\numberline {2.11.1}1. Sinyal dan Sistem Kontinu (menggunakan CTFT)}{18}{subsection.2.11.1}%
+\contentsline {subsection}{\numberline {2.11.2}2. Sinyal dan Sistem Diskrit (menggunakan DTFT/DFT)}{19}{subsection.2.11.2}%
+\contentsline {section}{\numberline {2.12}C. Kawasan Kompleks (Complex Domain)}{19}{section.2.12}%
+\contentsline {subsection}{\numberline {2.12.1}1. Sinyal dan Sistem Kontinu (menggunakan Transformasi Laplace)}{19}{subsection.2.12.1}%
+\contentsline {subsection}{\numberline {2.12.2}2. Sinyal dan Sistem Diskrit (menggunakan Transformasi Z)}{20}{subsection.2.12.2}%
+\contentsline {section}{\numberline {2.13}D. Transformasi Antar Kawasan (Inter-Domain Transformations)}{20}{section.2.13}%
+\contentsline {subsection}{\numberline {2.13.1}1. Waktu Kontinu ↔ Frekuensi Kontinu}{20}{subsection.2.13.1}%
+\contentsline {subsection}{\numberline {2.13.2}2. Waktu Diskrit ↔ Frekuensi Diskrit}{20}{subsection.2.13.2}%
+\contentsline {subsection}{\numberline {2.13.3}3. Waktu Kontinu ↔ Kompleks Laplace}{21}{subsection.2.13.3}%
+\contentsline {subsection}{\numberline {2.13.4}4. Waktu Diskrit ↔ Kompleks Z}{21}{subsection.2.13.4}%
+\contentsline {subsection}{\numberline {2.13.5}5. Frekuensi Kontinu ↔ Kompleks Laplace}{21}{subsection.2.13.5}%
+\contentsline {subsection}{\numberline {2.13.6}6. Frekuensi Diskrit ↔ Kompleks Z}{21}{subsection.2.13.6}%
+\contentsline {section}{\numberline {2.14}IV. Visualisasi Peta Pengetahuan (Knowledge Map Visualization)}{22}{section.2.14}%
+\contentsline {section}{\numberline {2.15}A. Primitive Knowledge Map (Konseptual)}{22}{section.2.15}%
+\contentsline {section}{\numberline {2.16}B. Problem-Solving Map (Aplikasi)}{23}{section.2.16}%
+\contentsline {section}{\numberline {2.17}V. Kesimpulan dan Rekomendasi}{23}{section.2.17}%
+\contentsline {section}{\numberline {2.18}A. Ringkasan Integrasi Konsep}{23}{section.2.18}%
+\contentsline {chapter}{\numberline {3}Knowledge}{24}{chapter.3}%
+\contentsline {chapter}{\numberline {4}RPS Sinyal \& Sistem: Peta Pengetahuan \& Pemecahan Masalah}{34}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Merancang Sistem Asesmen Pembelajaran Berbasis Nilai Pengetahuan di Bidang Sinyal dan Sistem}{42}{chapter.5}%
+\contentsline {section}{\numberline {5.1}I. Pendahuluan: Merancang Ekosistem Pembelajaran Berbasis Nilai di Sinyal dan Sistem}{42}{section.5.1}%
+\contentsline {section}{\numberline {5.2}A. Latar Belakang: Tantangan Asesmen Tradisional dan Potensi Inovasi}{42}{section.5.2}%
+\contentsline {section}{\numberline {5.3}B. Tujuan Sistem Asesmen Berbasis Nilai Pengetahuan}{42}{section.5.3}%
+\contentsline {section}{\numberline {5.4}C. Gambaran Umum Sistem ``Knowledge Marketplace''}{43}{section.5.4}%
+\contentsline {section}{\numberline {5.5}II. Fondasi Pedagogis: Taksonomi Bloom dan Peta Pengetahuan untuk Penguasaan Konsep}{44}{section.5.5}%
+\contentsline {section}{\numberline {5.6}A. Memahami Tingkat Kognitif Taksonomi Bloom dalam Pembelajaran Sinyal dan Sistem}{44}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}1. Level Dasar: Mengingat dan Memahami (Peta Pengetahuan Primitif)}{44}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}2. Level Menengah: Menerapkan dan Menganalisis (Peta Pengetahuan Aplikatif)}{45}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}3. Level Lanjut: Mengevaluasi dan Menciptakan (Peta Pengetahuan Aplikatif Lanjutan)}{46}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}B. Peran Peta Pengetahuan dalam Mengukur dan Memvisualisasikan Penguasaan}{46}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}1. Peta Pengetahuan Konseptual untuk Pemahaman Struktural}{47}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}2. Peta Pengetahuan Prosedural untuk Pemecahan Masalah}{47}{subsection.5.7.2}%
+\contentsline {section}{\numberline {5.8}C. Manfaat Peta Pengetahuan untuk Pembelajaran Mendalam dan Berbagi Pengetahuan}{47}{section.5.8}%
+\contentsline {section}{\numberline {5.9}III. Mekanisme ``Knowledge Marketplace'': Insentif dan Penilaian}{50}{section.5.9}%
+\contentsline {section}{\numberline {5.10}A. Struktur Mata Uang Digital Berjenjang dan Kriterianya}{50}{section.5.10}%
+\contentsline {section}{\numberline {5.11}B. Sistem Pembayaran Berdasarkan Domain Sinyal dan Sistem}{51}{section.5.11}%
+\contentsline {section}{\numberline {5.12}C. Proses Pengajuan, Verifikasi, dan Pembelian Karya Pengetahuan}{53}{section.5.12}%
+\contentsline {section}{\numberline {5.13}D. Konversi Harta Terkumpul menjadi Nilai Akhir}{53}{section.5.13}%
+\contentsline {section}{\numberline {5.14}IV. Implementasi Praktis dan Rekomendasi Teknis}{53}{section.5.14}%
+\contentsline {section}{\numberline {5.15}A. Platform Digital untuk Pengelolaan dan Publikasi Karya Mahasiswa}{53}{section.5.15}%
+\contentsline {section}{\numberline {5.16}B. Pemanfaatan Alat Bantu AI untuk Pembuatan dan Validasi Peta Pengetahuan}{55}{section.5.16}%
+\contentsline {section}{\numberline {5.17}C. Strategi Pedagogis untuk Mendorong Keterlibatan dan Kualitas Karya}{55}{section.5.17}%
+\contentsline {section}{\numberline {5.18}V. Kesimpulan dan Prospek Masa Depan}{58}{section.5.18}%
+\contentsline {section}{\numberline {5.19}A. Rekapitulasi Manfaat Sistem}{58}{section.5.19}%
+\contentsline {section}{\numberline {5.20}B. Tantangan dan Arah Pengembangan Lanjutan}{59}{section.5.20}%
+\contentsline {chapter}{\numberline {6}Journal}{60}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Konsep ``Jurnal Belajar'' dengan Git/GitHub}{60}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Struktur Repositori dan Jurnal}{60}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Alasan Menggunakan Git/GitHub}{61}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Cara Menilai Jurnal Belajar}{62}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Summary}{63}{chapter.7}%
+\contentsline {chapter}{References}{64}{chapter*.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

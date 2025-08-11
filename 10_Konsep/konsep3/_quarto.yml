@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Pengembangan Matakuliah EL 2007 Sinyal dan Sistem: Berorientasi Nilai, Bertujuan Value Co-creation dan Berbasiskan Knowledge Management System"
+  author: "Armein Z. R. Langi"
+  date: "8/8/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - K_fondasi.qmd
+    - K_bahan.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

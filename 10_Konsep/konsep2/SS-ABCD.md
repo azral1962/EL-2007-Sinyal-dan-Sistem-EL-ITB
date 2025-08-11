@@ -1,0 +1,413 @@
+# Knowledge
+
+Tentu, saya akan mengidentifikasi pernyataan ABCD (Actor Behaves under a Condition to a certain Degree) dari laporan dan menyusunnya dalam daftar dengan label mnemonik untuk kemudahan mengingat dan pengindeksan.
+
+Berikut adalah daftar pernyataan ABCD yang ditemukan dalam laporan:
+
+1. **SISTEM-PROSES-INPUT-OUTPUT**
+    
+    - **A**ktor: Sistem
+        
+    - **B**erperilaku: memproses
+        
+    - **C**ondisi: sinyal input
+        
+    - **D**erajat: menghasilkan sinyal output
+        
+    - **Pernyataan Lengkap:** Sistem memproses sinyal input untuk menghasilkan sinyal output.
+        
+2. **CARI-OUTPUT-INPUT-SISTEM-DIKETAHUI**
+    
+    - **A**ktor: Analis/Insinyur (tersirat)
+        
+    - **B**erperilaku: mencari sinyal output
+        
+    - **C**ondisi: sinyal input dan karakteristik sistem diketahui
+        
+    - **D**erajat: (dengan sukses)
+        
+    - **Pernyataan Lengkap:** (Analis/Insinyur) mencari sinyal output ketika sinyal input dan karakteristik sistem diketahui.
+        
+3. **CARI-SISTEM-INPUT-OUTPUT-DIKETAHUI**
+    
+    - **A**ktor: Analis/Insinyur (tersirat)
+        
+    - **B**erperilaku: mencari karakteristik sistem
+        
+    - **C**ondisi: sinyal input dan sinyal output diketahui
+        
+    - **D**erajat: (dengan sukses)
+        
+    - **Pernyataan Lengkap:** (Analis/Insinyur) mencari karakteristik sistem ketika sinyal input dan sinyal output diketahui.
+        
+4. **CARI-INPUT-SISTEM-OUTPUT-DIKETAHUI**
+    
+    - **A**ktor: Analis/Insinyur (tersirat)
+        
+    - **B**erperilaku: mencari sinyal input
+        
+    - **C**ondisi: karakteristik sistem dan sinyal output diketahui
+        
+    - **D**erajat: (dengan sukses)
+        
+    - **Pernyataan Lengkap:** (Analis/Insinyur) mencari sinyal input ketika karakteristik sistem dan sinyal output diketahui.
+        
+5. **SISTEM-KAUSAL-OUTPUT-MASA-LALU**
+    
+    - **A**ktor: Sebuah sistem
+        
+    - **B**erperilaku: disebut kausal
+        
+    - **C**ondisi: jika outputnya pada waktu tertentu hanya bergantung pada nilai input dan/atau output pada waktu saat ini atau sebelumnya, tanpa bergantung pada nilai input atau output di masa depan
+        
+    - **D**erajat: (sepenuhnya)
+        
+    - **Pernyataan Lengkap:** Sebuah sistem disebut kausal (non-antisipatif) jika outputnya pada waktu tertentu hanya bergantung pada nilai input dan/atau output pada waktu saat ini atau sebelumnya, tanpa bergantung pada nilai input atau output di masa depan.
+        
+6. **SISTEM-FISIK-REALTIME-KAUSAL**
+    
+    - **A**ktor: Sistem fisik
+        
+    - **B**erperilaku: harus bersifat kausal
+        
+    - **C**ondisi: (agar dapat) diimplementasikan secara real-time
+        
+    - **D**erajat: (sepenuhnya)
+        
+    - **Pernyataan Lengkap:** Sistem fisik yang dapat diimplementasikan secara real-time harus bersifat kausal.
+        
+7. **TRANSFORMASI-JEMBATAN-DOMAIN-PERUBAHAN**
+    
+    - **A**ktor: Transformasi (Fourier, Laplace, Z)
+        
+    - **B**erperilaku: berfungsi sebagai jembatan
+        
+    - **C**ondisi: (ketika diterapkan)
+        
+    - **D**erajat: mengubah representasi sinyal dan sistem dari satu domain ke domain lain
+        
+    - **Pernyataan Lengkap:** Transformasi seperti Transformasi Fourier, Transformasi Laplace, dan Transformasi Z berfungsi sebagai jembatan, mengubah representasi sinyal dan sistem dari satu domain ke domain lain.
+        
+8. **TRANSFORMASI-TUJUAN-PENYEDERHANAAN**
+    
+    - **A**ktor: Transformasi ini
+        
+    - **B**erperilaku: bertujuan
+        
+    - **C**ondisi: (ketika digunakan)
+        
+    - **D**erajat: menyederhanakan analisis dan pemecahan masalah
+        
+    - **Pernyataan Lengkap:** Tujuan utama dari transformasi ini adalah untuk menyederhanakan analisis dan pemecahan masalah.
+        
+9. **SINYAL-CT-PERIODIK-DEFINISI**
+    
+    - **A**ktor: Suatu sinyal waktu kontinu x(t)
+        
+    - **B**erperilaku: dikatakan periodik
+        
+    - **C**ondisi: jika x(t + T) = x(t) untuk semua nilai t, dari −∞ < t < ∞
+        
+    - **D**erajat: (sepenuhnya)
+        
+    - **Pernyataan Lengkap:** Suatu sinyal waktu kontinu x(t) dikatakan periodik terhadap waktu dengan periode T jika x(t + T) = x(t) untuk semua nilai t, dari −∞ < t < ∞.
+        
+10. **SISTEM-LINEAR-SUPERPOSISI**
+    
+    - **A**ktor: Sistem linear
+        
+    - **B**erperilaku: memenuhi
+        
+    - **C**ondisi: (jika) respons terhadap kombinasi linear input adalah kombinasi linear dari respons terhadap setiap input secara terpisah
+        
+    - **D**erajat: prinsip superposisi
+        
+    - **Pernyataan Lengkap:** Sistem linear memenuhi prinsip superposisi.
+        
+11. **SISTEM-INVARIAN-WAKTU-KARAKTERISTIK**
+    
+    - **A**ktor: Sistem invarian waktu
+        
+    - **B**erperilaku: memiliki karakteristik
+        
+    - **C**ondisi: (jika) tidak berubah seiring waktu
+        
+    - **D**erajat: (sepenuhnya)
+        
+    - **Pernyataan Lengkap:** Sistem invarian waktu memiliki karakteristik yang tidak berubah seiring waktu.
+        
+12. **SISTEM-BIBO-STABIL-OUTPUT-TERBATAS**
+    
+    - **A**ktor: Sistem stabil BIBO
+        
+    - **B**erperilaku: menjamin
+        
+    - **C**ondisi: jika input yang diberikan terbatas (bounded)
+        
+    - **D**erajat: output yang dihasilkan juga akan terbatas
+        
+    - **Pernyataan Lengkap:** Sistem stabil BIBO menjamin bahwa jika input yang diberikan terbatas (bounded), maka output yang dihasilkan juga akan terbatas.
+        
+13. **CTFS-REPRESENTASI-SINYAL-PERIODIK**
+    
+    - **A**ktor: Deret Fourier Waktu Kontinu (CTFS)
+        
+    - **B**erperilaku: digunakan
+        
+    - **C**ondisi: untuk sinyal waktu kontinu yang periodik
+        
+    - **D**erajat: sebagai penjumlahan tak hingga dari eksponensial kompleks yang berhubungan secara harmonis
+        
+    - **Pernyataan Lengkap:** Deret Fourier Waktu Kontinu (CTFS) digunakan untuk merepresentasikan sinyal waktu kontinu yang **periodik** sebagai penjumlahan tak hingga dari eksponensial kompleks yang berhubungan secara harmonis.
+        
+14. **CTFT-UBAH-WAKTU-FREKUENSI**
+    
+    - **A**ktor: Transformasi Fourier Waktu Kontinu (CTFT)
+        
+    - **B**erperilaku: mengubah
+        
+    - **C**ondisi: sinyal waktu kontinu (f(t))
+        
+    - **D**erajat: menjadi representasi domain frekuensi kontinu (X(jω) atau X(Ω))
+        
+    - **Pernyataan Lengkap:** Transformasi Fourier Waktu Kontinu (CTFT) adalah alat matematis yang mengubah sinyal waktu kontinu (f(t)) menjadi representasi domain frekuensi kontinu (X(jω) atau X(Ω)).
+        
+15. **CTFT-KONVOLUSI-PERKALIAN**
+    
+    - **A**ktor: CTFT
+        
+    - **B**erperilaku: mengubah
+        
+    - **C**ondisi: operasi konvolusi di domain waktu
+        
+    - **D**erajat: menjadi perkalian sederhana di domain frekuensi
+        
+    - **Pernyataan Lengkap:** Properti kunci CTFT mengubah operasi konvolusi di domain waktu menjadi perkalian sederhana di domain frekuensi.
+        
+16. **LAPLACE-UBAH-WAKTU-S-DOMAIN**
+    
+    - **A**ktor: Transformasi Laplace
+        
+    - **B**erperilaku: mengubah
+        
+    - **C**ondisi: fungsi waktu kontinu (f(t))
+        
+    - **D**erajat: menjadi fungsi variabel kompleks (F(s)) di s-domain
+        
+    - **Pernyataan Lengkap:** Transformasi Laplace mengubah fungsi waktu kontinu (f(t)) menjadi fungsi variabel kompleks (F(s)) di s-domain atau s-plane.
+        
+17. **SISTEM-STABIL-POLE-KIRI**
+    
+    - **A**ktor: Sistem
+        
+    - **B**erperilaku: dikatakan stabil
+        
+    - **C**ondisi: jika semua pole-nya terletak di bidang kiri kompleks (yaitu, bagian real dari setiap pole adalah negatif)
+        
+    - **D**erajat: (sepenuhnya)
+        
+    - **Pernyataan Lengkap:** Sistem dikatakan stabil jika semua pole-nya terletak di bidang kiri kompleks.
+        
+18. **Z-TRANSFORM-UBAH-WAKTU-Z-DOMAIN**
+    
+    - **A**ktor: Transformasi Z
+        
+    - **B**erperilaku: mengubah
+        
+    - **C**ondisi: sinyal waktu diskrit (x[n])
+        
+    - **D**erajat: menjadi representasi domain kompleks (X(z)) di z-domain
+        
+    - **Pernyataan Lengkap:** Transformasi Z mengubah sinyal waktu diskrit (x[n]) menjadi representasi domain kompleks (X(z)) di z-domain atau z-plane.
+        
+19. **SISTEM-STABIL-POLE-UNIT-LINGKARAN**
+    
+    - **A**ktor: Sistem
+        
+    - **B**erperilaku: dikatakan stabil
+        
+    - **C**ondisi: jika semua pole-nya berada _di dalam_ lingkaran unit (lingkaran dengan radius satu yang berpusat di titik asal) di z-plane
+        
+    - **D**erajat: (sepenuhnya)
+        
+    - **Pernyataan Lengkap:** Sistem dikatakan stabil jika semua pole-nya berada _di dalam_ lingkaran unit (lingkaran dengan radius satu yang berpusat di titik asal) di z-plane.
+        
+20. **SAMPLING-HINDARI-ALIASING-NYQUIST**
+    
+    - **A**ktor: Frekuensi sampling
+        
+    - **B**erperilaku: harus memenuhi
+        
+    - **C**ondisi: untuk menghindari distorsi yang dikenal sebagai aliasing
+        
+    - **D**erajat: kriteria yang ditetapkan oleh teorema Nyquist-Shannon
+        
+    - **Pernyataan Lengkap:** Untuk menghindari distorsi yang dikenal sebagai aliasing, frekuensi sampling harus memenuhi kriteria yang ditetapkan oleh teorema Nyquist-Shannon.
+        
+21. **ALIASING-FREKUENSI-RENDAH-DISTORSI**
+    
+    - **A**ktor: Salinan-salinan spektrum
+        
+    - **B**erperilaku: akan tumpang tindih
+        
+    - **C**ondisi: jika frekuensi sampling terlalu rendah
+        
+    - **D**erajat: menyebabkan frekuensi tinggi "menyamar" sebagai frekuensi rendah dan mengakibatkan hilangnya informasi yang tidak dapat dipulihkan
+        
+    - **Pernyataan Lengkap:** Jika frekuensi sampling terlalu rendah, salinan-salinan spektrum ini akan tumpang tindih, menyebabkan frekuensi tinggi "menyamar" sebagai frekuensi rendah dan mengakibatkan hilangnya informasi yang tidak dapat dipulihkan.
+        
+22. **OUTPUT-CT-LTI-KONVOLUSI**
+    
+    - **A**ktor: Output y(t)
+        
+    - **B**erperilaku: adalah
+        
+    - **C**ondisi: dari sistem Linear Time-Invariant (LTI) waktu kontinu dengan input x(t) dan respons impuls sistem h(t)
+        
+    - **D**erajat: konvolusi
+        
+    - **Pernyataan Lengkap:** Output y(t) dari sistem Linear Time-Invariant (LTI) waktu kontinu adalah konvolusi dari input x(t) dan respons impuls sistem h(t).
+        
+23. **SISTEM-RESPONS-IMPULS-DIRAC**
+    
+    - **A**ktor: Output yang dihasilkan sistem
+        
+    - **B**erperilaku: adalah
+        
+    - **C**ondisi: jika input yang diberikan ke sistem adalah impuls Dirac (δ(t))
+        
+    - **D**erajat: respons impuls h(t)
+        
+    - **Pernyataan Lengkap:** Jika input yang diberikan ke sistem adalah impuls Dirac (δ(t)), output yang dihasilkan sistem adalah respons impuls h(t).
+        
+24. **OUTPUT-DT-LTI-KONVOLUSI**
+    
+    - **A**ktor: Output y[n]
+        
+    - **B**erperilaku: adalah
+        
+    - **C**ondisi: dari sistem LTI waktu diskrit dengan input x[n] dan respons impuls sistem h[n]
+        
+    - **D**erajat: konvolusi
+        
+    - **Pernyataan Lengkap:** Output y[n] dari sistem LTI waktu diskrit adalah konvolusi dari input x[n] dan respons impuls sistem h[n].
+        
+25. **OUTPUT-FREKUENSI-CTFT-PERKALIAN**
+    
+    - **A**ktor: Output Y(jω)
+        
+    - **B**erperilaku: adalah
+        
+    - **C**ondisi: (ketika menggunakan CTFT)
+        
+    - **D**erajat: perkalian dari Transformasi Fourier input X(jω) dan respons frekuensi sistem H(jω)
+        
+    - **Pernyataan Lengkap:** Output Y(jω) adalah perkalian dari Transformasi Fourier input X(jω) dan respons frekuensi sistem H(jω).
+        
+26. **ANALISIS-LTI-EFISIEN-FREKUENSI**
+    
+    - **A**ktor: Analisis sistem LTI
+        
+    - **B**erperilaku: menjadi efisien
+        
+    - **C**ondisi: di domain frekuensi
+        
+    - **D**erajat: karena sifat fundamental Transformasi Fourier yang mengubah operasi konvolusi di domain waktu menjadi perkalian di domain frekuensi
+        
+    - **Pernyataan Lengkap:** Efisiensi analisis sistem LTI di domain frekuensi berasal dari sifat fundamental Transformasi Fourier yang mengubah operasi konvolusi di domain waktu menjadi perkalian di domain frekuensi.
+        
+27. **LAPLACE-EFEKTIF-PD-ALJABAR**
+    
+    - **A**ktor: Transformasi Laplace
+        
+    - **B**erperilaku: menjadi sangat efektif
+        
+    - **C**ondisi: (ketika diterapkan pada) persamaan diferensial linear
+        
+    - **D**erajat: karena mengubahnya menjadi persamaan aljabar yang jauh lebih mudah dipecahkan
+        
+    - **Pernyataan Lengkap:** Transformasi Laplace sangat efektif karena mengubah persamaan diferensial linear menjadi persamaan aljabar, yang jauh lebih mudah dipecahkan.
+        
+28. **Z-TRANSFORM-UBAH-PB-ALJABAR**
+    
+    - **A**ktor: Transformasi Z
+        
+    - **B**erperilaku: mengubah
+        
+    - **C**ondisi: persamaan beda
+        
+    - **D**erajat: menjadi persamaan aljabar, menyederhanakan penyelesaian
+        
+    - **Pernyataan Lengkap:** Transformasi Z mengubah persamaan beda menjadi persamaan aljabar, menyederhanakan penyelesaian.
+        
+29. **PETA-PENGETAHUAN-IMPLIKASI-PEMBELAJARAN**
+    
+    - **A**ktor: Peta pengetahuan
+        
+    - **B**erperilaku: memiliki implikasi besar
+        
+    - **C**ondisi: (ketika digunakan)
+        
+    - **D**erajat: untuk pembelajaran dan aplikasi praktis di bidang teknik
+        
+    - **Pernyataan Lengkap:** Peta pengetahuan yang diuraikan dalam laporan ini memiliki implikasi besar untuk pembelajaran dan aplikasi praktis di bidang teknik.
+        
+30. **PETA-MEMUNGKINKAN-GAMBARAN-BESAR**
+    
+    - **A**ktor: Peta ini
+        
+    - **B**erperilaku: memungkinkan
+        
+    - **C**ondisi: individu (yang menggunakannya)
+        
+    - **D**erajat: untuk "melihat gambaran besar" dan mengorganisir pengetahuan mereka dengan cara yang memfasilitasi pemahaman, pengambilan, dan aplikasi
+        
+    - **Pernyataan Lengkap:** Peta ini memungkinkan individu untuk "melihat gambaran besar" dan mengorganisir pengetahuan mereka dengan cara yang memfasilitasi pemahaman, pengambilan, dan aplikasi.
+        
+31. **AI-KURANGI-UPAYA-PETA**
+    
+    - **A**ktor: AI
+        
+    - **B**erperilaku: dapat mengurangi
+        
+    - **C**ondisi: (ketika digunakan untuk) membuat peta pengetahuan
+        
+    - **D**erajat: upaya manual yang diperlukan untuk membuat peta pengetahuan yang komprehensif dari buku teks, catatan kuliah, atau makalah penelitian
+        
+    - **Pernyataan Lengkap:** AI dapat mengurangi upaya manual yang diperlukan untuk membuat peta pengetahuan yang komprehensif dari buku teks, catatan kuliah, atau makalah penelitian.
+        
+32. **AI-PERSONALISASI-PETA-BELAJAR**
+    
+    - **A**ktor: AI
+        
+    - **B**erperilaku: dapat menyesuaikan
+        
+    - **C**ondisi: kompleksitas dan fokus peta berdasarkan gaya belajar atau tingkat pemahaman individu
+        
+    - **D**erajat: menciptakan jalur pembelajaran yang dipersonalisasi
+        
+    - **Pernyataan Lengkap:** AI dapat menyesuaikan kompleksitas dan fokus peta berdasarkan gaya belajar atau tingkat pemahaman individu, menciptakan jalur pembelajaran yang dipersonalisasi.
+        
+33. **PETA-AI-INTERAKTIF-IDENTIFIKASI-GAP**
+    
+    - **A**ktor: Peta pengetahuan yang didukung AI
+        
+    - **B**erperilaku: dapat menjadi interaktif
+        
+    - **C**ondisi: (ketika digunakan)
+        
+    - **D**erajat: memungkinkan pengguna untuk mengajukan pertanyaan dalam bahasa alami, menjelajahi hubungan, dan mengidentifikasi kesenjangan pengetahuan secara dinamis
+        
+    - **Pernyataan Lengkap:** Peta pengetahuan yang didukung AI dapat menjadi interaktif, memungkinkan pengguna untuk mengajukan pertanyaan dalam bahasa alami, menjelajahi hubungan, dan mengidentifikasi kesenjangan pengetahuan secara dinamis.
+        
+34. **PETA-AI-PANDU-SOLUSI**
+    
+    - **A**ktor: Peta berbasis AI
+        
+    - **B**erperilaku: dapat memandu
+        
+    - **C**ondisi: pengguna (dalam pemecahan masalah)
+        
+    - **D**erajat: melalui langkah-langkah pemecahan masalah, menyarankan formula atau transformasi yang relevan, dan bahkan membantu mengidentifikasi miskonsepsi umum
+        
+    - **Pernyataan Lengkap:** Peta berbasis AI dapat memandu pengguna melalui langkah-langkah pemecahan masalah, menyarankan formula atau transformasi yang relevan, dan bahkan membantu mengidentifikasi miskonsepsi umum.
