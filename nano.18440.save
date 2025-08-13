@@ -1,0 +1,29 @@
+---
+title: "Peta Pengetahuan Primitif:"
+subtitle: "EL 2007 Sinyal dan Sistem"
+author: "[Nama Mahasiswa/Kelompok]"
+date: "" # Akan diisi otomatis saat render jika tidak ada
+product-number: ""
+bloom-level-achieved: "Level 1 (Mengingat), Level 2 (Memahami)"
+domain: "Waktu Kontinu (WK)"
+journal-link: "[Link ke entri jurnal belajar relevan di GitHub Anda]" # WAJIB DIISI
+format: html
+editor: visual
+---
+
+## 1. Konsep Utama:
+
+### 1.1. Definisi
+
+
+### 1.2. Klasifikasi
+]
+
+```{mermaid}
+graph TD
+    A --> B{Periodik?};
+    B -- Ya --> C;
+    B -- Tidak --> D;
+    C --> E;
+    D --> F[Contoh: Pulsa Persegi Non-periodik];
+
